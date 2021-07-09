@@ -13,7 +13,7 @@ import com.monitor.bankendmonitoreoLinks.service.ICuentaFBService;
 
 @RestController
 @RequestMapping("/cuentaFB")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200","*"})
 public class CuentaFBRestController {
 
 	@Autowired
