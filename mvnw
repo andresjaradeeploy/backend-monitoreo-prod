@@ -23,7 +23,7 @@
 #
 # Required ENV vars:
 # ------------------
-#   JAVA_HOME - location of a JDK home dir
+JAVA_HOME="C:\Program Files\Java\jdk1.8.0_281\bin"
 #
 # Optional ENV vars
 # -----------------
