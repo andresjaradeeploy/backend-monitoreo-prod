@@ -47,6 +47,7 @@ private final Properties properties = new Properties();
 		properties.put("mail.smtp.password", "alissa1995*");
 		properties.put("mail.smtp.auth", "true");
  
+
 		session = Session.getDefaultInstance(properties);
 	}
 	
@@ -77,8 +78,8 @@ private final Properties properties = new Properties();
 	    	    "</thead>",
 	    	    "<tbody>",
 	    	      "<tr>",
-	    	        "<td>"+estadoAnuncio.getAnuncio().getLinkAnuncio()+"</td>",
-	    	        "<td>"+estadoAnuncio.getAnuncio().getIdAnuncio()+"</td>",
+	    	        "<td>"+estadoAnuncio.getAdCreative().getLink()+"</td>",
+	    	        "<td>"+estadoAnuncio.getAdCreative().getIdCreative()+"</td>",
 	    	        "<td>"+fecha+"</td>",
 	    	        "<td>"+estadoAnuncio.getCode()+estadoAnuncio.getMensaje()+"</td>",
 	    	      "</tr>",

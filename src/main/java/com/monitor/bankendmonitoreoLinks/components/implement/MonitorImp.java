@@ -84,7 +84,7 @@ public class MonitorImp implements IMonitorDao{
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
-			// Conector.close(rs);
+			 Conector.close(rs);
 		}
 		return 0;
 		
@@ -114,7 +114,7 @@ public class MonitorImp implements IMonitorDao{
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
-			// Conector.close(rs);
+			 Conector.close(rs);
 		}
 		return res;
 	}

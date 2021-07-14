@@ -5,6 +5,7 @@ import java.util.List;
 import java.net.MalformedURLException;
 import org.springframework.stereotype.Component;
 
+import com.monitor.bankendmonitoreoLinks.components.implement.AdCreativeImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.AnuncioImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CuentaFBImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CuentaFbDeveloperImp;
@@ -12,6 +13,7 @@ import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.FacebookImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.MonitorImp;
 import com.monitor.bankendmonitoreoLinks.dao.IApiMarketing;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFbDeveloper;
@@ -61,22 +63,22 @@ public class ApiMarketing implements IApiMarketing {
 	public List<EstadoAnuncio> obteneryGuardarEstadoAnuncios() {
 		
 		EstadoAnuncioImp estadoAnuncioImp = new EstadoAnuncioImp();
-		Monitor monitor= new Monitor();
-		monitor.setIdMonitor(1);
-		
+			
 		
 		List<EstadoAnuncio> estados = new ArrayList<>();
-		List<Anuncio> anuncios = new AnuncioImp().listarAnuncios();
-		 for (Anuncio model : anuncios) {
+		List<AdCreative> adCreatives = new AdCreativeImp().listarAdCreatives();
+		 for (AdCreative adCreative : adCreatives) {
 			 EstadoAnuncio estadoAnuncio= new EstadoAnuncio();
 			 
-			 			 
+			 System.out.println(adCreative.getIdCreative());
 			 
 			 estados.add(estadoAnuncio);
-			 boolean ifExists= estadoAnuncioImp.verificarSiExisteEstadoAnuncio(model.getIdAnuncio());
+			 boolean ifExists= estadoAnuncioImp.verificarSiExisteEstadoAnuncio(adCreative.getIdCreative());
 			 if(ifExists==false)
-				 
-			 estadoAnuncioImp.guardar(estadoAnuncio,model);
+			 {
+			 int res=estadoAnuncioImp.guardar(estadoAnuncio,adCreative);
+			 System.out.println("se debio gauardar estadp anuncio"+res);
+			 }
 			 
 			 else
 				 System.out.println("Ya existe se debe actualizar estado");
@@ -84,34 +86,19 @@ public class ApiMarketing implements IApiMarketing {
 		return estados;
 		
 	}
+		
 	
-	public List<Monitor> guardarMonitores(){
-		List<Monitor> monitores = new MonitorImp().listarMonitores();
-		MonitorImp imp= new MonitorImp();
-		
-		for (Monitor monitor : monitores) {
-			boolean ifExists= imp.verificarSiExisteMonitor(monitor.getIdMonitor());
-					
-			
-			imp.guardar();
-					
-		}
-		
-		
-		
-		return monitores;
+	public static void main(String[] args) {
 		
 	}
 	
-	/*public static void main(String[] args) {
-		ApiMarketing apiMarketing= new ApiMarketing();
-		apiMarketing.ConsultaCuentasAsociadas();
-	}*/
-	
 	public void main()
 	{
-		ObteneryGuardarCuentasFByAnuncios();
+		
+		AdCreativeImp adCreativeImp =new AdCreativeImp();
+		adCreativeImp.obtenerAdCreativesInf();
 		obteneryGuardarEstadoAnuncios();
+		
 	}
 
 }

@@ -20,8 +20,8 @@ public class AnuncioImp implements IAnuncioDao {
 	
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 	
-	private static final String SQL_INSERT = "INSERT INTO anuncio(id_anuncio,nombre,cuenta_fb)"
-			+ " VALUES(?, ?, ?)";
+	private static final String SQL_INSERT = "INSERT INTO anuncio(id_anuncio,nombre,preview_shareable_link,cuenta_fb)"
+			+ " VALUES(?, ?, ? ,?)";
 	
 	private static final String SQL_SELECT_BY_ID = "SELECT id_anuncio " + " FROM anuncio WHERE id_anuncio = ?";
 	
@@ -29,16 +29,16 @@ public class AnuncioImp implements IAnuncioDao {
 	public  String obtenerAnunciosAllCuentasFB()
 	{
 		ArrayList<String> idCuentas= new ArrayList<String>();
-		idCuentas= CuentaFBImp.obtenerCuentas();
+		idCuentas= CuentaFBImp.obtenerCuentasBD();
 		
 		String anuncios="[";
 		for(int i=0;i<idCuentas.size();i++) {
 			if (anuncios == "[")
-				anuncios = anuncios + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads" + "?fields=name,id");
+				anuncios = anuncios + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link");
 			else
-				anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads" + "?fields=name,id");
+				anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link");
 		}
-		anuncios = anuncios + "]";
+		anuncios = anuncios + "]"; 
 					
 		return anuncios;
 		
@@ -53,7 +53,7 @@ public class AnuncioImp implements IAnuncioDao {
 		List<Anuncio> anuncios = new ArrayList<>();
 		
 		ArrayList<String> idCuentas= new ArrayList<String>();
-		idCuentas= CuentaFBImp.obtenerCuentas();
+		idCuentas= CuentaFBImp.obtenerCuentasBD();
 		for(int i=0;i<respuesta.length();i++)
 		{
 			idCuentas.get(i);
@@ -69,16 +69,15 @@ public class AnuncioImp implements IAnuncioDao {
 
 			String nombre = objeto.getString("name");
 			String id = objeto.getString("id");
+			String preview_shareable_link = objeto.getString("preview_shareable_link");
 			
 			
-			/*System.out.println("nombre"+nombre);
-			System.out.println("id"+id);
-			System.out.println("cuenta"+idCuentas.get(i));*/
 			Anuncio anuncio= new Anuncio();
 			CuentaFB cuentaFB= new CuentaFB();
 			
 			anuncio.setIdAnuncio(id);
 			anuncio.setNombre(nombre);
+			anuncio.setPreview_shareable_link(preview_shareable_link);
 			cuentaFB.setIdCuenta(idCuentas.get(i));
 			anuncio.setCuentaFB(cuentaFB);
 			
@@ -91,9 +90,11 @@ public class AnuncioImp implements IAnuncioDao {
 					
 			cuentas.add(id);
 			cuentas.add(nombre);
+			
+			
 				
 			anuncios.add(anuncio);
-			//guardar(cuentaFB);
+			
 
 		
 		}
@@ -106,26 +107,7 @@ public class AnuncioImp implements IAnuncioDao {
 	}
 	
 	public static void main(String[] args) {
-	/*CuentaFBImp cuentaFB = new CuentaFBImp();
-		 cuentaFB.guardarCuentas();
-		AnuncioImp anuncioImp = new AnuncioImp();
-		//anuncioImp.obtenerAnunciosAllCuentasFB();
-		//System.out.println("eror"+res);
-		List<Anuncio> anuncios = new AnuncioImp().obtenerAnunciosInf();
-		 for (Anuncio model : anuncios) {
-	            System.out.println(model.getNombre());
-	            System.out.println(model.getIdAnuncio());
-	            System.out.println(model.getCuentaFB().getIdCuenta());
-	        }
-		//System.out.println(anuncios.toString());
-		//anuncioImp.obtenerAnunciosInf();
-		 */
-		
-		List<Anuncio> anuncios = new AnuncioImp().listarAnuncios();
-		 for (Anuncio model : anuncios) {
-	            System.out.println(" nombre: "+model.getNombre()+ " idAnuncio: "+model.getIdAnuncio()+ " CuentaFB: "+model.getCuentaFB().getIdCuenta());
-	           
-	        }
+	
 		 
 	}
 
@@ -143,7 +125,8 @@ public class AnuncioImp implements IAnuncioDao {
 
 			stmt.setString(1, anuncio.getIdAnuncio());
 			stmt.setString(2, anuncio.getNombre());
-			stmt.setString(3, cuentaFB.getIdCuenta());
+			stmt.setString(3, anuncio.getPreview_shareable_link());
+			stmt.setString(4, cuentaFB.getIdCuenta());
 
 			rows = rows + stmt.executeUpdate();
 
@@ -190,7 +173,7 @@ public class AnuncioImp implements IAnuncioDao {
 	        } catch (SQLException ex) {
 	            ex.printStackTrace(System.out);
 	        } finally {
-	            Conector.close(rs);
+				Conector.close(rs);
 	            Conector.close(stmt);
 	            Conector.close(conn);
 	        }
@@ -220,7 +203,7 @@ public class AnuncioImp implements IAnuncioDao {
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
-			// Conector.close(rs);
+			 Conector.close(rs);
 		}
 		return res;
 	}

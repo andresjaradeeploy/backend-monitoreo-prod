@@ -51,11 +51,7 @@ public class AlertaImp implements IAlertaDao {
 
 	
 	public static void main(String[] args) {
-		AlertaImp alertaImp = new AlertaImp();
-				
-		EstadoAnuncio estadoAnuncio = new EstadoAnuncio();
-		estadoAnuncio.setIdEstadoAnuncio(28);
-		//alertaImp.generarAlerta(estadoAnuncio);
+		
 	}
 	
 	

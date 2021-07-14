@@ -16,8 +16,6 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 import com.monitor.bankendmonitoreoLinks.security.jwt.JwtEntryPoint;
 import com.monitor.bankendmonitoreoLinks.security.jwt.JwtTokenFilter;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
 
 @Configuration
 @EnableWebSecurity
@@ -71,7 +69,4 @@ public class MyWebSecurity extends  WebSecurityConfigurerAdapter {
 
 		http.addFilterBefore(jwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
 	}
-        
-       
-        
 }

@@ -12,6 +12,7 @@ public class CuentaFB implements Serializable {
 
 	@Id
 	@Column(name = "id_cuentaFB")
+	
 	private String idCuenta;
 
 	@Column(name = "nombre_cuenta")
@@ -24,8 +25,24 @@ public class CuentaFB implements Serializable {
 
 	
 
+	public CuentaFB(String idCuenta) {
+		super();
+		this.idCuenta = idCuenta;
+	}
+
+	public CuentaFB() {
+		super();
+	}
+
 	public String getIdCuenta() {
 		return idCuenta;
+	}
+
+	public CuentaFB(String idCuenta, String nombreCuenta, CuentaFbDeveloper cuentaFbDeveloper) {
+		super();
+		this.idCuenta = idCuenta;
+		this.nombreCuenta = nombreCuenta;
+		this.cuentaFbDeveloper = cuentaFbDeveloper;
 	}
 
 	public void setIdCuenta(String idCuenta) {

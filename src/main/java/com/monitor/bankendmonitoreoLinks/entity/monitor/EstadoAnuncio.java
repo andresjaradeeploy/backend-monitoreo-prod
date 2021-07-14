@@ -49,10 +49,7 @@ public class EstadoAnuncio implements Serializable {
 		this.mensaje = mensaje;
 	}
 
-	public EstadoAnuncio(Anuncio anuncio) {
-		super();
-		this.anuncio = anuncio;
-	}
+	
 
 	public String getTitle() {
 		return title;
@@ -77,25 +74,43 @@ public class EstadoAnuncio implements Serializable {
 	@OneToOne()
 	@JoinColumn(name = "estado", updatable = false, nullable = true)
 	private Estado estado;
+	
+	
 
-	@OneToOne()
+	/*@OneToOne(cascade = CascadeType.REMOVE)
 	@JoinColumn(name = "anuncio", updatable = false, nullable = false)
-	private Anuncio anuncio;
+	private Anuncio anuncio;*/
+	
+	@OneToOne(cascade = CascadeType.REMOVE)
+	@JoinColumn(name = "ad_creative", updatable = false, nullable = false)
+	private AdCreative adCreative;
 
 	public long getIdEstadoAnuncio() {
 		return idEstadoAnuncio;
 	}
 
-	public Anuncio getAnuncio() {
+	/*public Anuncio getAnuncio() {
 		return anuncio;
 	}
 
 	public void setAnuncio(Anuncio anuncio) {
 		this.anuncio = anuncio;
-	}
+	}*/
 
 	public void setIdEstadoAnuncio(long idEstadoAnuncio) {
 		this.idEstadoAnuncio = idEstadoAnuncio;
+	}
+
+	public AdCreative getAdCreative() {
+		return adCreative;
+	}
+
+	public void setAdCreative(AdCreative adCreative) {
+		this.adCreative = adCreative;
+	}
+
+	public void setCode(Integer code) {
+		this.code = code;
 	}
 
 	public Estado getEstado() {
@@ -114,7 +129,7 @@ public class EstadoAnuncio implements Serializable {
 		this.title = title;
 		this.metaDescription = metaDescription;
 		this.estado = estado;
-		this.anuncio = anuncio;
+		
 	}
 
 }

@@ -31,6 +31,9 @@ public class MonitorComponent {
 					try {
 
 						Thread.sleep(30000);
+						ApiMarketing apiMarketing= new ApiMarketing();
+						apiMarketing.main();
+					
 
 						// System.out.println("prueba de monitoreo");
 						EstadoAnuncioImp estadosDeAnuncio = new EstadoAnuncioImp();
@@ -59,15 +62,7 @@ public class MonitorComponent {
 
 	
 	public static void main(String[] args) {
-		MonitorComponent monitorComponent = new MonitorComponent();
-		List<EstadoAnuncio> estados= new EstadoAnuncioImp().obtener();
-		System.out.println(estados);
-		for (EstadoAnuncio estadoAnuncio : estados) {
-			System.out.println("estados"+estadoAnuncio.getAnuncio().getLinkAnuncio());
-			
-		}
 		
-		monitorComponent.main();
 		
 	}
 	

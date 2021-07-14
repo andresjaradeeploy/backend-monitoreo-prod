@@ -20,6 +20,20 @@ public class CuentaFBServiceImp implements ICuentaFBService{
 		 
 		return (List<CuentaFB>) cuentafbRepository.findAll();
 	}
+
+
+	@Override
+	public CuentaFB save(CuentaFB cuentaFB) {
+		
+		return cuentafbRepository.save(cuentaFB);
+	}
+
+
+	@Override
+	public void deleteById(String idCuenta) {
+		cuentafbRepository.deleteById(idCuenta);
+		
+	}
 	
 
 }

@@ -15,7 +15,7 @@ import com.monitor.bankendmonitoreoLinks.service.IUsuarioService;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class UsuarioRestController {
 
 	@Autowired

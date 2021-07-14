@@ -10,7 +10,9 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.CuentaFBDao;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFbDeveloper;
 
 public class CuentaFBImp implements CuentaFBDao {
 	private static FacebookImp FACEBOOK_IMP = new FacebookImp();
@@ -21,6 +23,8 @@ public class CuentaFBImp implements CuentaFBDao {
 	private static final String SQL_UPDATE = "UPDATE cuentafb" + " SET nombre_cuenta=? WHERE id_cuenta=?";
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_cuentafb " + " FROM cuentafb WHERE id_cuentafb = ?";
+
+	private static final String SQL_SELECT = "SELECT * " + " FROM cuentafb ";
 
 	// funcion para guardar una cuentafb
 	@Override
@@ -58,8 +62,6 @@ public class CuentaFBImp implements CuentaFBDao {
 
 		JSONObject respuesta = new JSONObject(cuentas);
 
-		// String add= objectJson.getString("id");
-
 		JSONObject adaccounts = respuesta.getJSONObject("adaccounts");
 
 		JSONArray adaccountsData = adaccounts.getJSONArray("data");
@@ -68,17 +70,45 @@ public class CuentaFBImp implements CuentaFBDao {
 		for (int i = 0; i < adaccountsData.length(); i++) {
 
 			JSONObject objeto = adaccountsData.getJSONObject(i);
-			// a partir del JSONObject , puedes obtener los valores del objeto mediante su
-			// nombre:
 
 			String id = objeto.getString("id"); // obtiene valor 10
 			// String valorNombre = objeto.getString("nombre"); //obtiene valor Ejemplo
 
-			// System.out.println(respuesta); System.out.println(adaccounts);
-			// System.out.println(adaccounts); System.out.println(adaccountsData);
-			// System.out.println(id);
-
 			id_cuentas.add(id);
+		}
+		return id_cuentas;
+	}
+
+	public static ArrayList<String> obtenerCuentasBD() {
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		CuentaFB cuentaFB = null;
+		ArrayList<String> id_cuentas = new ArrayList<String>();
+
+		try {
+
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT);
+			rs = stmt.executeQuery();
+			while (rs.next()) {
+
+				String id_cuentafb = rs.getString("id_cuentafb");
+
+				cuentaFB = new CuentaFB(id_cuentafb);
+				id_cuentas.add(cuentaFB.getIdCuenta());
+
+			}
+			return id_cuentas;
+
+		} catch (SQLException ex) {
+			ex.printStackTrace(System.out);
+		} finally {
+
+			Conector.close(stmt);
+			Conector.close(conn);
+			Conector.close(rs);
+
 		}
 		return id_cuentas;
 	}
@@ -124,7 +154,7 @@ public class CuentaFBImp implements CuentaFBDao {
 	// Obtener nombre y id de cuentas de facebook asociadas a la cuenta developer
 	public String obtenerObjetosDeCuentas() {
 
-		ArrayList<String> id_cuenta = obtenerCuentas();
+		ArrayList<String> id_cuenta = obtenerCuentasBD();
 		String res = "[";
 		for (int i = 0; i < id_cuenta.size(); i++)
 
@@ -160,15 +190,15 @@ public class CuentaFBImp implements CuentaFBDao {
 			cuentaFB.setIdCuenta(id);
 			cuentaFB.setNombreCuenta(nombre);
 
-			boolean ifExists= verificarSiExisteCuenta(id);
-			if(ifExists==false)
-			guardar(cuentaFB);
+			boolean ifExists = verificarSiExisteCuenta(id);
+			if (ifExists == false)
+				guardar(cuentaFB);
 			else
 				System.out.println("La cuenta ya existe");
-				
 
-			/*cuentas.add(id);
-			cuentas.add(nombre);*/
+			/*
+			 * cuentas.add(id); cuentas.add(nombre);
+			 */
 		}
 
 	}
@@ -197,16 +227,12 @@ public class CuentaFBImp implements CuentaFBDao {
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
-			// Conector.close(rs);
+			Conector.close(rs);
 		}
 		return res;
 	}
 
 	public static void main(String[] args) {
-		CuentaFBImp cuentaFBImp = new CuentaFBImp();
-		//boolean verificar = cuentaFBImp.verificarCuenta("act_1679237832382839");
-		//System.out.println("¿Existe?:" + verificar);
-		String res=cuentaFBImp.obtenerObjetosDeCuentas();
-		System.out.println("res"+res);
+
 	}
 }

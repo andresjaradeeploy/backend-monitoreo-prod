@@ -17,6 +17,7 @@ public class AlertaComponent {
 		
 	}
 	
+	
 	public String mensajeAlerta()
 	{
 		
@@ -26,7 +27,7 @@ public class AlertaComponent {
 	}
 	
 	public static void main(String[] args) {
-		AlertaComponent alertaComponent = new AlertaComponent();
+		
 		
 	}
 	

@@ -38,7 +38,7 @@ import com.monitor.bankendmonitoreoLinks.service.imp.UsuarioServiceImp;
 
 @RestController
 @RequestMapping("/oauth")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = {"http://localhost:4200"})
 public class OauthRestController {
 
 	@Value("${google.clientId}")

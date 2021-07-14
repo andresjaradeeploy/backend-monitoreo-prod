@@ -17,10 +17,20 @@ public class Anuncio implements Serializable {
 	private String linkAnuncio;
 	
 	private String nombre;
+	
+	private String preview_shareable_link;
 
-	@OneToOne()
+	@OneToOne(cascade = CascadeType.REMOVE)
 	@JoinColumn(name = "cuenta_fb")
 	private CuentaFB cuentaFB;
+
+	public String getPreview_shareable_link() {
+		return preview_shareable_link;
+	}
+
+	public void setPreview_shareable_link(String preview_shareable_link) {
+		this.preview_shareable_link = preview_shareable_link;
+	}
 
 	public String getIdAnuncio() {
 		return idAnuncio;

@@ -17,14 +17,9 @@ public class BankendMonitoreoLinksApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankendMonitoreoLinksApplication.class, args);
 		
-		ApiMarketing apiMarketing= new ApiMarketing();
-		apiMarketing.main();
+		
 		MonitorComponent monitorComponent= new MonitorComponent();
-		/*ArrayList<String> urls = new ArrayList<String>();
-		urls.add("https://www.carulla.com/agua-brisa-garrafa-6-lts-426as254/p");
-		urls.add("https://www.carulla.com/agua-brisa-garrafa-6-lts-426asdsa254/p");
-		urls.add("https://www.google.com");*/
-		monitorComponent.main();
+			monitorComponent.main();
 			
 		
 	
