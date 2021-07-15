@@ -9,14 +9,17 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.zip.GZIPInputStream;
 
 
 import org.springframework.stereotype.Component;
 
 import com.monitor.bankendmonitoreoLinks.components.implement.AlertaImp;
+import com.monitor.bankendmonitoreoLinks.components.implement.CorreoAlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
@@ -101,10 +104,14 @@ private AlertaComponent alertaComponent = new AlertaComponent();
 				alertaImp.generarAlerta(estadoAnuncio,fechaCaida);
 				
 				ArrayList<String> correos = new ArrayList<String>();
-				correos.add("johan.jara@deeploy.co");
-				correos.add("pruebasdesarrollodeeploy@gmail.com");
-				/*alertaComponent.enviarAlerta(correos, "Link de Anuncio caido", "Se envia correo para reportar caida de link"
-				, fechaCaida, estadoAnuncio);*/
+				CorreoAlertaImp correoAlertaImp= new CorreoAlertaImp();
+				List<CorreoAlerta> dirCorreos = new ArrayList<>();
+				dirCorreos=correoAlertaImp.correosByCuenta(estadoAnuncio.getAdCreative().getCuentaFB().getIdCuenta());
+				for (CorreoAlerta correoAlerta : dirCorreos) {
+					correos.add(correoAlerta.getCuentaCorreo());
+				}
+				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido", "Se envia correo para reportar caida de link"
+				, fechaCaida, estadoAnuncio);
 				
 			}
 			else if(code==404)
@@ -123,10 +130,14 @@ private AlertaComponent alertaComponent = new AlertaComponent();
 				alertaImp.generarAlerta(estadoAnuncio,fechaCaida);
 
 				ArrayList<String> correos = new ArrayList<String>();
-				correos.add("johan.jara@deeploy.co");
-				correos.add("pruebasdesarrollodeeploy@gmail.com");
-				/*alertaComponent.enviarAlerta(correos, "Link de Anuncio caido", "Se envia correo para reportar caida de link"
-						, fechaCaida, estadoAnuncio);*/
+				CorreoAlertaImp correoAlertaImp= new CorreoAlertaImp();
+				List<CorreoAlerta> dirCorreos = new ArrayList<>();
+				dirCorreos=correoAlertaImp.correosByCuenta(estadoAnuncio.getAdCreative().getCuentaFB().getIdCuenta());
+				for (CorreoAlerta correoAlerta : dirCorreos) {
+					correos.add(correoAlerta.getCuentaCorreo());
+				}
+				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido", "Se envia correo para reportar caida de link"
+				, fechaCaida, estadoAnuncio);
 			}
 			return code;
 			//System.out.println("codigo"+code);

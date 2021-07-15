@@ -15,7 +15,7 @@ import com.monitor.bankendmonitoreoLinks.service.IEstadoAnuncioService;
 
 //@CrossOrigin(origins = {})
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200","*"})
 @RequestMapping("/estadoAnuncio")
 public class EstadoAnuncioRestController {
 	

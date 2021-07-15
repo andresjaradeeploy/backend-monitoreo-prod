@@ -15,10 +15,10 @@ public interface IAlertaRepository extends JpaRepository<Alerta, Long>{
 			+ "FROM alerta AS al "
 			+ "INNER JOIN estado_anuncio AS e ON "
 			+ "al.estado_anuncio =e.id_estado_anuncio "
-			+ "INNER JOIN anuncio AS a ON "
-			+ "e.anuncio = a.id_anuncio "
+			+ "INNER JOIN ad_creative AS ad ON "
+			+ "ad.id_creative = e.ad_creative "
 			+ "inner join cuentafb as c on "
-			+ "c.id_cuentafb= a.cuenta_fb "
-			+ "where a.cuenta_fb = :idCuenta")
+			+ "c.id_cuentafb= ad.cuenta_fb "
+			+ "where ad.cuenta_fb = :idCuenta")
     List<Alerta> findAlertabycuentaFB(@Param("idCuenta")String idCuenta);
 }

@@ -15,7 +15,7 @@ import com.monitor.bankendmonitoreoLinks.service.IAlertaService;
 
 @RestController
 @RequestMapping("/alerta")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200","*"})
 public class AlertaRestController {
 	
 	@Autowired

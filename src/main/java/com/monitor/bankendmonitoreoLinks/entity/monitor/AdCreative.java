@@ -2,6 +2,7 @@ package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
@@ -74,11 +75,19 @@ public class AdCreative implements Serializable {
 	private String urlImg;
 	
 	
-	@OneToOne
-	@JoinColumn(name = "adCreative")
-	private AdCreative adCreative;
 	
+	@OneToOne()
+	@JoinColumn(name = "cuenta_fb")
+	private CuentaFB cuentaFB;
 	
+	public CuentaFB getCuentaFB() {
+		return cuentaFB;
+	}
+
+	public void setCuentaFB(CuentaFB cuentaFB) {
+		this.cuentaFB = cuentaFB;
+	}
+
 	@OneToOne
 	@JoinColumn(name = "anuncio")
 	private Anuncio anuncio;

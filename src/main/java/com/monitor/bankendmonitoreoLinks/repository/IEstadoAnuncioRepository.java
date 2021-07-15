@@ -12,15 +12,14 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 public interface IEstadoAnuncioRepository extends JpaRepository<EstadoAnuncio, Long> {
 
 	
-	@Query(nativeQuery = true, value = "SELECT * "
-			+ "FROM estado_anuncio AS es "
-			+ "INNER JOIN anuncio AS a ON "
-			+ "es.anuncio =a.id_anuncio "
+	@Query(nativeQuery = true, value = "SELECT * FROM estado_anuncio AS es "
+			+ "inner join ad_creative as ad on "
+			+ "es.ad_creative =ad.id_creative "
 			+ "INNER JOIN estado AS e ON "
-			+ "e.id_estado = es.estado "
+			+ "e.id_estado = es.estado  "
 			+ "inner join cuentafb as c on "
-			+ "a.cuenta_fb= c.id_cuentafb "
-			+ "where a.cuenta_fb = :idCuenta" )
+			+ "ad.cuenta_fb= c.id_cuentafb "
+			+ "where ad.cuenta_fb = :idCuenta" )
     List<EstadoAnuncio> findAlertabycuentaFB(@Param("idCuenta")String idCuenta);
 	
 }

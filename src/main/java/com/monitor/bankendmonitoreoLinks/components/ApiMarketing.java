@@ -46,17 +46,12 @@ public class ApiMarketing implements IApiMarketing {
 
 	}
 
-	public List<Anuncio> ObteneryGuardarCuentasFByAnuncios() {
+	public List<Anuncio> ObteneryGuardarAnuncios() {
 		
-		 cuentaFBImp.guardarCuentas();
+		 //cuentaFBImp.guardarCuentas();
 				
 		List<Anuncio> anuncios = new AnuncioImp().obtenerAnunciosInf();
-		 /*for (Anuncio model : anuncios) {
-	            System.out.println(model.getNombre());
-	            System.out.println(model.getIdAnuncio());
-	            System.out.println(model.getCuentaFB().getIdCuenta());
-	        }*/
-		
+		 
 		 	return anuncios;
 	}
 	
@@ -70,14 +65,14 @@ public class ApiMarketing implements IApiMarketing {
 		 for (AdCreative adCreative : adCreatives) {
 			 EstadoAnuncio estadoAnuncio= new EstadoAnuncio();
 			 
-			 System.out.println(adCreative.getIdCreative());
+			 
 			 
 			 estados.add(estadoAnuncio);
 			 boolean ifExists= estadoAnuncioImp.verificarSiExisteEstadoAnuncio(adCreative.getIdCreative());
 			 if(ifExists==false)
 			 {
-			 int res=estadoAnuncioImp.guardar(estadoAnuncio,adCreative);
-			 System.out.println("se debio gauardar estadp anuncio"+res);
+			 estadoAnuncioImp.guardar(estadoAnuncio,adCreative);
+			
 			 }
 			 
 			 else
@@ -94,7 +89,7 @@ public class ApiMarketing implements IApiMarketing {
 	
 	public void main()
 	{
-		
+		ObteneryGuardarAnuncios();
 		AdCreativeImp adCreativeImp =new AdCreativeImp();
 		adCreativeImp.obtenerAdCreativesInf();
 		obteneryGuardarEstadoAnuncios();

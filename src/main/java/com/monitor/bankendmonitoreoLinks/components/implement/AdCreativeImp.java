@@ -19,8 +19,8 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 public class AdCreativeImp implements IAdCreative {
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
-	private static final String SQL_INSERT = "INSERT INTO ad_creative(id_creative,link,url_img,anuncio)"
-			+ " VALUES(?, ?, ? ,?)";
+	private static final String SQL_INSERT = "INSERT INTO ad_creative(id_creative,link,url_img,anuncio,cuenta_fb)"
+			+ " VALUES(?, ?, ?, ?, ?)";
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_creative " + " FROM ad_creative WHERE id_creative = ?";
 
@@ -58,7 +58,7 @@ public class AdCreativeImp implements IAdCreative {
 		List<Anuncio> anuncios = new ArrayList<>();
 
 		ArrayList<String> idCuentas = new ArrayList<String>();
-		idCuentas = CuentaFBImp.obtenerCuentas();
+		idCuentas = CuentaFBImp.obtenerCuentasBD();
 		for (int i = 0; i < respuesta.length(); i++) {
 			idCuentas.get(i);
 			resut = respuesta.getJSONObject(i);
@@ -116,25 +116,26 @@ public class AdCreativeImp implements IAdCreative {
 
 				AdCreative adCreative = new AdCreative();
 				Anuncio anuncio = new Anuncio();
+				CuentaFB cuentaFB= new CuentaFB();
 				adCreative.setAnuncio(anuncio);
 				adCreative.setIdCreative(id_creative);
 				adCreative.setLink(link);
 				adCreative.setUrlImg(img_url);
+				cuentaFB.setIdCuenta(idCuentas.get(i));
+			
+				adCreative.setCuentaFB(cuentaFB);
 
 				if (link != null) {
 
 					ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
 					if (ifExists == false)
-						guardar(adCreative);
+						guardar(adCreative,cuentaFB);
 					else
 						System.out.println("Ya existe el ad creative en BD");
 				} else
 					System.out.println("Ad creatriv eno tiene link no se guardara");
 			
-				CuentaFB cuentaFB = new CuentaFB();
-
-				cuentaFB.setIdCuenta(idCuentas.get(i));
-
+				
 				
 			}
 
@@ -145,7 +146,7 @@ public class AdCreativeImp implements IAdCreative {
 	}
 
 	@Override
-	public int guardar(AdCreative adCreative) {
+	public int guardar(AdCreative adCreative,CuentaFB cuentaFB) {
 
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -160,6 +161,7 @@ public class AdCreativeImp implements IAdCreative {
 			stmt.setString(2, adCreative.getLink());
 			stmt.setString(3, adCreative.getUrlImg());
 			stmt.setString(4, adCreative.getAnuncio().getIdAnuncio());
+			stmt.setString(5, cuentaFB.getIdCuenta());
 
 			rows = rows + stmt.executeUpdate();
 

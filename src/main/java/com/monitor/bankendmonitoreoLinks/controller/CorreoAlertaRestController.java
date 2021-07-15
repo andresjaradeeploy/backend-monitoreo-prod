@@ -17,7 +17,7 @@ import com.monitor.bankendmonitoreoLinks.service.ICorreoAlertaService;
 
 @RestController
 @RequestMapping("/correoAlerta")
-@CrossOrigin(origins = {"http://localhost:4200"})
+@CrossOrigin(origins = {"http://localhost:4200","*"})
 public class CorreoAlertaRestController {
 
 	

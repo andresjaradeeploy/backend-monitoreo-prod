@@ -23,6 +23,21 @@ public class CorreoAlerta implements Serializable {
 		this.idCorreo = idCorreo;
 	}
 
+	public CorreoAlerta(long idCorreo, String cuentaCorreo) {
+		super();
+		this.idCorreo = idCorreo;
+		this.cuentaCorreo = cuentaCorreo;
+	}
+
+	public CorreoAlerta() {
+		super();
+	}
+
+	public CorreoAlerta(String cuentaCorreo) {
+		super();
+		this.cuentaCorreo = cuentaCorreo;
+	}
+
 	public String getCuentaCorreo() {
 		return cuentaCorreo;
 	}
