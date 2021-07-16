@@ -5,9 +5,11 @@ import org.apache.commons.dbcp2.BasicDataSource;
 
 
 public class Conector {
-	 private static final String JDBC_URL = "jdbc:mariadb://localhost:3306/monitor-links?useSSL=false&useTimezone=true&serverTimezone=UTC&allowPublicKeyRetrieval=true";
-	    private static final String JDBC_USER = "root";
-	    private static final String JDBC_PASSWORD = "";
+
+
+	 private static final String JDBC_URL ="jdbc:mysql://185.201.11.86:3306/u476163449_ads?useSSL=false";
+	    private static final String JDBC_USER = "u476163449_adsfb";
+	    private static final String JDBC_PASSWORD = "Alissa1995*";
 	    private static BasicDataSource datasource;
 
 	    public static DataSource getDataSource() throws SQLException {
@@ -16,9 +18,9 @@ public class Conector {
 	            datasource.setUrl(JDBC_URL);
 	            datasource.setUsername(JDBC_USER);
 	            datasource.setPassword(JDBC_PASSWORD);
-	            Driver driver = new org.mariadb.jdbc.Driver();
+	            Driver driver = new com.mysql.cj.jdbc.Driver();
 	            datasource.setDriver(driver);
-	            datasource.setInitialSize(50);
+	            datasource.setInitialSize(10);
 	        }
 
 	        return datasource;
