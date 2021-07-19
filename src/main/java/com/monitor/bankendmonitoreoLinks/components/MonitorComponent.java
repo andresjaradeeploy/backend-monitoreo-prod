@@ -30,7 +30,7 @@ public class MonitorComponent {
 				while (true) {
 					try {
 
-						Thread.sleep(30000);
+						Thread.sleep(120000);
 						ApiMarketing apiMarketing= new ApiMarketing();
 						apiMarketing.main();
 					

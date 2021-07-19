@@ -10,28 +10,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
-import com.monitor.bankendmonitoreoLinks.service.IAnuncioService;
+import com.monitor.bankendmonitoreoLinks.service.IAdCreativeService;
 
 @RestController
-@RequestMapping("/anuncio")
+@RequestMapping("/adCreative")
 @CrossOrigin(origins = {"http://localhost:4200","*"})
-public class AnuncioRestController {
+public class AdCreativeRestController {
+	
 	@Autowired
-	private IAnuncioService anuncioService;
-	
-	
-	@GetMapping("/")
-	public List<Anuncio> index(){
-		return (List<Anuncio>) anuncioService.findAll(); 
-		
-		
-	}
+	private IAdCreativeService iAdCreativeService;
 	
 	@GetMapping("/all/{idCuenta}")
-	public List<Anuncio> listarByCuentaFB(@PathVariable String idCuenta)
+	public List<AdCreative> listarByCuentaFB(@PathVariable String idCuenta)
 	{
-		return anuncioService.findAnunciobyCuentaFB(idCuenta);
+		return iAdCreativeService.findAdCreativebycuentaFB(idCuenta);
 	}
+
 }

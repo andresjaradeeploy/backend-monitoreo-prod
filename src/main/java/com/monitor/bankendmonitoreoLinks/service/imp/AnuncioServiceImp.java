@@ -42,9 +42,9 @@ public class AnuncioServiceImp implements IAnuncioService {
 	}
 
 	@Override
-	public List<Anuncio> findByCuentaFB(CuentaFB cuentaFB) {
+	public List<Anuncio> findAnunciobyCuentaFB(String cuentaFB) {
 
-		return anuncioRepository.findByCuentaFB(cuentaFB);
+		return anuncioRepository.findAnunciobycuentaFB(cuentaFB);
 	}
 
 }

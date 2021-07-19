@@ -83,11 +83,19 @@ public class AdCreativeImp implements IAdCreative {
 				String ifspec = null;
 				String iflink = null;
 				// System.out.println("objeto" + objeto);
-				if (data.contains("image_url") == true)
-					// img_url = objeto.getString("image_url");
-					img_url = "iamgen si tiene";
+				if (data.contains("image_url") == true) {
+					try {
+						img_url = objeto.getString("image_url");
+					} catch (Exception e) {
+						System.err.println("error"+e);
+						img_url = null;
+					}
+				}
+				// img_url = "iamgen si tiene";
 				else
+
 					img_url = null;
+				System.out.println(img_url);
 				if (data.contains("thumbnail_url") == true)
 
 					thumbnail_url = objeto.getString("thumbnail_url");
@@ -116,27 +124,25 @@ public class AdCreativeImp implements IAdCreative {
 
 				AdCreative adCreative = new AdCreative();
 				Anuncio anuncio = new Anuncio();
-				CuentaFB cuentaFB= new CuentaFB();
+				CuentaFB cuentaFB = new CuentaFB();
 				adCreative.setAnuncio(anuncio);
 				adCreative.setIdCreative(id_creative);
 				adCreative.setLink(link);
 				adCreative.setUrlImg(img_url);
 				cuentaFB.setIdCuenta(idCuentas.get(i));
-			
+
 				adCreative.setCuentaFB(cuentaFB);
 
 				if (link != null) {
 
 					ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
 					if (ifExists == false)
-						guardar(adCreative,cuentaFB);
+						guardar(adCreative, cuentaFB);
 					else
 						System.out.println("Ya existe el ad creative en BD");
 				} else
 					System.out.println("Ad creatriv eno tiene link no se guardara");
-			
-				
-				
+
 			}
 
 		}
@@ -146,7 +152,7 @@ public class AdCreativeImp implements IAdCreative {
 	}
 
 	@Override
-	public int guardar(AdCreative adCreative,CuentaFB cuentaFB) {
+	public int guardar(AdCreative adCreative, CuentaFB cuentaFB) {
 
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -177,8 +183,9 @@ public class AdCreativeImp implements IAdCreative {
 	}
 
 	public static void main(String[] args) {
-		
 
+		AdCreativeImp adCreativeImp = new AdCreativeImp();
+		adCreativeImp.obtenerAdCreativesInf();
 	}
 
 	@Override

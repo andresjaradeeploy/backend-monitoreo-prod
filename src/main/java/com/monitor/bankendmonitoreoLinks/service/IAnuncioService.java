@@ -10,5 +10,5 @@ public interface IAnuncioService {
 	public Anuncio findById(String id_anuncio);
 	public Anuncio save(Anuncio anuncio);
 	public void deleteById(String id_anuncio);
-	public List<Anuncio> findByCuentaFB(CuentaFB cuentaFB);
+	public List<Anuncio> findAnunciobyCuentaFB(String cuentaFB);
 }
