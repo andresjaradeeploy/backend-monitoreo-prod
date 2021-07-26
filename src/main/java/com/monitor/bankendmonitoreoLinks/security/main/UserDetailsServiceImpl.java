@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.monitor.bankendmonitoreoLinks.entity.admin.Usuario;
-import com.monitor.bankendmonitoreoLinks.service.IUsuarioService;
 import com.monitor.bankendmonitoreoLinks.service.imp.UsuarioServiceImp;
 
 @Service

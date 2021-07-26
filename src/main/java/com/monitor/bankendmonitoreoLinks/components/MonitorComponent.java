@@ -1,26 +1,13 @@
 package com.monitor.bankendmonitoreoLinks.components;
 
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.ArrayList;
 import java.util.List;
-
 import org.springframework.stereotype.Component;
-
-import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
-
-
 
 @Component
 public class MonitorComponent {
 
-
-	
 	public void main() {
 		Runnable runnable = new Runnable() {
 
@@ -30,14 +17,13 @@ public class MonitorComponent {
 				while (true) {
 					try {
 
-						Thread.sleep(120000);
-						ApiMarketing apiMarketing= new ApiMarketing();
+						Thread.sleep(300000);
+						ApiMarketing apiMarketing = new ApiMarketing();
 						apiMarketing.main();
-					
 
 						// System.out.println("prueba de monitoreo");
 						EstadoAnuncioImp estadosDeAnuncio = new EstadoAnuncioImp();
-						LinkComponent linkComponent= new LinkComponent();
+						LinkComponent linkComponent = new LinkComponent();
 
 						List<EstadoAnuncio> urls = estadosDeAnuncio.obtener();
 
@@ -48,6 +34,7 @@ public class MonitorComponent {
 
 					} catch (Exception e) {
 						e.printStackTrace();
+						System.err.println("error al revisar link");
 					}
 
 				}
@@ -60,11 +47,8 @@ public class MonitorComponent {
 
 	}
 
-	
 	public static void main(String[] args) {
-		
-		
+
 	}
-	
 
 }

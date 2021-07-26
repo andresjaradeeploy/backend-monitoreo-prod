@@ -10,8 +10,8 @@ public interface CuentaFBDao {
 	
 	public List<CuentaFB> consultar();
 	
-	 public int guardar(CuentaFB cuentaFB);
-	 public int actualizar();
+	 //public int guardar(CuentaFB cuentaFB);
+	// public int actualizar();
 	// public CuentaFB encontrar(CuentaFB cuentaFB);
 	 public boolean verificarSiExisteCuenta(String idCuenta);
 

@@ -2,14 +2,11 @@ package com.monitor.bankendmonitoreoLinks.service.imp;
 
 import java.util.List;
 
-
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.repository.AnuncioRepository;
 import com.monitor.bankendmonitoreoLinks.service.IAnuncioService;
 

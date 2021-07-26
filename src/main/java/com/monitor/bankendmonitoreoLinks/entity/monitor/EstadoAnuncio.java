@@ -1,12 +1,7 @@
 package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
-import java.util.Date;
-
 import javax.persistence.*;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sun.istack.NotNull;
 
 @Entity
 public class EstadoAnuncio implements Serializable {
@@ -24,13 +19,12 @@ public class EstadoAnuncio implements Serializable {
 	private String mensaje;
 
 	@Column(name = "code_status")
-	private Integer code=0;
-	
+	private Integer code = 0;
+
 	@PrePersist
-	public void prePersist()
-	{
-		code=0;
-		
+	public void prePersist() {
+		code = 0;
+
 	}
 
 	public int getCode() {
@@ -48,8 +42,6 @@ public class EstadoAnuncio implements Serializable {
 	public void setMensaje(String mensaje) {
 		this.mensaje = mensaje;
 	}
-
-	
 
 	public String getTitle() {
 		return title;
@@ -74,40 +66,40 @@ public class EstadoAnuncio implements Serializable {
 	@OneToOne()
 	@JoinColumn(name = "estado", updatable = false, nullable = true)
 	private Estado estado;
-	
-	
 
-	/*@OneToOne(cascade = CascadeType.REMOVE)
-	@JoinColumn(name = "anuncio", updatable = false, nullable = false)
-	private Anuncio anuncio;*/
-	
 	@OneToOne(cascade = CascadeType.REMOVE)
-	@JoinColumn(name = "ad_creative", updatable = false, nullable = false)
-	private AdCreative adCreative;
+	@JoinColumn(name = "anuncio", updatable = false, nullable = false)
+	private Anuncio anuncio;
+
+	/*
+	 * @OneToOne(cascade = CascadeType.REMOVE)
+	 * 
+	 * @JoinColumn(name = "ad_creative", updatable = false, nullable = false)
+	 * private AdCreative adCreative;
+	 */
 
 	public long getIdEstadoAnuncio() {
 		return idEstadoAnuncio;
 	}
 
-	/*public Anuncio getAnuncio() {
+	public Anuncio getAnuncio() {
 		return anuncio;
 	}
 
 	public void setAnuncio(Anuncio anuncio) {
 		this.anuncio = anuncio;
-	}*/
+	}
 
 	public void setIdEstadoAnuncio(long idEstadoAnuncio) {
 		this.idEstadoAnuncio = idEstadoAnuncio;
 	}
 
-	public AdCreative getAdCreative() {
-		return adCreative;
-	}
-
-	public void setAdCreative(AdCreative adCreative) {
-		this.adCreative = adCreative;
-	}
+	/*
+	 * public AdCreative getAdCreative() { return adCreative; }
+	 * 
+	 * public void setAdCreative(AdCreative adCreative) { this.adCreative =
+	 * adCreative; }
+	 */
 
 	public void setCode(Integer code) {
 		this.code = code;
@@ -129,7 +121,7 @@ public class EstadoAnuncio implements Serializable {
 		this.title = title;
 		this.metaDescription = metaDescription;
 		this.estado = estado;
-		
+
 	}
 
 }

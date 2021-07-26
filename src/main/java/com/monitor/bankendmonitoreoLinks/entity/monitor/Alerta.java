@@ -1,8 +1,6 @@
 package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
-import java.util.Date;
 import java.util.List;
 
 import javax.persistence.*;
@@ -27,8 +25,6 @@ public class Alerta implements Serializable {
 	@OneToMany(mappedBy = "alerta", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<CorreoAlerta> correosDeAlerta;
 
-	
-
 	public List<CorreoAlerta> getCorreosDeAlerta() {
 		return correosDeAlerta;
 	}
@@ -51,8 +47,6 @@ public class Alerta implements Serializable {
 	public void setIdAlerta(Long idAlerta) {
 		this.idAlerta = idAlerta;
 	}
-
-	
 
 	public String getFechaAlerta() {
 		return fechaAlerta;

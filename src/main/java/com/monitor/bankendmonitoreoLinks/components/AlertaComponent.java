@@ -30,5 +30,15 @@ public class AlertaComponent {
 		
 		
 	}
+
+
+	public SendMailService getMailService() {
+		return mailService;
+	}
+
+
+	public void setMailService(SendMailService mailService) {
+		this.mailService = mailService;
+	}
 	
 }

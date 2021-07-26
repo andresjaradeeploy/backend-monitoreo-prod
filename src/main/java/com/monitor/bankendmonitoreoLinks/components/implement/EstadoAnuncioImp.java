@@ -4,30 +4,27 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IEstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class EstadoAnuncioImp implements IEstadoAnuncio {
 
-	private static final String SQL_INSERT = "INSERT INTO estado_anuncio(ad_creative,code_status)" + " VALUES(?,?)";
+	private static final String SQL_INSERT = "INSERT INTO estado_anuncio(anuncio,code_status)" + " VALUES(?,?)";
 
-	private static final String SQL_SELECT_BY_ID = "SELECT ad_creative " + " FROM estado_anuncio WHERE ad_creative = ?";
+	private static final String SQL_SELECT_BY_ID = "SELECT anuncio " + " FROM estado_anuncio WHERE anuncio = ?";
 
 	private static final String SQL_UPDATE = "UPDATE estado_anuncio"
 			+ " SET meta_description=?, title=?, estado=? , code_status=?, mensaje=?  WHERE id_estado_anuncio=?";
 
 	@Override
-	public int guardar(EstadoAnuncio estadoAnuncio, AdCreative adCreative) {
+	public int guardar(EstadoAnuncio estadoAnuncio, Anuncio anuncio) {
 
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -37,7 +34,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(SQL_INSERT);
-			stmt.setLong(1, adCreative.getIdCreative());
+			stmt.setString(1, anuncio.getIdAnuncio());
 			stmt.setInt(2, 0);
 
 			rows = rows + stmt.executeUpdate();
@@ -54,7 +51,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 	}
 
 	@Override
-	public boolean verificarSiExisteEstadoAnuncio(Long idAdCreative) {
+	public boolean verificarSiExisteEstadoAnuncio(String anuncio) {
 		boolean res = false;
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -63,7 +60,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 		try {
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(SQL_SELECT_BY_ID);
-			stmt.setLong(1, idAdCreative);
+			stmt.setString(1, anuncio);
 			rs = stmt.executeQuery();
 
 			if (rs.next())
@@ -168,26 +165,29 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
-					"select es.id_estado_anuncio,es.meta_description,es.title,ad.link,es.estado,ad.id_creative "
-							+ "from estado_anuncio es " + "inner join ad_creative as ad on "
-							+ "ad.id_creative = es.ad_creative " + "where ad.link is not null");
+					"select es.id_estado_anuncio,es.meta_description,es.title,adc.link,es.estado,ad.ad_creative "
+							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
+							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
+							+ "where adc.link is not null");
 			rs = stmt.executeQuery();
 
 			while (rs.next()) {
 				EstadoAnuncio estadoAnuncio = new EstadoAnuncio();
 				AdCreative adCreative = new AdCreative();
+				Anuncio anuncio = new Anuncio();
 
-				String linkAnuncio = rs.getString("ad.link");
+				String linkAnuncio = rs.getString("adc.link");
 				String estadoid = rs.getString("es.id_estado_anuncio");
-				Long idAdCreative = rs.getLong("id_creative");
+				Long idAdCreative = rs.getLong("ad.ad_creative");
 
 				long idestado = Long.parseLong(estadoid);
 				adCreative.setIdCreative(idAdCreative);
 				adCreative.setLink(linkAnuncio);
+				anuncio.setAdCreative(adCreative);
 
 				estadoAnuncio.setIdEstadoAnuncio(idestado);
-				estadoAnuncio.setAdCreative(adCreative);
-
+				// estadoAnuncio.setAdCreative(adCreative);
+				estadoAnuncio.setAnuncio(anuncio);
 				estados.add(estadoAnuncio);
 
 			}

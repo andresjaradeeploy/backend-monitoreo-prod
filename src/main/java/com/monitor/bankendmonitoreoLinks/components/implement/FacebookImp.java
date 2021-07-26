@@ -1,6 +1,5 @@
 package com.monitor.bankendmonitoreoLinks.components.implement;
 
-import org.json.JSONObject;
 import org.springframework.stereotype.Component;
 
 import com.monitor.bankendmonitoreoLinks.components.LinkComponent;
@@ -29,9 +28,9 @@ public class FacebookImp {
 		String respuesta;
 		try {
 			respuesta = LinkComponent.peticionHttpGet(url);
-			// System.out.println((int) respuesta.trim().charAt(0));
+
 			utilidades.stringToJSON(respuesta);
-			// System.out.println(utilidades.stringToJSON(respuesta));
+
 			return respuesta;
 
 		} catch (Exception e) {

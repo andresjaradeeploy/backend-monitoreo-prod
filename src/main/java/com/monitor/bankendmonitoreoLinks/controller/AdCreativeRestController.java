@@ -20,7 +20,7 @@ public class AdCreativeRestController {
 	@Autowired
 	private IAdCreativeService iAdCreativeService;
 	
-	@GetMapping("/all/{idCuenta}")
+	@GetMapping("/id/{idCuenta}")
 	public List<AdCreative> listarByCuentaFB(@PathVariable String idCuenta)
 	{
 		return iAdCreativeService.findAdCreativebycuentaFB(idCuenta);

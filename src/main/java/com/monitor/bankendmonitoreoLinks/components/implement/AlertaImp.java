@@ -3,27 +3,18 @@ package com.monitor.bankendmonitoreoLinks.components.implement;
 import java.sql.Connection;
 
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.Date;
-
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IAlertaDao;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class AlertaImp implements IAlertaDao {
-	
-	private static final String SQL_INSERT = "INSERT INTO alerta(estado_anuncio,fecha_hora)"
-			+ " VALUES(?,?)";
 
-	
-	private static final String SQL_SELECT_BY_ID = "SELECT alerta " 
-			+ " FROM alerta WHERE id_alerta = ?";
+	private static final String SQL_INSERT = "INSERT INTO alerta(estado_anuncio,fecha_hora)" + " VALUES(?,?)";
 
 	@Override
-	public int generarAlerta(EstadoAnuncio estadoAnuncio,String fecha) {
-		
+	public int generarAlerta(EstadoAnuncio estadoAnuncio, String fecha) {
+
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		int rows = 0;
@@ -33,7 +24,6 @@ public class AlertaImp implements IAlertaDao {
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(SQL_INSERT);
 
-			
 			stmt.setLong(1, estadoAnuncio.getIdEstadoAnuncio());
 			stmt.setString(2, fecha);
 
@@ -49,11 +39,8 @@ public class AlertaImp implements IAlertaDao {
 		return rows;
 	}
 
-	
 	public static void main(String[] args) {
-		
+
 	}
-	
-	
-	
+
 }

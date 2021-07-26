@@ -8,29 +8,25 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.service.IEstadoAnuncioService;
 
 //@CrossOrigin(origins = {})
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "http://localhost:4200", "*" })
 @RequestMapping("/estadoAnuncio")
 public class EstadoAnuncioRestController {
-	
+
 	@Autowired
-	private IEstadoAnuncioService IEstadoAnuncioService; 
+	private IEstadoAnuncioService IEstadoAnuncioService;
 
 	@GetMapping("/all")
-	public List<EstadoAnuncio> index()
-	{
+	public List<EstadoAnuncio> index() {
 		return (List<EstadoAnuncio>) IEstadoAnuncioService.findAll();
 	}
-	
+
 	@GetMapping("/all/{idCuenta}")
-	public List<EstadoAnuncio> listarByCuentaFB(@PathVariable String idCuenta)
-	{
+	public List<EstadoAnuncio> listarByCuentaFB(@PathVariable String idCuenta) {
 		return IEstadoAnuncioService.findEstadoAnunciobycuentaFB(idCuenta);
 	}
 }

@@ -5,14 +5,13 @@ import java.io.Serializable;
 import javax.persistence.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 @Entity
 public class CuentaFB implements Serializable {
 
 	@Id
 	@Column(name = "id_cuentaFB")
-	
+
 	private String idCuenta;
 
 	@Column(name = "nombre_cuenta")
@@ -22,8 +21,6 @@ public class CuentaFB implements Serializable {
 	@JsonIgnore
 	@JoinColumn(name = "cuenta_FB_developer")
 	private CuentaFbDeveloper cuentaFbDeveloper;
-
-	
 
 	public CuentaFB(String idCuenta) {
 		super();

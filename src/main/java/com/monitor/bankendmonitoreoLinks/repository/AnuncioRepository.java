@@ -7,21 +7,11 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
+public interface AnuncioRepository extends JpaRepository<Anuncio, String> {
 
-public interface AnuncioRepository  extends JpaRepository<Anuncio, String>{
-	
-	
+	@Query(nativeQuery = true, value = "SELECT * FROM anuncio " + "where cuenta_fb = :idCuenta")
 
-	
-	
-	
-	@Query(nativeQuery = true, value = "SELECT * FROM anuncio "
-				+ "where cuenta_fb = :idCuenta")
-		
-    List<Anuncio> findAnunciobycuentaFB(@Param("idCuenta")String idCuenta);
-	
+	List<Anuncio> findAnunciobycuentaFB(@Param("idCuenta") String idCuenta);
 
 }

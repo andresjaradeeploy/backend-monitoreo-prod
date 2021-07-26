@@ -4,8 +4,6 @@ import java.io.Serializable;
 
 import javax.persistence.*;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 @Entity
 public class Anuncio implements Serializable {
 
@@ -13,16 +11,35 @@ public class Anuncio implements Serializable {
 	@Column(name = "id_anuncio")
 	private String idAnuncio;
 
-	@Column(name = "link_anuncio")
-	private String linkAnuncio;
-	
 	private String nombre;
-	
+
+	private Integer impresiones;
+
 	private String preview_shareable_link;
 
-	@OneToOne(cascade = CascadeType.REMOVE)
+	public Integer getImpresiones() {
+		return impresiones;
+	}
+
+	public void setImpresiones(Integer impresiones) {
+		this.impresiones = impresiones;
+	}
+
+	public AdCreative getAdCreative() {
+		return adCreative;
+	}
+
+	public void setAdCreative(AdCreative adCreative) {
+		this.adCreative = adCreative;
+	}
+
+	@OneToOne(cascade = CascadeType.ALL)
 	@JoinColumn(name = "cuenta_fb")
 	private CuentaFB cuentaFB;
+
+	@OneToOne(cascade = CascadeType.ALL)
+	@JoinColumn(name = "adCreative")
+	private AdCreative adCreative;
 
 	public String getPreview_shareable_link() {
 		return preview_shareable_link;
@@ -48,14 +65,6 @@ public class Anuncio implements Serializable {
 		this.nombre = nombre;
 	}
 
-	public String getLinkAnuncio() {
-		return linkAnuncio;
-	}
-
-	public void setLinkAnuncio(String linkAnuncio) {
-		this.linkAnuncio = linkAnuncio;
-	}
-
 	public CuentaFB getCuentaFB() {
 		return cuentaFB;
 	}
@@ -75,12 +84,10 @@ public class Anuncio implements Serializable {
 		this.idAnuncio = idAnuncio;
 		this.nombre = nombre;
 	}
-	
 
-	public Anuncio(String idAnuncio, String linkAnuncio, String nombre, CuentaFB cuentaFB) {
+	public Anuncio(String idAnuncio, String nombre, CuentaFB cuentaFB) {
 		super();
 		this.idAnuncio = idAnuncio;
-		this.linkAnuncio = linkAnuncio;
 		this.nombre = nombre;
 		this.cuentaFB = cuentaFB;
 	}
@@ -90,5 +97,5 @@ public class Anuncio implements Serializable {
 	}
 
 	private static final long serialVersionUID = 1L;
-	
+
 }

@@ -10,9 +10,8 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.CuentaFBDao;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFbDeveloper;
+
 
 public class CuentaFBImp implements CuentaFBDao {
 	private static FacebookImp FACEBOOK_IMP = new FacebookImp();
@@ -27,7 +26,7 @@ public class CuentaFBImp implements CuentaFBDao {
 	private static final String SQL_SELECT = "SELECT * " + " FROM cuentafb ";
 
 	// funcion para guardar una cuentafb
-	@Override
+	/*@Override
 	public int guardar(CuentaFB cuentaFB) {
 
 		Connection conn = null;
@@ -53,9 +52,10 @@ public class CuentaFBImp implements CuentaFBDao {
 		}
 		return rows;
 
-	}
+	}*/
 
 	// Obtiene las cuentasfb (id) asociadas a la cuenta developer
+	/*
 	public static ArrayList<String> obtenerCuentas() {
 		String cuentas = "";
 		cuentas = FACEBOOK_IMP.apiGraph("me?fields=adaccounts");
@@ -77,7 +77,7 @@ public class CuentaFBImp implements CuentaFBDao {
 			id_cuentas.add(id);
 		}
 		return id_cuentas;
-	}
+	}*/
 
 	public static ArrayList<String> obtenerCuentasBD() {
 		Connection conn = null;
@@ -113,7 +113,7 @@ public class CuentaFBImp implements CuentaFBDao {
 		return id_cuentas;
 	}
 
-	@Override
+	/*@Override
 	public int actualizar() {
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -144,7 +144,7 @@ public class CuentaFBImp implements CuentaFBDao {
 		}
 		return rows;
 
-	}
+	}*/
 
 	@Override
 	public List<CuentaFB> consultar() {
@@ -152,7 +152,7 @@ public class CuentaFBImp implements CuentaFBDao {
 	}
 
 	// Obtener nombre y id de cuentas de facebook asociadas a la cuenta developer
-	public String obtenerObjetosDeCuentas() {
+	/*public String obtenerObjetosDeCuentas() {
 
 		ArrayList<String> id_cuenta = obtenerCuentasBD();
 		String res = "[";
@@ -168,16 +168,16 @@ public class CuentaFBImp implements CuentaFBDao {
 		res = res + "]";
 
 		return res;
-	}
+	}*/
 
 	// guardar cuentas asociadas en la bd
-	public void guardarCuentas() {
+	/*public void guardarCuentas() {
 
 		String res = obtenerObjetosDeCuentas();
 
 		JSONArray respuesta = new JSONArray(res);
 
-		ArrayList<String> cuentas = new ArrayList<String>();
+		
 
 		for (int i = 0; i < respuesta.length(); i++) {
 
@@ -196,12 +196,10 @@ public class CuentaFBImp implements CuentaFBDao {
 			else
 				System.out.println("La cuenta ya existe");
 
-			/*
-			 * cuentas.add(id); cuentas.add(nombre);
-			 */
+			
 		}
 
-	}
+	}*/
 
 	// Saber si una cuenta esta en la bd
 	@Override

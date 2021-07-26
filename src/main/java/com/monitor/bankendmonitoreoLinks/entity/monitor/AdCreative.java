@@ -2,15 +2,13 @@ package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
 
-import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
 
 @Entity
 public class AdCreative implements Serializable {
-	
+
 	/**
 	 * 
 	 */
@@ -18,9 +16,13 @@ public class AdCreative implements Serializable {
 
 	@Id
 	private Long idCreative;
-	
+
+	@Column(columnDefinition = "TEXT")
 	private String link;
-	
+
+	@Column(name = "nombre_anuncio")
+	private String nombre;
+
 	public Long getIdCreative() {
 		return idCreative;
 	}
@@ -41,27 +43,28 @@ public class AdCreative implements Serializable {
 		super();
 		this.link = link;
 		this.urlImg = urlImg;
-		this.anuncio = anuncio;
+
 	}
 
-	public Anuncio getAnuncio() {
-		return anuncio;
+	public String getNombre() {
+		return nombre;
 	}
 
-	public void setAnuncio(Anuncio anuncio) {
-		this.anuncio = anuncio;
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
 	}
 
 	public AdCreative() {
 		super();
 	}
 
-	public AdCreative(Long idCreative, String link, String urlImg, Anuncio anuncio) {
+	public AdCreative(Long idCreative, String link, String nombre, String urlImg) {
 		super();
 		this.idCreative = idCreative;
 		this.link = link;
+		this.nombre = nombre;
 		this.urlImg = urlImg;
-		this.anuncio = anuncio;
+
 	}
 
 	public String getUrlImg() {
@@ -72,24 +75,12 @@ public class AdCreative implements Serializable {
 		this.urlImg = urlImg;
 	}
 
+	@Column(columnDefinition = "TEXT")
 	private String urlImg;
-	
-	
-	
-	@OneToOne()
-	@JoinColumn(name = "cuenta_fb")
-	private CuentaFB cuentaFB;
-	
-	public CuentaFB getCuentaFB() {
-		return cuentaFB;
-	}
 
-	public void setCuentaFB(CuentaFB cuentaFB) {
-		this.cuentaFB = cuentaFB;
+	public AdCreative(Long idCreative) {
+		super();
+		this.idCreative = idCreative;
 	}
-
-	@OneToOne
-	@JoinColumn(name = "anuncio")
-	private Anuncio anuncio;
 
 }
