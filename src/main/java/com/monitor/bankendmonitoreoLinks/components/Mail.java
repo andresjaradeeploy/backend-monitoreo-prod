@@ -61,9 +61,7 @@ public class Mail {
 			for (String email : correos) {
 				message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 			}
-			correos.add("johan.jara@deeploy.co");
-			correos.add("pruebasdesarrollodeeploy@gmail.com");
-
+		
 			message.setSubject(asunto);
 			message.setText(cuerpo.toString() + fecha);
 			message.setContent(multipart);

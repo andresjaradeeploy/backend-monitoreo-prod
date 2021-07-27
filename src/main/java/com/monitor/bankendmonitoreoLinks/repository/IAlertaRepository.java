@@ -11,7 +11,7 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
 
 public interface IAlertaRepository extends JpaRepository<Alerta, Long>{
 
-	@Query(nativeQuery = true, value = "SELECT al.id_alerta,adc.link, e.code_status,e.mensaje,al.fecha_hora,c.nombre_cuenta "
+	@Query(nativeQuery = true, value = "SELECT * "
 			+ "FROM alerta AS al "
 			+ "INNER JOIN estado_anuncio AS e ON "
 			+ "al.estado_anuncio =e.id_estado_anuncio "

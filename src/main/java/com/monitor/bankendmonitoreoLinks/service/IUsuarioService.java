@@ -12,4 +12,6 @@ public interface IUsuarioService {
 	public Usuario crear(Usuario usuario);
 	
 	public List<Usuario> listarUsers();
+	
+	public void delete(Integer idUsuario);
 }

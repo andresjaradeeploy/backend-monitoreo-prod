@@ -9,7 +9,7 @@ public class Conector {
 	/* private static final String JDBC_URL ="jdbc:mysql://localhost:3306/monitor-links?use_SSL=false";
 	    private static final String JDBC_USER = "root";
 	    private static final String JDBC_PASSWORD = "";*/
-	    private static final String JDBC_URL ="jdbc:mysql://185.201.11.86:3306/u476163449_ads?use_SSL=false";
+	    private static final String JDBC_URL ="jdbc:mysql://185.201.11.86:3306/u476163449_ads?use_SSL=false&serverTimezone=America/Bogota";
 	    private static final String JDBC_USER = "u476163449_adsfb";
 	    private static final String JDBC_PASSWORD = "Alissa1995*";
 	

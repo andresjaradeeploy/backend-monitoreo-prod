@@ -12,7 +12,7 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 public interface IEstadoAnuncioRepository extends JpaRepository<EstadoAnuncio, Long> {
 
 	
-	@Query(nativeQuery = true, value = "SELECT ad.link,e.nombre_estado,es.mensaje,es.meta_description,es.title,es.code_status FROM estado_anuncio AS es "
+	@Query(nativeQuery = true, value = "SELECT * FROM estado_anuncio AS es "
 			+ "inner join anuncio as a on "
 			+ "a.id_anuncio =es.anuncio "
 			+ "INNER JOIN ad_creative AS ad ON "

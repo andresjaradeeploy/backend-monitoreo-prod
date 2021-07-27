@@ -98,7 +98,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido",
+				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
 			} else if (code == 404) {
@@ -122,7 +122,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido",
+				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 			} 
 			else if (code == 301) {
@@ -132,7 +132,7 @@ public class LinkComponent {
 				estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
 				estadoAnuncio.setTitle(jsonp.getTitle());
 				estadoAnuncio.setCode(code);
-				estadoAnuncio.setMensaje("Url no existe o no tien certificado SSL");
+				estadoAnuncio.setMensaje("Moved Permanently - Se redireccionó");
 
 				estado.setIdEstado(2);
 				estadosAnuncioImp.actualizar(estadoAnuncio, estado);
@@ -146,7 +146,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido",
+				alertaComponent.enviarAlerta(correos, "Moved Permanently - Se redireccionó a su nueva url (https u otra)"+estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 			}
 			else {
@@ -170,7 +170,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido",
+				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
 			}
@@ -181,29 +181,7 @@ public class LinkComponent {
 			System.err.println("url dañado" + e);
 		} catch (IOException e) {
 
-			System.err.println("url dañado" + e);
-			Jsonp jsonp = new Jsonp();
-			jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
-			estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
-			estadoAnuncio.setTitle(jsonp.getTitle());
-			estadoAnuncio.setCode(400);
-			estadoAnuncio.setMensaje("Url no funciona");
-
-			estado.setIdEstado(2);
-			estadosAnuncioImp.actualizar(estadoAnuncio, estado);
-			String fechaCaida = utilidades.generarHoraActual();
-
-			alertaImp.generarAlerta(estadoAnuncio, fechaCaida);
-
-			ArrayList<String> correos = new ArrayList<String>();
-			CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
-			List<CorreoAlerta> dirCorreos = new ArrayList<>();
-			dirCorreos = correoAlertaImp.correosByCuenta(estadoAnuncio.getAnuncio().getCuentaFB().getIdCuenta());
-			for (CorreoAlerta correoAlerta : dirCorreos) {
-				correos.add(correoAlerta.getCuentaCorreo());
-			}
-			alertaComponent.enviarAlerta(correos, "Link de Anuncio caido",
-					"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
+			
 		} finally {
 			if (connection != null) {
 				connection.disconnect();

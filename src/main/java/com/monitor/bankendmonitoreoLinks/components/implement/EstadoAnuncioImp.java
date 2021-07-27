@@ -11,6 +11,7 @@ import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IEstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
@@ -165,9 +166,14 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
-					"select es.id_estado_anuncio,es.meta_description,es.title,adc.link,es.estado,ad.ad_creative "
-							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
-							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
+					"select es.id_estado_anuncio,es.meta_description,es.title,adc.link,es.estado,ad.id_anuncio,ad.ad_creative,cu.id_cuentafb "
+							+ "from estado_anuncio es " 
+							+ "inner join anuncio as ad on " 
+							+ "ad.id_anuncio = es.anuncio "
+							+ "inner join ad_creative as adc on " 
+							+ "ad.ad_creative=adc.id_creative "
+							+ "inner join cuentafb as cu on "  
+							+ "cu.id_cuentafb= ad.cuenta_fb "
 							+ "where adc.link is not null");
 			rs = stmt.executeQuery();
 
@@ -175,15 +181,22 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				EstadoAnuncio estadoAnuncio = new EstadoAnuncio();
 				AdCreative adCreative = new AdCreative();
 				Anuncio anuncio = new Anuncio();
+				CuentaFB cuentaFB= new CuentaFB();
 
 				String linkAnuncio = rs.getString("adc.link");
 				String estadoid = rs.getString("es.id_estado_anuncio");
 				Long idAdCreative = rs.getLong("ad.ad_creative");
+				String idCuentaFB=rs.getString("cu.id_cuentafb");
+				String idAnuncio=rs.getString("ad.id_anuncio");
 
 				long idestado = Long.parseLong(estadoid);
 				adCreative.setIdCreative(idAdCreative);
 				adCreative.setLink(linkAnuncio);
 				anuncio.setAdCreative(adCreative);
+				cuentaFB.setIdCuenta(idCuentaFB);
+				
+				anuncio.setCuentaFB(cuentaFB);
+				anuncio.setIdAnuncio(idAnuncio);
 
 				estadoAnuncio.setIdEstadoAnuncio(idestado);
 				// estadoAnuncio.setAdCreative(adCreative);
