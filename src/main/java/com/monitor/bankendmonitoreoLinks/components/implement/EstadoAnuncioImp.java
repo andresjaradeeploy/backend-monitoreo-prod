@@ -166,7 +166,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
-					"select es.id_estado_anuncio,es.meta_description,es.title,adc.link,es.estado,ad.id_anuncio,ad.ad_creative,cu.id_cuentafb "
+					"select es.id_estado_anuncio,es.meta_description,es.title,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
 							+ "from estado_anuncio es " 
 							+ "inner join anuncio as ad on " 
 							+ "ad.id_anuncio = es.anuncio "
@@ -187,18 +187,25 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				String estadoid = rs.getString("es.id_estado_anuncio");
 				Long idAdCreative = rs.getLong("ad.ad_creative");
 				String idCuentaFB=rs.getString("cu.id_cuentafb");
+				String nombreCuenta= rs.getString("cu.nombre_cuenta");
 				String idAnuncio=rs.getString("ad.id_anuncio");
+				String code= rs.getString("es.code_status");
+				String mensaje= rs.getString("es.mensaje");
+				Integer codeStatus= Integer.parseInt(code);
 
 				long idestado = Long.parseLong(estadoid);
 				adCreative.setIdCreative(idAdCreative);
 				adCreative.setLink(linkAnuncio);
 				anuncio.setAdCreative(adCreative);
 				cuentaFB.setIdCuenta(idCuentaFB);
+				cuentaFB.setNombreCuenta(nombreCuenta);
 				
 				anuncio.setCuentaFB(cuentaFB);
 				anuncio.setIdAnuncio(idAnuncio);
 
 				estadoAnuncio.setIdEstadoAnuncio(idestado);
+				estadoAnuncio.setCode(codeStatus);
+				estadoAnuncio.setMensaje(mensaje);
 				// estadoAnuncio.setAdCreative(adCreative);
 				estadoAnuncio.setAnuncio(anuncio);
 				estados.add(estadoAnuncio);
