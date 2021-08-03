@@ -10,7 +10,6 @@ public interface IAnuncioDao {
 	
 	public int guardar(Anuncio anuncio,CuentaFB cuentaFB, AdCreative adCreative);
 	public List<Anuncio> listarAnuncios();
-	public  List<Anuncio> obtenerAnunciosInf();
 	public boolean verificarSiExisteAnuncio(String idAnuncio);
 
 }

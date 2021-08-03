@@ -14,24 +14,18 @@ import com.monitor.bankendmonitoreoLinks.repository.IRolRepository;
 @Transactional
 public class RolServiceImp {
 
-	
+	@Autowired
+	IRolRepository rolRepository;
 
-	    
-	    @Autowired
-	    IRolRepository rolRepository;
-	    
-	    
-	    public Optional<Rol> getByRolNombre(RolNombre rolNombre)
-	    {
-	        return rolRepository.findByRolNombre(rolNombre);
-	    }
-	    
-	    public  boolean existsRolNombre(RolNombre rolNombre)
-	    {
-	        return rolRepository.existsByRolNombre(rolNombre);
-	    }
-	    
-	    public void save (Rol rol){
-	        rolRepository.save(rol);
-	    }
+	public Optional<Rol> getByRolNombre(RolNombre rolNombre) {
+		return rolRepository.findByRolNombre(rolNombre);
+	}
+
+	public boolean existsRolNombre(RolNombre rolNombre) {
+		return rolRepository.existsByRolNombre(rolNombre);
+	}
+
+	public void save(Rol rol) {
+		rolRepository.save(rol);
+	}
 }

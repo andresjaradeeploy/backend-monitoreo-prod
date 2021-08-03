@@ -10,8 +10,8 @@ public interface IUsuarioService {
 	public Optional findByEmail(String email);
 
 	public Usuario crear(Usuario usuario);
-	
+
 	public List<Usuario> listarUsers();
-	
+
 	public void delete(Integer idUsuario);
 }

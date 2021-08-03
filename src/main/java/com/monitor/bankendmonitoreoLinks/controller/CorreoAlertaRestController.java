@@ -11,40 +11,36 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 import com.monitor.bankendmonitoreoLinks.service.ICorreoAlertaService;
 
 @RestController
 @RequestMapping("/correoAlerta")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class CorreoAlertaRestController {
 
-	
-	@Autowired 
+	@Autowired
 	private ICorreoAlertaService alertaService;
-	
-	
+
 	@PostMapping("/agregarCorreo")
-	public CorreoAlerta agregar(@RequestBody CorreoAlerta correoAlerta)
-	{
+	public CorreoAlerta agregar(@RequestBody CorreoAlerta correoAlerta) {
 		return alertaService.save(correoAlerta);
 	}
+
 	@GetMapping("/all")
-	public List<CorreoAlerta> index()
-	{
+	public List<CorreoAlerta> index() {
 		return alertaService.findAll();
 	}
-	
+
 	@GetMapping("/all/{idCuenta}")
-	public List<CorreoAlerta> listarByCuentaFB(@PathVariable String idCuenta)
-	{
+	public List<CorreoAlerta> listarByCuentaFB(@PathVariable String idCuenta) {
 		return alertaService.findCorreoAlertabycuentaFB(idCuenta);
 	}
-	
+
 	@DeleteMapping("/borrar/{idCorreo}")
 	public void borrarCorreo(@PathVariable Long idCorreo) {
-		
-		alertaService.borrarCorreo(idCorreo);		
+
+		alertaService.borrarCorreo(idCorreo);
 	}
 }

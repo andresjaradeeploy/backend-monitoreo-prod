@@ -2,7 +2,6 @@ package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
 import java.util.List;
-
 import javax.persistence.*;
 
 @Entity
@@ -72,6 +71,6 @@ public class CuentaFbDeveloper implements Serializable {
 	}
 
 	public CuentaFbDeveloper() {
-		// TODO Auto-generated constructor stub
+
 	}
 }

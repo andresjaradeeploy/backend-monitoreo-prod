@@ -10,9 +10,7 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
-
 import org.springframework.stereotype.Component;
-
 import com.monitor.bankendmonitoreoLinks.components.implement.AlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CorreoAlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
@@ -20,15 +18,8 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
-@SuppressWarnings("deprecation")
 @Component
 public class LinkComponent {
-
-	private AlertaComponent alertaComponent = new AlertaComponent();
-
-	public static void main(String[] args) throws Exception, IOException {
-
-	}
 
 	public static String obtenerContenido(String sURL) throws IOException {
 
@@ -98,7 +89,8 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlerta(correos,
+						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
 			} else if (code == 404) {
@@ -122,10 +114,10 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlerta(correos,
+						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
-			} 
-			else if (code == 301) {
+			} else if (code == 301) {
 
 				Jsonp jsonp = new Jsonp();
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
@@ -146,10 +138,11 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Moved Permanently - Se redireccionó a su nueva url (https u otra)"+estadoAnuncio.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlerta(correos,
+						"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
+								+ estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
-			}
-			else {
+			} else {
 				Jsonp jsonp = new Jsonp();
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 				estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
@@ -170,18 +163,18 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos, "Link de Anuncio caido"+estadoAnuncio.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlerta(correos,
+						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
 			}
 			return code;
-			// System.out.println("codigo"+code);
+
 		} catch (MalformedURLException e) {
 
 			System.err.println("url dañado" + e);
 		} catch (IOException e) {
 
-			
 		} finally {
 			if (connection != null) {
 				connection.disconnect();

@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.service.IEstadoAnuncioService;
 
-//@CrossOrigin(origins = {})
 @RestController
-@CrossOrigin(origins = { "http://localhost:4200", "*" })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 @RequestMapping("/estadoAnuncio")
 public class EstadoAnuncioRestController {
 

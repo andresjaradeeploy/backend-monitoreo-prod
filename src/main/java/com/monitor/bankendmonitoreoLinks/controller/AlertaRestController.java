@@ -8,23 +8,21 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
 import com.monitor.bankendmonitoreoLinks.service.IAlertaService;
 
-
 @RestController
 @RequestMapping("/alerta")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app" })
 public class AlertaRestController {
-	
+
 	@Autowired
 	private IAlertaService IAlertaService;
 
 	@GetMapping("/all/{idCuenta}")
-	public List<Alerta> listarByCuentaFB(@PathVariable String idCuenta)
-	{
+	public List<Alerta> listarByCuentaFB(@PathVariable String idCuenta) {
 		return IAlertaService.findAlertabycuentaFB(idCuenta);
 	}
-	
+
 }

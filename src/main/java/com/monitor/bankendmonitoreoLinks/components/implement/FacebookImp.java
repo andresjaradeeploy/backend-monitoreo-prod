@@ -4,7 +4,6 @@ import org.springframework.stereotype.Component;
 
 import com.monitor.bankendmonitoreoLinks.components.LinkComponent;
 import com.monitor.bankendmonitoreoLinks.components.Utilidades;
-
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFbDeveloper;
 
 @Component
@@ -19,8 +18,6 @@ public class FacebookImp {
 
 		cuentaFbDeveloperImp.consultar(cuentaFbDeveloper);
 		String accessToken = (cuentaFbDeveloper.getAccessToken());
-		String secretKey = (cuentaFbDeveloper).getSecretKey();
-		String idAplication = (cuentaFbDeveloper).getIdAplicacion();
 		String direccion = "https://graph.facebook.com";
 		String versionapi = "v10.0";
 
@@ -35,13 +32,9 @@ public class FacebookImp {
 
 		} catch (Exception e) {
 
-			e.printStackTrace();
+			System.err.println("Exception"+e);
 		}
 		return null;
-	}
-
-	public static void main(String[] args) {
-
 	}
 
 }

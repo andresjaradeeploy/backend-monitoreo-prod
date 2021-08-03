@@ -18,29 +18,30 @@ import com.monitor.bankendmonitoreoLinks.service.ICuentaFBService;
 
 @RestController
 @RequestMapping("/cuentaFB")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class CuentaFBRestController {
 
 	@Autowired
 	private ICuentaFBService iCuentaFBService;
-	
+
 	@GetMapping("/listar")
-	public List<CuentaFB> index(){
+	public List<CuentaFB> index() {
 		return iCuentaFBService.findAll();
 	}
-	
+
 	@PostMapping("/crear")
-	
-	public CuentaFB crearCuenta(@RequestBody CuentaFB cuentaFB){
+
+	public CuentaFB crearCuenta(@RequestBody CuentaFB cuentaFB) {
 		CuentaFbDeveloper cuentaFbDeveloper = new CuentaFbDeveloper();
 		cuentaFbDeveloper.setIdCuenta(1000001);
 		cuentaFB.setCuentaFbDeveloper(cuentaFbDeveloper);
 		return iCuentaFBService.save(cuentaFB);
 	}
-	
+
 	@DeleteMapping("/borrar/{idCuenta}")
 	public void borrarCuenta(@PathVariable String idCuenta) {
 		iCuentaFBService.deleteById(idCuenta);
 	}
-	
+
 }

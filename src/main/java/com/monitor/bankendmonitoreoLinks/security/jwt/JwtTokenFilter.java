@@ -15,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
-
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -25,10 +24,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class JwtTokenFilter extends OncePerRequestFilter {
-	
+
 	private final static Logger LOGGER = LoggerFactory.getLogger(JwtEntryPoint.class);
 
-	
 	@Autowired
 	JwtProvider jwtProvider;
 

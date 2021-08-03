@@ -9,9 +9,6 @@ import javax.persistence.Id;
 @Entity
 public class AdCreative implements Serializable {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 
 	@Id

@@ -1,8 +1,6 @@
 package com.monitor.bankendmonitoreoLinks.components;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Properties;
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -12,8 +10,6 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-
-import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class Mail {
@@ -37,54 +33,27 @@ public class Mail {
 	public void sendEmail(ArrayList<String> correos, String asunto, String cuerpo, String fecha,
 			EstadoAnuncio estadoAnuncio) {
 
-		String h1 = "Se Reporta Link Caido";
-		String BODY = String.join(System.getProperty("line.separator"), "<html>",  "<head>",
+		String BODY = String.join(System.getProperty("line.separator"), "<html>", "<head>",
 
-"<html>\r\n"
-+ "  <head>\r\n"
-+ "\r\n"
-+ "    </head>\r\n"
-+ "  <body>\r\n"
-+ "    <table border='1' cellspacing='10' cellpadding='10' width='auto'\">\r\n"
-+ "      <tr>\r\n"
-+ "          <td colspan='2' align='center' bgcolor='#B72222'><strong>Informe de Link Caído</strong></td>\r\n"
-+ "      </tr>\r\n"
-+ "\r\n"
-+ "    <tr>\r\n"
-+ "      <th bgcolor='#198754'>Item</th>\r\n"
-+ "      <th bgcolor='#198754'>Descripción</th>\r\n"
-+ "    </tr>\r\n"
-+ "\r\n"
-+ "    <tbody>\r\n"
-+ "        <tr>\r\n"
-+ "          <td>Anuncio</td>\r\n"
-+ "          <td>"+ estadoAnuncio.getAnuncio().getIdAnuncio() +"</td>\r\n"
-+ "        </tr>\r\n"
-+ "        <tr>\r\n"
-+ "          <td>Link</td>\r\n"
-+ "          <td bgcolor='#B72222'>"+ estadoAnuncio.getAnuncio().getAdCreative().getLink() +"</td>\r\n"
-+ "        </tr>\r\n"
-+ "        <tr>\r\n"
-+ "          <td>Cuenta Facebook</td>\r\n"
-+ "          <td>"+ estadoAnuncio.getAnuncio().getCuentaFB().getNombreCuenta() +"</td>\r\n"
-+ "        </tr>\r\n"
-+ "        <tr>\r\n"
-+ "          <td>Fecha y Hora</td>\r\n"
-+ "          <td>"+fecha+"</td>\r\n"
-+ "        </tr>\r\n"
-+ "        <tr>\r\n"
-+ "          <td>Status</td>\r\n"
-+ "          <td>"+ estadoAnuncio.getCode() +" - "+ estadoAnuncio.getMensaje() +"</td>\r\n"
-+ "        </tr>\r\n"
-+ "\r\n"
-+ "\r\n"
-+ "    </tbody>\r\n"
-+ "    </table>\r\n"
-+ "    <br/>\r\n"
-+ "    <img src='https://static1.squarespace.com/static/5ce88653d84296000124515a/t/5ce93ca6ee6eb002e7b992ef/1614802124137/?format=1500w' width='350px' >\r\n"
-+ "  </body>\r\n"
-+ "</html>");
-				
+				"<html>\r\n" + "  <head>\r\n" + "\r\n" + "    </head>\r\n" + "  <body>\r\n"
+						+ "    <table border='1' cellspacing='10' cellpadding='10' width='auto'\">\r\n"
+						+ "      <tr>\r\n"
+						+ "          <td colspan='2' align='center' bgcolor='#B72222'><strong>Informe de Link Caído</strong></td>\r\n"
+						+ "      </tr>\r\n" + "\r\n" + "    <tr>\r\n" + "      <th bgcolor='#198754'>Item</th>\r\n"
+						+ "      <th bgcolor='#198754'>Descripción</th>\r\n" + "    </tr>\r\n" + "\r\n"
+						+ "    <tbody>\r\n" + "        <tr>\r\n" + "          <td>Anuncio</td>\r\n" + "          <td>"
+						+ estadoAnuncio.getAnuncio().getIdAnuncio() + "</td>\r\n" + "        </tr>\r\n"
+						+ "        <tr>\r\n" + "          <td>Link</td>\r\n" + "          <td bgcolor='#B72222'>"
+						+ estadoAnuncio.getAnuncio().getAdCreative().getLink() + "</td>\r\n" + "        </tr>\r\n"
+						+ "        <tr>\r\n" + "          <td>Cuenta Facebook</td>\r\n" + "          <td>"
+						+ estadoAnuncio.getAnuncio().getCuentaFB().getNombreCuenta() + "</td>\r\n" + "        </tr>\r\n"
+						+ "        <tr>\r\n" + "          <td>Fecha y Hora</td>\r\n" + "          <td>" + fecha
+						+ "</td>\r\n" + "        </tr>\r\n" + "        <tr>\r\n" + "          <td>Status</td>\r\n"
+						+ "          <td>" + estadoAnuncio.getCode() + " - " + estadoAnuncio.getMensaje() + "</td>\r\n"
+						+ "        </tr>\r\n" + "\r\n" + "\r\n" + "    </tbody>\r\n" + "    </table>\r\n"
+						+ "    <br/>\r\n"
+						+ "    <img src='https://static1.squarespace.com/static/5ce88653d84296000124515a/t/5ce93ca6ee6eb002e7b992ef/1614802124137/?format=1500w' width='350px' >\r\n"
+						+ "  </body>\r\n" + "</html>");
 
 		init();
 		try {
@@ -95,7 +64,7 @@ public class Mail {
 			for (String email : correos) {
 				message.addRecipient(Message.RecipientType.TO, new InternetAddress(email));
 			}
-		
+
 			message.setSubject(asunto);
 			message.setText(cuerpo.toString() + fecha);
 			message.setContent(multipart);
@@ -113,20 +82,5 @@ public class Mail {
 		}
 
 	}
-
-	/*public static void main(String[] args) {
-		Mail mail = new Mail();
-		ArrayList<String>correos = new ArrayList<String>();
-		List<EstadoAnuncio> estadosanuncio= new ArrayList<EstadoAnuncio>();
-		correos.add("johanandresardila@gmail.com");
-		EstadoAnuncioImp estadoAnuncio= new EstadoAnuncioImp();
-		
-		estadosanuncio=estadoAnuncio.obtener();
-	
-		for (EstadoAnuncio estadoAnuncios : estadosanuncio) {
-			mail.sendEmail(correos, "prueba", "link caido", "01-02-21", estadoAnuncios);
-		}
-		
-	}*/
 
 }

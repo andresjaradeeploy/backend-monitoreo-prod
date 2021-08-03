@@ -39,8 +39,4 @@ public class AlertaImp implements IAlertaDao {
 		return rows;
 	}
 
-	public static void main(String[] args) {
-
-	}
-
 }

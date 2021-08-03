@@ -29,7 +29,7 @@ public class Jsonp {
 
 		catch (IOException e) {
 
-			System.err.println("error"+e.getMessage());
+			System.err.println("error" + e.getMessage());
 		}
 
 		return getMetaDescription();

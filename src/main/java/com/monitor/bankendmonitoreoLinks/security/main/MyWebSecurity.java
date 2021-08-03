@@ -20,7 +20,7 @@ import com.monitor.bankendmonitoreoLinks.security.jwt.JwtTokenFilter;
 @Configuration
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class MyWebSecurity extends  WebSecurityConfigurerAdapter {
+public class MyWebSecurity extends WebSecurityConfigurerAdapter {
 	@Autowired
 	UserDetailsServiceImpl userDetailsServiceImpl;
 
@@ -56,16 +56,11 @@ public class MyWebSecurity extends  WebSecurityConfigurerAdapter {
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
-		http.cors().and().csrf().disable().authorizeRequests()
-		        .antMatchers("/estadoAnuncio/**").permitAll()		      
-				.antMatchers("/adCreative/**").permitAll()
-				.antMatchers("/anuncio/**").permitAll()
-				.antMatchers("/oauth/**").permitAll()
-				.antMatchers("/correoAlerta/**").permitAll()
-				.antMatchers("/cuentaFB/**").permitAll()
-				.antMatchers("/users/**").permitAll()
-				.antMatchers("/alerta/**").permitAll().
-				anyRequest().authenticated().and().exceptionHandling()
+		http.cors().and().csrf().disable().authorizeRequests().antMatchers("/estadoAnuncio/**").permitAll()
+				.antMatchers("/adCreative/**").permitAll().antMatchers("/anuncio/**").permitAll()
+				.antMatchers("/oauth/**").permitAll().antMatchers("/correoAlerta/**").permitAll()
+				.antMatchers("/cuentaFB/**").permitAll().antMatchers("/users/**").permitAll().antMatchers("/alerta/**")
+				.permitAll().anyRequest().authenticated().and().exceptionHandling()
 				.authenticationEntryPoint(jwtEntryPoint).and().sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 

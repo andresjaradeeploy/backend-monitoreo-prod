@@ -71,13 +71,6 @@ public class EstadoAnuncio implements Serializable {
 	@JoinColumn(name = "anuncio", updatable = false, nullable = false)
 	private Anuncio anuncio;
 
-	/*
-	 * @OneToOne(cascade = CascadeType.REMOVE)
-	 * 
-	 * @JoinColumn(name = "ad_creative", updatable = false, nullable = false)
-	 * private AdCreative adCreative;
-	 */
-
 	public long getIdEstadoAnuncio() {
 		return idEstadoAnuncio;
 	}
@@ -93,13 +86,6 @@ public class EstadoAnuncio implements Serializable {
 	public void setIdEstadoAnuncio(long idEstadoAnuncio) {
 		this.idEstadoAnuncio = idEstadoAnuncio;
 	}
-
-	/*
-	 * public AdCreative getAdCreative() { return adCreative; }
-	 * 
-	 * public void setAdCreative(AdCreative adCreative) { this.adCreative =
-	 * adCreative; }
-	 */
 
 	public void setCode(Integer code) {
 		this.code = code;

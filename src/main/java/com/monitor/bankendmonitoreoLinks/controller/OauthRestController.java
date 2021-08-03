@@ -22,7 +22,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdToken;
 import com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier;
 import com.google.api.client.http.javanet.NetHttpTransport;
@@ -38,7 +37,8 @@ import com.monitor.bankendmonitoreoLinks.service.imp.UsuarioServiceImp;
 
 @RestController
 @RequestMapping("/oauth")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class OauthRestController {
 
 	@Value("${google.clientId}")
@@ -80,9 +80,6 @@ public class OauthRestController {
 			usuario.setCargo(usuario.getCargo());
 			usuario.setNombre(usuario.getNombre());
 
-			
-			
-			
 			Rol rolUser = rolService.getByRolNombre(RolNombre.ROLE_USER).get();
 			Set<Rol> roles = new HashSet<>();
 			roles.add(rolUser);
@@ -91,7 +88,7 @@ public class OauthRestController {
 			usuarioService.save(usuario);
 
 		} else {
-			//usuario = saveUsuario(payload.getEmail());
+			
 				System.err.println("El usuario"+ payload.getEmail()+"no pertenece al aplicativo");
 		}
 
@@ -112,15 +109,7 @@ public class OauthRestController {
 		return tokenDto;
 	}
 
-	private Usuario saveUsuario(String email) {
-		Usuario usuario = new Usuario(email, passwordEncoder.encode(secretPsw));
-		Rol rolUser = rolService.getByRolNombre(RolNombre.ROLE_USER).get();
-		Set<Rol> roles = new HashSet<>();
-		roles.add(rolUser);
-		usuario.setRoles(roles);
-		return usuarioService.save(usuario);
-	}
-
+	
 	@GetMapping("/cliente/{email}")
 	public Optional<Usuario> show(@PathVariable String email) {
 		return usuarioService.findByEmail(email);

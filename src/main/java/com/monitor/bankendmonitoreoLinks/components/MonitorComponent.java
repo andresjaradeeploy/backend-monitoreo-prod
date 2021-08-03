@@ -21,7 +21,6 @@ public class MonitorComponent {
 						ApiMarketing apiMarketing = new ApiMarketing();
 						apiMarketing.main();
 
-						// System.out.println("prueba de monitoreo");
 						EstadoAnuncioImp estadosDeAnuncio = new EstadoAnuncioImp();
 						LinkComponent linkComponent = new LinkComponent();
 
@@ -33,8 +32,7 @@ public class MonitorComponent {
 						}
 
 					} catch (Exception e) {
-						e.printStackTrace();
-						System.err.println("error al revisar link");
+						System.err.println("error al revisar link" + e);
 					}
 
 				}
@@ -44,10 +42,6 @@ public class MonitorComponent {
 		Thread hilo = new Thread(runnable);
 		hilo.start();
 		System.out.println("Monitoreo ");
-
-	}
-
-	public static void main(String[] args) {
 
 	}
 

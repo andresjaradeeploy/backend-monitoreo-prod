@@ -14,15 +14,15 @@ import com.monitor.bankendmonitoreoLinks.service.IAdCreativeService;
 
 @RestController
 @RequestMapping("/adCreative")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app"})
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app" })
 public class AdCreativeRestController {
-	
+
 	@Autowired
 	private IAdCreativeService iAdCreativeService;
-	
+
 	@GetMapping("/id/{idCuenta}")
-	public List<AdCreative> listarByCuentaFB(@PathVariable String idCuenta)
-	{
+	public List<AdCreative> listarByCuentaFB(@PathVariable String idCuenta) {
 		return iAdCreativeService.findAdCreativebycuentaFB(idCuenta);
 	}
 

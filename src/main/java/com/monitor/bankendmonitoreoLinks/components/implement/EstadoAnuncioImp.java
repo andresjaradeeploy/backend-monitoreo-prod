@@ -100,13 +100,15 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				String title = rs.getString("title");
 				Anuncio anuncio = new Anuncio();
 				Estado estado = new Estado();
+				CuentaFB cuentaFB = new CuentaFB();
 				String idCuentaFB = rs.getString("cuenta_fb");
 				String estadoAN = rs.getString("estado");
 				int estadoAnuncioId = Integer.parseInt(estadoAN);
 
 				estado.setIdEstado(estadoAnuncioId);
 				anuncio.setIdAnuncio(rs.getString("anuncio"));
-
+				cuentaFB.setIdCuenta(idCuentaFB);
+				anuncio.setCuentaFB(cuentaFB);
 				estadoAnuncio = new EstadoAnuncio(id, title, metaDescription, estado, anuncio);
 
 				estados.add(estadoAnuncio);
@@ -167,13 +169,9 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
 					"select es.id_estado_anuncio,es.meta_description,es.title,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
-							+ "from estado_anuncio es " 
-							+ "inner join anuncio as ad on " 
-							+ "ad.id_anuncio = es.anuncio "
-							+ "inner join ad_creative as adc on " 
-							+ "ad.ad_creative=adc.id_creative "
-							+ "inner join cuentafb as cu on "  
-							+ "cu.id_cuentafb= ad.cuenta_fb "
+							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
+							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
+							+ "inner join cuentafb as cu on " + "cu.id_cuentafb= ad.cuenta_fb "
 							+ "where adc.link is not null");
 			rs = stmt.executeQuery();
 
@@ -181,17 +179,17 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				EstadoAnuncio estadoAnuncio = new EstadoAnuncio();
 				AdCreative adCreative = new AdCreative();
 				Anuncio anuncio = new Anuncio();
-				CuentaFB cuentaFB= new CuentaFB();
+				CuentaFB cuentaFB = new CuentaFB();
 
 				String linkAnuncio = rs.getString("adc.link");
 				String estadoid = rs.getString("es.id_estado_anuncio");
 				Long idAdCreative = rs.getLong("ad.ad_creative");
-				String idCuentaFB=rs.getString("cu.id_cuentafb");
-				String nombreCuenta= rs.getString("cu.nombre_cuenta");
-				String idAnuncio=rs.getString("ad.id_anuncio");
-				String code= rs.getString("es.code_status");
-				String mensaje= rs.getString("es.mensaje");
-				Integer codeStatus= Integer.parseInt(code);
+				String idCuentaFB = rs.getString("cu.id_cuentafb");
+				String nombreCuenta = rs.getString("cu.nombre_cuenta");
+				String idAnuncio = rs.getString("ad.id_anuncio");
+				String code = rs.getString("es.code_status");
+				String mensaje = rs.getString("es.mensaje");
+				Integer codeStatus = Integer.parseInt(code);
 
 				long idestado = Long.parseLong(estadoid);
 				adCreative.setIdCreative(idAdCreative);
@@ -199,14 +197,14 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				anuncio.setAdCreative(adCreative);
 				cuentaFB.setIdCuenta(idCuentaFB);
 				cuentaFB.setNombreCuenta(nombreCuenta);
-				
+
 				anuncio.setCuentaFB(cuentaFB);
 				anuncio.setIdAnuncio(idAnuncio);
 
 				estadoAnuncio.setIdEstadoAnuncio(idestado);
 				estadoAnuncio.setCode(codeStatus);
 				estadoAnuncio.setMensaje(mensaje);
-				// estadoAnuncio.setAdCreative(adCreative);
+
 				estadoAnuncio.setAnuncio(anuncio);
 				estados.add(estadoAnuncio);
 

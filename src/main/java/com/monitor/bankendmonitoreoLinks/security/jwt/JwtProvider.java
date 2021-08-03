@@ -1,4 +1,5 @@
 package com.monitor.bankendmonitoreoLinks.security.jwt;
+
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,7 @@ import java.util.Date;
 
 @Component
 public class JwtProvider {
-	
+
 	private final static Logger logger = LoggerFactory.getLogger(JwtProvider.class);
 
 	@Value("${jwt.secret}")

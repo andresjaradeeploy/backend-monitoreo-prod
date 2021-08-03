@@ -13,22 +13,20 @@ import com.monitor.bankendmonitoreoLinks.service.IAnuncioService;
 
 @RestController
 @RequestMapping("/anuncio")
-@CrossOrigin(origins = {"http://localhost:4200","*"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class AnuncioRestController {
 	@Autowired
 	private IAnuncioService anuncioService;
-	
-	
+
 	@GetMapping("/")
-	public List<Anuncio> index(){
-		return (List<Anuncio>) anuncioService.findAll(); 
-		
-		
+	public List<Anuncio> index() {
+		return (List<Anuncio>) anuncioService.findAll();
+
 	}
-	
+
 	@GetMapping("/all/{idCuenta}")
-	public List<Anuncio> listarByCuentaFB(@PathVariable String idCuenta)
-	{
+	public List<Anuncio> listarByCuentaFB(@PathVariable String idCuenta) {
 		return anuncioService.findAnunciobyCuentaFB(idCuenta);
 	}
 }

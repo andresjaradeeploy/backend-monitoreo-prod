@@ -6,10 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IAdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
@@ -22,16 +20,8 @@ public class AdCreativeImp implements IAdCreative {
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_creative " + " FROM ad_creative WHERE id_creative = ?";
 
-	
-	private static final String SQL_UPDATE = "UPDATE ad_creative"
-			+ " SET link=?  WHERE id_creative=?";
+	private static final String SQL_UPDATE = "UPDATE ad_creative" + " SET link=?  WHERE id_creative=?";
 
-	
-	@Override
-	public List<AdCreative> obtenerAdCreative() {
-
-		return null;
-	}
 
 
 	public String obtenerAdCreativesAllCuentasFB(List<String> creatives) {
@@ -60,7 +50,8 @@ public class AdCreativeImp implements IAdCreative {
 	public String obtenerCreativesAds() {
 
 		ArrayList<String> idCuentas = new ArrayList<String>();
-		idCuentas = CuentaFBImp.obtenerCuentasBD();
+		CuentaFBImp cuentaFBImp= new CuentaFBImp();
+		idCuentas = cuentaFBImp.obtenerCuentasBD();
 
 		String anuncios = "[";
 		for (int i = 0; i < idCuentas.size(); i++) {
@@ -83,7 +74,8 @@ public class AdCreativeImp implements IAdCreative {
 		List<String> creatives = new ArrayList<>();
 
 		ArrayList<String> idCuentas = new ArrayList<String>();
-		idCuentas = CuentaFBImp.obtenerCuentasBD();
+		CuentaFBImp cuentaFBImp= new CuentaFBImp();
+		idCuentas = cuentaFBImp.obtenerCuentasBD();
 		for (int i = 0; i < respuesta.length(); i++) {
 			idCuentas.get(i);
 			resut = respuesta.getJSONObject(i);
@@ -115,108 +107,97 @@ public class AdCreativeImp implements IAdCreative {
 		for (int i = 0; i < respuesta.length(); i++) {
 
 			try {
-			resut = respuesta.getJSONObject(i);
+				resut = respuesta.getJSONObject(i);
 
-			String nombre = resut.getString("name");
+				String nombre = resut.getString("name");
 
-			String id = resut.getString("id");
+				String id = resut.getString("id");
 
-			Long id_creative = Long.parseLong(id);
-			String link = null;
-			String thumbnail_url = null;
-			String img_url = null;
-			String imgUrl_videoData = null;
-			JSONObject link_data = null;
-			JSONObject videoData = null;
-			JSONArray dataChild = null;
-			JSONObject linkChild = null;
-			JSONObject object_story_spec = null;
-			String data = resut.toString();
-			String ifspec = null;
-			String linkchild = null;
-			String iflink = null;
-			// System.out.println("objeto" + objeto);
+				Long id_creative = Long.parseLong(id);
+				String link = null;
 
-			if (data.contains("thumbnail_url") == true)
+				String img_url = null;
+				String imgUrl_videoData = null;
+				JSONObject link_data = null;
+				JSONObject videoData = null;
+				JSONArray dataChild = null;
+				JSONObject linkChild = null;
+				JSONObject object_story_spec = null;
+				String data = resut.toString();
+				String ifspec = null;
+				String linkchild = null;
+				String iflink = null;
 
-				thumbnail_url = resut.getString("thumbnail_url");
-			else
-				thumbnail_url = null;
+				if (data.contains("object_story_spec") == true) {
+					object_story_spec = resut.getJSONObject("object_story_spec");
 
-			if (data.contains("object_story_spec") == true) {
-				object_story_spec = resut.getJSONObject("object_story_spec");
+					ifspec = object_story_spec.toString();
 
-				ifspec = object_story_spec.toString();
+					if (ifspec.contains("link_data") == true) {
+						link_data = object_story_spec.getJSONObject("link_data");
+						iflink = link_data.toString();
 
-				if (ifspec.contains("link_data") == true) {
-					link_data = object_story_spec.getJSONObject("link_data");
-					iflink = link_data.toString();
+						if (iflink.contains("link") == true)
+							try {
+								link = link_data.getString("link");
+							} catch (Exception e) {
+								System.err.println("err" + e);
+								dataChild = link_data.getJSONArray("child_attachments");
+								linkChild = dataChild.getJSONObject(0);
+								linkchild = linkChild.getString("link");
+								link = linkchild;
 
-					if (iflink.contains("link") == true)
-						try {
-							link = link_data.getString("link");
-						} catch (Exception e) {
-							System.err.println("err" + e);
-							dataChild = link_data.getJSONArray("child_attachments");
-							linkChild = dataChild.getJSONObject(0);
-							linkchild = linkChild.getString("link");
-							link = linkchild;
+							}
 
-						}
+						else
+							link = null;
+					} else
+						link_data = null;
 
-					else
-						link = null;
 				} else
-					link_data = null;
+					object_story_spec = null;
 
-			} else
-				object_story_spec = null;
-
-			if (data.contains("image_url") == true) {
-				try {
-					img_url = resut.getString("image_url");
-				} catch (Exception e) {
-					videoData = object_story_spec.getJSONObject("video_data");
-					imgUrl_videoData = videoData.getString("image_url");
-					img_url = imgUrl_videoData;
+				if (data.contains("image_url") == true) {
+					try {
+						img_url = resut.getString("image_url");
+					} catch (Exception e) {
+						videoData = object_story_spec.getJSONObject("video_data");
+						imgUrl_videoData = videoData.getString("image_url");
+						img_url = imgUrl_videoData;
+					}
 				}
-			}
 
-			else
-
-				img_url = null;
-
-			AdCreative adCreative = new AdCreative();
-
-			adCreative.setIdCreative(id_creative);
-			adCreative.setLink(link);
-			adCreative.setUrlImg(img_url);
-			adCreative.setNombre(nombre);
-
-			if (link != null) {
-
-				ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
-				if (ifExists == false)
-					guardar(adCreative);
 				else
-					System.out.println("Ya existe el Ad Creative en BD");
+
+					img_url = null;
+
+				AdCreative adCreative = new AdCreative();
+
+				adCreative.setIdCreative(id_creative);
+				adCreative.setLink(link);
+				adCreative.setUrlImg(img_url);
+				adCreative.setNombre(nombre);
+
+				if (link != null) {
+
+					ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
+					if (ifExists == false)
+						guardar(adCreative);
+					else
+						System.out.println("Ya existe el Ad Creative en BD");
 					actualizar(adCreative);
 					System.out.println("Se actualizó Ad Creative");
-			} else
-				System.out.println("Ad creatriv eno tiene link no se guardara");
+				} else
+					System.out.println("Ad creatriv eno tiene link no se guardara");
 
-		
-			}
-			catch (Exception e) {
-				System.err.println("error Object"+e);
+			} catch (Exception e) {
+				System.err.println("error Object" + e);
 			}
 		}
 
 		return anuncios;
 
 	}
-
-	
 
 	@Override
 	public int guardar(AdCreative adCreative) {
@@ -248,9 +229,6 @@ public class AdCreativeImp implements IAdCreative {
 
 	}
 
-	public static void main(String[] args) {
-
-	}
 
 	@Override
 	public List<AdCreative> listarAdCreatives() {
@@ -329,7 +307,6 @@ public class AdCreativeImp implements IAdCreative {
 
 			stmt.setString(1, adCreative.getLink());
 			stmt.setLong(2, adCreative.getIdCreative());
-		
 
 			rows = rows + stmt.executeUpdate();
 
