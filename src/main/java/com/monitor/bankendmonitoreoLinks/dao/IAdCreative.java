@@ -12,4 +12,6 @@ public interface IAdCreative {
 	public boolean verificarSiExisteAdCreative(Long idAdCreative);
 
 	public List<AdCreative> listarAdCreatives();
+	
+	public int actualizar(AdCreative adCreative);
 }
