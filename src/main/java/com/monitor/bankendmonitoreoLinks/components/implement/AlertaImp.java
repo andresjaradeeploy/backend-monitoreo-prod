@@ -4,12 +4,18 @@ import java.sql.Connection;
 
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+import org.apache.log4j.Logger;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IAlertaDao;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class AlertaImp implements IAlertaDao {
 
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 	private static final String SQL_INSERT = "INSERT INTO alerta(estado_anuncio,fecha_hora)" + " VALUES(?,?)";
 
 	@Override
@@ -31,6 +37,7 @@ public class AlertaImp implements IAlertaDao {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al guardar alerta"+ex);
 		} finally {
 
 			Conector.close(stmt);

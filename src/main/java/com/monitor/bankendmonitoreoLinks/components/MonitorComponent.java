@@ -1,13 +1,16 @@
 package com.monitor.bankendmonitoreoLinks.components;
 
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 @Component
 public class MonitorComponent {
-
+	Log logObject= new Log("logs");
+	Logger log = logObject.getLogger();
 	public void main() {
 		Runnable runnable = new Runnable() {
 
@@ -33,6 +36,7 @@ public class MonitorComponent {
 
 					} catch (Exception e) {
 						System.err.println("error al revisar link" + e);
+						log.error("error al revisar link"+e);
 					}
 
 				}
@@ -44,5 +48,7 @@ public class MonitorComponent {
 		System.out.println("Monitoreo ");
 
 	}
+	
+	
 
 }

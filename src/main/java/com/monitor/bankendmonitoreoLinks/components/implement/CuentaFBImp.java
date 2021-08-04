@@ -5,12 +5,17 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import org.apache.log4j.Logger;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.CuentaFBDao;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 
 public class CuentaFBImp implements CuentaFBDao {
-
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 	private static final String SQL_SELECT_BY_ID = "SELECT id_cuentafb " + " FROM cuentafb WHERE id_cuentafb = ?";
 	private static final String SQL_SELECT = "SELECT * " + " FROM cuentafb ";
 
@@ -38,7 +43,8 @@ public class CuentaFBImp implements CuentaFBDao {
 			return id_cuentas;
 
 		} catch (SQLException ex) {
-			ex.printStackTrace(System.out);
+			System.err.println("Error al obtener cuentas fb "+ex);
+			log.error("Error al obtener cuentas fb "+ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -68,7 +74,9 @@ public class CuentaFBImp implements CuentaFBDao {
 				res = false;
 
 		} catch (Exception e) {
-			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			System.err.print("Ha ocurrido un error a verificar si existe cuenta: " + e.getMessage());
+			log.error("Ha ocurrido un error a verificar si existe cuenta: " + e);
+			
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);

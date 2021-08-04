@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IEstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
@@ -16,6 +19,9 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class EstadoAnuncioImp implements IEstadoAnuncio {
+	
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 
 	private static final String SQL_INSERT = "INSERT INTO estado_anuncio(anuncio,code_status)" + " VALUES(?,?)";
 
@@ -42,6 +48,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al guardar estado de anuncio "+ ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -71,6 +78,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 		} catch (Exception e) {
 			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			log.error("Error al verificari si existe Estado de anuncio"+ e);
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
@@ -117,6 +125,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al listar anuncios"+ex);
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);
@@ -147,6 +156,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al actualizar estado de anuncio "+ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -214,6 +224,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 		catch (SQLException e) {
 			e.printStackTrace();
+			log.error("Error al obtener estados de anuncios: "+e);
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);

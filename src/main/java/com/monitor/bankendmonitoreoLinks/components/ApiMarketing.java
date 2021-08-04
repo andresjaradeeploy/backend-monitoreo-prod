@@ -2,6 +2,8 @@ package com.monitor.bankendmonitoreoLinks.components;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.AdCreativeImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.AnuncioImp;
@@ -11,6 +13,10 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 @Component
 public class ApiMarketing {
+	
+	
+	Log logObject= new Log("logs");
+	Logger log = logObject.getLogger();
 
 	public List<Anuncio> ObteneryGuardarAnuncios() {
 
@@ -39,6 +45,7 @@ public class ApiMarketing {
 
 			else
 				System.out.println("Ya existe se debe actualizar estado");
+			log.warn("Ya existe estado de anuncio con id de anuncio: "+ads.getIdAnuncio());
 		}
 		return estados;
 

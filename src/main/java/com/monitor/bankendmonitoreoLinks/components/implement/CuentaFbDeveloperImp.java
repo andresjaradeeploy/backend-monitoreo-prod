@@ -4,12 +4,18 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import org.apache.log4j.Logger;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.ICuentaFbDeveloper;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFbDeveloper;
 
 public class CuentaFbDeveloperImp implements ICuentaFbDeveloper {
 
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 	private static final String SQL_SELECT_BY_ID = "SELECT id_cuenta,access_token,id_aplicacion,secret_key"
 			+ " FROM cuenta_fb_developer WHERE id_cuenta = ?";
 
@@ -39,7 +45,8 @@ public class CuentaFbDeveloperImp implements ICuentaFbDeveloper {
 			cuentaFbDeveloper.setSecretKey(secret_key);
 
 		} catch (SQLException ex) {
-			ex.printStackTrace(System.out);
+			System.err.println("Error al consultar: "+ex);
+			log.error("Error al consultar cuenta developer: "+ex);
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);

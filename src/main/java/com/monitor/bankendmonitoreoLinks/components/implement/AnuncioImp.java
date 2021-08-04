@@ -6,8 +6,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IAnuncioDao;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
@@ -16,6 +20,8 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 
 public class AnuncioImp implements IAnuncioDao {
 
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
 	private static final String SQL_INSERT = "INSERT INTO anuncio(id_anuncio,impresiones,nombre,preview_shareable_link,ad_creative,cuenta_fb)"
@@ -86,6 +92,7 @@ public class AnuncioImp implements IAnuncioDao {
 				} catch (Exception e) {
 					System.out.println("err" + e);
 					impresiones = "Ad sin estadisticas";
+					log.warn("Ad "+id+" sin estadisticas");
 				}
 
 				Anuncio anuncio = new Anuncio();
@@ -112,7 +119,7 @@ public class AnuncioImp implements IAnuncioDao {
 
 				else
 					System.out.println("Ya existe el anuncio en BD");
-
+					log.warn("Ya existe Ad "+id+ " en BD");
 				cuentas.add(id);
 				cuentas.add(nombre);
 				anuncios.add(anuncio);
@@ -124,9 +131,7 @@ public class AnuncioImp implements IAnuncioDao {
 		return anuncios;
 	}
 
-	public static void main(String[] args) {
-
-	}
+	
 
 	@Override
 	public int guardar(Anuncio anuncio, CuentaFB cuentaFB, AdCreative adCreative) {
@@ -150,8 +155,8 @@ public class AnuncioImp implements IAnuncioDao {
 			rows = rows + stmt.executeUpdate();
 
 		} catch (SQLException ex) {
-			System.out.println("error el adcreative no tenía link por ello no se agrega anuncio");
-			System.out.println(ex);
+			System.err.println("error el adcreative no tenía link por ello no se agrega anuncio"+ex);
+			log.warn("El adcreative "+adCreative.getIdCreative()+" no tiene link por ello no se agrega anuncio a BD"+ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -189,7 +194,8 @@ public class AnuncioImp implements IAnuncioDao {
 			}
 
 		} catch (SQLException ex) {
-			ex.printStackTrace(System.out);
+			System.err.println("err"+ex);
+			log.error("Error al listar anuncios"+ex);
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);
@@ -218,6 +224,7 @@ public class AnuncioImp implements IAnuncioDao {
 
 		} catch (Exception e) {
 			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			log.error("Error al verificar si existe anuncio"+e);
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);

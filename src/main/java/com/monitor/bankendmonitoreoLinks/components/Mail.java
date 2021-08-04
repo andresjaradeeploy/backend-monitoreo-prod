@@ -10,9 +10,15 @@ import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+
+import org.apache.log4j.Logger;
+
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 
 public class Mail {
+	
+	Log logObject= new Log("logs");
+	Logger log = logObject.getLogger();
 	private final Properties properties = new Properties();
 
 	private static Session session;
@@ -77,7 +83,9 @@ public class Mail {
 			System.out.println("mensaje enviado");
 			t.close();
 		} catch (MessagingException me) {
-			System.err.println("eror" + me);
+			System.err.println("error" + me);
+			log.error("Error al enviar email"+me);
+			
 			return;
 		}
 

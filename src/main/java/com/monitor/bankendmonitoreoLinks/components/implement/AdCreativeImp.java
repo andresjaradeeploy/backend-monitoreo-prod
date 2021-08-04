@@ -6,13 +6,21 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.IAdCreative;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.AdCreative;
 
 public class AdCreativeImp implements IAdCreative {
+
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
+
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
 	private static final String SQL_INSERT = "INSERT INTO ad_creative(id_creative,link,nombre_anuncio,url_img)"
@@ -21,8 +29,6 @@ public class AdCreativeImp implements IAdCreative {
 	private static final String SQL_SELECT_BY_ID = "SELECT id_creative " + " FROM ad_creative WHERE id_creative = ?";
 
 	private static final String SQL_UPDATE = "UPDATE ad_creative" + " SET link=?  WHERE id_creative=?";
-
-
 
 	public String obtenerAdCreativesAllCuentasFB(List<String> creatives) {
 
@@ -50,7 +56,7 @@ public class AdCreativeImp implements IAdCreative {
 	public String obtenerCreativesAds() {
 
 		ArrayList<String> idCuentas = new ArrayList<String>();
-		CuentaFBImp cuentaFBImp= new CuentaFBImp();
+		CuentaFBImp cuentaFBImp = new CuentaFBImp();
 		idCuentas = cuentaFBImp.obtenerCuentasBD();
 
 		String anuncios = "[";
@@ -74,7 +80,7 @@ public class AdCreativeImp implements IAdCreative {
 		List<String> creatives = new ArrayList<>();
 
 		ArrayList<String> idCuentas = new ArrayList<String>();
-		CuentaFBImp cuentaFBImp= new CuentaFBImp();
+		CuentaFBImp cuentaFBImp = new CuentaFBImp();
 		idCuentas = cuentaFBImp.obtenerCuentasBD();
 		for (int i = 0; i < respuesta.length(); i++) {
 			idCuentas.get(i);
@@ -161,6 +167,7 @@ public class AdCreativeImp implements IAdCreative {
 					try {
 						img_url = resut.getString("image_url");
 					} catch (Exception e) {
+						log.warn("objeto image_url se encuentra en otro array"+e);
 						videoData = object_story_spec.getJSONObject("video_data");
 						imgUrl_videoData = videoData.getString("image_url");
 						img_url = imgUrl_videoData;
@@ -189,9 +196,11 @@ public class AdCreativeImp implements IAdCreative {
 					System.out.println("Se actualizó Ad Creative");
 				} else
 					System.out.println("Ad creatriv eno tiene link no se guardara");
+					log.warn("Ad creatriv eno tiene link no se guardara"+adCreative.getIdCreative());
 
 			} catch (Exception e) {
 				System.err.println("error Object" + e);
+				log.error("Error object"+e);
 			}
 		}
 
@@ -220,6 +229,7 @@ public class AdCreativeImp implements IAdCreative {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al guardar AdCreative"+ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -228,7 +238,6 @@ public class AdCreativeImp implements IAdCreative {
 		return rows;
 
 	}
-
 
 	@Override
 	public List<AdCreative> listarAdCreatives() {
@@ -258,6 +267,8 @@ public class AdCreativeImp implements IAdCreative {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al listar AdCreative"+ex);
+			
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);
@@ -286,6 +297,7 @@ public class AdCreativeImp implements IAdCreative {
 
 		} catch (Exception e) {
 			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			log.error("No se pudo verificar si existe AdCreative"+e);
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
@@ -312,6 +324,7 @@ public class AdCreativeImp implements IAdCreative {
 
 		} catch (SQLException ex) {
 			ex.printStackTrace(System.out);
+			log.error("Error al actualizar AdCreative"+ex);
 		} finally {
 
 			Conector.close(stmt);

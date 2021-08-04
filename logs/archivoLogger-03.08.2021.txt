@@ -1,0 +1,4 @@
+ERROR:17:55:47->error de prueba
+INFO:17:56:14->texto
+ERROR:17:56:14->texto
+WARN:17:56:14->texto

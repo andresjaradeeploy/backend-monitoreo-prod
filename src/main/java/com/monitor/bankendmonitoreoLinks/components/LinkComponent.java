@@ -10,6 +10,8 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.zip.GZIPInputStream;
+
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.AlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CorreoAlertaImp;
@@ -21,6 +23,8 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 @Component
 public class LinkComponent {
 
+	Log logObject= new Log("logs");
+	Logger log = logObject.getLogger();
 	public static String obtenerContenido(String sURL) throws IOException {
 
 		URL url = new URL(sURL);
@@ -173,8 +177,9 @@ public class LinkComponent {
 		} catch (MalformedURLException e) {
 
 			System.err.println("url dañado" + e);
+			log.error("Error al leer url"+e);
 		} catch (IOException e) {
-
+			log.error("Error"+e);
 		} finally {
 			if (connection != null) {
 				connection.disconnect();

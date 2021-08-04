@@ -6,6 +6,9 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
+import com.monitor.bankendmonitoreoLinks.components.Log;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.ICorreoAlertaDao;
 
@@ -13,6 +16,8 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 
 public class CorreoAlertaImp implements ICorreoAlertaDao {
 
+	private Log logObject = new Log("logs");
+	private Logger log = logObject.getLogger();
 	private static final String SQL_SELECTBYCUENTA = "select id_correo,cuenta_correo " + "from correo_alerta "
 			+ "where cuenta_fb = ? ";
 
@@ -38,6 +43,7 @@ public class CorreoAlertaImp implements ICorreoAlertaDao {
 
 		} catch (Exception e) {
 			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			log.error("No se pudo obtener correos de cuenta " + cuenta + " :" + e);
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
