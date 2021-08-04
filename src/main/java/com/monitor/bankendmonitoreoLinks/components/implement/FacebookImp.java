@@ -35,7 +35,7 @@ public class FacebookImp {
 
 		} catch (Exception e) {
 
-			System.err.println("Exception"+e);
+			System.err.println("Se generó un error de respuesta por parte de Facebook"+e);
 			log.error("Error al obtener propiedades del link: "+ url+"  "+e);
 		}
 		return null;

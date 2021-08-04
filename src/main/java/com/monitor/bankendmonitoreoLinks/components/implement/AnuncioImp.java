@@ -36,12 +36,25 @@ public class AnuncioImp implements IAnuncioDao {
 
 		String anuncios = "[";
 		for (int i = 0; i < idCuentas.size(); i++) {
-			if (anuncios == "[")
-				anuncios = anuncios + FACEBOOK_IMP.apiGraph(
-						idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
-			else
-				anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(
-						idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
+			if (anuncios == "[") {
+				try {
+					anuncios = anuncios + FACEBOOK_IMP.apiGraph(
+							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
+				} catch (Exception e) {
+					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
+					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
+				}
+
+			} else {
+				try {
+					anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(
+							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
+				} catch (Exception e) {
+					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
+					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
+
+				}
+			}
 		}
 		anuncios = anuncios + "]";
 
@@ -92,7 +105,7 @@ public class AnuncioImp implements IAnuncioDao {
 				} catch (Exception e) {
 					System.out.println("err" + e);
 					impresiones = "Ad sin estadisticas";
-					log.warn("Ad "+id+" sin estadisticas");
+					log.warn("Ad " + id + " sin estadisticas");
 				}
 
 				Anuncio anuncio = new Anuncio();
@@ -119,7 +132,7 @@ public class AnuncioImp implements IAnuncioDao {
 
 				else
 					System.out.println("Ya existe el anuncio en BD");
-					log.warn("Ya existe Ad "+id+ " en BD");
+				log.warn("Ya existe Ad " + id + " en BD");
 				cuentas.add(id);
 				cuentas.add(nombre);
 				anuncios.add(anuncio);
@@ -130,8 +143,6 @@ public class AnuncioImp implements IAnuncioDao {
 
 		return anuncios;
 	}
-
-	
 
 	@Override
 	public int guardar(Anuncio anuncio, CuentaFB cuentaFB, AdCreative adCreative) {
@@ -155,8 +166,9 @@ public class AnuncioImp implements IAnuncioDao {
 			rows = rows + stmt.executeUpdate();
 
 		} catch (SQLException ex) {
-			System.err.println("error el adcreative no tenía link por ello no se agrega anuncio"+ex);
-			log.warn("El adcreative "+adCreative.getIdCreative()+" no tiene link por ello no se agrega anuncio a BD"+ex);
+			System.err.println("error el adcreative no tenía link por ello no se agrega anuncio" + ex);
+			log.warn("El adcreative " + adCreative.getIdCreative() + " no tiene link por ello no se agrega anuncio a BD"
+					+ ex);
 		} finally {
 
 			Conector.close(stmt);
@@ -194,8 +206,8 @@ public class AnuncioImp implements IAnuncioDao {
 			}
 
 		} catch (SQLException ex) {
-			System.err.println("err"+ex);
-			log.error("Error al listar anuncios"+ex);
+			System.err.println("err" + ex);
+			log.error("Error al listar anuncios" + ex);
 		} finally {
 			Conector.close(rs);
 			Conector.close(stmt);
@@ -224,7 +236,7 @@ public class AnuncioImp implements IAnuncioDao {
 
 		} catch (Exception e) {
 			System.err.print("Ha ocurrido un error: " + e.getMessage());
-			log.error("Error al verificar si existe anuncio"+e);
+			log.error("Error al verificar si existe anuncio" + e);
 		} finally {
 			Conector.close(conn);
 			Conector.close(stmt);
