@@ -28,7 +28,7 @@ public class AdCreativeImp implements IAdCreative {
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_creative " + " FROM ad_creative WHERE id_creative = ?";
 
-	private static final String SQL_UPDATE = "UPDATE ad_creative" + " SET link=?  WHERE id_creative=?";
+	private static final String SQL_UPDATE = "UPDATE ad_creative" + " SET link=?, url_img=?  WHERE id_creative=?";
 
 	public String obtenerAdCreativesAllCuentasFB(List<String> creatives) {
 
@@ -318,7 +318,8 @@ public class AdCreativeImp implements IAdCreative {
 			stmt = conn.prepareStatement(SQL_UPDATE);
 
 			stmt.setString(1, adCreative.getLink());
-			stmt.setLong(2, adCreative.getIdCreative());
+			stmt.setString(2, adCreative.getUrlImg());
+			stmt.setLong(3, adCreative.getIdCreative());
 
 			rows = rows + stmt.executeUpdate();
 
