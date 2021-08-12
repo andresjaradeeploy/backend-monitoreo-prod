@@ -200,15 +200,15 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				Anuncio anuncio = new Anuncio();
 				CuentaFB cuentaFB = new CuentaFB();
 
-				String linkAnuncio = rs.getString("adc.link");
-				String estadoid = rs.getString("es.id_estado_anuncio");
-				Long idAdCreative = rs.getLong("ad.ad_creative");
-				String idCuentaFB = rs.getString("cu.id_cuentafb");
-				String nombreCuenta = rs.getString("cu.nombre_cuenta");
-				String idAnuncio = rs.getString("ad.id_anuncio");
-				String code = rs.getString("es.code_status");
-				String mensaje = rs.getString("es.mensaje");
-				String previewLink=rs.getString("ad.preview_shareable_link");
+				String linkAnuncio = rs.getString("link");
+				String estadoid = rs.getString("id_estado_anuncio");
+				Long idAdCreative = rs.getLong("ad_creative");
+				String idCuentaFB = rs.getString("id_cuentafb");
+				String nombreCuenta = rs.getString("nombre_cuenta");
+				String idAnuncio = rs.getString("id_anuncio");
+				String code = rs.getString("code_status");
+				String mensaje = rs.getString("mensaje");
+				String previewLink=rs.getString("preview_shareable_link");
 				Integer codeStatus = Integer.parseInt(code);
 
 				long idestado = Long.parseLong(estadoid);
