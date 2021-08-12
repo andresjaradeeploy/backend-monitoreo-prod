@@ -15,10 +15,17 @@ public class Conector {
 	 */
 	
 	
-	private static final String JDBC_URL = "jdbc:postgresql://ec2-52-200-138-5.compute-1.amazonaws.com:5432/d7538trnteas4q?use_SSL=false&serverTimezone=America/Bogota";
+	//Postgres produccion
+
+  private static final String JDBC_URL = "jdbc:postgresql://ec2-52-200-138-5.compute-1.amazonaws.com:5432/d7538trnteas4q?use_SSL=false&serverTimezone=America/Bogota";
 	private static final String JDBC_USER = "ue09i1d1nnub2a";
 	private static final String JDBC_PASSWORD = "p99267a8db466a7b66b5912ebcd3f69648e65ce082bda9d8ab1691eae82b7873e";
 
+	
+	
+	/*private static final String JDBC_URL ="jdbc:mysql://185.201.11.86:3306/u476163449_ads?use_SSL=false&serverTimezone=America/Bogota";
+	private static final String JDBC_USER="u476163449_adsfb";
+	private static final String JDBC_PASSWORD="Alissa1995*";*/
 	private static BasicDataSource datasource;
 
 	public static DataSource getDataSource() throws SQLException {

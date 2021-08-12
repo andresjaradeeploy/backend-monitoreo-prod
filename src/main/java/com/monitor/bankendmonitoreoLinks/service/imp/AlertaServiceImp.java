@@ -21,4 +21,9 @@ public class AlertaServiceImp implements IAlertaService {
 		return (List<Alerta>) IAlertaRepository.findAlertabycuentaFB(idCuenta);
 	}
 
+	@Override
+	public Integer cantidadDeAlertas() {
+		return IAlertaRepository.cantidadDeAlertas();
+	}
+
 }

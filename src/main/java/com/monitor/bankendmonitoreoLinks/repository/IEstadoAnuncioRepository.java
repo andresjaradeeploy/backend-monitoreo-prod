@@ -14,5 +14,13 @@ public interface IEstadoAnuncioRepository extends JpaRepository<EstadoAnuncio, L
 			+ "INNER JOIN estado AS e ON " + "e.id_estado = es.estado " + "inner join cuentafb as c on "
 			+ "a.cuenta_fb=c.id_cuentafb " + "where a.cuenta_fb = :idCuenta")
 	List<EstadoAnuncio> findAlertabycuentaFB(@Param("idCuenta") String idCuenta);
+	
+	@Query(nativeQuery = true,value="SELECT count(*) FROM estado_anuncio "
+			+ "where estado=1 ")
+	Integer cantidadLinksArriba();
+	
+	@Query(nativeQuery = true,value="SELECT count(*) FROM estado_anuncio "
+			+ "where estado=2 ")
+	Integer cantidadLinksCaidos();
 
 }

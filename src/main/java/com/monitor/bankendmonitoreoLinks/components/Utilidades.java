@@ -1,6 +1,8 @@
 package com.monitor.bankendmonitoreoLinks.components;
 
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -47,4 +49,20 @@ public class Utilidades {
 
 	}
 
+	public int extraerMesFecha(Date fecha) {
+		
+		LocalDate localDate= fecha.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		int year=localDate.getYear();
+		int mes=localDate.getMonthValue();
+		
+		
+		System.out.println(year);
+		System.out.println(mes);
+		return mes;
+	}
+	public static void main(String[] args) {
+		Utilidades utilidades= new Utilidades();
+		int res= utilidades.extraerMesFecha(new Date());
+		System.out.println("mes"+res);
+	}
 }

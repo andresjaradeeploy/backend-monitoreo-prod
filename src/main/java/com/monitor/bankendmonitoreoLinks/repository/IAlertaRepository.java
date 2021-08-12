@@ -14,4 +14,8 @@ public interface IAlertaRepository extends JpaRepository<Alerta, Long> {
 			+ "INNER JOIN ad_creative AS adc ON " + "adc.id_creative= ad.ad_creative " + "inner join cuentafb as c on "
 			+ "c.id_cuentafb= ad.cuenta_fb  " + "where ad.cuenta_fb = :idCuenta")
 	List<Alerta> findAlertabycuentaFB(@Param("idCuenta") String idCuenta);
+	
+	
+	@Query(nativeQuery = true,value = "SELECT count(*) from alerta")
+	public Integer cantidadDeAlertas();
 }

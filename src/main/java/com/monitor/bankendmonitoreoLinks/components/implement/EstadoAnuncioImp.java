@@ -166,6 +166,15 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 	}
 
+	
+	public static void main(String[] args) {
+		EstadoAnuncioImp anuncioImp= new EstadoAnuncioImp();
+		List<EstadoAnuncio> estados= new ArrayList<>();
+				estados=anuncioImp.obtener();
+				System.out.println(estados);
+				
+	
+	}
 	@Override
 	public List<EstadoAnuncio> obtener() {
 
@@ -178,7 +187,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
-					"select es.id_estado_anuncio,es.meta_description,es.title,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
+					"select es.id_estado_anuncio,es.meta_description,es.title,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.preview_shareable_link,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
 							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
 							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
 							+ "inner join cuentafb as cu on " + "cu.id_cuentafb= ad.cuenta_fb "
@@ -199,6 +208,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 				String idAnuncio = rs.getString("ad.id_anuncio");
 				String code = rs.getString("es.code_status");
 				String mensaje = rs.getString("es.mensaje");
+				String previewLink=rs.getString("ad.preview_shareable_link");
 				Integer codeStatus = Integer.parseInt(code);
 
 				long idestado = Long.parseLong(estadoid);
@@ -210,6 +220,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 				anuncio.setCuentaFB(cuentaFB);
 				anuncio.setIdAnuncio(idAnuncio);
+				anuncio.setPreview_shareable_link(previewLink);
 
 				estadoAnuncio.setIdEstadoAnuncio(idestado);
 				estadoAnuncio.setCode(codeStatus);

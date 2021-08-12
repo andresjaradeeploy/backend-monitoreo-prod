@@ -29,4 +29,14 @@ public class EstadoAnuncioRestController {
 	public List<EstadoAnuncio> listarByCuentaFB(@PathVariable String idCuenta) {
 		return IEstadoAnuncioService.findEstadoAnunciobycuentaFB(idCuenta);
 	}
+	
+	@GetMapping("/cantidadLinksCaidos")
+	public Integer cantidadCaidos() {
+		return IEstadoAnuncioService.cantidadLinksCaidos();
+	}
+	
+	@GetMapping("/cantidadLinksArriba")
+	public Integer cantidadArriba() {
+		return IEstadoAnuncioService.cantidadLinksArriba();
+	}
 }

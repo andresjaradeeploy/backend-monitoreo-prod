@@ -6,5 +6,7 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.Alerta;
 public interface IAlertaService {
 
 	public List<Alerta> findAlertabycuentaFB(String idCuenta);
+	
+	public Integer cantidadDeAlertas();
 
 }

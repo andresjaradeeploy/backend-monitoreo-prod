@@ -11,9 +11,10 @@ public class EstadoAnuncio implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long idEstadoAnuncio;
 
+	@Column(columnDefinition = "TEXT")
 	private String title;
 
-	@Column(name = "meta_description")
+	@Column(name = "meta_description",columnDefinition = "TEXT")
 	private String metaDescription;
 
 	private String mensaje;

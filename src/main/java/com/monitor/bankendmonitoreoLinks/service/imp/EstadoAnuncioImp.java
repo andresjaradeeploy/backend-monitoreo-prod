@@ -28,4 +28,14 @@ public class EstadoAnuncioImp implements IEstadoAnuncioService {
 		return (List<EstadoAnuncio>) IEstadoAnuncioRepository.findAlertabycuentaFB(idCuenta);
 	}
 
+	@Override
+	public Integer cantidadLinksCaidos() {
+		return IEstadoAnuncioRepository.cantidadLinksCaidos();
+	}
+
+	@Override
+	public Integer cantidadLinksArriba() {
+		return IEstadoAnuncioRepository.cantidadLinksArriba();
+	}
+
 }

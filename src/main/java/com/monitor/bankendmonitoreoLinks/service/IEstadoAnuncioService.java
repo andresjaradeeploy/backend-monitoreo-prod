@@ -8,4 +8,8 @@ public interface IEstadoAnuncioService {
 	public List<EstadoAnuncio> findAll();
 
 	public List<EstadoAnuncio> findEstadoAnunciobycuentaFB(String idCuenta);
+	
+	public Integer cantidadLinksCaidos();
+	
+	public Integer cantidadLinksArriba();
 }

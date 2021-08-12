@@ -25,4 +25,10 @@ public class AlertaRestController {
 		return IAlertaService.findAlertabycuentaFB(idCuenta);
 	}
 
+	@GetMapping("/cantidad")
+	public Integer cantidadAlertas() {
+		return IAlertaService.cantidadDeAlertas();
+	}
+
+	
 }

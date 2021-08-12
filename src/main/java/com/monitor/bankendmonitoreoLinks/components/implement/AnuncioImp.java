@@ -4,8 +4,14 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 
 import org.apache.log4j.Logger;
 import org.json.JSONArray;
@@ -39,7 +45,7 @@ public class AnuncioImp implements IAnuncioDao {
 			if (anuncios == "[") {
 				try {
 					anuncios = anuncios + FACEBOOK_IMP.apiGraph(
-							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
+							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time");
 				} catch (Exception e) {
 					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
 					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
@@ -48,7 +54,7 @@ public class AnuncioImp implements IAnuncioDao {
 			} else {
 				try {
 					anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(
-							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights");
+							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time");
 				} catch (Exception e) {
 					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
 					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
@@ -89,7 +95,18 @@ public class AnuncioImp implements IAnuncioDao {
 				String nombre = objeto.getString("name");
 				String id = objeto.getString("id");
 				String preview_shareable_link = objeto.getString("preview_shareable_link");
-
+				String createDate=objeto.getString("created_time");
+				SimpleDateFormat formato= new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+																//2021-08-09T17:51-250500
+				try {
+					Date fechaCreacion;
+					fechaCreacion=formato.parse(createDate);
+					
+				} catch (ParseException e1) {
+					
+					e1.printStackTrace();
+				}
+				
 				JSONObject objectAdcreatives = objeto.getJSONObject("adcreatives");
 				JSONArray dataAdCreatives = objectAdcreatives.getJSONArray("data");
 				JSONObject dataIdAdCreative = dataAdCreatives.getJSONObject(0);
@@ -107,6 +124,7 @@ public class AnuncioImp implements IAnuncioDao {
 					impresiones = "Ad sin estadisticas";
 					log.warn("Ad " + id + " sin estadisticas");
 				}
+				
 
 				Anuncio anuncio = new Anuncio();
 				CuentaFB cuentaFB = new CuentaFB();
@@ -245,4 +263,16 @@ public class AnuncioImp implements IAnuncioDao {
 		return res;
 	}
 
+	public static void main(String[] args) {
+		/*AnuncioImp anuncioImp= new AnuncioImp();
+		anuncioImp.obtenerAnunciosInf();*/
+		Date prueba= new Date();
+		LocalDate localDate= prueba.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		int year=localDate.getYear();
+		int mes=localDate.getMonthValue();
+		
+		System.out.println(prueba);
+		System.out.println(year);
+		System.out.println(mes);
+	}
 }
