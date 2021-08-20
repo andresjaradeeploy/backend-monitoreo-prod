@@ -51,7 +51,7 @@ public class Mail {
 						+ estadoAnuncio.getAnuncio().getIdAnuncio() + "</td>\r\n" + "        </tr>\r\n"
 						+ "        <tr>\r\n" + "          <td>Link</td>\r\n" + "          <td bgcolor='#B72222'>"
 						+ estadoAnuncio.getAnuncio().getAdCreative().getLink() + "</td>\r\n" + "        </tr>\r\n"
-						+ "        <tr>\r\n" + "          <td>Link</td>\r\n" + "          <td>"
+						+ "        <tr>\r\n" + "          <td>Preview</td>\r\n" + "          <td>"
 						+ estadoAnuncio.getAnuncio().getPreview_shareable_link() + "</td>\r\n" + "        </tr>\r\n"
 						+ "        <tr>\r\n" + "          <td>Cuenta Facebook</td>\r\n" + "          <td>"
 						+ estadoAnuncio.getAnuncio().getCuentaFB().getNombreCuenta() + "</td>\r\n" + "        </tr>\r\n"
