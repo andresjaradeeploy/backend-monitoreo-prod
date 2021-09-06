@@ -13,8 +13,8 @@ import com.monitor.bankendmonitoreoLinks.service.IAlertaService;
 
 @RestController
 @RequestMapping("/alerta")
-//@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://dashboard-enki.web.app"  })
-@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app" })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://dashboard-enki.web.app"  })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app" })
 public class AlertaRestController {
 
 	@Autowired

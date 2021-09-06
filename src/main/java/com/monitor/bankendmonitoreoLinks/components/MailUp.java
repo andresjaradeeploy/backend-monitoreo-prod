@@ -36,7 +36,7 @@ public class MailUp {
 		session = Session.getDefaultInstance(properties);
 	}
 
-	public void sendEmail(ArrayList<String> correos, String asunto, String cuerpo, String fecha,
+	public void sendEmail(ArrayList<String> correos, String asunto, String cuerpo, String fecha,Integer code,
 			EstadoAnuncio estadoAnuncio) {
 
 		String BODY = String.join(System.getProperty("line.separator"), "<html>", "<head>",
@@ -57,7 +57,7 @@ public class MailUp {
 						+ estadoAnuncio.getAnuncio().getCuentaFB().getNombreCuenta() + "</td>\r\n" + "        </tr>\r\n"
 						+ "        <tr>\r\n" + "          <td>Fecha y Hora</td>\r\n" + "          <td>" + fecha
 						+ "</td>\r\n" + "        </tr>\r\n" + "        <tr>\r\n" + "          <td>Status</td>\r\n"
-						+ "          <td>" + estadoAnuncio.getCode() + " - " + estadoAnuncio.getMensaje() + "</td>\r\n"
+						+ "          <td>" + code + " - " + estadoAnuncio.getMensaje() + "</td>\r\n"
 						+ "        </tr>\r\n" + "\r\n" + "\r\n" + "    </tbody>\r\n" + "    </table>\r\n"
 						+ "    <br/>\r\n"
 						+ "    <img src='https://static1.squarespace.com/static/5ce88653d84296000124515a/t/5ce93ca6ee6eb002e7b992ef/1614802124137/?format=1500w' width='350px' >\r\n"

@@ -1,0 +1,559 @@
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804079460668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804062890668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847929992530668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804079050668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847804062940668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847929992600668
+WARN:12:13:24->Ad creatriv eno tiene link no se guardara23847859294440668
+WARN:12:13:26->Ya existe Ad 23847965022890668 en BD
+WARN:12:13:26->Ya existe Ad 23847965022820668 en BD
+WARN:12:13:26->Ya existe Ad 23847965022740668 en BD
+WARN:12:13:26->Ya existe Ad 23847965022720668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971530668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971140668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971570668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971520668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971490668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971190668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971160668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971050668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971030668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874740668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874810668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874770668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874700668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874670668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874640668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874620668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874530668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874460668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874420668 en BD
+WARN:12:13:26->Ya existe Ad 23847964874380668 en BD
+WARN:12:13:26->Ya existe Ad 23847964971130668 en BD
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:12:13:26->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+ERROR:12:13:26->Error al obtener estados de anuncios: org.postgresql.util.PSQLException: ERROR: no existe la columna adc.status
+  Hint: Probablemente quiera hacer referencia a la columna «ad.status».
+  Position: 421
+ERROR:12:13:26->error al revisar linkjava.lang.NullPointerException
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804079460668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804062890668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847929992530668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804079050668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847804062940668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847929992600668
+WARN:12:20:58->Ad creatriv eno tiene link no se guardara23847859294440668
+WARN:12:20:59->Ya existe Ad 23847965022890668 en BD
+WARN:12:20:59->Ya existe Ad 23847965022820668 en BD
+WARN:12:20:59->Ya existe Ad 23847965022740668 en BD
+WARN:12:20:59->Ya existe Ad 23847965022720668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971530668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971140668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971570668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971520668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971490668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971190668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971160668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971050668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971030668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874740668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874810668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874770668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874700668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874670668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874640668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874620668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874530668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874460668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874420668 en BD
+WARN:12:20:59->Ya existe Ad 23847964874380668 en BD
+WARN:12:20:59->Ya existe Ad 23847964971130668 en BD
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:12:20:59->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804079460668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804062890668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847929992530668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804079050668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847804062940668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847929992600668
+WARN:12:26:11->Ad creatriv eno tiene link no se guardara23847859294440668
+WARN:12:26:12->Ya existe Ad 23847965022890668 en BD
+WARN:12:26:12->Ya existe Ad 23847965022820668 en BD
+WARN:12:26:12->Ya existe Ad 23847965022740668 en BD
+WARN:12:26:12->Ya existe Ad 23847965022720668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971530668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971140668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971570668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971520668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971490668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971190668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971160668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971050668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971030668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874740668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874810668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874770668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874700668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874670668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874640668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874620668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874530668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874460668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874420668 en BD
+WARN:12:26:12->Ya existe Ad 23847964874380668 en BD
+WARN:12:26:12->Ya existe Ad 23847964971130668 en BD
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:12:26:12->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011826730668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776790668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776780668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776880668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776850668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776770668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23848011776830668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:16:06:16->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:16:06:20->Ad 23848011804360668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011804360668 en BD
+WARN:16:06:20->Ad 23848011769400668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011769400668 en BD
+WARN:16:06:20->Ad 23848011769390668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011769390668 en BD
+WARN:16:06:20->Ad 23848011769380668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011769380668 en BD
+WARN:16:06:20->Ad 23848011765150668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011765150668 en BD
+WARN:16:06:20->Ad 23848011765160668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011765160668 en BD
+WARN:16:06:20->Ad 23848011749330668 sin estadisticas
+WARN:16:06:20->Ya existe Ad 23848011749330668 en BD
+WARN:16:06:20->Ya existe Ad 23847965022890668 en BD
+WARN:16:06:20->Ya existe Ad 23847965022820668 en BD
+WARN:16:06:20->Ya existe Ad 23847965022740668 en BD
+WARN:16:06:20->Ya existe Ad 23847965022720668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971530668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971140668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971570668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971520668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971490668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971190668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971160668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971050668 en BD
+WARN:16:06:20->Ya existe Ad 23847964971030668 en BD
+WARN:16:06:20->Ya existe Ad 23847964874740668 en BD
+WARN:16:06:20->Ya existe Ad 23847964874810668 en BD
+WARN:16:06:20->Ya existe Ad 23847964874770668 en BD
+WARN:16:06:20->Ya existe Ad 23847964874700668 en BD
+WARN:16:06:20->Ya existe Ad 23847964874670668 en BD
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:16:06:20->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776770668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776830668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011826730668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776790668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776780668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776880668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23848011776850668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:16:17:56->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:16:17:57->Ad 23848011765160668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011765160668 en BD
+WARN:16:17:57->Ad 23848011749330668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011749330668 en BD
+WARN:16:17:57->Ad 23848011804360668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011804360668 en BD
+WARN:16:17:57->Ad 23848011769400668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011769400668 en BD
+WARN:16:17:57->Ad 23848011769390668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011769390668 en BD
+WARN:16:17:57->Ad 23848011769380668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011769380668 en BD
+WARN:16:17:57->Ad 23848011765150668 sin estadisticas
+WARN:16:17:57->Ya existe Ad 23848011765150668 en BD
+WARN:16:17:57->Ya existe Ad 23847965022890668 en BD
+WARN:16:17:57->Ya existe Ad 23847965022820668 en BD
+WARN:16:17:57->Ya existe Ad 23847965022740668 en BD
+WARN:16:17:57->Ya existe Ad 23847965022720668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971530668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971140668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971570668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971520668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971490668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971190668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971160668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971050668 en BD
+WARN:16:17:57->Ya existe Ad 23847964971030668 en BD
+WARN:16:17:57->Ya existe Ad 23847964874740668 en BD
+WARN:16:17:57->Ya existe Ad 23847964874810668 en BD
+WARN:16:17:57->Ya existe Ad 23847964874770668 en BD
+WARN:16:17:57->Ya existe Ad 23847964874700668 en BD
+WARN:16:17:57->Ya existe Ad 23847964874670668 en BD
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:16:17:57->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776770668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776830668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011826730668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776790668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776780668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776880668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23848011776850668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:16:23:13->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:16:23:14->Ad 23848011765160668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011765160668 en BD
+WARN:16:23:14->Ad 23848011749330668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011749330668 en BD
+WARN:16:23:14->Ad 23848011804360668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011804360668 en BD
+WARN:16:23:14->Ad 23848011769400668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011769400668 en BD
+WARN:16:23:14->Ad 23848011769390668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011769390668 en BD
+WARN:16:23:14->Ad 23848011769380668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011769380668 en BD
+WARN:16:23:14->Ad 23848011765150668 sin estadisticas
+WARN:16:23:14->Ya existe Ad 23848011765150668 en BD
+WARN:16:23:14->Ya existe Ad 23847965022890668 en BD
+WARN:16:23:14->Ya existe Ad 23847965022820668 en BD
+WARN:16:23:14->Ya existe Ad 23847965022740668 en BD
+WARN:16:23:14->Ya existe Ad 23847965022720668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971530668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971140668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971570668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971520668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971490668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971190668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971160668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971050668 en BD
+WARN:16:23:14->Ya existe Ad 23847964971030668 en BD
+WARN:16:23:14->Ya existe Ad 23847964874740668 en BD
+WARN:16:23:14->Ya existe Ad 23847964874810668 en BD
+WARN:16:23:14->Ya existe Ad 23847964874770668 en BD
+WARN:16:23:14->Ya existe Ad 23847964874700668 en BD
+WARN:16:23:14->Ya existe Ad 23847964874670668 en BD
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:16:23:14->Ya existe estado de anuncio con id de anuncio: 23847876046840668
+ERROR:16:39:52->Error al obtener propiedades del link: https://graph.facebook.com/v10.0/act_1434207073441086/ads?fields=creative&access_token=EAAp4gTbHgEoBAHwiAVS758IfdGg1K3g3pFbufZB9vjQNYuv0Y3YDUsKJcX8cZC6eN4ViVq58HdKsUZCnmwgYoj4VN84N9OchQn2ZByMIUzVLHCaFSPH9visk6lnhGsbUVlhCKc34YChr4ci2IZCZAIKVgNZCYiBQnMN  java.io.IOException: Server returned HTTP response code: 400 for URL: https://graph.facebook.com/v10.0/act_1434207073441086/ads?fields=creative&access_token=EAAp4gTbHgEoBAHwiAVS758IfdGg1K3g3pFbufZB9vjQNYuv0Y3YDUsKJcX8cZC6eN4ViVq58HdKsUZCnmwgYoj4VN84N9OchQn2ZByMIUzVLHCaFSPH9visk6lnhGsbUVlhCKc34YChr4ci2IZCZAIKVgNZCYiBQnMN
+ERROR:16:39:52->error al revisar linkorg.json.JSONException: JSONArray[0] is not a JSONObject.
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776770668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776830668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011826730668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776790668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776780668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776880668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23848011776850668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847533859890668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847533860180668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847533871830668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803924840668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803900290668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847804078080668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803900230668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847859294360668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847804062880668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803924810668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847804078060668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847859294350668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847804062960668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803900260668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847803924910668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847859294500668
+WARN:16:47:26->Ad creatriv eno tiene link no se guardara23847859294540668
+WARN:16:47:27->Ad 23848011765160668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011765160668 en BD
+WARN:16:47:27->Ad 23848011749330668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011749330668 en BD
+WARN:16:47:27->Ad 23848011804360668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011804360668 en BD
+WARN:16:47:27->Ad 23848011769400668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011769400668 en BD
+WARN:16:47:27->Ad 23848011769390668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011769390668 en BD
+WARN:16:47:27->Ad 23848011769380668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011769380668 en BD
+WARN:16:47:27->Ad 23848011765150668 sin estadisticas
+WARN:16:47:27->Ya existe Ad 23848011765150668 en BD
+WARN:16:47:27->Ya existe Ad 23847965022890668 en BD
+WARN:16:47:27->Ya existe Ad 23847965022820668 en BD
+WARN:16:47:27->Ya existe Ad 23847965022740668 en BD
+WARN:16:47:27->Ya existe Ad 23847965022720668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971530668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971140668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971570668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971520668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971490668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971190668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971160668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971050668 en BD
+WARN:16:47:27->Ya existe Ad 23847964971030668 en BD
+WARN:16:47:27->Ya existe Ad 23847964874740668 en BD
+WARN:16:47:27->Ya existe Ad 23847964874810668 en BD
+WARN:16:47:27->Ya existe Ad 23847964874770668 en BD
+WARN:16:47:27->Ya existe Ad 23847964874700668 en BD
+WARN:16:47:27->Ya existe Ad 23847964874670668 en BD
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847876046820668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847859333650668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847859333620668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847859333610668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847859332820668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847859332810668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847786766690668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847817050400668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847817050380668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847810650760668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847817047980668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847810650770668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847804091000668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847930044090668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847929916110668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847929916130668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847929916120668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847930044080668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847930044100668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847901969100668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847901969090668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847876046870668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847876046860668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847876046850668
+WARN:16:47:27->Ya existe estado de anuncio con id de anuncio: 23847876046840668

@@ -15,10 +15,10 @@ public class AlertaComponent {
 		mail.sendEmail(correo, asunto, cuerpo, fecha, estadoAnuncio);
 	}
 	
-	public void enviarAlertaUp(ArrayList<String> correo, String asunto, String cuerpo, String fecha,
+	public void enviarAlertaUp(ArrayList<String> correo, String asunto, String cuerpo, String fecha,Integer code,
 			EstadoAnuncio estadoAnuncio) {
 		MailUp mail = new MailUp();
-		mail.sendEmail(correo, asunto, cuerpo, fecha, estadoAnuncio);
+		mail.sendEmail(correo, asunto, cuerpo, fecha, code,estadoAnuncio);
 	}
 
 	public String mensajeAlerta() {

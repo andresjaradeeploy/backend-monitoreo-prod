@@ -16,8 +16,8 @@ import com.monitor.bankendmonitoreoLinks.service.IUsuarioService;
 
 @RestController
 @RequestMapping("/users")
-//@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
-@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class UsuarioRestController {
 
 	@Autowired

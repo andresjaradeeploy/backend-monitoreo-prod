@@ -13,8 +13,8 @@ import com.monitor.bankendmonitoreoLinks.service.IAnuncioService;
 
 @RestController
 @RequestMapping("/anuncio")
-//@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
-@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class AnuncioRestController {
 	@Autowired
 	private IAnuncioService anuncioService;

@@ -77,7 +77,7 @@ public class LinkComponent {
 					}
 					alertaComponent.enviarAlertaUp(correos,
 							"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
-							"Se envia correo para reportar caida de link", fechaSubida, estadoAnuncio);
+							"Se envía correo para reportar subida de link", fechaSubida, code,estadoAnuncio);
 				}
 
 				Jsonp jsonp = new Jsonp();
