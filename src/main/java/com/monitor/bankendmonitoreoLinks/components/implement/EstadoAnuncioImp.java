@@ -191,7 +191,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
 							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
 							+ "inner join cuentafb as cu on " + "cu.id_cuentafb= ad.cuenta_fb "
-							+ "where adc.link is not null");
+							+ "where adc.link is not null and adc.status='ACTIVE'");
 			rs = stmt.executeQuery();
 
 			while (rs.next()) {

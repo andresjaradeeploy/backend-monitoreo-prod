@@ -15,9 +15,19 @@ public class Anuncio implements Serializable {
 	private Integer impresiones;
 
 	private String preview_shareable_link;
+	
+	private String status;
 
 	public Integer getImpresiones() {
 		return impresiones;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
 	}
 
 	public void setImpresiones(Integer impresiones) {

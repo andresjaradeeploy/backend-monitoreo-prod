@@ -23,8 +23,9 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 @Component
 public class LinkComponent {
 
-	Log logObject= new Log("logs");
+	Log logObject = new Log("logs");
 	Logger log = logObject.getLogger();
+
 	public static String obtenerContenido(String sURL) throws IOException {
 
 		URL url = new URL(sURL);
@@ -62,6 +63,23 @@ public class LinkComponent {
 			int code = connection.getResponseCode();
 			if (code == 200) {
 
+				if (estadoAnuncio.getCode() != 200 && code == 200) {
+
+					String fechaSubida = utilidades.generarHoraActual();
+
+					ArrayList<String> correos = new ArrayList<String>();
+					CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
+					List<CorreoAlerta> dirCorreos = new ArrayList<>();
+					dirCorreos = correoAlertaImp
+							.correosByCuenta(estadoAnuncio.getAnuncio().getCuentaFB().getIdCuenta());
+					for (CorreoAlerta correoAlerta : dirCorreos) {
+						correos.add(correoAlerta.getCuentaCorreo());
+					}
+					alertaComponent.enviarAlertaUp(correos,
+							"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
+							"Se envia correo para reportar caida de link", fechaSubida, estadoAnuncio);
+				}
+
 				Jsonp jsonp = new Jsonp();
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 				estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
@@ -70,7 +88,21 @@ public class LinkComponent {
 				estadoAnuncio.setMensaje("OK");
 
 				estado.setIdEstado(1);
+
 				estadosAnuncioImp.actualizar(estadoAnuncio, estado);
+				
+			} else if (code == 429) {
+
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
+				estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
+				estadoAnuncio.setTitle(jsonp.getTitle());
+				estadoAnuncio.setCode(code);
+				estadoAnuncio.setMensaje("Muchas Peticiones al servidor");
+
+				estado.setIdEstado(1);
+				estadosAnuncioImp.actualizar(estadoAnuncio, estado);
+				// colocar si existe alerta
 			} else if (code == 400) {
 
 				Jsonp jsonp = new Jsonp();
@@ -93,7 +125,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos,
+				alertaComponent.enviarAlertaDown(correos,
 						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
@@ -118,7 +150,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos,
+				alertaComponent.enviarAlertaDown(correos,
 						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 			} else if (code == 301) {
@@ -142,7 +174,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos,
+				alertaComponent.enviarAlertaDown(correos,
 						"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
 								+ estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
@@ -167,7 +199,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlerta(correos,
+				alertaComponent.enviarAlertaDown(correos,
 						"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 
@@ -177,9 +209,9 @@ public class LinkComponent {
 		} catch (MalformedURLException e) {
 
 			System.err.println("url dañado" + e);
-			log.error("Error al leer url"+e);
+			log.error("Error al leer url" + e);
 		} catch (IOException e) {
-			log.error("Error"+e);
+			log.error("Error" + e);
 		} finally {
 			if (connection != null) {
 				connection.disconnect();

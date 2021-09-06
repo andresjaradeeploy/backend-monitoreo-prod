@@ -16,8 +16,8 @@ import com.monitor.bankendmonitoreoLinks.service.ICorreoAlertaService;
 
 @RestController
 @RequestMapping("/correoAlerta")
-@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
-//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
+//@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app" })
+@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class CorreoAlertaRestController {
 
 	@Autowired

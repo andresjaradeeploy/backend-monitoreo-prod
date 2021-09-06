@@ -33,6 +33,9 @@ public class AnuncioImp implements IAnuncioDao {
 	private static final String SQL_INSERT = "INSERT INTO anuncio(id_anuncio,impresiones,nombre,preview_shareable_link,ad_creative,cuenta_fb)"
 			+ " VALUES(?, ?, ?, ?, ?, ?)";
 
+	private static final String SQL_UPDATE = "UPDATE anuncio"
+			+ " SET status=?, preview_shareable_link=?, impresiones=?,nombre=? WHERE id_anuncio=?";
+
 	private static final String SQL_SELECT_BY_ID = "SELECT id_anuncio " + " FROM anuncio WHERE id_anuncio = ?";
 
 	public String obtenerAnunciosAllCuentasFB() {
@@ -44,8 +47,8 @@ public class AnuncioImp implements IAnuncioDao {
 		for (int i = 0; i < idCuentas.size(); i++) {
 			if (anuncios == "[") {
 				try {
-					anuncios = anuncios + FACEBOOK_IMP.apiGraph(
-							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time");
+					anuncios = anuncios + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads"
+							+ "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time,status");
 				} catch (Exception e) {
 					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
 					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
@@ -53,8 +56,8 @@ public class AnuncioImp implements IAnuncioDao {
 
 			} else {
 				try {
-					anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(
-							idCuentas.get(i) + "/ads" + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time");
+					anuncios = anuncios + "," + FACEBOOK_IMP.apiGraph(idCuentas.get(i) + "/ads"
+							+ "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time,status");
 				} catch (Exception e) {
 					System.err.println("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i));
 					log.error("no se pudo obtener anuncios de la cuenta: " + idCuentas.get(i) + " err:" + e);
@@ -95,18 +98,19 @@ public class AnuncioImp implements IAnuncioDao {
 				String nombre = objeto.getString("name");
 				String id = objeto.getString("id");
 				String preview_shareable_link = objeto.getString("preview_shareable_link");
-				String createDate=objeto.getString("created_time");
-				SimpleDateFormat formato= new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
-																//2021-08-09T17:51-250500
+				String status = objeto.getString("status");
+				String createDate = objeto.getString("created_time");
+				SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+				// 2021-08-09T17:51-250500
 				try {
 					Date fechaCreacion;
-					fechaCreacion=formato.parse(createDate);
-					
+					fechaCreacion = formato.parse(createDate);
+
 				} catch (ParseException e1) {
-					
+
 					e1.printStackTrace();
 				}
-				
+
 				JSONObject objectAdcreatives = objeto.getJSONObject("adcreatives");
 				JSONArray dataAdCreatives = objectAdcreatives.getJSONArray("data");
 				JSONObject dataIdAdCreative = dataAdCreatives.getJSONObject(0);
@@ -124,7 +128,6 @@ public class AnuncioImp implements IAnuncioDao {
 					impresiones = "Ad sin estadisticas";
 					log.warn("Ad " + id + " sin estadisticas");
 				}
-				
 
 				Anuncio anuncio = new Anuncio();
 				CuentaFB cuentaFB = new CuentaFB();
@@ -134,6 +137,7 @@ public class AnuncioImp implements IAnuncioDao {
 
 				anuncio.setIdAnuncio(id);
 				anuncio.setNombre(nombre);
+				anuncio.setStatus(status);
 				anuncio.setPreview_shareable_link(preview_shareable_link);
 				anuncio.setImpresiones(numeroImpresiones);
 				cuentaFB.setIdCuenta(idCuentas.get(i));
@@ -143,13 +147,15 @@ public class AnuncioImp implements IAnuncioDao {
 				boolean ifExists = verificarSiExisteAnuncio(anuncio.getIdAnuncio());
 				if (ifExists == false)
 
-					if (numeroImpresiones > 0) {
+					if (numeroImpresiones > 0 && status=="ACTIVE") {
 						guardar(anuncio, cuentaFB, adCreative);
-					} else
-						System.err.println("Impresiones menores que 0");
-
+					} else {
+						System.err.println("Impresiones menores que 0 o estado de anuncio pausado");
+						actualizar(anuncio);
+					}
 				else
 					System.out.println("Ya existe el anuncio en BD");
+				actualizar(anuncio);
 				log.warn("Ya existe Ad " + id + " en BD");
 				cuentas.add(id);
 				cuentas.add(nombre);
@@ -264,15 +270,47 @@ public class AnuncioImp implements IAnuncioDao {
 	}
 
 	public static void main(String[] args) {
-		/*AnuncioImp anuncioImp= new AnuncioImp();
-		anuncioImp.obtenerAnunciosInf();*/
-		Date prueba= new Date();
-		LocalDate localDate= prueba.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-		int year=localDate.getYear();
-		int mes=localDate.getMonthValue();
-		
+		/*
+		 * AnuncioImp anuncioImp= new AnuncioImp(); anuncioImp.obtenerAnunciosInf();
+		 */
+		Date prueba = new Date();
+		LocalDate localDate = prueba.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		int year = localDate.getYear();
+		int mes = localDate.getMonthValue();
+
 		System.out.println(prueba);
 		System.out.println(year);
 		System.out.println(mes);
 	}
+
+	@Override
+	public int actualizar(Anuncio anuncio) {
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		int rows = 0;
+
+		try {
+
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_UPDATE);
+
+			stmt.setString(1, anuncio.getStatus());
+			stmt.setString(2, anuncio.getPreview_shareable_link());
+			stmt.setLong(3, anuncio.getImpresiones());
+			stmt.setString(4, anuncio.getNombre());
+			stmt.setString(5, anuncio.getIdAnuncio());
+
+			rows = rows + stmt.executeUpdate();
+
+		} catch (SQLException ex) {
+			ex.printStackTrace(System.out);
+			log.error("Error al actualizar Anuncio" + ex);
+		} finally {
+
+			Conector.close(stmt);
+			Conector.close(conn);
+		}
+		return rows;
+	}
+
 }

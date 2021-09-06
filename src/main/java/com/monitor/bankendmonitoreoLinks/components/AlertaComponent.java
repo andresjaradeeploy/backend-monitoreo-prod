@@ -9,12 +9,16 @@ public class AlertaComponent {
 
 	private SendMailService mailService = new SendMailService();
 
-	public void enviarAlerta(ArrayList<String> correo, String asunto, String cuerpo, String fecha,
-			EstadoAnuncio estadoAnuncio) {
-
+	public void enviarAlertaDown(ArrayList<String> correo, String asunto, String cuerpo, String fecha,
+		EstadoAnuncio estadoAnuncio) {
 		Mail mail = new Mail();
 		mail.sendEmail(correo, asunto, cuerpo, fecha, estadoAnuncio);
-
+	}
+	
+	public void enviarAlertaUp(ArrayList<String> correo, String asunto, String cuerpo, String fecha,
+			EstadoAnuncio estadoAnuncio) {
+		MailUp mail = new MailUp();
+		mail.sendEmail(correo, asunto, cuerpo, fecha, estadoAnuncio);
 	}
 
 	public String mensajeAlerta() {
