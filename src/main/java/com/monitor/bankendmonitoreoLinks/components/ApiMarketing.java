@@ -45,6 +45,7 @@ public class ApiMarketing {
 
 			else
 				System.out.println("Ya existe se debe actualizar estado");
+			
 			log.warn("Ya existe estado de anuncio con id de anuncio: "+ads.getIdAnuncio());
 		}
 		return estados;

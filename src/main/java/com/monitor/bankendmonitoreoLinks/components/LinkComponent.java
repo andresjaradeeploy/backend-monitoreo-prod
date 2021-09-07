@@ -57,10 +57,12 @@ public class LinkComponent {
 		Utilidades utilidades = new Utilidades();
 		HttpURLConnection connection = null;
 		try {
-			URL u = new URL(estadoAnuncio.getAnuncio().getAdCreative().getLink());
+			/*URL u = new URL(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 			connection = (HttpURLConnection) u.openConnection();
 			connection.setRequestMethod("HEAD");
-			int code = connection.getResponseCode();
+			int code = connection.getResponseCode();*/
+			Jsonp revisarUrl= new Jsonp();
+			int code =revisarUrl.codeStatus(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 			if (code == 200) {
 
 				if (estadoAnuncio.getCode() != 200 && code == 200) {
