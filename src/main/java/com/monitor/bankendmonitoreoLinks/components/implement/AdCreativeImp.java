@@ -185,7 +185,7 @@ public class AdCreativeImp implements IAdCreative {
 				adCreative.setUrlImg(img_url);
 				adCreative.setNombre(nombre);
 
-				if (link != null) {
+				if (link != null &&  link !="http://fb.me/" && link!="https://api.whatsapp.com/send") {
 
 					ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
 					if (ifExists == false)

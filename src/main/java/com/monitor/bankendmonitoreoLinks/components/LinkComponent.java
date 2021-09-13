@@ -176,6 +176,7 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
+				if(estadoAnuncio.getAnuncio().getAdCreative().getLink() !="http://fb.me/" && estadoAnuncio.getAnuncio().getAdCreative().getLink()!="https://api.whatsapp.com/send")
 				alertaComponent.enviarAlertaDown(correos,
 						"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
 								+ estadoAnuncio.getAnuncio().getIdAnuncio(),
