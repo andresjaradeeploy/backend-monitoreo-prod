@@ -18,7 +18,7 @@ import com.monitor.bankendmonitoreoLinks.service.ICuentaFBService;
 
 @RestController
 @RequestMapping("/cuentaFB")
-@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://dashboard-enki.web.app"  })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://dashboard-enki.web.app","https://enki.com.co"  })
 //@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class CuentaFBRestController {
 

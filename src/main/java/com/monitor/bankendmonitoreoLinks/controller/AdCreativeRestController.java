@@ -14,7 +14,7 @@ import com.monitor.bankendmonitoreoLinks.service.IAdCreativeService;
 
 @RestController
 @RequestMapping("/adCreative")
-@CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app"})
+@CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app","https://enki.com.co"})
 //@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app" })
 public class AdCreativeRestController {
 
