@@ -12,7 +12,7 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 import com.monitor.bankendmonitoreoLinks.service.IEstadoAnuncioService;
 
 @RestController
-@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://enki.com.co" })
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://enki.com.co","http://localhost:4200" })
 //@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 @RequestMapping("/estadoAnuncio")
 public class EstadoAnuncioRestController {
