@@ -22,7 +22,7 @@ public class FacebookImp {
 		cuentaFbDeveloperImp.consultar(cuentaFbDeveloper);
 		String accessToken = (cuentaFbDeveloper.getAccessToken());
 		String direccion = "https://graph.facebook.com";
-		String versionapi = "v10.0";
+		String versionapi = "v12.0";
 
 		String url = direccion + "/" + versionapi + "/" + consulta + "&access_token=" + accessToken;
 		String respuesta;
