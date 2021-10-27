@@ -13,6 +13,7 @@ public class BankendMonitoreoLinksApplication {
 
 		MonitorComponent monitorComponent = new MonitorComponent();
 		monitorComponent.main();
+		monitorComponent.mainPage();
 
 	}
 

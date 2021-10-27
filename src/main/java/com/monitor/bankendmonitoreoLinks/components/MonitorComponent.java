@@ -11,7 +11,10 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
 public class MonitorComponent {
 	Log logObject= new Log("logs");
 	Logger log = logObject.getLogger();
+	
+	
 	public void main() {
+		
 		Runnable runnable = new Runnable() {
 
 			@Override
@@ -49,6 +52,35 @@ public class MonitorComponent {
 
 	}
 	
+public void mainPage() {
+		
+		Runnable runnable = new Runnable() {
+
+			@Override
+			public void run() {
+
+				while (true) {
+					try {
+
+						Thread.sleep(7200000);
+						ApiPages apiPages = new ApiPages();
+						apiPages.main();
+
+						
+					} catch (Exception e) {
+						System.err.println("error al ejecutar apiPages" + e);
+						
+					}
+
+				}
+			}
+		};
+
+		Thread hilo = new Thread(runnable);
+		hilo.start();
+		System.out.println("Obteniendo Pages ");
+
+	}
 	
 
 }
