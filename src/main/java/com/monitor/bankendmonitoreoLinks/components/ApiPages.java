@@ -9,6 +9,7 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
 
 public class ApiPages {
 	
+	
 	public List<Page> ObteneryGuardarPages() {
 
 	

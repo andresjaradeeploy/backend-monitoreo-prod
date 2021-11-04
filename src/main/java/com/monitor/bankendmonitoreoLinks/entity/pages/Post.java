@@ -79,11 +79,22 @@ public class Post implements Serializable {
 
 	@Column(columnDefinition = "TEXT")
 	private String full_picture;
+	public Page getPage() {
+		return page;
+	}
+
+	public void setPage(Page page) {
+		this.page = page;
+	}
+
 	@Column(columnDefinition = "TEXT")
 	private String picture;
 	@Column(columnDefinition = "TEXT")
 	private String permalink_url;
 	
 	private Integer shares;
+	
+	 @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	    private Page page;
 
 }
