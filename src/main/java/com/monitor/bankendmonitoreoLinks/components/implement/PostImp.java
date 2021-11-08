@@ -11,6 +11,7 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.monitor.bankendmonitoreoLinks.components.Utilidades;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.PostDao;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
@@ -26,33 +27,44 @@ public class PostImp implements PostDao {
 	private static final String SQL_SELECT_BY_ID = "SELECT id_post " + " FROM post WHERE id_post = ?";
 
 	private static final String SQL_UPDATE = "UPDATE post"
-			+ " SET full_picture=?, permalink_url=?, picture=?, shares=? WHERE id_post=?";
+			+ " SET full_picture=?, permalink_url=?, picture=?, shares=?, name_image=? WHERE id_post=?";
 
 	public List<Post> obtenerAllPost() {
 
 		ArrayList<String> idPages = new ArrayList<String>();
 		PageImp pageImp = new PageImp();
+		Utilidades utilidades = new Utilidades();
 		idPages = pageImp.obtenerPagesBD();
 		List<Post> posts = new ArrayList<>();
 		String post = null;
 		String post2 = null;
 		JSONObject resut;
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < idPages.size(); i++) {
 
 			post = "[";
-			post = post + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=posts");
+			post = post + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=posts.limit(10)");
 			post = post + "]";
 			Page page = new Page();
 			page.setIdPage(idPages.get(i));
 			JSONArray respuesta = new JSONArray(post);
 			resut = respuesta.getJSONObject(0);
+			JSONObject data = null;
+			JSONArray objeto = null;
+			try {
+				data = resut.getJSONObject("posts");
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 
-			JSONObject data = resut.getJSONObject("posts");
+			try {
+				objeto = data.getJSONArray("data");
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
 
-			JSONArray objeto = data.getJSONArray("data");
+			//System.out.println("data" + objeto.length());
 
-			System.out.println("data" + objeto.length());
-
+			if(objeto!=null) {
 			for (int j = 0; j < objeto.length(); j++) {
 				Post postNew = new Post();
 				JSONObject resultadoPost = objeto.getJSONObject(j);
@@ -72,43 +84,49 @@ public class PostImp implements PostDao {
 				else {
 					System.out.println("ya existe el post");
 					post2 = "[";
-					post2 = post2 + FACEBOOK_IMP
-							.apiGraphPage(postNew.getIdPost() + "?fields=full_picture,permalink_url,picture,shares");
+					try {
+						post2 = post2 + FACEBOOK_IMP
+								.apiGraphPage(postNew.getIdPost() + "?fields=full_picture,permalink_url,picture,shares");
+					} catch (Exception e) {
+						// TODO: handle exception
+					}
+					
 					post2 = post2 + "]";
-					
-					String full_picture=null;
-					String permalink_url=null;
-					String picture=null;
+
+					String full_picture = null;
+					String permalink_url = null;
+					String picture = null;
 					String shares;
-					Integer sharesNumber=0;
+					Integer sharesNumber = 0;
 					JSONArray arrayData = new JSONArray(post2);
-					JSONObject labels= arrayData.getJSONObject(0);
+					JSONObject labels = arrayData.getJSONObject(0);
 					try {
-						full_picture= labels.getString("full_picture");
+						full_picture = labels.getString("full_picture");
 					} catch (Exception e) {
-						full_picture="No Tiene Picture";
-					}
-					try {
-						permalink_url= labels.getString("permalink_url");
-					} catch (Exception e) {
-						permalink_url="No tiene permalink_url";
+						full_picture = "No Tiene Picture";
 					}
 					try {
-						picture= labels.getString("picture");
+						permalink_url = labels.getString("permalink_url");
 					} catch (Exception e) {
-						picture="No tiene picture";
+						permalink_url = "No tiene permalink_url";
 					}
 					try {
-						shares= labels.getString("shares");
+						picture = labels.getString("picture");
 					} catch (Exception e) {
-						shares="No tiene shares";
+						picture = "No tiene picture";
 					}
-					String idPost=labels.getString("id");
-					if (shares!="No tiene shares") {
-						sharesNumber=Integer.parseInt(shares);
+					try {
+						shares = labels.getString("shares");
+					} catch (Exception e) {
+						shares = "No tiene shares";
 					}
-			
-					
+					String idPost = labels.getString("id");
+					if (shares != "No tiene shares") {
+						sharesNumber = Integer.parseInt(shares);
+					}
+
+					utilidades.guardarImageneUrl(full_picture, idPost);
+
 					System.out.println("full_picture" + full_picture);
 					System.out.println("permalink_url" + permalink_url);
 					System.out.println("picture" + picture);
@@ -118,12 +136,15 @@ public class PostImp implements PostDao {
 					postNew.setPicture(picture);
 					postNew.setShares(sharesNumber);
 					postNew.setIdPost(idPost);
+					postNew.setNameImage(idPost + ".jpg");
 					actualizar(postNew);
 				}
 			}
-
-			JSONObject dataposts = objeto.getJSONObject(i);
-			System.out.println("tamaño" + idPages.get(i) + objeto.length());
+			}
+			else
+				System.err.println("no tiene datos");
+			//JSONObject dataposts = objeto.getJSONObject(i);
+			//System.out.println("tamaño" + idPages.get(i) + objeto.length());
 
 			post = "";
 
@@ -206,7 +227,8 @@ public class PostImp implements PostDao {
 			stmt.setString(2, post.getPermalink_url());
 			stmt.setString(3, post.getPicture());
 			stmt.setInt(4, post.getShares());
-			stmt.setString(5, post.getIdPost());
+			stmt.setString(5, post.getNameImage());
+			stmt.setString(6, post.getIdPost());
 
 			rows = rows + stmt.executeUpdate();
 

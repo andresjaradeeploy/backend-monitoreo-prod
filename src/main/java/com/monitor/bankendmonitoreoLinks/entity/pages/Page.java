@@ -18,12 +18,22 @@ public class Page implements Serializable{
 	private String idPage;
 
 	private String name;
+	
+	private String social_sentence;
 
 	@Column(columnDefinition = "TEXT")
 	private String access_token;
 
 	public String getIdPage() {
 		return idPage;
+	}
+
+	public String getSocial_sentence() {
+		return social_sentence;
+	}
+
+	public void setSocial_sentence(String social_sentence) {
+		this.social_sentence = social_sentence;
 	}
 
 	public void setIdPage(String idPage) {
@@ -80,6 +90,18 @@ public class Page implements Serializable{
 
 	@Column(columnDefinition = "TEXT")
 	private String link;
+	
+	@Column(columnDefinition = "TEXT")
+	private String cover;
+	
+
+	public String getCover() {
+		return cover;
+	}
+
+	public void setCover(String cover) {
+		this.cover = cover;
+	}
 
 	private String category;
 

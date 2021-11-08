@@ -1,0 +1,434 @@
+WARN:11:37:40->Ad creatriv eno tiene link no se guardara23848457878030668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848457877680668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848457878050668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848457877670668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848447420960668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848455637460668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848455616930668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848195921510668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848195921520668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848049361390668
+WARN:11:37:41->Ad creatriv eno tiene link no se guardara23848049355590668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847533870220668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049354400668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049359560668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847533863650668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049363190668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049384680668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848194261980668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049354420668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848125093550668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049353170668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049380790668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049365310668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049369150668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848049356940668
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848732588130279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848642915290279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848642903150279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848642893980279
+WARN:11:37:42->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847767229350279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996704250279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996586790279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996673450279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996709140279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996751890279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996751910279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996752900279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23847996752600279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848353831040279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848353872130279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848361096850279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848353885810279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848441692320279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848441683010279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848441676220279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848440750290279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848382991680279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848382991280279
+WARN:11:37:42->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848144487000279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848144486610279
+WARN:11:37:42->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848721867860517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848721867890517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848721820490517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848721820520517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:37:43->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:37:43->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349899690517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349894450517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349946040517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349890090517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349939470517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848349917700517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23848304716940517
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358693940343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358686080343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358662360343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358693560343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358685790343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358597330343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358265860343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358265490343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357868110343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358099040343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849358095370343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357456220343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357441830343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357760600343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357377020343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357363260343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357456240343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849357434360343
+WARN:11:37:43->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849351920920343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849351250180343
+WARN:11:37:43->Ad creatriv eno tiene link no se guardara23849348044430343
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849339790300343
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849091432550343
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849091433760343
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849091434990343
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849227039340385
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849202130950385
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849202131260385
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849202131220385
+WARN:11:37:44->Ad creatriv eno tiene link no se guardara23849206374710385
+WARN:11:37:45->Ad creatriv eno tiene link no se guardara23849206374710385
+WARN:11:37:45->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:11:37:45->Ad creatriv eno tiene link no se guardara23849186504830385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186503450385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186511280385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186503510385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186514390385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186505620385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186505540385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186509640385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186507440385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186504000385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186509840385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849186504190385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23849178272890385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848868146950385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848310495890385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848539959350385
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848868146910385
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:11:37:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848486263610269
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848369627780269
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848350996040269
+WARN:11:37:46->Ad creatriv eno tiene link no se guardara23848350994490269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848345903080269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848345904580269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848345843800269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178239430269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178238240269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178238260269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178239410269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178268800269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848143438990269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178267000269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178266970269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178265580269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848143438590269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178268850269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848178265600269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848143450210269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848143438830269
+WARN:11:37:47->Ad creatriv eno tiene link no se guardara23848143442890269
+WARN:11:37:56->Ad 23848457729840668 sin estadisticas
+WARN:11:37:57->Ya existe Ad 23848457729840668 en BD
+WARN:11:37:57->Ad 23848457843830668 sin estadisticas
+WARN:11:37:57->Ya existe Ad 23848457843830668 en BD
+WARN:11:37:57->Ad 23848457864740668 sin estadisticas
+WARN:11:37:58->Ya existe Ad 23848457864740668 en BD
+WARN:11:37:58->Ad 23848457854750668 sin estadisticas
+WARN:11:37:58->Ya existe Ad 23848457854750668 en BD
+WARN:11:37:58->Ya existe Ad 23848447390430668 en BD
+WARN:11:37:59->Ya existe Ad 23848454427960668 en BD
+WARN:11:37:59->Ya existe Ad 23848454445150668 en BD
+WARN:11:38:00->Ya existe Ad 23848422497870668 en BD
+WARN:11:38:00->Ya existe Ad 23848422497780668 en BD
+WARN:11:38:01->Ya existe Ad 23848422497840668 en BD
+WARN:11:38:01->Ya existe Ad 23848422497920668 en BD
+WARN:11:38:02->Ya existe Ad 23848422507720668 en BD
+WARN:11:38:02->Ya existe Ad 23848422497900668 en BD
+WARN:11:38:03->Ya existe Ad 23848422497700668 en BD
+WARN:11:38:03->Ya existe Ad 23848422507660668 en BD
+WARN:11:38:04->Ya existe Ad 23848422497670668 en BD
+WARN:11:38:04->Ya existe Ad 23848422497710668 en BD
+WARN:11:38:05->Ya existe Ad 23848422491110668 en BD
+WARN:11:38:05->Ya existe Ad 23848422497760668 en BD
+WARN:11:38:06->Ya existe Ad 23848422497960668 en BD
+WARN:11:38:06->Ya existe Ad 23848422497980668 en BD
+WARN:11:38:06->Ya existe Ad 23848422497740668 en BD
+WARN:11:38:07->Ya existe Ad 23848422497790668 en BD
+WARN:11:38:07->Ya existe Ad 23848422498030668 en BD
+WARN:11:38:08->Ya existe Ad 23848422497910668 en BD
+WARN:11:38:08->Ad 23848642923760279 sin estadisticas
+WARN:11:38:08->Ya existe Ad 23848642923760279 en BD
+WARN:11:38:08->Ad 23848642904210279 sin estadisticas
+WARN:11:38:09->Ya existe Ad 23848642904210279 en BD
+WARN:11:38:09->Ad 23848642896830279 sin estadisticas
+WARN:11:38:09->Ya existe Ad 23848642896830279 en BD
+WARN:11:38:09->Ad 23848642785670279 sin estadisticas
+WARN:11:38:10->Ya existe Ad 23848642785670279 en BD
+WARN:11:38:10->Ad 23847767170470279 sin estadisticas
+WARN:11:38:10->Ya existe Ad 23847767170470279 en BD
+WARN:11:38:10->Ad 23847996680800279 sin estadisticas
+WARN:11:38:11->Ya existe Ad 23847996680800279 en BD
+WARN:11:38:11->Ad 23847996440530279 sin estadisticas
+WARN:11:38:11->Ya existe Ad 23847996440530279 en BD
+WARN:11:38:11->Ad 23847996668320279 sin estadisticas
+WARN:11:38:12->Ya existe Ad 23847996668320279 en BD
+WARN:11:38:12->Ad 23847996654680279 sin estadisticas
+WARN:11:38:12->Ya existe Ad 23847996654680279 en BD
+WARN:11:38:12->Ad 23847996720800279 sin estadisticas
+WARN:11:38:13->Ya existe Ad 23847996720800279 en BD
+WARN:11:38:13->Ad 23847996720830279 sin estadisticas
+WARN:11:38:13->Ya existe Ad 23847996720830279 en BD
+WARN:11:38:13->Ad 23847996720790279 sin estadisticas
+WARN:11:38:14->Ya existe Ad 23847996720790279 en BD
+WARN:11:38:14->Ad 23847996720810279 sin estadisticas
+WARN:11:38:14->Ya existe Ad 23847996720810279 en BD
+WARN:11:38:14->Ad 23848183841010279 sin estadisticas
+WARN:11:38:14->Ya existe Ad 23848183841010279 en BD
+WARN:11:38:14->Ad 23848181707620279 sin estadisticas
+WARN:11:38:15->Ya existe Ad 23848181707620279 en BD
+WARN:11:38:15->Ad 23848183840990279 sin estadisticas
+WARN:11:38:15->Ya existe Ad 23848183840990279 en BD
+WARN:11:38:15->Ad 23848182333700279 sin estadisticas
+WARN:11:38:16->Ya existe Ad 23848182333700279 en BD
+WARN:11:38:16->Ad 23848181548300279 sin estadisticas
+WARN:11:38:16->Ya existe Ad 23848181548300279 en BD
+WARN:11:38:16->Ad 23848181400240279 sin estadisticas
+WARN:11:38:17->Ya existe Ad 23848181400240279 en BD
+WARN:11:38:17->Ad 23848181601330279 sin estadisticas
+WARN:11:38:17->Ya existe Ad 23848181601330279 en BD
+WARN:11:38:17->Ad 23848181601340279 sin estadisticas
+WARN:11:38:18->Ya existe Ad 23848181601340279 en BD
+WARN:11:38:18->Ad 23848381403310279 sin estadisticas
+WARN:11:38:18->Ya existe Ad 23848381403310279 en BD
+WARN:11:38:18->Ad 23848381403320279 sin estadisticas
+WARN:11:38:19->Ya existe Ad 23848381403320279 en BD
+WARN:11:38:19->Ad 23848144477470279 sin estadisticas
+WARN:11:38:19->Ya existe Ad 23848144477470279 en BD
+WARN:11:38:19->Ad 23848144477460279 sin estadisticas
+WARN:11:38:20->Ya existe Ad 23848144477460279 en BD
+WARN:11:38:20->Ad 23848727452740517 sin estadisticas
+WARN:11:38:20->Ya existe Ad 23848727452740517 en BD
+WARN:11:38:20->Ad 23848727452730517 sin estadisticas
+WARN:11:38:20->Ya existe Ad 23848727452730517 en BD
+WARN:11:38:20->Ad 23848721636710517 sin estadisticas
+WARN:11:38:21->Ya existe Ad 23848721636710517 en BD
+WARN:11:38:21->Ad 23848721636700517 sin estadisticas
+WARN:11:38:21->Ya existe Ad 23848721636700517 en BD
+WARN:11:38:21->Ad 23848711065710517 sin estadisticas
+WARN:11:38:22->Ya existe Ad 23848711065710517 en BD
+WARN:11:38:22->Ad 23848711065690517 sin estadisticas
+WARN:11:38:22->Ya existe Ad 23848711065690517 en BD
+WARN:11:38:22->Ad 23848655068020517 sin estadisticas
+WARN:11:38:23->Ya existe Ad 23848655068020517 en BD
+WARN:11:38:23->Ad 23848655068010517 sin estadisticas
+WARN:11:38:23->Ya existe Ad 23848655068010517 en BD
+WARN:11:38:23->Ad 23848655068000517 sin estadisticas
+WARN:11:38:24->Ya existe Ad 23848655068000517 en BD
+WARN:11:38:24->Ad 23848655032930517 sin estadisticas
+WARN:11:38:24->Ya existe Ad 23848655032930517 en BD
+WARN:11:38:24->Ad 23848654994420517 sin estadisticas
+WARN:11:38:25->Ya existe Ad 23848654994420517 en BD
+WARN:11:38:25->Ad 23848654920470517 sin estadisticas
+WARN:11:38:25->Ya existe Ad 23848654920470517 en BD
+WARN:11:38:25->Ad 23848423120390517 sin estadisticas
+WARN:11:38:26->Ya existe Ad 23848423120390517 en BD
+WARN:11:38:26->Ad 23848423056240517 sin estadisticas
+WARN:11:38:26->Ya existe Ad 23848423056240517 en BD
+WARN:11:38:26->Ad 23848377235010517 sin estadisticas
+WARN:11:38:27->Ya existe Ad 23848377235010517 en BD
+WARN:11:38:27->Ad 23848376748690517 sin estadisticas
+WARN:11:38:27->Ya existe Ad 23848376748690517 en BD
+WARN:11:38:27->Ad 23848350090550517 sin estadisticas
+WARN:11:38:28->Ya existe Ad 23848350090550517 en BD
+WARN:11:38:28->Ad 23848349995220517 sin estadisticas
+WARN:11:38:28->Ya existe Ad 23848349995220517 en BD
+WARN:11:38:28->Ad 23848313581560517 sin estadisticas
+WARN:11:38:28->Ya existe Ad 23848313581560517 en BD
+WARN:11:38:28->Ad 23848313581550517 sin estadisticas
+WARN:11:38:29->Ya existe Ad 23848313581550517 en BD
+WARN:11:38:29->Ad 23848304650700517 sin estadisticas
+WARN:11:38:29->Ya existe Ad 23848304650700517 en BD
+WARN:11:38:29->Ad 23848304650690517 sin estadisticas
+WARN:11:38:29->Ya existe Ad 23848304650690517 en BD
+WARN:11:38:29->Ad 23848304632570517 sin estadisticas
+WARN:11:38:30->Ya existe Ad 23848304632570517 en BD
+WARN:11:38:30->Ad 23848304632560517 sin estadisticas
+WARN:11:38:30->Ya existe Ad 23848304632560517 en BD
+WARN:11:38:30->Ad 23848304588580517 sin estadisticas
+WARN:11:38:30->Ya existe Ad 23848304588580517 en BD
+WARN:11:38:30->Ad 23849358687060343 sin estadisticas
+WARN:11:38:31->Ya existe Ad 23849358687060343 en BD
+WARN:11:38:31->Ad 23849358671810343 sin estadisticas
+WARN:11:38:31->Ya existe Ad 23849358671810343 en BD
+WARN:11:38:31->Ad 23849358636880343 sin estadisticas
+WARN:11:38:32->Ya existe Ad 23849358636880343 en BD
+WARN:11:38:32->Ad 23849358687040343 sin estadisticas
+WARN:11:38:32->Ya existe Ad 23849358687040343 en BD
+WARN:11:38:32->Ad 23849358671830343 sin estadisticas
+WARN:11:38:33->Ya existe Ad 23849358671830343 en BD
+WARN:11:38:33->Ad 23849358291420343 sin estadisticas
+WARN:11:38:33->Ya existe Ad 23849358291420343 en BD
+WARN:11:38:33->Ad 23849358213040343 sin estadisticas
+WARN:11:38:34->Ya existe Ad 23849358213040343 en BD
+WARN:11:38:34->Ad 23849358213030343 sin estadisticas
+WARN:11:38:34->Ya existe Ad 23849358213030343 en BD
+WARN:11:38:48->Ad 23849357811880343 sin estadisticas
+WARN:11:38:49->Ya existe Ad 23849357811880343 en BD
+WARN:11:38:49->Ad 23849357974900343 sin estadisticas
+WARN:11:38:49->Ya existe Ad 23849357974900343 en BD
+WARN:11:38:49->Ad 23849357974910343 sin estadisticas
+WARN:11:38:50->Ya existe Ad 23849357974910343 en BD
+WARN:11:38:50->Ad 23849357444680343 sin estadisticas
+WARN:11:38:50->Ya existe Ad 23849357444680343 en BD
+WARN:11:38:50->Ad 23849357438120343 sin estadisticas
+WARN:11:38:51->Ya existe Ad 23849357438120343 en BD
+WARN:11:38:51->Ad 23849357573870343 sin estadisticas
+WARN:11:38:51->Ya existe Ad 23849357573870343 en BD
+WARN:11:38:51->Ad 23849357365130343 sin estadisticas
+WARN:11:38:52->Ya existe Ad 23849357365130343 en BD
+WARN:11:38:52->Ad 23849357312170343 sin estadisticas
+WARN:11:38:52->Ya existe Ad 23849357312170343 en BD
+WARN:11:38:52->Ad 23849357444690343 sin estadisticas
+WARN:11:38:53->Ya existe Ad 23849357444690343 en BD
+WARN:11:38:53->Ad 23849357382450343 sin estadisticas
+WARN:11:38:53->Ya existe Ad 23849357382450343 en BD
+WARN:11:38:53->Ad 23849352167700343 sin estadisticas
+WARN:11:38:54->Ya existe Ad 23849352167700343 en BD
+WARN:11:38:54->Ad 23849080172050343 sin estadisticas
+WARN:11:38:54->Ya existe Ad 23849080172050343 en BD
+WARN:11:38:54->Ad 23849303366050343 sin estadisticas
+WARN:11:38:55->Ya existe Ad 23849303366050343 en BD
+WARN:11:38:55->Ad 23849339744630343 sin estadisticas
+WARN:11:38:55->Ya existe Ad 23849339744630343 en BD
+WARN:11:38:55->Ad 23849064133620343 sin estadisticas
+WARN:11:38:56->Ya existe Ad 23849064133620343 en BD
+WARN:11:38:56->Ad 23849064116570343 sin estadisticas
+WARN:11:38:56->Ya existe Ad 23849064116570343 en BD
+WARN:11:38:56->Ad 23849063408650343 sin estadisticas
+WARN:11:38:57->Ya existe Ad 23849063408650343 en BD
+WARN:11:38:57->Ad 23849227039510385 sin estadisticas
+WARN:11:38:57->Ya existe Ad 23849227039510385 en BD
+WARN:11:38:57->Ad 23849186275170385 sin estadisticas
+WARN:11:38:57->Ya existe Ad 23849186275170385 en BD
+WARN:11:38:57->Ad 23849186403600385 sin estadisticas
+WARN:11:38:58->Ya existe Ad 23849186403600385 en BD
+WARN:11:38:58->Ad 23849186226030385 sin estadisticas
+WARN:11:38:58->Ya existe Ad 23849186226030385 en BD
+WARN:11:38:58->Ad 23849206377030385 sin estadisticas
+WARN:11:38:59->Ya existe Ad 23849206377030385 en BD
+WARN:11:38:59->Ad 23849206320380385 sin estadisticas
+WARN:11:38:59->Ya existe Ad 23849206320380385 en BD
+WARN:11:38:59->Ad 23849186403590385 sin estadisticas
+WARN:11:39:00->Ya existe Ad 23849186403590385 en BD
+WARN:11:39:00->Ad 23849186254810385 sin estadisticas
+WARN:11:39:00->Ya existe Ad 23849186254810385 en BD
+WARN:11:39:00->Ad 23849186275150385 sin estadisticas
+WARN:11:39:01->Ya existe Ad 23849186275150385 en BD
+WARN:11:39:01->Ad 23849186275200385 sin estadisticas
+WARN:11:39:02->Ya existe Ad 23849186275200385 en BD
+WARN:11:39:02->Ad 23849186403630385 sin estadisticas
+WARN:11:39:02->Ya existe Ad 23849186403630385 en BD
+WARN:11:39:02->Ad 23849186195700385 sin estadisticas
+WARN:11:39:03->Ya existe Ad 23849186195700385 en BD
+WARN:11:39:03->Ad 23849186403610385 sin estadisticas
+WARN:11:39:03->Ya existe Ad 23849186403610385 en BD
+WARN:11:39:03->Ad 23849186242670385 sin estadisticas
+WARN:11:39:04->Ya existe Ad 23849186242670385 en BD
+WARN:11:39:04->Ad 23849186275160385 sin estadisticas
+WARN:11:39:04->Ya existe Ad 23849186275160385 en BD
+WARN:11:39:04->Ad 23849186403580385 sin estadisticas
+WARN:11:39:05->Ya existe Ad 23849186403580385 en BD
+WARN:11:39:05->Ad 23849186275210385 sin estadisticas
+WARN:11:39:05->Ya existe Ad 23849186275210385 en BD
+WARN:11:39:05->Ad 23849186190540385 sin estadisticas
+WARN:11:39:06->Ya existe Ad 23849186190540385 en BD
+WARN:11:39:06->Ad 23849186403620385 sin estadisticas
+WARN:11:39:06->Ya existe Ad 23849186403620385 en BD
+WARN:11:39:06->Ad 23849186275180385 sin estadisticas
+WARN:11:39:07->Ya existe Ad 23849186275180385 en BD
+WARN:11:39:07->Ad 23849178185090385 sin estadisticas
+WARN:11:39:07->Ya existe Ad 23849178185090385 en BD
+WARN:11:39:07->Ad 23848539957290385 sin estadisticas
+WARN:11:39:07->Ya existe Ad 23848539957290385 en BD
+WARN:11:39:07->Ad 23848310666930385 sin estadisticas
+WARN:11:39:08->Ya existe Ad 23848310666930385 en BD
+WARN:11:39:08->Ad 23848539957440385 sin estadisticas
+WARN:11:39:08->Ya existe Ad 23848539957440385 en BD
+WARN:11:39:08->Ad 23848310666900385 sin estadisticas
+WARN:11:39:09->Ya existe Ad 23848310666900385 en BD
+WARN:11:39:09->Ad 23848486152610269 sin estadisticas
+WARN:11:39:09->Ya existe Ad 23848486152610269 en BD
+WARN:11:39:09->Ad 23848486225940269 sin estadisticas
+WARN:11:39:10->Ya existe Ad 23848486225940269 en BD
+WARN:11:39:10->Ad 23848369619660269 sin estadisticas
+WARN:11:39:10->Ya existe Ad 23848369619660269 en BD
+WARN:11:39:10->Ad 23848369619650269 sin estadisticas
+WARN:11:39:11->Ya existe Ad 23848369619650269 en BD
+WARN:11:39:11->Ad 23848108100960269 sin estadisticas
+WARN:11:39:11->Ya existe Ad 23848108100960269 en BD
+WARN:11:39:11->Ad 23848178118470269 sin estadisticas
+WARN:11:39:12->Ya existe Ad 23848178118470269 en BD
+WARN:11:39:12->Ad 23848345737380269 sin estadisticas
+WARN:11:39:12->Ya existe Ad 23848345737380269 en BD
+WARN:11:39:12->Ad 23848345844110269 sin estadisticas
+WARN:11:39:13->Ya existe Ad 23848345844110269 en BD
+WARN:11:39:13->Ad 23848178118440269 sin estadisticas
+WARN:11:39:13->Ya existe Ad 23848178118440269 en BD
+WARN:11:39:13->Ad 23848178118430269 sin estadisticas
+WARN:11:39:14->Ya existe Ad 23848178118430269 en BD
+WARN:11:39:14->Ad 23848178118450269 sin estadisticas
+WARN:11:39:14->Ya existe Ad 23848178118450269 en BD
+WARN:11:39:14->Ad 23848178118420269 sin estadisticas
+WARN:11:39:15->Ya existe Ad 23848178118420269 en BD
+WARN:11:39:15->Ad 23848178118480269 sin estadisticas
+WARN:11:39:15->Ya existe Ad 23848178118480269 en BD
+WARN:11:39:15->Ad 23848178118460269 sin estadisticas
+WARN:11:39:15->Ya existe Ad 23848178118460269 en BD
+WARN:11:39:15->Ad 23848037231490269 sin estadisticas
+WARN:11:39:16->Ya existe Ad 23848037231490269 en BD
+WARN:11:39:16->Ad 23848045972800269 sin estadisticas
+WARN:11:39:16->Ya existe Ad 23848045972800269 en BD
+WARN:11:39:16->Ad 23848108100990269 sin estadisticas
+WARN:11:39:17->Ya existe Ad 23848108100990269 en BD
+WARN:11:39:17->Ad 23848178076570269 sin estadisticas
+WARN:11:39:17->Ya existe Ad 23848178076570269 en BD
+WARN:11:39:17->Ad 23848178065510269 sin estadisticas
+WARN:11:39:18->Ya existe Ad 23848178065510269 en BD
+WARN:11:39:18->Ad 23848037231500269 sin estadisticas
+WARN:11:39:18->Ya existe Ad 23848037231500269 en BD
+WARN:11:39:18->Ad 23848178088530269 sin estadisticas
+WARN:11:39:19->Ya existe Ad 23848178088530269 en BD

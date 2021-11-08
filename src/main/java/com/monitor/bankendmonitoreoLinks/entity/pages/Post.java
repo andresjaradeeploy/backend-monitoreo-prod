@@ -79,6 +79,21 @@ public class Post implements Serializable {
 
 	@Column(columnDefinition = "TEXT")
 	private String full_picture;
+	
+	
+
+	@Column(columnDefinition = "TEXT")
+	private String nameImage;
+	
+	
+	public String getNameImage() {
+		return nameImage;
+	}
+
+	public void setNameImage(String nameImage) {
+		this.nameImage = nameImage;
+	}
+
 	public Page getPage() {
 		return page;
 	}

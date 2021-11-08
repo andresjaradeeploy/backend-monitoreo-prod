@@ -28,7 +28,7 @@ public class PageImp implements PagesDao {
 	private static final String SQL_SELECT = "SELECT * " + " FROM page";
 	
 	private static final String SQL_UPDATE = "UPDATE page"
-			+ " SET picture=?, link=?, fan_count=?, access_token=? WHERE id_page=?";
+			+ " SET picture=?, link=?, fan_count=?, access_token=?, cover=?, social_sentence=? WHERE id_page=?";
 	
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
@@ -120,15 +120,41 @@ public class PageImp implements PagesDao {
 			JSONObject dataPage = resut.getJSONObject("picture");
 				
 			JSONObject datapicture = dataPage.getJSONObject("data");
+			String coverSource= null;
+			JSONObject dataCover=null;
+			
+			String social_sentence= null;
+			JSONObject engagement=null;
+			
+			try {
+				dataCover= resut.getJSONObject("cover");
+			} catch (Exception e) {
+				System.err.println("no exite cover");
+			}
 
-				
-				
+			try {
+				engagement= resut.getJSONObject("engagement");
+			} catch (Exception e) {
+				System.err.println("no exite engagement");
+			}
 			
 		
 
 			String access_token = resut.getString("access_token");
 			String picture = datapicture.getString("url");
 			String link = resut.getString("link");
+			try {
+				coverSource= dataCover.getString("source");
+			} catch (Exception e) {
+				System.err.println("no exite source");
+			}
+			try {
+				social_sentence= engagement.getString("social_sentence");
+			} catch (Exception e) {
+				System.err.println("no exite social sentence");
+			}
+			
+			
 			Integer fan_count = resut.getInt("fan_count");
 			String id_page = resut.getString("id");
 			//Integer likes= Integer.parseInt(fan_count);
@@ -140,6 +166,8 @@ public class PageImp implements PagesDao {
 			page.setLink(link);
 			page.setPicture(picture);
 			page.setIdPage(id_page);
+			page.setCover(coverSource);
+			page.setSocial_sentence(social_sentence);
 			
 		
 			actualizar(page);
@@ -164,9 +192,9 @@ public class PageImp implements PagesDao {
 		String pages = "[";
 		for (int i = 0; i < idPages.size(); i++) {
 			if (pages == "[")
-				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token");
+				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,social_sentence");
 			else
-				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token");
+				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,social_sentence");
 		}
 		pages = pages + "]";
 
@@ -257,7 +285,9 @@ public class PageImp implements PagesDao {
 			stmt.setString(2, page.getLink());
 			stmt.setInt(3, page.getFan_count());
 			stmt.setString(4, page.getAccess_token());
-			stmt.setString(5, page.getIdPage());
+			stmt.setString(5, page.getCover());
+			stmt.setString(6, page.getSocial_sentence());
+			stmt.setString(7, page.getIdPage());
 
 			rows = rows + stmt.executeUpdate();
 
@@ -278,17 +308,7 @@ public class PageImp implements PagesDao {
 		System.out.println(imp.obtenerPages());
 		
 		List<Page> pages = new ArrayList<>();
-		pages=imp.obtenerAllPageInf();
-		for (Page page : pages) {
-			System.out.println("page id"+page.getIdPage());
-			System.out.println("page access_token"+page.getAccess_token());
-			System.out.println("page category"+page.getCategory());
-			System.out.println("page name"+page.getName());
-			System.out.println("page picture"+page.getPicture());
-			System.out.println("page link"+page.getLink());
-			System.out.println("page fan count"+page.getFan_count());
-		}
+		imp.obtenerAllPageInf();
 	
-		System.out.println("ss"+imp.obtenerAllPages());
 }
 }

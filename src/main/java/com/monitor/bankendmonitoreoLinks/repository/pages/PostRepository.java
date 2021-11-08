@@ -12,6 +12,7 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Post;
 @Repository
 public interface PostRepository extends JpaRepository<Post, String> {
 
-	@Query(nativeQuery = true, value = "SELECT * FROM post " + "where page_id_page= :idPage")
+	@Query(nativeQuery = true, value = "SELECT * FROM post " + "where page_id_page= :idPage "
+			+ "order by created_time desc limit 10")
 	List<Post> findPostbyPage(@Param("idPage") String idPage);
 }
