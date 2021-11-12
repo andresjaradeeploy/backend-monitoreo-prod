@@ -224,28 +224,38 @@ public class LinkComponent {
 
 	}
 
-	public static String peticionHttpGet(String urlParaVisitar) throws Exception {
+	public static String peticionHttpGet(String urlParaVisitar)  {
 
 		StringBuilder resultado = new StringBuilder();
 
-		URL url = new URL(urlParaVisitar);
+		URL url;
+		try {
+			url = new URL(urlParaVisitar);
+			HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
+			conexion.setRequestProperty("Content-Type", "application/json");
+			conexion.setRequestProperty("Accept", "application/json");
+			conexion.setRequestMethod("GET");
 
-		HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
-		conexion.setRequestProperty("Content-Type", "application/json");
-		conexion.setRequestProperty("Accept", "application/json");
-		conexion.setRequestMethod("GET");
+			BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
+			String linea;
 
-		BufferedReader rd = new BufferedReader(new InputStreamReader(conexion.getInputStream()));
-		String linea;
+			while ((linea = rd.readLine()) != null) {
 
-		while ((linea = rd.readLine()) != null) {
+				resultado.append(linea);
 
-			resultado.append(linea);
-
+			}
+			rd.close();
+			
+		} catch (MalformedURLException e) {
+			
+			e.printStackTrace();
+		} catch (IOException e) {
+		
+			e.printStackTrace();
 		}
-
-		rd.close();
+		
 		return resultado.toString();
+		
 	}
 
 }

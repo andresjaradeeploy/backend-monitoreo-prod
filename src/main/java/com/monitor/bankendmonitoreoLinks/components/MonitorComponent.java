@@ -13,7 +13,7 @@ public class MonitorComponent {
 	Logger log = logObject.getLogger();
 	
 	
-	public void main() {
+	public void mainLinks() {
 		
 		Runnable runnable = new Runnable() {
 
@@ -62,9 +62,10 @@ public void mainPage() {
 				while (true) {
 					try {
 
+						//2 horas
 						Thread.sleep(7200000);
 						ApiPages apiPages = new ApiPages();
-						apiPages.main();
+						apiPages.mainPage();
 
 						
 					} catch (Exception e) {
@@ -81,6 +82,35 @@ public void mainPage() {
 		System.out.println("Obteniendo Pages ");
 
 	}
+public void mainPost() {
+	
+	Runnable runnable = new Runnable() {
+
+		@Override
+		public void run() {
+
+			while (true) {
+				try {
+					//2 horas y 29minutos
+					Thread.sleep(8940000);
+					ApiPages apiPages = new ApiPages();
+					apiPages.mainPost();
+
+					
+				} catch (Exception e) {
+					System.err.println("error al ejecutar apiPages" + e);
+					
+				}
+
+			}
+		}
+	};
+
+	Thread hilo = new Thread(runnable);
+	hilo.start();
+	System.out.println("Obteniendo Pages ");
+
+}
 	
 
 }

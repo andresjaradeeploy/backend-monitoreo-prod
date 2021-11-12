@@ -19,6 +19,8 @@ import org.json.JSONObject;
 
 public class Utilidades {
 
+
+
 	public JSONObject stringToJSON(String cadena) {
 
 		cadena.replace("[", "").replace("]", "");
@@ -70,27 +72,32 @@ public class Utilidades {
 
 	public static void main(String[] args) {
 		Utilidades utilidades = new Utilidades();
-//	utilidades.guardarImageneUrl("https://external.fbog11-1.fna.fbcdn.net/safe_image.php?d=AQGHMQWQHA7ekSdl&url=https%3A%2F%2Fstatic.iris.net.co%2Ffinanzas%2Fupload%2Fimages%2F2017%2F9%2F15%2F73790_1.jpg&ext=emg0&_nc_oe=6efa3&_nc_sid=64c8fc&ccb=3-5&_nc_hash=AQGBC8_611rjZX2w","imagentest2");
-	try {
-		Process process = Runtime.getRuntime().exec("ping www.Pharos.sh.com");
-		printResults(process);
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
+	
+		
+		
+		
+/*	utilidades.guardarImageneUrl("https://external.fbog11-1.fna.fbcdn.net/safe_image.php?d=AQGHMQWQHA7ekSdl&url=https%3A%2F%2Fstatic.iris.net.co%2Ffinanzas%2Fupload%2Fimages%2F2017%2F9%2F15%2F73790_1.jpg&ext=emg0&_nc_oe=6efa3&_nc_sid=64c8fc&ccb=3-5&_nc_hash=AQGBC8_611rjZX2w","imagentest2");
+		try {
+			Process process = Runtime.getRuntime().exec("ping www.Pharos.sh.com");
+			printResults(process);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
 	}
-	}
-	public static void printResults(Process process) throws IOException {
-	    BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-	    String line = "";
-	    while ((line = reader.readLine()) != null) {
-	        System.out.println(line);
-	    }
-	    }
 
-	public void guardarImageneUrl(String url,String nameImage) {
+	public static void printResults(Process process) throws IOException {
+		BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
+		String line = "";
+		while ((line = reader.readLine()) != null) {
+			System.out.println(line);
+		}
+	}
+
+	public void guardarImageneUrl(String url, String nameImage) {
 		try (InputStream in = new URL(url).openStream()) {
-			Files.copy(in, Paths.get("C:/Users/1012421355/Desktop/images/"+nameImage+".jpg"));
-			
+			Files.copy(in, Paths.get("C:/home/images/" + nameImage + ".jpg"));
+
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -98,7 +105,16 @@ public class Utilidades {
 			e.printStackTrace();
 		}
 	}
-	
-	
+
+	public  boolean verificarSiSoloLetras(String cadena) {
+		for(int i=0;i < cadena.length();i++) {
+			char c=cadena.charAt(i);
+			//si no esta entre a y z ni entre A y Z, ni es un espacio
+			if (!((c>='a' && c<='z') || (c>= 'A' && c<='Z') || c==' ')) {
+				return false;
+			}
+		}
+		return true;
+	}
 
 }

@@ -192,9 +192,9 @@ public class PageImp implements PagesDao {
 		String pages = "[";
 		for (int i = 0; i < idPages.size(); i++) {
 			if (pages == "[")
-				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,social_sentence");
+				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover");
 			else
-				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,social_sentence");
+				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover");
 		}
 		pages = pages + "]";
 
@@ -308,6 +308,7 @@ public class PageImp implements PagesDao {
 		System.out.println(imp.obtenerPages());
 		
 		List<Page> pages = new ArrayList<>();
+		imp.obtenerPageInf();
 		imp.obtenerAllPageInf();
 	
 }

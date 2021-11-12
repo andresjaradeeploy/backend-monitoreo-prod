@@ -24,8 +24,16 @@ public class GoogleVision {
 
 	public static void main(String[] args) {
 		try {
-			//detectLabels();
-			detectText("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
+			GoogleVision googleVision= new GoogleVision();
+			List<String> tags= new ArrayList<>();
+			//tags=detectLabels("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
+			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
+			System.out.println("ocr"+ocr);
+			
+			/*for (String string : tags) {
+				System.out.println("tag"+string);
+			}*/
+			//
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			// e.printStackTrace();
@@ -33,9 +41,9 @@ public class GoogleVision {
 	}
 
 	// Detects labels in the specified local image.
-	public static void detectLabels(String filePath) throws IOException {
+	public  List<String> detectLabels(String filePath) throws IOException {
 		List<AnnotateImageRequest> requests = new ArrayList<>();
-
+		List<String> tags= new ArrayList<>();
 		ByteString imgBytes = ByteString.readFrom(new FileInputStream(filePath));
 
 		Image img = Image.newBuilder().setContent(imgBytes).build();
@@ -56,28 +64,30 @@ public class GoogleVision {
 			for (AnnotateImageResponse res : responses) {
 				if (res.hasError()) {
 					// System.out.format("Error: %s%n", res.getError().getMessage());
-					return;
+					return null;
 				}
 
 				// For full list of available annotations, see http://g.co/cloud/vision/docs
 				for (EntityAnnotation annotation : res.getLabelAnnotationsList()) {
 					annotation.getAllFields().forEach((k, v) -> {
-						//System.out.println("v" + v.toString());
+						System.out.println("v" + v.toString());
+						tags.add(v.toString());
+						
 					});
 
 				}
 			}
 		}
+		return tags;
 	}
 
 	
 
 	// Detects text in the specified image.
-	public static void detectText(String filePath) throws IOException {
+	public String detectText(String filePath) throws IOException {
 		List<AnnotateImageRequest> requests = new ArrayList<>();
-		String ocr = "";
 		ByteString imgBytes = ByteString.readFrom(new FileInputStream(filePath));
-
+		String ocr=null;
 		Image img = Image.newBuilder().setContent(imgBytes).build();
 		Feature feat = Feature.newBuilder().setType(Feature.Type.TEXT_DETECTION).build();
 		AnnotateImageRequest request = AnnotateImageRequest.newBuilder().addFeatures(feat).setImage(img).build();
@@ -96,18 +106,16 @@ public class GoogleVision {
 			for (AnnotateImageResponse res : responses) {
 				if (res.hasError()) {
 					System.out.format("Error: %s%n", res.getError().getMessage());
-					return;
-				}
-				
-				// For full list of available annotations, see http://g.co/cloud/vision/docs
-				for (EntityAnnotation annotation : res.getTextAnnotationsList()) {
-					// System.out.format("Text: %s%n", annotation.getDescription());
-					ocr = ocr + " " + annotation.getDescription().replaceAll("\\s","");
-					// System.out.println("ocr" +annotation.getDescription());
 					
 				}
-				System.out.println("ocr" +ocr);
+				
+				EntityAnnotation annotation=res.getTextAnnotations(0);
+				ocr=annotation.getDescription().replaceAll("\\s"," ");
+				
+				//System.out.println("Text: "+ annotation.getDescription().replaceAll("\\s"," "));
+				
 			}
 		}
+		return ocr;
 	}
 }

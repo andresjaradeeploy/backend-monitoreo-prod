@@ -20,7 +20,7 @@ public class GoogleTraslate {
 	                GoogleNetHttpTransport.newTrustedTransport()
 	                , GsonFactory.getDefaultInstance(), null)
 	                // Set your application name
-	                .setApplicationName("Stackoverflow-Example")
+	                .setApplicationName("traslate")
 	                .build();
 	        Translate.Translations.List list = t.new Translations().list(
 	                Arrays.asList(

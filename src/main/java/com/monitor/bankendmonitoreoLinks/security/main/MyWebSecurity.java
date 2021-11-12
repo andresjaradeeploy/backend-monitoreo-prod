@@ -60,6 +60,8 @@ public class MyWebSecurity extends WebSecurityConfigurerAdapter {
 				.antMatchers("/adCreative/**").permitAll().antMatchers("/anuncio/**").permitAll()
 				.antMatchers("/oauth/**").permitAll().antMatchers("/correoAlerta/**").permitAll()
 				.antMatchers("/page/**").permitAll()
+				.antMatchers("/tags/**").permitAll()
+				.antMatchers("/ocr/**").permitAll()
 				.antMatchers("/cuentaFB/**").permitAll().antMatchers("/users/**").permitAll().antMatchers("/post/**").permitAll()
 				.antMatchers("/alerta/**").permitAll().anyRequest().authenticated().and().exceptionHandling()
 				.authenticationEntryPoint(jwtEntryPoint).and().sessionManagement()

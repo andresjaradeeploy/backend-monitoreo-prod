@@ -2,9 +2,10 @@ package com.monitor.bankendmonitoreoLinks.entity.pages;
 
 import java.io.Serializable;
 
-
+import javax.persistence.Column;
 import javax.persistence.Entity;
-
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 
@@ -15,8 +16,10 @@ import javax.persistence.OneToOne;
 public class Ocr implements Serializable {
 
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long idOcr;
 	
+	@Column(columnDefinition = "TEXT")
 	private String descriptionOcr;
 	
 	

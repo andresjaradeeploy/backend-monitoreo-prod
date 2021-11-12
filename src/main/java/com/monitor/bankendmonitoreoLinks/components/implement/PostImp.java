@@ -1,5 +1,6 @@
 package com.monitor.bankendmonitoreoLinks.components.implement;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,29 +12,38 @@ import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import com.monitor.bankendmonitoreoLinks.components.GoogleVision;
 import com.monitor.bankendmonitoreoLinks.components.Utilidades;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.PostDao;
+import com.monitor.bankendmonitoreoLinks.entity.pages.Ocr;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Post;
+import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 
 public class PostImp implements PostDao {
 
 	private static final String SQL_INSERT = "INSERT INTO post(id_post,created_time,message,page_id_page)"
-			+ " VALUES(?, ?, ?,?)";
+			+ " VALUES(?, ?, ?, ?)";
 
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_post " + " FROM post WHERE id_post = ?";
+	
+	private static final String SQL_SELECT_POST_BY_ID = "SELECT name_image " + " FROM post WHERE id_post = ?";
 
 	private static final String SQL_UPDATE = "UPDATE post"
 			+ " SET full_picture=?, permalink_url=?, picture=?, shares=?, name_image=? WHERE id_post=?";
+	
+	private GoogleVision googleVision= new GoogleVision();
 
 	public List<Post> obtenerAllPost() {
 
 		ArrayList<String> idPages = new ArrayList<String>();
 		PageImp pageImp = new PageImp();
 		Utilidades utilidades = new Utilidades();
+		TagsImp tagsImp = new TagsImp();
+		OcrImp ocrImp = new OcrImp();
 		idPages = pageImp.obtenerPagesBD();
 		List<Post> posts = new ArrayList<>();
 		String post = null;
@@ -88,7 +98,7 @@ public class PostImp implements PostDao {
 						post2 = post2 + FACEBOOK_IMP
 								.apiGraphPage(postNew.getIdPost() + "?fields=full_picture,permalink_url,picture,shares");
 					} catch (Exception e) {
-						// TODO: handle exception
+						
 					}
 					
 					post2 = post2 + "]";
@@ -97,6 +107,7 @@ public class PostImp implements PostDao {
 					String permalink_url = null;
 					String picture = null;
 					String shares;
+					List<String> tags= new ArrayList();
 					Integer sharesNumber = 0;
 					JSONArray arrayData = new JSONArray(post2);
 					JSONObject labels = arrayData.getJSONObject(0);
@@ -136,6 +147,50 @@ public class PostImp implements PostDao {
 					postNew.setPicture(picture);
 					postNew.setShares(sharesNumber);
 					postNew.setIdPost(idPost);
+					postNew.setNameImage(obtenerNameImageById(idPost));
+					String filePath = "C:/home/images/"+postNew.getNameImage();
+					try {
+						tags=googleVision.detectLabels(filePath);
+						for (String string : tags) {
+							boolean ifOnlyString=utilidades.verificarSiSoloLetras(string);
+							if (ifOnlyString==true) {
+								boolean ifExistTag=tagsImp.verificarSiExisteTag(string,postNew.getIdPost());
+								if (ifExistTag==false) {
+									Tags tag= new Tags();
+									tag.setNameTag(string);
+									tag.setPost(postNew);
+									tagsImp.guardar(tag);
+								}
+								else
+									System.out.println("El tag ya existe");
+							}
+							else
+								System.err.println("tag no es label");
+							
+						}
+					} catch (IOException e) {
+						
+						e.printStackTrace();
+					}
+					
+					
+					try {
+						String ocrVision=googleVision.detectText(filePath);
+						boolean ifExistsOcr=ocrImp.verificarSiExisteOcr(idPost);
+						if(ifExistsOcr==false) {
+							Ocr ocr=new Ocr();
+							ocr.setDescriptionOcr(ocrVision);
+							ocr.setPost(postNew);
+							ocrImp.guardar(ocr);
+						}
+						else
+							System.out.println("Ta existe OCR de el post"+postNew.getIdPost());
+						
+						
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+					
 					postNew.setNameImage(idPost + ".jpg");
 					actualizar(postNew);
 				}
@@ -212,6 +267,38 @@ public class PostImp implements PostDao {
 		return res;
 	}
 
+	
+	@Override
+	public String obtenerNameImageById(String idPost) {
+		boolean res = false;
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		String name_image= null;
+		try {
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT_POST_BY_ID);
+			stmt.setString(1, idPost);
+			rs = stmt.executeQuery();
+
+			if (rs.next())
+				
+			name_image=rs.getString("name_image");
+			else
+				System.err.println("no existe post de id"+idPost);
+
+		} catch (Exception e) {
+			System.err.print("Ha ocurrido un error: " + e.getMessage());
+
+		} finally {
+			Conector.close(conn);
+			Conector.close(stmt);
+			Conector.close(rs);
+		}
+		return name_image;
+	}
+
+	
 	@Override
 	public int actualizar(Post post) {
 		Connection conn = null;

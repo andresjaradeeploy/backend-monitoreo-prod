@@ -1,26 +1,20 @@
 package com.monitor.bankendmonitoreoLinks.components;
 
-import java.util.List;
-
-import com.monitor.bankendmonitoreoLinks.components.implement.AnuncioImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.PageImp;
-import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
-import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
+import com.monitor.bankendmonitoreoLinks.components.implement.PostImp;
 
 public class ApiPages {
 	
-	
-	public List<Page> ObteneryGuardarPages() {
+	private PostImp postimp= new  PostImp();
+	private PageImp pageImp = new PageImp();
 
-	
+	public void mainPage() {
+		pageImp.obtenerPageInf();
+		pageImp.obtenerAllPageInf();
+		
 
-		List<Page> pages = new PageImp().obtenerPageInf();
-
-		return pages;
 	}
-
-	public void main() {
-	
-
+	public void mainPost() {
+		postimp.obtenerAllPost();
 	}
 }
