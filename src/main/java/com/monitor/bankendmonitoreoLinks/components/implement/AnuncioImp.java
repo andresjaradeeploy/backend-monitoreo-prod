@@ -147,12 +147,9 @@ public class AnuncioImp implements IAnuncioDao {
 				boolean ifExists = verificarSiExisteAnuncio(anuncio.getIdAnuncio());
 				if (ifExists == false)
 
-					if (numeroImpresiones > 0 && status=="ACTIVE") {
+					
 						guardar(anuncio, cuentaFB, adCreative);
-					} else {
-						System.err.println("Impresiones menores que 0 o estado de anuncio pausado");
-						actualizar(anuncio);
-					}
+					
 				else
 					System.out.println("Ya existe el anuncio en BD");
 				actualizar(anuncio);

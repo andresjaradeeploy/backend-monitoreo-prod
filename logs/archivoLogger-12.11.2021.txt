@@ -1,0 +1,1656 @@
+ERROR:10:12:21->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_1590286444476744/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:12:21->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_368970826886592/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:12:21->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_432288233860095/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:12:22->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_597963537809263/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:12:22->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_673807306590105/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:12:22->error al revisar linkorg.json.JSONException: JSONArray[0] is not a JSONObject.
+ERROR:10:17:24->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_1590286444476744/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:17:24->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_368970826886592/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:17:25->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_432288233860095/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:17:25->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_597963537809263/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:17:25->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_673807306590105/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:17:25->error al revisar linkorg.json.JSONException: JSONArray[0] is not a JSONObject.
+ERROR:10:22:27->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_1590286444476744/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:22:27->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_368970826886592/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:22:28->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_432288233860095/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:22:28->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_597963537809263/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:22:28->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_673807306590105/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:22:29->error al revisar linkorg.json.JSONException: JSONArray[0] is not a JSONObject.
+ERROR:10:27:30->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_1590286444476744/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:27:31->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_368970826886592/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:27:31->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_432288233860095/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:27:32->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_597963537809263/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:27:32->Error al obtener propiedades del link: https://graph.facebook.com/v12.0/act_673807306590105/ads?fields=creative&access_token=EAAp4gTbHgEoBAAONi8R4894QdXyjnNvax1ZAp5XftALhyS2HfuyCxUNQIFgTSZAuix0myV3qXG9a0ovOuEzSH1gnF9vfzzu9Y5U5C6aFAIZCuxTUf49l1oxaH92Pxno1nYlnVqspHP2eZA84AZCvkMkRFMTj80JPIsbeXs42DXXxVW7QynuOT  org.json.JSONException: A JSONObject text must begin with '{' at 0 [character 1 line 1]
+ERROR:10:27:32->error al revisar linkorg.json.JSONException: JSONArray[0] is not a JSONObject.
+WARN:10:54:04->Ad creatriv eno tiene link no se guardara23848881013950517
+WARN:10:54:04->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848721867860517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848721867890517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848721820490517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848721820520517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:10:54:05->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:10:54:05->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349899690517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349894450517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349946040517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349890090517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349939470517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23848349917700517
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:10:54:05->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186504830385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849202131220385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849202131260385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319002950385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23848868146910385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319003030385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186511280385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186503510385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849178272890385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186509840385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186509640385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186505620385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186504000385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849186514390385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319001920385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319001850385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319001950385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23848868146690385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319002980385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319001830385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23848868146540385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23848868146700385
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849319001940385
+WARN:10:54:06->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:06->Ad creatriv eno tiene link no se guardara23849422432450343
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422556590343
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422441780343
+WARN:10:54:07->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422431470343
+WARN:10:54:07->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422434190343
+WARN:10:54:07->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422433540343
+WARN:10:54:07->Ad creatriv eno tiene link no se guardara23849422418360343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849386048960343
+WARN:10:54:08->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849421915820343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417462660343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417472460343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417485820343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417280080343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849359955810343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849359976200343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417437780343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849359976230343
+WARN:10:54:08->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849416778300343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417501050343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417509090343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417510290343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417506580343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417503790343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417498190343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23849417279920343
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848732588130279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848642915290279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848642903150279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848642893980279
+WARN:10:54:08->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847767229350279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996704250279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996586790279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996673450279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996709140279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996751890279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996751910279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996752900279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23847996752600279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848353831040279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848353872130279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848361096850279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848353885810279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848441692320279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848441683010279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848441676220279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848440750290279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848382991680279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848382991280279
+WARN:10:54:08->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848144487000279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848144486610279
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848569088520269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848569074330269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:10:54:08->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848486263610269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848369627780269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848350996040269
+WARN:10:54:08->Ad creatriv eno tiene link no se guardara23848350994490269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848345903080269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848345904580269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848345843800269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178239430269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178238240269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178238260269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178239410269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178268800269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848143438990269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178267000269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178266970269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178265580269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848143438590269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178268850269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848178265600269
+WARN:10:54:09->Ad creatriv eno tiene link no se guardara23848143450210269
+WARN:10:54:17->Ya existe Ad 23848880928160517 en BD
+WARN:10:54:17->Ya existe Ad 23848727452740517 en BD
+WARN:10:54:18->Ya existe Ad 23848727452730517 en BD
+WARN:10:54:18->Ya existe Ad 23848721636710517 en BD
+WARN:10:54:19->Ya existe Ad 23848721636700517 en BD
+WARN:10:54:19->Ya existe Ad 23848711065710517 en BD
+WARN:10:54:20->Ya existe Ad 23848711065690517 en BD
+WARN:10:54:20->Ya existe Ad 23848655068020517 en BD
+WARN:10:54:21->Ya existe Ad 23848655068010517 en BD
+WARN:10:54:21->Ya existe Ad 23848655068000517 en BD
+WARN:10:54:21->Ya existe Ad 23848655032930517 en BD
+WARN:10:54:22->Ya existe Ad 23848654994420517 en BD
+WARN:10:54:22->Ya existe Ad 23848654920470517 en BD
+WARN:10:54:22->Ad 23848423120390517 sin estadisticas
+WARN:10:54:23->Ya existe Ad 23848423120390517 en BD
+WARN:10:54:23->Ad 23848423056240517 sin estadisticas
+WARN:10:54:23->Ya existe Ad 23848423056240517 en BD
+WARN:10:54:24->Ya existe Ad 23848377235010517 en BD
+WARN:10:54:24->Ya existe Ad 23848376748690517 en BD
+WARN:10:54:24->Ad 23848350090550517 sin estadisticas
+WARN:10:54:25->Ya existe Ad 23848350090550517 en BD
+WARN:10:54:25->Ad 23848349995220517 sin estadisticas
+WARN:10:54:25->Ya existe Ad 23848349995220517 en BD
+WARN:10:54:26->Ya existe Ad 23848313581560517 en BD
+WARN:10:54:26->Ya existe Ad 23848313581550517 en BD
+WARN:10:54:26->Ad 23848304650700517 sin estadisticas
+WARN:10:54:27->Ya existe Ad 23848304650700517 en BD
+WARN:10:54:27->Ya existe Ad 23848304650690517 en BD
+WARN:10:54:27->Ad 23848304632570517 sin estadisticas
+WARN:10:54:28->Ya existe Ad 23848304632570517 en BD
+WARN:10:54:28->Ad 23848304632560517 sin estadisticas
+WARN:10:54:28->Ya existe Ad 23848304632560517 en BD
+WARN:10:54:28->Ad 23849186403590385 sin estadisticas
+WARN:10:54:29->Ya existe Ad 23849186403590385 en BD
+WARN:10:54:29->Ad 23849186275150385 sin estadisticas
+WARN:10:54:29->Ya existe Ad 23849186275150385 en BD
+WARN:10:54:29->Ad 23849186254810385 sin estadisticas
+WARN:10:54:30->Ya existe Ad 23849186254810385 en BD
+WARN:10:54:30->Ad 23849186226030385 sin estadisticas
+WARN:10:54:30->Ya existe Ad 23849186226030385 en BD
+WARN:10:54:30->Ad 23849186403600385 sin estadisticas
+WARN:10:54:31->Ya existe Ad 23849186403600385 en BD
+WARN:10:54:31->Ad 23849268860960385 sin estadisticas
+WARN:10:54:31->Ya existe Ad 23849268860960385 en BD
+WARN:10:54:31->Ad 23848310666930385 sin estadisticas
+WARN:10:54:32->Ya existe Ad 23848310666930385 en BD
+WARN:10:54:32->Ad 23848539957440385 sin estadisticas
+WARN:10:54:32->Ya existe Ad 23848539957440385 en BD
+WARN:10:54:32->Ad 23849186403630385 sin estadisticas
+WARN:10:54:33->Ya existe Ad 23849186403630385 en BD
+WARN:10:54:33->Ad 23849186195700385 sin estadisticas
+WARN:10:54:33->Ya existe Ad 23849186195700385 en BD
+WARN:10:54:33->Ad 23849178185090385 sin estadisticas
+WARN:10:54:34->Ya existe Ad 23849178185090385 en BD
+WARN:10:54:34->Ad 23849186403620385 sin estadisticas
+WARN:10:54:34->Ya existe Ad 23849186403620385 en BD
+WARN:10:54:34->Ad 23849186403580385 sin estadisticas
+WARN:10:54:35->Ya existe Ad 23849186403580385 en BD
+WARN:10:54:35->Ad 23849186242670385 sin estadisticas
+WARN:10:54:35->Ya existe Ad 23849186242670385 en BD
+WARN:10:54:35->Ad 23849186190540385 sin estadisticas
+WARN:10:54:36->Ya existe Ad 23849186190540385 en BD
+WARN:10:54:36->Ad 23849186403610385 sin estadisticas
+WARN:10:54:36->Ya existe Ad 23849186403610385 en BD
+WARN:10:54:36->Ad 23847631930900385 sin estadisticas
+WARN:10:54:36->Ya existe Ad 23847631930900385 en BD
+WARN:10:54:36->Ad 23848310666940385 sin estadisticas
+WARN:10:54:37->Ya existe Ad 23848310666940385 en BD
+WARN:10:54:37->Ad 23849268860950385 sin estadisticas
+WARN:10:54:37->Ya existe Ad 23849268860950385 en BD
+WARN:10:54:37->Ad 23847631930950385 sin estadisticas
+WARN:10:54:38->Ya existe Ad 23847631930950385 en BD
+WARN:10:54:38->Ad 23849268860940385 sin estadisticas
+WARN:10:54:38->Ya existe Ad 23849268860940385 en BD
+WARN:10:54:38->Ad 23848539957410385 sin estadisticas
+WARN:10:54:39->Ya existe Ad 23848539957410385 en BD
+WARN:10:54:39->Ad 23848310666960385 sin estadisticas
+WARN:10:54:39->Ya existe Ad 23848310666960385 en BD
+WARN:10:54:39->Ad 23847830543300385 sin estadisticas
+WARN:10:54:40->Ya existe Ad 23847830543300385 en BD
+WARN:10:54:40->Ad 23849268860930385 sin estadisticas
+WARN:10:54:40->Ya existe Ad 23849268860930385 en BD
+WARN:10:54:40->Ad 23849422103380343 sin estadisticas
+WARN:10:54:41->Ya existe Ad 23849422103380343 en BD
+WARN:10:54:41->Ad 23849422535910343 sin estadisticas
+WARN:10:54:41->Ya existe Ad 23849422535910343 en BD
+WARN:10:54:41->Ad 23849422430000343 sin estadisticas
+WARN:10:54:42->Ya existe Ad 23849422430000343 en BD
+WARN:10:54:42->Ad 23849422397690343 sin estadisticas
+WARN:10:54:42->Ya existe Ad 23849422397690343 en BD
+WARN:10:54:42->Ad 23849422250260343 sin estadisticas
+WARN:10:54:43->Ya existe Ad 23849422250260343 en BD
+WARN:10:54:43->Ad 23849422238980343 sin estadisticas
+WARN:10:54:43->Ya existe Ad 23849422238980343 en BD
+WARN:10:54:43->Ad 23849422334000343 sin estadisticas
+WARN:10:54:44->Ya existe Ad 23849422334000343 en BD
+WARN:10:54:44->Ad 23849386018510343 sin estadisticas
+WARN:10:54:44->Ya existe Ad 23849386018510343 en BD
+WARN:10:54:44->Ad 23849421859940343 sin estadisticas
+WARN:10:54:45->Ya existe Ad 23849421859940343 en BD
+WARN:10:54:45->Ad 23849357444680343 sin estadisticas
+WARN:10:54:45->Ya existe Ad 23849357444680343 en BD
+WARN:10:54:45->Ad 23849357438120343 sin estadisticas
+WARN:10:54:46->Ya existe Ad 23849357438120343 en BD
+WARN:10:54:46->Ad 23849357382450343 sin estadisticas
+WARN:10:54:46->Ya existe Ad 23849357382450343 en BD
+WARN:10:54:46->Ad 23849388116530343 sin estadisticas
+WARN:10:54:47->Ya existe Ad 23849388116530343 en BD
+WARN:10:54:47->Ad 23849359906950343 sin estadisticas
+WARN:10:54:47->Ya existe Ad 23849359906950343 en BD
+WARN:10:54:47->Ad 23849359963860343 sin estadisticas
+WARN:10:54:48->Ya existe Ad 23849359963860343 en BD
+WARN:10:54:48->Ad 23849358636880343 sin estadisticas
+WARN:10:54:48->Ya existe Ad 23849358636880343 en BD
+WARN:10:54:48->Ad 23849359963880343 sin estadisticas
+WARN:10:54:49->Ya existe Ad 23849359963880343 en BD
+WARN:10:54:49->Ad 23849416761310343 sin estadisticas
+WARN:10:54:49->Ya existe Ad 23849416761310343 en BD
+WARN:10:54:49->Ad 23849358213030343 sin estadisticas
+WARN:10:54:50->Ya existe Ad 23849358213030343 en BD
+WARN:10:54:50->Ad 23849357811880343 sin estadisticas
+WARN:10:54:50->Ya existe Ad 23849357811880343 en BD
+WARN:10:54:50->Ad 23849357573870343 sin estadisticas
+WARN:10:54:51->Ya existe Ad 23849357573870343 en BD
+WARN:10:54:51->Ad 23849357974910343 sin estadisticas
+WARN:10:54:51->Ya existe Ad 23849357974910343 en BD
+WARN:10:54:51->Ad 23849357974900343 sin estadisticas
+WARN:10:54:51->Ya existe Ad 23849357974900343 en BD
+WARN:10:54:51->Ad 23849358213040343 sin estadisticas
+WARN:10:54:52->Ya existe Ad 23849358213040343 en BD
+WARN:10:54:52->Ad 23849385976880343 sin estadisticas
+WARN:10:54:52->Ya existe Ad 23849385976880343 en BD
+WARN:10:54:52->Ad 23848642923760279 sin estadisticas
+WARN:10:54:53->Ya existe Ad 23848642923760279 en BD
+WARN:10:54:53->Ad 23848642904210279 sin estadisticas
+WARN:10:54:53->Ya existe Ad 23848642904210279 en BD
+WARN:10:54:53->Ad 23848642896830279 sin estadisticas
+WARN:10:54:54->Ya existe Ad 23848642896830279 en BD
+WARN:10:54:54->Ad 23848642785670279 sin estadisticas
+WARN:10:54:54->Ya existe Ad 23848642785670279 en BD
+WARN:10:54:54->Ad 23847767170470279 sin estadisticas
+WARN:10:54:55->Ya existe Ad 23847767170470279 en BD
+WARN:10:54:55->Ad 23847996680800279 sin estadisticas
+WARN:10:54:55->Ya existe Ad 23847996680800279 en BD
+WARN:10:54:55->Ad 23847996440530279 sin estadisticas
+WARN:10:54:56->Ya existe Ad 23847996440530279 en BD
+WARN:10:54:56->Ad 23847996668320279 sin estadisticas
+WARN:10:54:56->Ya existe Ad 23847996668320279 en BD
+WARN:10:54:56->Ad 23847996654680279 sin estadisticas
+WARN:10:54:57->Ya existe Ad 23847996654680279 en BD
+WARN:10:54:57->Ad 23847996720800279 sin estadisticas
+WARN:10:54:57->Ya existe Ad 23847996720800279 en BD
+WARN:10:54:57->Ad 23847996720830279 sin estadisticas
+WARN:10:54:58->Ya existe Ad 23847996720830279 en BD
+WARN:10:54:58->Ad 23847996720790279 sin estadisticas
+WARN:10:54:58->Ya existe Ad 23847996720790279 en BD
+WARN:10:54:58->Ad 23847996720810279 sin estadisticas
+WARN:10:54:59->Ya existe Ad 23847996720810279 en BD
+WARN:10:54:59->Ad 23848183841010279 sin estadisticas
+WARN:10:54:59->Ya existe Ad 23848183841010279 en BD
+WARN:10:54:59->Ad 23848181707620279 sin estadisticas
+WARN:10:55:00->Ya existe Ad 23848181707620279 en BD
+WARN:10:55:00->Ad 23848183840990279 sin estadisticas
+WARN:10:55:00->Ya existe Ad 23848183840990279 en BD
+WARN:10:55:00->Ad 23848182333700279 sin estadisticas
+WARN:10:55:01->Ya existe Ad 23848182333700279 en BD
+WARN:10:55:01->Ad 23848181548300279 sin estadisticas
+WARN:10:55:01->Ya existe Ad 23848181548300279 en BD
+WARN:10:55:01->Ad 23848181400240279 sin estadisticas
+WARN:10:55:02->Ya existe Ad 23848181400240279 en BD
+WARN:10:55:02->Ad 23848181601330279 sin estadisticas
+WARN:10:55:02->Ya existe Ad 23848181601330279 en BD
+WARN:10:55:02->Ad 23848181601340279 sin estadisticas
+WARN:10:55:03->Ya existe Ad 23848181601340279 en BD
+WARN:10:55:03->Ad 23848381403310279 sin estadisticas
+WARN:10:55:03->Ya existe Ad 23848381403310279 en BD
+WARN:10:55:03->Ad 23848381403320279 sin estadisticas
+WARN:10:55:04->Ya existe Ad 23848381403320279 en BD
+WARN:10:55:04->Ad 23848144477470279 sin estadisticas
+WARN:10:55:04->Ya existe Ad 23848144477470279 en BD
+WARN:10:55:04->Ad 23848144477460279 sin estadisticas
+WARN:10:55:05->Ya existe Ad 23848144477460279 en BD
+WARN:10:55:05->Ad 23848564588540269 sin estadisticas
+WARN:10:55:05->Ya existe Ad 23848564588540269 en BD
+WARN:10:55:05->Ad 23848564527540269 sin estadisticas
+WARN:10:55:05->Ya existe Ad 23848564527540269 en BD
+WARN:10:55:05->Ad 23848486152610269 sin estadisticas
+WARN:10:55:06->Ya existe Ad 23848486152610269 en BD
+WARN:10:55:06->Ad 23848486225940269 sin estadisticas
+WARN:10:55:06->Ya existe Ad 23848486225940269 en BD
+WARN:10:55:06->Ad 23848369619660269 sin estadisticas
+WARN:10:55:07->Ya existe Ad 23848369619660269 en BD
+WARN:10:55:07->Ad 23848369619650269 sin estadisticas
+WARN:10:55:07->Ya existe Ad 23848369619650269 en BD
+WARN:10:55:07->Ad 23848108100960269 sin estadisticas
+WARN:10:55:08->Ya existe Ad 23848108100960269 en BD
+WARN:10:55:08->Ad 23848178118470269 sin estadisticas
+WARN:10:55:08->Ya existe Ad 23848178118470269 en BD
+WARN:10:55:08->Ad 23848345737380269 sin estadisticas
+WARN:10:55:09->Ya existe Ad 23848345737380269 en BD
+WARN:10:55:09->Ad 23848345844110269 sin estadisticas
+WARN:10:55:09->Ya existe Ad 23848345844110269 en BD
+WARN:10:55:09->Ad 23848178118440269 sin estadisticas
+WARN:10:55:10->Ya existe Ad 23848178118440269 en BD
+WARN:10:55:10->Ad 23848178118430269 sin estadisticas
+WARN:10:55:10->Ya existe Ad 23848178118430269 en BD
+WARN:10:55:10->Ad 23848178118450269 sin estadisticas
+WARN:10:55:11->Ya existe Ad 23848178118450269 en BD
+WARN:10:55:11->Ad 23848178118420269 sin estadisticas
+WARN:10:55:11->Ya existe Ad 23848178118420269 en BD
+WARN:10:55:11->Ad 23848178118480269 sin estadisticas
+WARN:10:55:12->Ya existe Ad 23848178118480269 en BD
+WARN:10:55:12->Ad 23848178118460269 sin estadisticas
+WARN:10:55:12->Ya existe Ad 23848178118460269 en BD
+WARN:10:55:12->Ad 23848037231490269 sin estadisticas
+WARN:10:55:13->Ya existe Ad 23848037231490269 en BD
+WARN:10:55:13->Ad 23848045972800269 sin estadisticas
+WARN:10:55:13->Ya existe Ad 23848045972800269 en BD
+WARN:10:55:13->Ad 23848108100990269 sin estadisticas
+WARN:10:55:14->Ya existe Ad 23848108100990269 en BD
+WARN:10:55:14->Ad 23848178076570269 sin estadisticas
+WARN:10:55:14->Ya existe Ad 23848178076570269 en BD
+WARN:10:55:14->Ad 23848178065510269 sin estadisticas
+WARN:10:55:15->Ya existe Ad 23848178065510269 en BD
+WARN:10:55:15->Ad 23848037231500269 sin estadisticas
+WARN:10:55:15->Ya existe Ad 23848037231500269 en BD
+WARN:10:55:15->Ad 23848178088530269 sin estadisticas
+WARN:10:55:16->Ya existe Ad 23848178088530269 en BD
+WARN:10:55:16->Ad 23848178017440269 sin estadisticas
+WARN:10:55:16->Ya existe Ad 23848178017440269 en BD
+WARN:10:55:16->Ad 23848037231460269 sin estadisticas
+WARN:10:55:17->Ya existe Ad 23848037231460269 en BD
+WARN:11:01:11->Ad creatriv eno tiene link no se guardara23848881013950517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848721867860517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848721867890517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848721820490517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848721820520517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:01:12->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:01:12->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349899690517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349894450517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349946040517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349890090517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349939470517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23848349917700517
+WARN:11:01:12->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186504830385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849202131220385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849202131260385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319002950385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23848868146910385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319003030385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186511280385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186503510385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849178272890385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186509840385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186509640385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186505620385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186504000385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849186514390385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319001920385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319001850385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319001950385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23848868146690385
+WARN:11:01:13->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319002980385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23849319001830385
+WARN:11:01:13->Ad creatriv eno tiene link no se guardara23848868146540385
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23848868146700385
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849319001940385
+WARN:11:01:14->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422432450343
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422556590343
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422441780343
+WARN:11:01:14->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422431470343
+WARN:11:01:14->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422434190343
+WARN:11:01:14->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:14->Ad creatriv eno tiene link no se guardara23849422433540343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849422418360343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849386048960343
+WARN:11:01:15->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849421915820343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417462660343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417472460343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417485820343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417280080343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849359955810343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849359976200343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417437780343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849359976230343
+WARN:11:01:15->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849416778300343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417501050343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417509090343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417510290343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417506580343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417503790343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417498190343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23849417279920343
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848732588130279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848642915290279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848642903150279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848642893980279
+WARN:11:01:15->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847767229350279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996704250279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996586790279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996673450279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996709140279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996751890279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996751910279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996752900279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23847996752600279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848353831040279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848353872130279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848361096850279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848353885810279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848441692320279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848441683010279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848441676220279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848440750290279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848382991680279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848382991280279
+WARN:11:01:15->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848144487000279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848144486610279
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848569088520269
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848569074330269
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:11:01:15->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:01:15->Ad creatriv eno tiene link no se guardara23848486263610269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848369627780269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848350996040269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848350994490269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848345903080269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848345904580269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848345843800269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178239430269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178238240269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178238260269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178239410269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178268800269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848143438990269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178267000269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178266970269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178265580269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848143438590269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178268850269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848178265600269
+WARN:11:01:16->Ad creatriv eno tiene link no se guardara23848143450210269
+WARN:11:01:24->Ya existe Ad 23848880928160517 en BD
+WARN:11:01:24->Ya existe Ad 23848727452740517 en BD
+WARN:11:01:25->Ya existe Ad 23848727452730517 en BD
+WARN:11:01:25->Ya existe Ad 23848721636710517 en BD
+WARN:11:01:26->Ya existe Ad 23848721636700517 en BD
+WARN:11:01:26->Ya existe Ad 23848711065710517 en BD
+WARN:11:01:27->Ya existe Ad 23848711065690517 en BD
+WARN:11:01:27->Ya existe Ad 23848655068020517 en BD
+WARN:11:01:28->Ya existe Ad 23848655068010517 en BD
+WARN:11:01:28->Ya existe Ad 23848655068000517 en BD
+WARN:11:01:29->Ya existe Ad 23848655032930517 en BD
+WARN:11:01:29->Ya existe Ad 23848654994420517 en BD
+WARN:11:01:29->Ya existe Ad 23848654920470517 en BD
+WARN:11:01:29->Ad 23848423120390517 sin estadisticas
+WARN:11:01:30->Ya existe Ad 23848423120390517 en BD
+WARN:11:01:30->Ad 23848423056240517 sin estadisticas
+WARN:11:01:30->Ya existe Ad 23848423056240517 en BD
+WARN:11:01:31->Ya existe Ad 23848377235010517 en BD
+WARN:11:01:31->Ya existe Ad 23848376748690517 en BD
+WARN:11:01:31->Ad 23848350090550517 sin estadisticas
+WARN:11:01:32->Ya existe Ad 23848350090550517 en BD
+WARN:11:01:32->Ad 23848349995220517 sin estadisticas
+WARN:11:01:32->Ya existe Ad 23848349995220517 en BD
+WARN:11:01:33->Ya existe Ad 23848313581560517 en BD
+WARN:11:01:33->Ya existe Ad 23848313581550517 en BD
+WARN:11:01:33->Ad 23848304650700517 sin estadisticas
+WARN:11:01:34->Ya existe Ad 23848304650700517 en BD
+WARN:11:01:34->Ya existe Ad 23848304650690517 en BD
+WARN:11:01:34->Ad 23848304632570517 sin estadisticas
+WARN:11:01:35->Ya existe Ad 23848304632570517 en BD
+WARN:11:01:35->Ad 23848304632560517 sin estadisticas
+WARN:11:01:35->Ya existe Ad 23848304632560517 en BD
+WARN:11:01:35->Ad 23849186403590385 sin estadisticas
+WARN:11:01:36->Ya existe Ad 23849186403590385 en BD
+WARN:11:01:36->Ad 23849186275150385 sin estadisticas
+WARN:11:01:36->Ya existe Ad 23849186275150385 en BD
+WARN:11:01:36->Ad 23849186254810385 sin estadisticas
+WARN:11:01:37->Ya existe Ad 23849186254810385 en BD
+WARN:11:01:37->Ad 23849186226030385 sin estadisticas
+WARN:11:01:37->Ya existe Ad 23849186226030385 en BD
+WARN:11:01:37->Ad 23849186403600385 sin estadisticas
+WARN:11:01:38->Ya existe Ad 23849186403600385 en BD
+WARN:11:01:38->Ad 23849268860960385 sin estadisticas
+WARN:11:01:38->Ya existe Ad 23849268860960385 en BD
+WARN:11:01:38->Ad 23848310666930385 sin estadisticas
+WARN:11:01:39->Ya existe Ad 23848310666930385 en BD
+WARN:11:01:39->Ad 23848539957440385 sin estadisticas
+WARN:11:01:39->Ya existe Ad 23848539957440385 en BD
+WARN:11:01:39->Ad 23849186403630385 sin estadisticas
+WARN:11:01:40->Ya existe Ad 23849186403630385 en BD
+WARN:11:01:40->Ad 23849186195700385 sin estadisticas
+WARN:11:01:40->Ya existe Ad 23849186195700385 en BD
+WARN:11:01:40->Ad 23849178185090385 sin estadisticas
+WARN:11:01:40->Ya existe Ad 23849178185090385 en BD
+WARN:11:01:40->Ad 23849186403620385 sin estadisticas
+WARN:11:01:41->Ya existe Ad 23849186403620385 en BD
+WARN:11:01:41->Ad 23849186403580385 sin estadisticas
+WARN:11:01:41->Ya existe Ad 23849186403580385 en BD
+WARN:11:01:41->Ad 23849186242670385 sin estadisticas
+WARN:11:01:42->Ya existe Ad 23849186242670385 en BD
+WARN:11:01:42->Ad 23849186190540385 sin estadisticas
+WARN:11:01:42->Ya existe Ad 23849186190540385 en BD
+WARN:11:01:42->Ad 23849186403610385 sin estadisticas
+WARN:11:01:43->Ya existe Ad 23849186403610385 en BD
+WARN:11:01:43->Ad 23847631930900385 sin estadisticas
+WARN:11:01:43->Ya existe Ad 23847631930900385 en BD
+WARN:11:01:43->Ad 23848310666940385 sin estadisticas
+WARN:11:01:44->Ya existe Ad 23848310666940385 en BD
+WARN:11:01:44->Ad 23849268860950385 sin estadisticas
+WARN:11:01:44->Ya existe Ad 23849268860950385 en BD
+WARN:11:01:44->Ad 23847631930950385 sin estadisticas
+WARN:11:01:45->Ya existe Ad 23847631930950385 en BD
+WARN:11:01:45->Ad 23849268860940385 sin estadisticas
+WARN:11:01:45->Ya existe Ad 23849268860940385 en BD
+WARN:11:01:45->Ad 23848539957410385 sin estadisticas
+WARN:11:01:46->Ya existe Ad 23848539957410385 en BD
+WARN:11:01:46->Ad 23848310666960385 sin estadisticas
+WARN:11:01:46->Ya existe Ad 23848310666960385 en BD
+WARN:11:01:46->Ad 23847830543300385 sin estadisticas
+WARN:11:01:47->Ya existe Ad 23847830543300385 en BD
+WARN:11:01:47->Ad 23849268860930385 sin estadisticas
+WARN:11:01:47->Ya existe Ad 23849268860930385 en BD
+WARN:11:01:47->Ad 23849422103380343 sin estadisticas
+WARN:11:01:48->Ya existe Ad 23849422103380343 en BD
+WARN:11:01:48->Ad 23849422535910343 sin estadisticas
+WARN:11:01:48->Ya existe Ad 23849422535910343 en BD
+WARN:11:01:48->Ad 23849422430000343 sin estadisticas
+WARN:11:01:49->Ya existe Ad 23849422430000343 en BD
+WARN:11:01:49->Ad 23849422397690343 sin estadisticas
+WARN:11:01:49->Ya existe Ad 23849422397690343 en BD
+WARN:11:01:49->Ad 23849422250260343 sin estadisticas
+WARN:11:01:50->Ya existe Ad 23849422250260343 en BD
+WARN:11:01:50->Ad 23849422238980343 sin estadisticas
+WARN:11:01:50->Ya existe Ad 23849422238980343 en BD
+WARN:11:01:50->Ad 23849422334000343 sin estadisticas
+WARN:11:01:51->Ya existe Ad 23849422334000343 en BD
+WARN:11:01:51->Ad 23849386018510343 sin estadisticas
+WARN:11:01:51->Ya existe Ad 23849386018510343 en BD
+WARN:11:01:51->Ad 23849421859940343 sin estadisticas
+WARN:11:01:52->Ya existe Ad 23849421859940343 en BD
+WARN:11:01:52->Ad 23849357444680343 sin estadisticas
+WARN:11:01:52->Ya existe Ad 23849357444680343 en BD
+WARN:11:01:52->Ad 23849357438120343 sin estadisticas
+WARN:11:01:52->Ya existe Ad 23849357438120343 en BD
+WARN:11:01:52->Ad 23849357382450343 sin estadisticas
+WARN:11:01:53->Ya existe Ad 23849357382450343 en BD
+WARN:11:01:53->Ad 23849388116530343 sin estadisticas
+WARN:11:01:53->Ya existe Ad 23849388116530343 en BD
+WARN:11:01:53->Ad 23849359906950343 sin estadisticas
+WARN:11:01:54->Ya existe Ad 23849359906950343 en BD
+WARN:11:01:54->Ad 23849359963860343 sin estadisticas
+WARN:11:01:54->Ya existe Ad 23849359963860343 en BD
+WARN:11:01:54->Ad 23849358636880343 sin estadisticas
+WARN:11:01:55->Ya existe Ad 23849358636880343 en BD
+WARN:11:01:55->Ad 23849359963880343 sin estadisticas
+WARN:11:01:55->Ya existe Ad 23849359963880343 en BD
+WARN:11:01:55->Ad 23849416761310343 sin estadisticas
+WARN:11:01:56->Ya existe Ad 23849416761310343 en BD
+WARN:11:01:56->Ad 23849358213030343 sin estadisticas
+WARN:11:01:56->Ya existe Ad 23849358213030343 en BD
+WARN:11:01:56->Ad 23849357811880343 sin estadisticas
+WARN:11:01:57->Ya existe Ad 23849357811880343 en BD
+WARN:11:01:57->Ad 23849357573870343 sin estadisticas
+WARN:11:01:57->Ya existe Ad 23849357573870343 en BD
+WARN:11:01:57->Ad 23849357974910343 sin estadisticas
+WARN:11:01:58->Ya existe Ad 23849357974910343 en BD
+WARN:11:01:58->Ad 23849357974900343 sin estadisticas
+WARN:11:01:58->Ya existe Ad 23849357974900343 en BD
+WARN:11:01:58->Ad 23849358213040343 sin estadisticas
+WARN:11:01:59->Ya existe Ad 23849358213040343 en BD
+WARN:11:01:59->Ad 23849385976880343 sin estadisticas
+WARN:11:01:59->Ya existe Ad 23849385976880343 en BD
+WARN:11:01:59->Ad 23848642923760279 sin estadisticas
+WARN:11:02:00->Ya existe Ad 23848642923760279 en BD
+WARN:11:02:00->Ad 23848642904210279 sin estadisticas
+WARN:11:02:00->Ya existe Ad 23848642904210279 en BD
+WARN:11:02:00->Ad 23848642896830279 sin estadisticas
+WARN:11:02:01->Ya existe Ad 23848642896830279 en BD
+WARN:11:02:01->Ad 23848642785670279 sin estadisticas
+WARN:11:02:01->Ya existe Ad 23848642785670279 en BD
+WARN:11:02:01->Ad 23847767170470279 sin estadisticas
+WARN:11:02:02->Ya existe Ad 23847767170470279 en BD
+WARN:11:02:02->Ad 23847996680800279 sin estadisticas
+WARN:11:02:02->Ya existe Ad 23847996680800279 en BD
+WARN:11:02:02->Ad 23847996440530279 sin estadisticas
+WARN:11:02:03->Ya existe Ad 23847996440530279 en BD
+WARN:11:02:03->Ad 23847996668320279 sin estadisticas
+WARN:11:02:03->Ya existe Ad 23847996668320279 en BD
+WARN:11:02:03->Ad 23847996654680279 sin estadisticas
+WARN:11:02:04->Ya existe Ad 23847996654680279 en BD
+WARN:11:02:04->Ad 23847996720800279 sin estadisticas
+WARN:11:02:04->Ya existe Ad 23847996720800279 en BD
+WARN:11:02:04->Ad 23847996720830279 sin estadisticas
+WARN:11:02:04->Ya existe Ad 23847996720830279 en BD
+WARN:11:02:04->Ad 23847996720790279 sin estadisticas
+WARN:11:02:05->Ya existe Ad 23847996720790279 en BD
+WARN:11:02:05->Ad 23847996720810279 sin estadisticas
+WARN:11:02:05->Ya existe Ad 23847996720810279 en BD
+WARN:11:02:05->Ad 23848183841010279 sin estadisticas
+WARN:11:02:06->Ya existe Ad 23848183841010279 en BD
+WARN:11:02:06->Ad 23848181707620279 sin estadisticas
+WARN:11:02:06->Ya existe Ad 23848181707620279 en BD
+WARN:11:02:06->Ad 23848183840990279 sin estadisticas
+WARN:11:02:07->Ya existe Ad 23848183840990279 en BD
+WARN:11:02:07->Ad 23848182333700279 sin estadisticas
+WARN:11:02:07->Ya existe Ad 23848182333700279 en BD
+WARN:11:02:07->Ad 23848181548300279 sin estadisticas
+WARN:11:02:08->Ya existe Ad 23848181548300279 en BD
+WARN:11:02:08->Ad 23848181400240279 sin estadisticas
+WARN:11:02:08->Ya existe Ad 23848181400240279 en BD
+WARN:11:02:08->Ad 23848181601330279 sin estadisticas
+WARN:11:02:09->Ya existe Ad 23848181601330279 en BD
+WARN:11:02:09->Ad 23848181601340279 sin estadisticas
+WARN:11:02:09->Ya existe Ad 23848181601340279 en BD
+WARN:11:02:09->Ad 23848381403310279 sin estadisticas
+WARN:11:02:10->Ya existe Ad 23848381403310279 en BD
+WARN:11:02:10->Ad 23848381403320279 sin estadisticas
+WARN:11:02:10->Ya existe Ad 23848381403320279 en BD
+WARN:11:02:10->Ad 23848144477470279 sin estadisticas
+WARN:11:02:11->Ya existe Ad 23848144477470279 en BD
+WARN:11:02:11->Ad 23848144477460279 sin estadisticas
+WARN:11:02:11->Ya existe Ad 23848144477460279 en BD
+WARN:11:02:11->Ad 23848564588540269 sin estadisticas
+WARN:11:02:12->Ya existe Ad 23848564588540269 en BD
+WARN:11:02:12->Ad 23848564527540269 sin estadisticas
+WARN:11:02:12->Ya existe Ad 23848564527540269 en BD
+WARN:11:02:12->Ad 23848486152610269 sin estadisticas
+WARN:11:02:13->Ya existe Ad 23848486152610269 en BD
+WARN:11:02:13->Ad 23848486225940269 sin estadisticas
+WARN:11:02:13->Ya existe Ad 23848486225940269 en BD
+WARN:11:02:13->Ad 23848369619660269 sin estadisticas
+WARN:11:02:14->Ya existe Ad 23848369619660269 en BD
+WARN:11:02:14->Ad 23848369619650269 sin estadisticas
+WARN:11:02:14->Ya existe Ad 23848369619650269 en BD
+WARN:11:02:14->Ad 23848108100960269 sin estadisticas
+WARN:11:02:15->Ya existe Ad 23848108100960269 en BD
+WARN:11:02:15->Ad 23848178118470269 sin estadisticas
+WARN:11:02:15->Ya existe Ad 23848178118470269 en BD
+WARN:11:02:15->Ad 23848345737380269 sin estadisticas
+WARN:11:02:15->Ya existe Ad 23848345737380269 en BD
+WARN:11:02:15->Ad 23848345844110269 sin estadisticas
+WARN:11:02:16->Ya existe Ad 23848345844110269 en BD
+WARN:11:02:16->Ad 23848178118440269 sin estadisticas
+WARN:11:02:16->Ya existe Ad 23848178118440269 en BD
+WARN:11:02:16->Ad 23848178118430269 sin estadisticas
+WARN:11:02:17->Ya existe Ad 23848178118430269 en BD
+WARN:11:02:17->Ad 23848178118450269 sin estadisticas
+WARN:11:02:17->Ya existe Ad 23848178118450269 en BD
+WARN:11:02:17->Ad 23848178118420269 sin estadisticas
+WARN:11:02:18->Ya existe Ad 23848178118420269 en BD
+WARN:11:02:18->Ad 23848178118480269 sin estadisticas
+WARN:11:02:18->Ya existe Ad 23848178118480269 en BD
+WARN:11:02:18->Ad 23848178118460269 sin estadisticas
+WARN:11:02:19->Ya existe Ad 23848178118460269 en BD
+WARN:11:02:19->Ad 23848037231490269 sin estadisticas
+WARN:11:02:19->Ya existe Ad 23848037231490269 en BD
+WARN:11:02:19->Ad 23848045972800269 sin estadisticas
+WARN:11:02:20->Ya existe Ad 23848045972800269 en BD
+WARN:11:02:20->Ad 23848108100990269 sin estadisticas
+WARN:11:02:20->Ya existe Ad 23848108100990269 en BD
+WARN:11:02:20->Ad 23848178076570269 sin estadisticas
+WARN:11:02:21->Ya existe Ad 23848178076570269 en BD
+WARN:11:02:21->Ad 23848178065510269 sin estadisticas
+WARN:11:02:21->Ya existe Ad 23848178065510269 en BD
+WARN:11:02:21->Ad 23848037231500269 sin estadisticas
+WARN:11:02:22->Ya existe Ad 23848037231500269 en BD
+WARN:11:02:22->Ad 23848178088530269 sin estadisticas
+WARN:11:02:22->Ya existe Ad 23848178088530269 en BD
+WARN:11:02:22->Ad 23848178017440269 sin estadisticas
+WARN:11:02:23->Ya existe Ad 23848178017440269 en BD
+WARN:11:02:23->Ad 23848037231460269 sin estadisticas
+WARN:11:02:23->Ya existe Ad 23848037231460269 en BD
+WARN:11:15:48->Ad creatriv eno tiene link no se guardara23848881013950517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848721867860517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848721867890517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848721820490517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848721820520517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:15:49->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:15:49->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349899690517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349894450517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349946040517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349890090517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349939470517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23848349917700517
+WARN:11:15:49->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186504830385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849202131220385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849202131260385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319002950385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23848868146910385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319003030385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186511280385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186503510385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849178272890385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186509840385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186509640385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186505620385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186504000385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849186514390385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319001920385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319001850385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319001950385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23848868146690385
+WARN:11:15:50->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319002980385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23849319001830385
+WARN:11:15:50->Ad creatriv eno tiene link no se guardara23848868146540385
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23848868146700385
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849319001940385
+WARN:11:15:51->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422432450343
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422556590343
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422441780343
+WARN:11:15:51->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422431470343
+WARN:11:15:51->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422434190343
+WARN:11:15:51->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:51->Ad creatriv eno tiene link no se guardara23849422433540343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849422418360343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849386048960343
+WARN:11:15:52->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849421915820343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417462660343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417472460343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417485820343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417280080343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849359955810343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849359976200343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417437780343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849359976230343
+WARN:11:15:52->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849416778300343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417501050343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417509090343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417510290343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417506580343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417503790343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417498190343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23849417279920343
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848732588130279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848642915290279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848642903150279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848642893980279
+WARN:11:15:52->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847767229350279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996704250279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996586790279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996673450279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996709140279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996751890279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996751910279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996752900279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23847996752600279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848353831040279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848353872130279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848361096850279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848353885810279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848441692320279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848441683010279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848441676220279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848440750290279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848382991680279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848382991280279
+WARN:11:15:52->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848144487000279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848144486610279
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848569088520269
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848569074330269
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:11:15:52->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:15:52->Ad creatriv eno tiene link no se guardara23848486263610269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848369627780269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848350996040269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848350994490269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848345903080269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848345904580269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848345843800269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178239430269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178238240269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178238260269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178239410269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178268800269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848143438990269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178267000269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178266970269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178265580269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848143438590269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178268850269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848178265600269
+WARN:11:15:53->Ad creatriv eno tiene link no se guardara23848143450210269
+WARN:11:16:00->El adcreative 23848881013950517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:01->Ya existe Ad 23848880928160517 en BD
+WARN:11:16:01->Ya existe Ad 23848727452740517 en BD
+WARN:11:16:02->Ya existe Ad 23848727452730517 en BD
+WARN:11:16:03->El adcreative 23848721867860517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:03->Ya existe Ad 23848721636710517 en BD
+WARN:11:16:03->El adcreative 23848721867890517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:03->Ya existe Ad 23848721636700517 en BD
+WARN:11:16:04->El adcreative 23848721820490517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:04->Ya existe Ad 23848711065710517 en BD
+WARN:11:16:04->El adcreative 23848721820520517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:04->Ya existe Ad 23848711065690517 en BD
+WARN:11:16:05->El adcreative 23848654993200517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:05->Ya existe Ad 23848655068020517 en BD
+WARN:11:16:05->El adcreative 23848655028990517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:05->Ya existe Ad 23848655068010517 en BD
+WARN:11:16:06->El adcreative 23848655054200517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:06->Ya existe Ad 23848655068000517 en BD
+WARN:11:16:06->El adcreative 23848655054200517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:06->Ya existe Ad 23848655032930517 en BD
+WARN:11:16:07->El adcreative 23848655028990517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:07->Ya existe Ad 23848654994420517 en BD
+WARN:11:16:07->El adcreative 23848654993200517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:07->Ya existe Ad 23848654920470517 en BD
+WARN:11:16:07->Ad 23848423120390517 sin estadisticas
+WARN:11:16:08->El adcreative 23848423096920517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:08->Ya existe Ad 23848423120390517 en BD
+WARN:11:16:08->Ad 23848423056240517 sin estadisticas
+WARN:11:16:08->El adcreative 23848423096920517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:08->Ya existe Ad 23848423056240517 en BD
+WARN:11:16:08->El adcreative 23848376995430517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:09->Ya existe Ad 23848377235010517 en BD
+WARN:11:16:09->El adcreative 23848376995430517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:09->Ya existe Ad 23848376748690517 en BD
+WARN:11:16:09->Ad 23848350090550517 sin estadisticas
+WARN:11:16:09->El adcreative 23848350073460517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:10->Ya existe Ad 23848350090550517 en BD
+WARN:11:16:10->Ad 23848349995220517 sin estadisticas
+WARN:11:16:10->El adcreative 23848350073460517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:10->Ya existe Ad 23848349995220517 en BD
+WARN:11:16:10->El adcreative 23848349899690517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:11->Ya existe Ad 23848313581560517 en BD
+WARN:11:16:11->El adcreative 23848349894450517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:11->Ya existe Ad 23848313581550517 en BD
+WARN:11:16:11->Ad 23848304650700517 sin estadisticas
+WARN:11:16:11->El adcreative 23848349946040517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:12->Ya existe Ad 23848304650700517 en BD
+WARN:11:16:12->El adcreative 23848349890090517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:12->Ya existe Ad 23848304650690517 en BD
+WARN:11:16:12->Ad 23848304632570517 sin estadisticas
+WARN:11:16:12->El adcreative 23848349939470517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:13->Ya existe Ad 23848304632570517 en BD
+WARN:11:16:13->Ad 23848304632560517 sin estadisticas
+WARN:11:16:13->El adcreative 23848349917700517 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:13->Ya existe Ad 23848304632560517 en BD
+WARN:11:16:13->Ad 23849186403590385 sin estadisticas
+WARN:11:16:14->Ya existe Ad 23849186403590385 en BD
+WARN:11:16:14->Ad 23849186275150385 sin estadisticas
+WARN:11:16:15->Ya existe Ad 23849186275150385 en BD
+WARN:11:16:15->Ad 23849186254810385 sin estadisticas
+WARN:11:16:16->Ya existe Ad 23849186254810385 en BD
+WARN:11:16:16->Ad 23849186226030385 sin estadisticas
+WARN:11:16:16->El adcreative 23849202131220385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:16->Ya existe Ad 23849186226030385 en BD
+WARN:11:16:16->Ad 23849186403600385 sin estadisticas
+WARN:11:16:16->El adcreative 23849202131260385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:17->Ya existe Ad 23849186403600385 en BD
+WARN:11:16:17->Ad 23849268860960385 sin estadisticas
+WARN:11:16:17->El adcreative 23849319002950385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:17->Ya existe Ad 23849268860960385 en BD
+WARN:11:16:17->Ad 23848310666930385 sin estadisticas
+WARN:11:16:17->El adcreative 23848868146910385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:18->Ya existe Ad 23848310666930385 en BD
+WARN:11:16:18->Ad 23848539957440385 sin estadisticas
+WARN:11:16:18->El adcreative 23849319003030385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:18->Ya existe Ad 23848539957440385 en BD
+WARN:11:16:18->Ad 23849186403630385 sin estadisticas
+WARN:11:16:18->El adcreative 23849186511280385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:19->Ya existe Ad 23849186403630385 en BD
+WARN:11:16:19->Ad 23849186195700385 sin estadisticas
+WARN:11:16:19->El adcreative 23849186503510385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:19->Ya existe Ad 23849186195700385 en BD
+WARN:11:16:19->Ad 23849178185090385 sin estadisticas
+WARN:11:16:19->El adcreative 23849178272890385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:20->Ya existe Ad 23849178185090385 en BD
+WARN:11:16:20->Ad 23849186403620385 sin estadisticas
+WARN:11:16:20->El adcreative 23849186509840385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:20->Ya existe Ad 23849186403620385 en BD
+WARN:11:16:20->Ad 23849186403580385 sin estadisticas
+WARN:11:16:20->El adcreative 23849186509640385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:21->Ya existe Ad 23849186403580385 en BD
+WARN:11:16:21->Ad 23849186242670385 sin estadisticas
+WARN:11:16:21->El adcreative 23849186505620385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:21->Ya existe Ad 23849186242670385 en BD
+WARN:11:16:21->Ad 23849186190540385 sin estadisticas
+WARN:11:16:21->El adcreative 23849186504000385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:21->Ya existe Ad 23849186190540385 en BD
+WARN:11:16:21->Ad 23849186403610385 sin estadisticas
+WARN:11:16:22->El adcreative 23849186514390385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:22->Ya existe Ad 23849186403610385 en BD
+WARN:11:16:22->Ad 23847631930900385 sin estadisticas
+WARN:11:16:22->El adcreative 23849319001920385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:22->Ya existe Ad 23847631930900385 en BD
+WARN:11:16:22->Ad 23848310666940385 sin estadisticas
+WARN:11:16:23->El adcreative 23849319001850385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:23->Ya existe Ad 23848310666940385 en BD
+WARN:11:16:23->Ad 23849268860950385 sin estadisticas
+WARN:11:16:23->El adcreative 23849319001950385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:23->Ya existe Ad 23849268860950385 en BD
+WARN:11:16:23->Ad 23847631930950385 sin estadisticas
+WARN:11:16:24->Ya existe Ad 23847631930950385 en BD
+WARN:11:16:24->Ad 23849268860940385 sin estadisticas
+WARN:11:16:25->El adcreative 23849319002980385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:25->Ya existe Ad 23849268860940385 en BD
+WARN:11:16:25->Ad 23848539957410385 sin estadisticas
+WARN:11:16:25->El adcreative 23849319001830385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:25->Ya existe Ad 23848539957410385 en BD
+WARN:11:16:25->Ad 23848310666960385 sin estadisticas
+WARN:11:16:26->El adcreative 23848868146540385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:26->Ya existe Ad 23848310666960385 en BD
+WARN:11:16:26->Ad 23847830543300385 sin estadisticas
+WARN:11:16:27->Ya existe Ad 23847830543300385 en BD
+WARN:11:16:27->Ad 23849268860930385 sin estadisticas
+WARN:11:16:27->El adcreative 23849319001940385 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:27->Ya existe Ad 23849268860930385 en BD
+WARN:11:16:27->Ad 23849422103380343 sin estadisticas
+WARN:11:16:27->El adcreative 23849422432450343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:28->Ya existe Ad 23849422103380343 en BD
+WARN:11:16:28->Ad 23849422535910343 sin estadisticas
+WARN:11:16:28->Ya existe Ad 23849422535910343 en BD
+WARN:11:16:28->Ad 23849422430000343 sin estadisticas
+WARN:11:16:29->Ya existe Ad 23849422430000343 en BD
+WARN:11:16:29->Ad 23849422397690343 sin estadisticas
+WARN:11:16:30->El adcreative 23849422431470343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:30->Ya existe Ad 23849422397690343 en BD
+WARN:11:16:30->Ad 23849422250260343 sin estadisticas
+WARN:11:16:30->El adcreative 23849422434190343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:30->Ya existe Ad 23849422250260343 en BD
+WARN:11:16:30->Ad 23849422238980343 sin estadisticas
+WARN:11:16:31->El adcreative 23849422433540343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:31->Ya existe Ad 23849422238980343 en BD
+WARN:11:16:31->Ad 23849422334000343 sin estadisticas
+WARN:11:16:32->Ya existe Ad 23849422334000343 en BD
+WARN:11:16:32->Ad 23849386018510343 sin estadisticas
+WARN:11:16:32->Ya existe Ad 23849386018510343 en BD
+WARN:11:16:32->Ad 23849421859940343 sin estadisticas
+WARN:11:16:33->El adcreative 23849421915820343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:33->Ya existe Ad 23849421859940343 en BD
+WARN:11:16:33->Ad 23849357444680343 sin estadisticas
+WARN:11:16:33->El adcreative 23849417462660343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:33->Ya existe Ad 23849357444680343 en BD
+WARN:11:16:33->Ad 23849357438120343 sin estadisticas
+WARN:11:16:34->El adcreative 23849417472460343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:34->Ya existe Ad 23849357438120343 en BD
+WARN:11:16:34->Ad 23849357382450343 sin estadisticas
+WARN:11:16:34->El adcreative 23849417485820343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:34->Ya existe Ad 23849357382450343 en BD
+WARN:11:16:34->Ad 23849388116530343 sin estadisticas
+WARN:11:16:35->El adcreative 23849417280080343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:35->Ya existe Ad 23849388116530343 en BD
+WARN:11:16:35->Ad 23849359906950343 sin estadisticas
+WARN:11:16:35->El adcreative 23849359955810343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:35->Ya existe Ad 23849359906950343 en BD
+WARN:11:16:35->Ad 23849359963860343 sin estadisticas
+WARN:11:16:36->El adcreative 23849359976200343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:36->Ya existe Ad 23849359963860343 en BD
+WARN:11:16:36->Ad 23849358636880343 sin estadisticas
+WARN:11:16:36->El adcreative 23849417437780343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:36->Ya existe Ad 23849358636880343 en BD
+WARN:11:16:36->Ad 23849359963880343 sin estadisticas
+WARN:11:16:37->El adcreative 23849359976230343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:37->Ya existe Ad 23849359963880343 en BD
+WARN:11:16:37->Ad 23849416761310343 sin estadisticas
+WARN:11:16:37->El adcreative 23849416778300343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:37->Ya existe Ad 23849416761310343 en BD
+WARN:11:16:37->Ad 23849358213030343 sin estadisticas
+WARN:11:16:38->El adcreative 23849417501050343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:38->Ya existe Ad 23849358213030343 en BD
+WARN:11:16:38->Ad 23849357811880343 sin estadisticas
+WARN:11:16:38->El adcreative 23849417509090343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:38->Ya existe Ad 23849357811880343 en BD
+WARN:11:16:38->Ad 23849357573870343 sin estadisticas
+WARN:11:16:39->El adcreative 23849417510290343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:39->Ya existe Ad 23849357573870343 en BD
+WARN:11:16:39->Ad 23849357974910343 sin estadisticas
+WARN:11:16:39->El adcreative 23849417506580343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:39->Ya existe Ad 23849357974910343 en BD
+WARN:11:16:39->Ad 23849357974900343 sin estadisticas
+WARN:11:16:40->El adcreative 23849417503790343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:40->Ya existe Ad 23849357974900343 en BD
+WARN:11:16:40->Ad 23849358213040343 sin estadisticas
+WARN:11:16:40->El adcreative 23849417498190343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:40->Ya existe Ad 23849358213040343 en BD
+WARN:11:16:40->Ad 23849385976880343 sin estadisticas
+WARN:11:16:41->El adcreative 23849417279920343 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:41->Ya existe Ad 23849385976880343 en BD
+WARN:11:16:41->Ad 23848642923760279 sin estadisticas
+WARN:11:16:41->El adcreative 23848732588130279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:41->Ya existe Ad 23848642923760279 en BD
+WARN:11:16:41->Ad 23848642904210279 sin estadisticas
+WARN:11:16:42->El adcreative 23848642915290279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:42->Ya existe Ad 23848642904210279 en BD
+WARN:11:16:42->Ad 23848642896830279 sin estadisticas
+WARN:11:16:42->El adcreative 23848642903150279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:42->Ya existe Ad 23848642896830279 en BD
+WARN:11:16:42->Ad 23848642785670279 sin estadisticas
+WARN:11:16:43->El adcreative 23848642893980279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:43->Ya existe Ad 23848642785670279 en BD
+WARN:11:16:43->Ad 23847767170470279 sin estadisticas
+WARN:11:16:43->El adcreative 23847767229350279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:43->Ya existe Ad 23847767170470279 en BD
+WARN:11:16:43->Ad 23847996680800279 sin estadisticas
+WARN:11:16:44->El adcreative 23847996704250279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:44->Ya existe Ad 23847996680800279 en BD
+WARN:11:16:44->Ad 23847996440530279 sin estadisticas
+WARN:11:16:44->El adcreative 23847996586790279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:44->Ya existe Ad 23847996440530279 en BD
+WARN:11:16:44->Ad 23847996668320279 sin estadisticas
+WARN:11:16:45->El adcreative 23847996673450279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:45->Ya existe Ad 23847996668320279 en BD
+WARN:11:16:45->Ad 23847996654680279 sin estadisticas
+WARN:11:16:45->El adcreative 23847996709140279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:45->Ya existe Ad 23847996654680279 en BD
+WARN:11:16:45->Ad 23847996720800279 sin estadisticas
+WARN:11:16:46->El adcreative 23847996751890279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:46->Ya existe Ad 23847996720800279 en BD
+WARN:11:16:46->Ad 23847996720830279 sin estadisticas
+WARN:11:16:46->El adcreative 23847996751910279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:46->Ya existe Ad 23847996720830279 en BD
+WARN:11:16:46->Ad 23847996720790279 sin estadisticas
+WARN:11:16:47->El adcreative 23847996752900279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:47->Ya existe Ad 23847996720790279 en BD
+WARN:11:16:47->Ad 23847996720810279 sin estadisticas
+WARN:11:16:47->El adcreative 23847996752600279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:47->Ya existe Ad 23847996720810279 en BD
+WARN:11:16:47->Ad 23848183841010279 sin estadisticas
+WARN:11:16:47->El adcreative 23848353831040279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:48->Ya existe Ad 23848183841010279 en BD
+WARN:11:16:48->Ad 23848181707620279 sin estadisticas
+WARN:11:16:48->El adcreative 23848353872130279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:48->Ya existe Ad 23848181707620279 en BD
+WARN:11:16:48->Ad 23848183840990279 sin estadisticas
+WARN:11:16:48->El adcreative 23848361096850279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:49->Ya existe Ad 23848183840990279 en BD
+WARN:11:16:49->Ad 23848182333700279 sin estadisticas
+WARN:11:16:49->El adcreative 23848353885810279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:49->Ya existe Ad 23848182333700279 en BD
+WARN:11:16:49->Ad 23848181548300279 sin estadisticas
+WARN:11:16:49->El adcreative 23848441692320279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:50->Ya existe Ad 23848181548300279 en BD
+WARN:11:16:50->Ad 23848181400240279 sin estadisticas
+WARN:11:16:50->El adcreative 23848441683010279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:50->Ya existe Ad 23848181400240279 en BD
+WARN:11:16:50->Ad 23848181601330279 sin estadisticas
+WARN:11:16:50->El adcreative 23848441676220279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:51->Ya existe Ad 23848181601330279 en BD
+WARN:11:16:51->Ad 23848181601340279 sin estadisticas
+WARN:11:16:51->El adcreative 23848440750290279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:51->Ya existe Ad 23848181601340279 en BD
+WARN:11:16:51->Ad 23848381403310279 sin estadisticas
+WARN:11:16:51->El adcreative 23848382991680279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:52->Ya existe Ad 23848381403310279 en BD
+WARN:11:16:52->Ad 23848381403320279 sin estadisticas
+WARN:11:16:52->El adcreative 23848382991280279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:52->Ya existe Ad 23848381403320279 en BD
+WARN:11:16:52->Ad 23848144477470279 sin estadisticas
+WARN:11:16:52->El adcreative 23848144487000279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:53->Ya existe Ad 23848144477470279 en BD
+WARN:11:16:53->Ad 23848144477460279 sin estadisticas
+WARN:11:16:53->El adcreative 23848144486610279 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:53->Ya existe Ad 23848144477460279 en BD
+WARN:11:16:53->Ad 23848564588540269 sin estadisticas
+WARN:11:16:53->El adcreative 23848569088520269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:54->Ya existe Ad 23848564588540269 en BD
+WARN:11:16:54->Ad 23848564527540269 sin estadisticas
+WARN:11:16:54->El adcreative 23848569074330269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:54->Ya existe Ad 23848564527540269 en BD
+WARN:11:16:54->Ad 23848486152610269 sin estadisticas
+WARN:11:16:55->Ya existe Ad 23848486152610269 en BD
+WARN:11:16:55->Ad 23848486225940269 sin estadisticas
+WARN:11:16:55->El adcreative 23848486263610269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:55->Ya existe Ad 23848486225940269 en BD
+WARN:11:16:55->Ad 23848369619660269 sin estadisticas
+WARN:11:16:56->Ya existe Ad 23848369619660269 en BD
+WARN:11:16:56->Ad 23848369619650269 sin estadisticas
+WARN:11:16:57->El adcreative 23848369627780269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:57->Ya existe Ad 23848369619650269 en BD
+WARN:11:16:57->Ad 23848108100960269 sin estadisticas
+WARN:11:16:57->El adcreative 23848350996040269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:57->Ya existe Ad 23848108100960269 en BD
+WARN:11:16:57->Ad 23848178118470269 sin estadisticas
+WARN:11:16:58->El adcreative 23848350994490269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:58->Ya existe Ad 23848178118470269 en BD
+WARN:11:16:58->Ad 23848345737380269 sin estadisticas
+WARN:11:16:59->Ya existe Ad 23848345737380269 en BD
+WARN:11:16:59->Ad 23848345844110269 sin estadisticas
+WARN:11:16:59->El adcreative 23848345903080269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:59->Ya existe Ad 23848345844110269 en BD
+WARN:11:16:59->Ad 23848178118440269 sin estadisticas
+WARN:11:16:59->El adcreative 23848345904580269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:16:59->Ya existe Ad 23848178118440269 en BD
+WARN:11:16:59->Ad 23848178118430269 sin estadisticas
+WARN:11:17:00->El adcreative 23848345843800269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:00->Ya existe Ad 23848178118430269 en BD
+WARN:11:17:00->Ad 23848178118450269 sin estadisticas
+WARN:11:17:00->El adcreative 23848178239430269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:00->Ya existe Ad 23848178118450269 en BD
+WARN:11:17:00->Ad 23848178118420269 sin estadisticas
+WARN:11:17:01->El adcreative 23848178238240269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:01->Ya existe Ad 23848178118420269 en BD
+WARN:11:17:01->Ad 23848178118480269 sin estadisticas
+WARN:11:17:01->El adcreative 23848178238260269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:01->Ya existe Ad 23848178118480269 en BD
+WARN:11:17:01->Ad 23848178118460269 sin estadisticas
+WARN:11:17:02->El adcreative 23848178239410269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:02->Ya existe Ad 23848178118460269 en BD
+WARN:11:17:02->Ad 23848037231490269 sin estadisticas
+WARN:11:17:02->El adcreative 23848178268800269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:02->Ya existe Ad 23848037231490269 en BD
+WARN:11:17:02->Ad 23848045972800269 sin estadisticas
+WARN:11:17:03->El adcreative 23848143438990269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:03->Ya existe Ad 23848045972800269 en BD
+WARN:11:17:03->Ad 23848108100990269 sin estadisticas
+WARN:11:17:03->El adcreative 23848178267000269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:03->Ya existe Ad 23848108100990269 en BD
+WARN:11:17:03->Ad 23848178076570269 sin estadisticas
+WARN:11:17:04->El adcreative 23848178266970269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:04->Ya existe Ad 23848178076570269 en BD
+WARN:11:17:04->Ad 23848178065510269 sin estadisticas
+WARN:11:17:04->El adcreative 23848178265580269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:04->Ya existe Ad 23848178065510269 en BD
+WARN:11:17:04->Ad 23848037231500269 sin estadisticas
+WARN:11:17:05->El adcreative 23848143438590269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:05->Ya existe Ad 23848037231500269 en BD
+WARN:11:17:05->Ad 23848178088530269 sin estadisticas
+WARN:11:17:05->El adcreative 23848178268850269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:05->Ya existe Ad 23848178088530269 en BD
+WARN:11:17:05->Ad 23848178017440269 sin estadisticas
+WARN:11:17:06->El adcreative 23848178265600269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:06->Ya existe Ad 23848178017440269 en BD
+WARN:11:17:06->Ad 23848037231460269 sin estadisticas
+WARN:11:17:06->El adcreative 23848143450210269 no tiene link por ello no se agrega anuncio a BDjava.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enki`.`anuncio`, CONSTRAINT `FKa6m48u352oy393f78ms3dkcxm` FOREIGN KEY (`ad_creative`) REFERENCES `ad_creative` (`id_creative`))
+WARN:11:17:06->Ya existe Ad 23848037231460269 en BD
+WARN:11:17:07->Ya existe estado de anuncio con id de anuncio: 23847631930950385
+WARN:11:17:08->Ya existe estado de anuncio con id de anuncio: 23847830543300385
+WARN:11:17:08->Ya existe estado de anuncio con id de anuncio: 23848345737380269
+WARN:11:17:09->Ya existe estado de anuncio con id de anuncio: 23848369619660269
+WARN:11:17:09->Ya existe estado de anuncio con id de anuncio: 23848486152610269
+WARN:11:17:10->Ya existe estado de anuncio con id de anuncio: 23848727452730517
+WARN:11:17:10->Ya existe estado de anuncio con id de anuncio: 23848727452740517
+WARN:11:17:11->Ya existe estado de anuncio con id de anuncio: 23849186254810385
+WARN:11:17:11->Ya existe estado de anuncio con id de anuncio: 23849186275150385
+WARN:11:17:12->Ya existe estado de anuncio con id de anuncio: 23849186403590385
+WARN:11:17:12->Ya existe estado de anuncio con id de anuncio: 23849386018510343
+WARN:11:17:13->Ya existe estado de anuncio con id de anuncio: 23849422334000343
+WARN:11:17:13->Ya existe estado de anuncio con id de anuncio: 23849422430000343
+WARN:11:17:14->Ya existe estado de anuncio con id de anuncio: 23849422535910343
+ERROR:11:17:17->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:19->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:24->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:32->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:38->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:39->Errororg.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/*+xml. Mimetype=application/pdf, URL=https://corporativo.compensar.com/salud/Documents/Mail_Central-de-Urgencias-Oct_Compensar_COM-E_VFA.pdf
+ERROR:11:17:39->Errororg.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/*+xml. Mimetype=application/pdf, URL=https://corporativo.compensar.com/salud/Documents/Mail_Central-de-Urgencias-Oct_Compensar_COM-E_VFA.pdf
+ERROR:11:17:41->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:43->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:45->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+ERROR:11:17:47->Error al enviar emailjavax.mail.SendFailedException: No recipient addresses
+WARN:11:28:43->Ad creatriv eno tiene link no se guardara23848881013950517
+WARN:11:28:43->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848721867860517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848721867890517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848721820490517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848721820520517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848655054200517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848655028990517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848654993200517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848423096920517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848376995430517
+WARN:11:28:44->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:28:44->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848350073460517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349899690517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349894450517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349946040517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349890090517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349939470517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23848349917700517
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:11:28:44->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186504830385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849202131220385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849202131260385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319002950385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23848868146910385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319003030385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186511280385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186503510385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849178272890385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186509840385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186509640385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186505620385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186504000385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849186514390385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319001920385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319001850385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319001950385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23848868146690385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319002980385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319001830385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23848868146540385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23848868146700385
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849319001940385
+WARN:11:28:45->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:45->Ad creatriv eno tiene link no se guardara23849422432450343
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422556590343
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422441780343
+WARN:11:28:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422431470343
+WARN:11:28:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422434190343
+WARN:11:28:46->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422433540343
+WARN:11:28:46->Ad creatriv eno tiene link no se guardara23849422418360343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849386048960343
+WARN:11:28:47->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849421915820343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417462660343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417472460343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417485820343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417280080343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849359955810343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849359976200343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417437780343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849359976230343
+WARN:11:28:47->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849416778300343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417501050343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417509090343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417510290343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417506580343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417503790343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417498190343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23849417279920343
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848732588130279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848642915290279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848642903150279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848642893980279
+WARN:11:28:47->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847767229350279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996704250279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996586790279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996673450279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996709140279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996751890279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996751910279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996752900279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23847996752600279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848353831040279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848353872130279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848361096850279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848353885810279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848441692320279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848441683010279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848441676220279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848440750290279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848382991680279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848382991280279
+WARN:11:28:47->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848144487000279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848144486610279
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848569088520269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848569074330269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:11:28:47->objeto image_url se encuentra en otro arrayorg.json.JSONException: JSONObject["image_url"] not found.
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848486263610269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848369627780269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848350996040269
+WARN:11:28:47->Ad creatriv eno tiene link no se guardara23848350994490269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848345903080269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848345904580269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848345843800269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178239430269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178238240269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178238260269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178239410269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178268800269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848143438990269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178267000269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178266970269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178265580269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848143438590269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178268850269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848178265600269
+WARN:11:28:48->Ad creatriv eno tiene link no se guardara23848143450210269
+WARN:11:28:55->Ya existe Ad 23848880928160517 en BD
+WARN:11:28:56->Ya existe Ad 23848727452740517 en BD
+WARN:11:28:56->Ya existe Ad 23848727452730517 en BD
+WARN:11:28:57->Ya existe Ad 23848721636710517 en BD
+WARN:11:28:57->Ya existe Ad 23848721636700517 en BD
+WARN:11:28:58->Ya existe Ad 23848711065710517 en BD
+WARN:11:28:58->Ya existe Ad 23848711065690517 en BD
+WARN:11:28:59->Ya existe Ad 23848655068020517 en BD
+WARN:11:28:59->Ya existe Ad 23848655068010517 en BD
+WARN:11:29:00->Ya existe Ad 23848655068000517 en BD
+WARN:11:29:00->Ya existe Ad 23848655032930517 en BD
+WARN:11:29:01->Ya existe Ad 23848654994420517 en BD
+WARN:11:29:01->Ya existe Ad 23848654920470517 en BD
+WARN:11:29:01->Ad 23848423120390517 sin estadisticas
+WARN:11:29:02->Ya existe Ad 23848423120390517 en BD
+WARN:11:29:02->Ad 23848423056240517 sin estadisticas
+WARN:11:29:02->Ya existe Ad 23848423056240517 en BD
+WARN:11:29:03->Ya existe Ad 23848377235010517 en BD
+WARN:11:29:03->Ya existe Ad 23848376748690517 en BD
+WARN:11:29:03->Ad 23848350090550517 sin estadisticas
+WARN:11:29:04->Ya existe Ad 23848350090550517 en BD
+WARN:11:29:04->Ad 23848349995220517 sin estadisticas
+WARN:11:29:04->Ya existe Ad 23848349995220517 en BD
+WARN:11:29:05->Ya existe Ad 23848313581560517 en BD
+WARN:11:29:05->Ya existe Ad 23848313581550517 en BD
+WARN:11:29:05->Ad 23848304650700517 sin estadisticas
+WARN:11:29:06->Ya existe Ad 23848304650700517 en BD
+WARN:11:29:06->Ya existe Ad 23848304650690517 en BD
+WARN:11:29:06->Ad 23848304632570517 sin estadisticas
+WARN:11:29:07->Ya existe Ad 23848304632570517 en BD
+WARN:11:29:07->Ad 23848304632560517 sin estadisticas
+WARN:11:29:07->Ya existe Ad 23848304632560517 en BD
+WARN:11:29:07->Ad 23849186403590385 sin estadisticas
+WARN:11:29:07->Ya existe Ad 23849186403590385 en BD
+WARN:11:29:08->Ad 23849186275150385 sin estadisticas
+WARN:11:29:08->Ya existe Ad 23849186275150385 en BD
+WARN:11:29:08->Ad 23849186254810385 sin estadisticas
+WARN:11:29:08->Ya existe Ad 23849186254810385 en BD
+WARN:11:29:08->Ad 23849186226030385 sin estadisticas
+WARN:11:29:09->Ya existe Ad 23849186226030385 en BD
+WARN:11:29:09->Ad 23849186403600385 sin estadisticas
+WARN:11:29:09->Ya existe Ad 23849186403600385 en BD
+WARN:11:29:09->Ad 23849268860960385 sin estadisticas
+WARN:11:29:10->Ya existe Ad 23849268860960385 en BD
+WARN:11:29:10->Ad 23848310666930385 sin estadisticas
+WARN:11:29:10->Ya existe Ad 23848310666930385 en BD
+WARN:11:29:10->Ad 23848539957440385 sin estadisticas
+WARN:11:29:11->Ya existe Ad 23848539957440385 en BD
+WARN:11:29:11->Ad 23849186403630385 sin estadisticas
+WARN:11:29:11->Ya existe Ad 23849186403630385 en BD
+WARN:11:29:11->Ad 23849186195700385 sin estadisticas
+WARN:11:29:12->Ya existe Ad 23849186195700385 en BD
+WARN:11:29:12->Ad 23849178185090385 sin estadisticas
+WARN:11:29:12->Ya existe Ad 23849178185090385 en BD
+WARN:11:29:12->Ad 23849186403620385 sin estadisticas
+WARN:11:29:13->Ya existe Ad 23849186403620385 en BD
+WARN:11:29:13->Ad 23849186403580385 sin estadisticas
+WARN:11:29:13->Ya existe Ad 23849186403580385 en BD
+WARN:11:29:13->Ad 23849186242670385 sin estadisticas
+WARN:11:29:14->Ya existe Ad 23849186242670385 en BD
+WARN:11:29:14->Ad 23849186190540385 sin estadisticas
+WARN:11:29:14->Ya existe Ad 23849186190540385 en BD
+WARN:11:29:14->Ad 23849186403610385 sin estadisticas
+WARN:11:29:15->Ya existe Ad 23849186403610385 en BD
+WARN:11:29:15->Ad 23847631930900385 sin estadisticas
+WARN:11:29:15->Ya existe Ad 23847631930900385 en BD
+WARN:11:29:15->Ad 23848310666940385 sin estadisticas
+WARN:11:29:16->Ya existe Ad 23848310666940385 en BD
+WARN:11:29:16->Ad 23849268860950385 sin estadisticas
+WARN:11:29:16->Ya existe Ad 23849268860950385 en BD
+WARN:11:29:16->Ad 23847631930950385 sin estadisticas
+WARN:11:29:17->Ya existe Ad 23847631930950385 en BD
+WARN:11:29:17->Ad 23849268860940385 sin estadisticas
+WARN:11:29:17->Ya existe Ad 23849268860940385 en BD
+WARN:11:29:17->Ad 23848539957410385 sin estadisticas
+WARN:11:29:18->Ya existe Ad 23848539957410385 en BD
+WARN:11:29:18->Ad 23848310666960385 sin estadisticas
+WARN:11:29:18->Ya existe Ad 23848310666960385 en BD
+WARN:11:29:18->Ad 23847830543300385 sin estadisticas
+WARN:11:29:19->Ya existe Ad 23847830543300385 en BD
+WARN:11:29:19->Ad 23849268860930385 sin estadisticas
+WARN:11:29:19->Ya existe Ad 23849268860930385 en BD
+WARN:11:29:19->Ad 23849422103380343 sin estadisticas
+WARN:11:29:20->Ya existe Ad 23849422103380343 en BD
+WARN:11:29:20->Ad 23849422535910343 sin estadisticas
+WARN:11:29:20->Ya existe Ad 23849422535910343 en BD
+WARN:11:29:20->Ad 23849422430000343 sin estadisticas
+WARN:11:29:21->Ya existe Ad 23849422430000343 en BD
+WARN:11:29:21->Ad 23849422397690343 sin estadisticas
+WARN:11:29:21->Ya existe Ad 23849422397690343 en BD
+WARN:11:29:21->Ad 23849422250260343 sin estadisticas
+WARN:11:29:21->Ya existe Ad 23849422250260343 en BD
+WARN:11:29:21->Ad 23849422238980343 sin estadisticas
+WARN:11:29:22->Ya existe Ad 23849422238980343 en BD
+WARN:11:29:22->Ad 23849422334000343 sin estadisticas
+WARN:11:29:22->Ya existe Ad 23849422334000343 en BD
+WARN:11:29:22->Ad 23849386018510343 sin estadisticas
+WARN:11:29:23->Ya existe Ad 23849386018510343 en BD
+WARN:11:29:23->Ad 23849421859940343 sin estadisticas
+WARN:11:29:23->Ya existe Ad 23849421859940343 en BD
+WARN:11:29:23->Ad 23849357444680343 sin estadisticas
+WARN:11:29:24->Ya existe Ad 23849357444680343 en BD
+WARN:11:29:24->Ad 23849357438120343 sin estadisticas
+WARN:11:29:24->Ya existe Ad 23849357438120343 en BD
+WARN:11:29:24->Ad 23849357382450343 sin estadisticas
+WARN:11:29:25->Ya existe Ad 23849357382450343 en BD
+WARN:11:29:25->Ad 23849388116530343 sin estadisticas
+WARN:11:29:25->Ya existe Ad 23849388116530343 en BD
+WARN:11:29:25->Ad 23849359906950343 sin estadisticas
+WARN:11:29:26->Ya existe Ad 23849359906950343 en BD
+WARN:11:29:26->Ad 23849359963860343 sin estadisticas
+WARN:11:29:26->Ya existe Ad 23849359963860343 en BD
+WARN:11:29:26->Ad 23849358636880343 sin estadisticas
+WARN:11:29:27->Ya existe Ad 23849358636880343 en BD
+WARN:11:29:27->Ad 23849359963880343 sin estadisticas
+WARN:11:29:27->Ya existe Ad 23849359963880343 en BD
+WARN:11:29:27->Ad 23849416761310343 sin estadisticas
+WARN:11:29:28->Ya existe Ad 23849416761310343 en BD
+WARN:11:29:28->Ad 23849358213030343 sin estadisticas
+WARN:11:29:28->Ya existe Ad 23849358213030343 en BD
+WARN:11:29:28->Ad 23849357811880343 sin estadisticas
+WARN:11:29:29->Ya existe Ad 23849357811880343 en BD
+WARN:11:29:29->Ad 23849357573870343 sin estadisticas
+WARN:11:29:29->Ya existe Ad 23849357573870343 en BD
+WARN:11:29:29->Ad 23849357974910343 sin estadisticas
+WARN:11:29:30->Ya existe Ad 23849357974910343 en BD
+WARN:11:29:30->Ad 23849357974900343 sin estadisticas
+WARN:11:29:30->Ya existe Ad 23849357974900343 en BD
+WARN:11:29:30->Ad 23849358213040343 sin estadisticas
+WARN:11:29:31->Ya existe Ad 23849358213040343 en BD
+WARN:11:29:31->Ad 23849385976880343 sin estadisticas
+WARN:11:29:31->Ya existe Ad 23849385976880343 en BD
+WARN:11:29:31->Ad 23848642923760279 sin estadisticas
+WARN:11:29:32->Ya existe Ad 23848642923760279 en BD
+WARN:11:29:32->Ad 23848642904210279 sin estadisticas
+WARN:11:29:32->Ya existe Ad 23848642904210279 en BD
+WARN:11:29:32->Ad 23848642896830279 sin estadisticas
+WARN:11:29:33->Ya existe Ad 23848642896830279 en BD
+WARN:11:29:33->Ad 23848642785670279 sin estadisticas
+WARN:11:29:33->Ya existe Ad 23848642785670279 en BD
+WARN:11:29:33->Ad 23847767170470279 sin estadisticas
+WARN:11:29:34->Ya existe Ad 23847767170470279 en BD
+WARN:11:29:34->Ad 23847996680800279 sin estadisticas
+WARN:11:29:34->Ya existe Ad 23847996680800279 en BD
+WARN:11:29:34->Ad 23847996440530279 sin estadisticas
+WARN:11:29:35->Ya existe Ad 23847996440530279 en BD
+WARN:11:29:35->Ad 23847996668320279 sin estadisticas
+WARN:11:29:35->Ya existe Ad 23847996668320279 en BD
+WARN:11:29:35->Ad 23847996654680279 sin estadisticas
+WARN:11:29:35->Ya existe Ad 23847996654680279 en BD
+WARN:11:29:35->Ad 23847996720800279 sin estadisticas
+WARN:11:29:36->Ya existe Ad 23847996720800279 en BD
+WARN:11:29:36->Ad 23847996720830279 sin estadisticas
+WARN:11:29:36->Ya existe Ad 23847996720830279 en BD
+WARN:11:29:36->Ad 23847996720790279 sin estadisticas
+WARN:11:29:37->Ya existe Ad 23847996720790279 en BD
+WARN:11:29:37->Ad 23847996720810279 sin estadisticas
+WARN:11:29:37->Ya existe Ad 23847996720810279 en BD
+WARN:11:29:37->Ad 23848183841010279 sin estadisticas
+WARN:11:29:38->Ya existe Ad 23848183841010279 en BD
+WARN:11:29:38->Ad 23848181707620279 sin estadisticas
+WARN:11:29:38->Ya existe Ad 23848181707620279 en BD
+WARN:11:29:38->Ad 23848183840990279 sin estadisticas
+WARN:11:29:39->Ya existe Ad 23848183840990279 en BD
+WARN:11:29:39->Ad 23848182333700279 sin estadisticas
+WARN:11:29:39->Ya existe Ad 23848182333700279 en BD
+WARN:11:29:39->Ad 23848181548300279 sin estadisticas
+WARN:11:29:40->Ya existe Ad 23848181548300279 en BD
+WARN:11:29:40->Ad 23848181400240279 sin estadisticas
+WARN:11:29:40->Ya existe Ad 23848181400240279 en BD
+WARN:11:29:40->Ad 23848181601330279 sin estadisticas
+WARN:11:29:41->Ya existe Ad 23848181601330279 en BD
+WARN:11:29:41->Ad 23848181601340279 sin estadisticas
+WARN:11:29:41->Ya existe Ad 23848181601340279 en BD
+WARN:11:29:41->Ad 23848381403310279 sin estadisticas
+WARN:11:29:42->Ya existe Ad 23848381403310279 en BD
+WARN:11:29:42->Ad 23848381403320279 sin estadisticas
+WARN:11:29:42->Ya existe Ad 23848381403320279 en BD
+WARN:11:29:42->Ad 23848144477470279 sin estadisticas
+WARN:11:29:43->Ya existe Ad 23848144477470279 en BD
+WARN:11:29:43->Ad 23848144477460279 sin estadisticas
+WARN:11:29:43->Ya existe Ad 23848144477460279 en BD
+WARN:11:29:43->Ad 23848564588540269 sin estadisticas
+WARN:11:29:44->Ya existe Ad 23848564588540269 en BD
+WARN:11:29:44->Ad 23848564527540269 sin estadisticas
+WARN:11:29:44->Ya existe Ad 23848564527540269 en BD
+WARN:11:29:44->Ad 23848486152610269 sin estadisticas
+WARN:11:29:45->Ya existe Ad 23848486152610269 en BD
+WARN:11:29:45->Ad 23848486225940269 sin estadisticas
+WARN:11:29:45->Ya existe Ad 23848486225940269 en BD
+WARN:11:29:45->Ad 23848369619660269 sin estadisticas
+WARN:11:29:46->Ya existe Ad 23848369619660269 en BD
+WARN:11:29:46->Ad 23848369619650269 sin estadisticas
+WARN:11:29:46->Ya existe Ad 23848369619650269 en BD
+WARN:11:29:46->Ad 23848108100960269 sin estadisticas
+WARN:11:29:47->Ya existe Ad 23848108100960269 en BD
+WARN:11:29:47->Ad 23848178118470269 sin estadisticas
+WARN:11:29:47->Ya existe Ad 23848178118470269 en BD
+WARN:11:29:47->Ad 23848345737380269 sin estadisticas
+WARN:11:29:48->Ya existe Ad 23848345737380269 en BD
+WARN:11:29:48->Ad 23848345844110269 sin estadisticas
+WARN:11:29:48->Ya existe Ad 23848345844110269 en BD
+WARN:11:29:48->Ad 23848178118440269 sin estadisticas
+WARN:11:29:48->Ya existe Ad 23848178118440269 en BD
+WARN:11:29:48->Ad 23848178118430269 sin estadisticas
+WARN:11:29:49->Ya existe Ad 23848178118430269 en BD
+WARN:11:29:49->Ad 23848178118450269 sin estadisticas
+WARN:11:29:49->Ya existe Ad 23848178118450269 en BD
+WARN:11:29:49->Ad 23848178118420269 sin estadisticas
+WARN:11:29:50->Ya existe Ad 23848178118420269 en BD
+WARN:11:29:50->Ad 23848178118480269 sin estadisticas
+WARN:11:29:50->Ya existe Ad 23848178118480269 en BD
+WARN:11:29:50->Ad 23848178118460269 sin estadisticas
+WARN:11:29:51->Ya existe Ad 23848178118460269 en BD
+WARN:11:29:51->Ad 23848037231490269 sin estadisticas
+WARN:11:29:51->Ya existe Ad 23848037231490269 en BD
+WARN:11:29:51->Ad 23848045972800269 sin estadisticas
+WARN:11:29:52->Ya existe Ad 23848045972800269 en BD
+WARN:11:29:52->Ad 23848108100990269 sin estadisticas
+WARN:11:29:52->Ya existe Ad 23848108100990269 en BD
+WARN:11:29:52->Ad 23848178076570269 sin estadisticas
+WARN:11:29:53->Ya existe Ad 23848178076570269 en BD
+WARN:11:29:53->Ad 23848178065510269 sin estadisticas
+WARN:11:29:53->Ya existe Ad 23848178065510269 en BD
+WARN:11:29:53->Ad 23848037231500269 sin estadisticas
+WARN:11:29:54->Ya existe Ad 23848037231500269 en BD
+WARN:11:29:54->Ad 23848178088530269 sin estadisticas
+WARN:11:29:54->Ya existe Ad 23848178088530269 en BD
+WARN:11:29:54->Ad 23848178017440269 sin estadisticas
+WARN:11:29:55->Ya existe Ad 23848178017440269 en BD
+WARN:11:29:55->Ad 23848037231460269 sin estadisticas
+WARN:11:29:55->Ya existe Ad 23848037231460269 en BD
