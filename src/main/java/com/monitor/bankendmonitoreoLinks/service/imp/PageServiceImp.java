@@ -20,4 +20,10 @@ public class PageServiceImp implements IPageService {
 			return pageRepository.findAll();
 	}
 
+	@Override
+	public Page findbyIdPage(String idPage) {
+	
+		return pageRepository.findById(idPage).orElse(null);
+	}
+
 }

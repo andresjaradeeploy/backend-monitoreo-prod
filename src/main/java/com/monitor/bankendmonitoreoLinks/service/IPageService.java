@@ -8,5 +8,7 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
 public interface IPageService {
 	
 	public List<Page> findAll();
+	
+	public Page findbyIdPage(String idPage);
 
 }

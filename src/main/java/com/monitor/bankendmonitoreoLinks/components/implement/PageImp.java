@@ -74,7 +74,7 @@ public class PageImp implements PagesDao {
 			
 			JSONArray data = accounts.getJSONArray("data");
 
-			System.out.println("tamaño array data"+data.length());
+			//System.out.println("tamaño array data"+data.length());
 			
 			for (int j=0;j<data.length();j++) {
 				
@@ -192,9 +192,9 @@ public class PageImp implements PagesDao {
 		String pages = "[";
 		for (int i = 0; i < idPages.size(); i++) {
 			if (pages == "[")
-				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover");
+				pages = pages + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,engagement");
 			else
-				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover");
+				pages = pages + "," + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=picture,fan_count,link,access_token,cover,engagement");
 		}
 		pages = pages + "]";
 
