@@ -15,6 +15,9 @@ public class OcrImp implements IOcrDao {
 
 	private static final String SQL_INSERT = "INSERT INTO ocr(description_ocr,post)"
 			+ " VALUES(?, ?)";
+	
+	private static final String SQL_UPDATE = "UPDATE ocr "
+			+ "SET description_ocr=?, post=?  WHERE post=?";
 
 
 	@Override
@@ -36,6 +39,35 @@ public class OcrImp implements IOcrDao {
 
 		} catch (SQLException ex) {
 			System.err.println("error al guardar OCR" + ex);
+		} finally {
+
+			Conector.close(stmt);
+			Conector.close(conn);
+		}
+		return rows;
+	}
+	
+	@Override
+	public int actualizar(Ocr ocr) {
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		int rows = 0;
+
+		try {
+
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_UPDATE);
+
+			stmt.setString(1, ocr.getDescriptionOcr());
+			stmt.setString(2, ocr.getPost().getIdPost());
+			stmt.setString(3, ocr.getPost().getIdPost());
+			
+
+			rows = rows + stmt.executeUpdate();
+
+		} catch (SQLException ex) {
+			ex.printStackTrace(System.out);
+
 		} finally {
 
 			Conector.close(stmt);

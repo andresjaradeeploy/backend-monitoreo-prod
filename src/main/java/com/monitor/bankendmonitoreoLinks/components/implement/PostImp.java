@@ -23,17 +23,19 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 
 public class PostImp implements PostDao {
 
-	private static final String SQL_INSERT = "INSERT INTO post(id_post,created_time,message,page_id_page)"
-			+ " VALUES(?, ?, ?, ?)";
+	private static final String SQL_INSERT = "INSERT INTO post(id_post,created_time,message,page_id_page,full_picture, "
+			+ "picture,permalink_url,name_image) "
+			+ " VALUES(?, ?, ?, ?, ?, ?, ?, ?)";
 
+	
 	private static final FacebookImp FACEBOOK_IMP = new FacebookImp();
 
 	private static final String SQL_SELECT_BY_ID = "SELECT id_post " + " FROM post WHERE id_post = ?";
 	
 	private static final String SQL_SELECT_POST_BY_ID = "SELECT name_image " + " FROM post WHERE id_post = ?";
 
-	private static final String SQL_UPDATE = "UPDATE post"
-			+ " SET full_picture=?, permalink_url=?, picture=?, shares=?, name_image=? WHERE id_post=?";
+	private static final String SQL_UPDATE = "UPDATE post "
+			+ "SET full_picture=?, permalink_url=?, picture=?, shares=?, name_image=? WHERE id_post=?";
 	
 	private GoogleVision googleVision= new GoogleVision();
 
@@ -52,7 +54,7 @@ public class PostImp implements PostDao {
 		for (int i = 0; i < idPages.size(); i++) {
 
 			post = "[";
-			post = post + FACEBOOK_IMP.apiGraphPage(idPages.get(i) + "?fields=posts.limit(10)");
+			post = post + FACEBOOK_IMP.apiGraphPost(idPages.get(i) + "?fields=posts.limit(10)",pageImp.obtenerAccestokenPage(idPages.get(i)));
 			post = post + "]";
 			Page page = new Page();
 			page.setIdPage(idPages.get(i));
@@ -106,7 +108,7 @@ public class PostImp implements PostDao {
 					String full_picture = null;
 					String permalink_url = null;
 					String picture = null;
-					String shares;
+					JSONObject shares;
 					List<String> tags= new ArrayList();
 					Integer sharesNumber = 0;
 					JSONArray arrayData = new JSONArray(post2);
@@ -127,14 +129,17 @@ public class PostImp implements PostDao {
 						picture = "No tiene picture";
 					}
 					try {
-						shares = labels.getString("shares");
+						shares = labels.getJSONObject("shares");
+						
 					} catch (Exception e) {
-						shares = "No tiene shares";
+						shares = null;
 					}
 					String idPost = labels.getString("id");
-					if (shares != "No tiene shares") {
-						sharesNumber = Integer.parseInt(shares);
+					if (shares != null) {
+						sharesNumber = Integer.parseInt(shares.getJSONObject("count").toString());
+								
 					}
+					
 
 					utilidades.guardarImageneUrl(full_picture, idPost);
 
@@ -177,15 +182,19 @@ public class PostImp implements PostDao {
 					try {
 						String ocrVision=googleVision.detectText(filePath);
 						boolean ifExistsOcr=ocrImp.verificarSiExisteOcr(idPost);
+						Ocr ocr=new Ocr();
+						ocr.setDescriptionOcr(ocrVision);
+						ocr.setPost(postNew);
 						if(ifExistsOcr==false) {
-							Ocr ocr=new Ocr();
-							ocr.setDescriptionOcr(ocrVision);
-							ocr.setPost(postNew);
+							
 							ocrImp.guardar(ocr);
 						}
 						else
-							System.out.println("Ta existe OCR de el post"+postNew.getIdPost());
+						{
 						
+						ocrImp.actualizar(ocr);
+						System.out.println("Ta existe OCR de el post"+"actualizado"+postNew.getIdPost());
+						}
 						
 					} catch (Exception e) {
 						e.printStackTrace();
@@ -224,6 +233,12 @@ public class PostImp implements PostDao {
 			stmt.setString(2, post.getCreated_time());
 			stmt.setString(3, post.getMessage());
 			stmt.setString(4, page.getIdPage());
+			stmt.setString(5, post.getFull_picture());
+			
+			stmt.setString(6,  post.getPicture());
+			stmt.setString(7, post.getPermalink_url());
+			stmt.setString(8, post.getNameImage());
+			
 
 			rows = rows + stmt.executeUpdate();
 

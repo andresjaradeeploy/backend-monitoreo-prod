@@ -27,6 +27,8 @@ public class PageImp implements PagesDao {
 	
 	private static final String SQL_SELECT = "SELECT * " + " FROM page";
 	
+	private static final String SQL_SELECT_BY_ID = "SELECT access_token " + " FROM page where id_page=?";
+	
 	private static final String SQL_UPDATE = "UPDATE page"
 			+ " SET picture=?, link=?, fan_count=?, access_token=?, cover=?, social_sentence=? WHERE id_page=?";
 	
@@ -103,6 +105,36 @@ public class PageImp implements PagesDao {
 		}
 
 		return pages;
+	}
+	
+	public String obtenerAccestokenPage(String idPage){
+		
+		
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		String access_token= null;
+		try {
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT_BY_ID);
+			stmt.setString(1, idPage);
+			rs = stmt.executeQuery();
+
+			if (rs.next())
+				
+			access_token=rs.getString("access_token");
+			else
+				System.err.println("no existe Page de id"+idPage);
+
+		} catch (Exception e) {
+			System.err.print("Ha ocurrido un error: " + e.getMessage());
+
+		} finally {
+			Conector.close(conn);
+			Conector.close(stmt);
+			Conector.close(rs);
+		}
+		return access_token;
 	}
 	
 	public List<Page> obtenerAllPageInf() {
@@ -305,11 +337,13 @@ public class PageImp implements PagesDao {
 
 	public static void main(String[] args) {
 		PageImp imp = new PageImp();
-		System.out.println(imp.obtenerPages());
+		//System.out.println(imp.obtenerPages());
 		
 		List<Page> pages = new ArrayList<>();
-		imp.obtenerPageInf();
-		imp.obtenerAllPageInf();
+		//imp.obtenerPageInf();
+		//imp.obtenerAllPageInf();
+		String access=imp.obtenerAccestokenPage("104246757869061");
+		System.out.println("token"+access);
 	
 }
 }

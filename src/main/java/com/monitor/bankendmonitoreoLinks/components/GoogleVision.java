@@ -27,7 +27,7 @@ public class GoogleVision {
 			GoogleVision googleVision= new GoogleVision();
 			List<String> tags= new ArrayList<>();
 			//tags=detectLabels("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
-			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
+			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/images/19436445998_10159371539115999.jpg");
 			System.out.println("ocr"+ocr);
 			
 			/*for (String string : tags) {

@@ -10,5 +10,6 @@ public interface IOcrDao {
 
 	public int guardar(Ocr ocr);
 	public boolean verificarSiExisteOcr(String idPost);
+	public int actualizar(Ocr ocr);
 	
 }
