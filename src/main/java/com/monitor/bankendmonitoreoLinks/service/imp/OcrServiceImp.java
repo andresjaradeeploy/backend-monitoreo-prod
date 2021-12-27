@@ -19,4 +19,12 @@ public class OcrServiceImp implements IOcrService {
 		return ocrRepository.findOcrbyPost(idPost);
 	}
 
+
+	@Override
+	public Ocr save(Ocr ocr) {
+		return ocrRepository.save(ocr);
+	}
+	
+	
+
 }

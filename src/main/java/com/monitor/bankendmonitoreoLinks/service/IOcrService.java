@@ -5,5 +5,7 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Ocr;
 public interface IOcrService {
 	
 	public Ocr findOcrbypost(String idPost);
+	
+	public Ocr save(Ocr ocr);
 
 }

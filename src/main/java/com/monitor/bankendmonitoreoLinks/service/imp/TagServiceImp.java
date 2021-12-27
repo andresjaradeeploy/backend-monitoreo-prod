@@ -20,4 +20,9 @@ public class TagServiceImp implements ITagsService {
 		return (List<Tags>)  tagsRepository.findTagsbyPost(idPost);
 	}
 
+	@Override
+	public Tags save(Tags tag) {
+		return tagsRepository.save(tag);
+	}
+
 }
