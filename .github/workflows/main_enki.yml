@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'enki'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_82DCAF43EBAF4BE698E06C703C233DE3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7EC55511A9BC4DD4B78F26F69DB05BD2 }}
           package: '*.jar'
