@@ -20,7 +20,7 @@ import com.monitor.bankendmonitoreoLinks.service.imp.PageServiceImp;
 @RequestMapping("/page")
 @CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app","https://enki.com.co","http://localhost:4200","https://localhost:4200"})
 public class PageRestController {
-
+//s
 	
 	@Autowired
 	private PageServiceImp iPageService;
