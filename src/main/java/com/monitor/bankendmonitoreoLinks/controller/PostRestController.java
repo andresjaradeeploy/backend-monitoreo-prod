@@ -41,10 +41,6 @@ public class PostRestController {
 	@PostMapping("/save")
 	public Post save(@RequestBody Post post) {
 		
-		if(iPostService.existsIdPost(post.getIdPost())) {
-			return null;
-		}
-		else
 		return iPostService.save(post);
 	}
 	

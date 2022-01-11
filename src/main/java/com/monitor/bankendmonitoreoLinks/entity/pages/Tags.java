@@ -24,7 +24,7 @@ public class Tags implements Serializable {
 	
 	private String nameTag;
 	
-	 @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	 @ManyToOne(optional = true, cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
 	    private Post post;
 
 	public Long getIdTag() {

@@ -15,4 +15,12 @@ public interface ITagsRepository extends JpaRepository<Tags,Long> {
 	@Query(nativeQuery = true, value = "SELECT * FROM tags " + "where post_id_post = :idPost")
 
 	List<Tags> findTagsbyPost(@Param("idPost") String idPost);
+	
+	
+	@Query(nativeQuery = true, value = "SELECT * "
+			+ "FROM tags as ta inner join post as po on "
+			+ "ta.post_id_post =po.id_post "
+			+ "where name_tag LIKE :tag")
+
+	List<Tags> findPostWithTags(@Param("tag") String tag);
 }

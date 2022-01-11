@@ -109,7 +109,7 @@ public class Post implements Serializable {
 	
 	private Integer shares;
 	
-	 @ManyToOne(optional = false, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	 @ManyToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	    private Page page;
 
 }

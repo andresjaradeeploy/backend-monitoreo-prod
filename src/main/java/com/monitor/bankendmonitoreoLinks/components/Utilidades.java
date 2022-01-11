@@ -76,8 +76,8 @@ public class Utilidades {
 		
 		
 		
-/*	utilidades.guardarImageneUrl("https://external.fbog11-1.fna.fbcdn.net/safe_image.php?d=AQGHMQWQHA7ekSdl&url=https%3A%2F%2Fstatic.iris.net.co%2Ffinanzas%2Fupload%2Fimages%2F2017%2F9%2F15%2F73790_1.jpg&ext=emg0&_nc_oe=6efa3&_nc_sid=64c8fc&ccb=3-5&_nc_hash=AQGBC8_611rjZX2w","imagentest2");
-		try {
+	utilidades.guardarImageneUrl("https://static1.squarespace.com/static/5ce88653d84296000124515a/t/5ce93ca6ee6eb002e7b992ef/1630707756600/","imagentest2");
+		/*try {
 			Process process = Runtime.getRuntime().exec("ping www.Pharos.sh.com");
 			printResults(process);
 		} catch (IOException e) {
