@@ -23,4 +23,16 @@ public interface ITagsRepository extends JpaRepository<Tags,Long> {
 			+ "where name_tag LIKE :tag")
 
 	List<Tags> findPostWithTags(@Param("tag") String tag);
+	
+	
+	
+	@Query(nativeQuery = true, value = "SELECT distinct id_tag, post_id_post,name_tag, count(name_tag) "
+			+ "	FROM tags "
+			+ "	group by name_tag ")
+
+	List<Tags> labelsGroupByName();
+	
+	
+	
+
 }

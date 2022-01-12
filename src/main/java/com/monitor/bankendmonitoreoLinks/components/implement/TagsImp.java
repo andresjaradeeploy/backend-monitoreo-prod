@@ -4,13 +4,22 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.ITagDao;
+import com.monitor.bankendmonitoreoLinks.dao.Label;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 
 public class TagsImp  implements ITagDao{
 	
+	
+	private static final String SQL_SELECT ="SELECT distinct name_tag, count(name_tag) as cantidad "
+			+ "FROM tags "
+			+ "group by name_tag ";
+			
 	private static final String SQL_SELECT_BY_NAME = "SELECT name_tag " + " FROM tags WHERE name_tag = ? and post_id_post = ?";
 
 	private static final String SQL_INSERT = "INSERT INTO tags(name_tag,post_id_post)"
@@ -73,4 +82,44 @@ public class TagsImp  implements ITagDao{
 		return res;
 	}
 
+	@Override
+	public List<Label> obtenerLabels() {
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		
+		List<Label> labels = new ArrayList<>();
+
+		try {
+
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT);
+			rs = stmt.executeQuery();
+			while (rs.next()) {
+					Label label= new Label();
+				String name_tag = rs.getString("name_tag");
+				
+				
+				String cantidadString= rs.getString("cantidad");
+				
+					label.setText(name_tag);
+					label.setCount(Integer.parseInt(cantidadString));
+					
+					labels.add(label);
+
+			}
+			return labels;
+
+		} catch (SQLException ex) {
+			
+			
+		} finally {
+
+			Conector.close(stmt);
+			Conector.close(conn);
+			Conector.close(rs);
+
+		}
+		return labels;
+	}
 }
