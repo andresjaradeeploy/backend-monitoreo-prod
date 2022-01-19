@@ -49,6 +49,7 @@ public class PostRestController {
 	public Post update(@RequestBody Post post) {
 		
 		Post postNew= new Post();
+		postNew.setIdPost(post.getIdPost());
 		postNew.setPost_reactions_like_total(post.getPost_reactions_like_total());
 		postNew.setPost_reactions_love_total(post.getPost_reactions_love_total());
 		postNew.setPost_reactions_wow_total(post.getPost_reactions_wow_total());
