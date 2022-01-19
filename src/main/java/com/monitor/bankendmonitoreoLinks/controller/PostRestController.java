@@ -48,7 +48,7 @@ public class PostRestController {
 	@PutMapping("/update")
 	public Post update(@RequestBody Post post) {
 		
-		Post postNew= new Post();
+		Post postNew= iPostService.findById(post.getIdPost());
 		postNew.setIdPost(post.getIdPost());
 		postNew.setPost_reactions_like_total(post.getPost_reactions_like_total());
 		postNew.setPost_reactions_love_total(post.getPost_reactions_love_total());
@@ -58,7 +58,10 @@ public class PostRestController {
 		postNew.setPost_engaged_fan(post.getPost_engaged_fan());
 		postNew.setPost_clicks_unique(post.getPost_clicks_unique());
 		postNew.setPost_clicks(post.getPost_clicks());
+		postNew.setPage(post.getPage());
 		return iPostService.save(postNew);
+		
+
 	}
 	
 }

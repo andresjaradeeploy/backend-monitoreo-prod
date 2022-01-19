@@ -51,4 +51,10 @@ public class PostServiceImp implements IPostService{
 	public Optional<Post> findByIdPost(String idPost) {
 		return postRepository.findByidPost(idPost);
 	}
+
+
+	@Override
+	public Post findById(String idPost) {
+		return postRepository.findById(idPost).orElse(null);
+	}
 }

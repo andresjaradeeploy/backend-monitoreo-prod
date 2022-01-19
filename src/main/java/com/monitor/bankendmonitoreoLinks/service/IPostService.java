@@ -12,6 +12,7 @@ public interface IPostService {
 	
 	public Post save(Post post);
 	public List<Post> findAll();
+	public Post findById(String idPost);
 
 	
 	@SuppressWarnings("rawtypes")
