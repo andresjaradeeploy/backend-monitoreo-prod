@@ -107,6 +107,92 @@ public class Post implements Serializable {
 	@Column(columnDefinition = "TEXT")
 	private String permalink_url;
 	
+	
+	
+	public Integer getPost_reactions_like_total() {
+		return post_reactions_like_total;
+	}
+
+	public void setPost_reactions_like_total(Integer post_reactions_like_total) {
+		this.post_reactions_like_total = post_reactions_like_total;
+	}
+
+	public Integer getPost_reactions_love_total() {
+		return post_reactions_love_total;
+	}
+
+	public void setPost_reactions_love_total(Integer post_reactions_love_total) {
+		this.post_reactions_love_total = post_reactions_love_total;
+	}
+
+	public Integer getPost_reactions_wow_total() {
+		return post_reactions_wow_total;
+	}
+
+	public void setPost_reactions_wow_total(Integer post_reactions_wow_total) {
+		this.post_reactions_wow_total = post_reactions_wow_total;
+	}
+
+	public Integer getPost_engaged_fan() {
+		return post_engaged_fan;
+	}
+
+	public void setPost_engaged_fan(Integer post_engaged_fan) {
+		this.post_engaged_fan = post_engaged_fan;
+	}
+
+	public Integer getPost_engaged_users() {
+		return post_engaged_users;
+	}
+
+	public void setPost_engaged_users(Integer post_engaged_users) {
+		this.post_engaged_users = post_engaged_users;
+	}
+
+	public Integer getPost_negative_feedback() {
+		return post_negative_feedback;
+	}
+
+	public void setPost_negative_feedback(Integer post_negative_feedback) {
+		this.post_negative_feedback = post_negative_feedback;
+	}
+
+	public Integer getPost_clicks() {
+		return post_clicks;
+	}
+
+	public void setPost_clicks(Integer post_clicks) {
+		this.post_clicks = post_clicks;
+	}
+
+	public Integer getPost_clicks_unique() {
+		return post_clicks_unique;
+	}
+
+	public void setPost_clicks_unique(Integer post_clicks_unique) {
+		this.post_clicks_unique = post_clicks_unique;
+	}
+	
+private Integer post_reactions_like_total;
+	
+	private Integer post_reactions_love_total;
+	
+	private Integer post_reactions_wow_total;
+	
+	private Integer post_engaged_fan;
+	
+	private Integer post_engaged_users;
+	
+	private Integer post_negative_feedback;
+
+	private Integer post_clicks;
+	
+	private Integer post_clicks_unique;
+	
+	
+	
+	
+	
 	private Integer shares;
 	
 	 @ManyToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
