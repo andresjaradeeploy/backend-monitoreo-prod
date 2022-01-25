@@ -37,6 +37,11 @@ public class PostRestController {
 		return iPostService.findAll();
 	}
 	
+	@GetMapping("/obtener/{idPost}")
+	public Post obtenerPost(@PathVariable String idPost) {
+		return iPostService.findById(idPost);
+	}
+	
 	
 	
 	@PostMapping("/save")
@@ -50,9 +55,13 @@ public class PostRestController {
 		
 		Post postNew= iPostService.findById(post.getIdPost());
 		postNew.setIdPost(post.getIdPost());
-		postNew.setPost_reactions_like_total(post.getPost_reactions_like_total());
-		postNew.setPost_reactions_love_total(post.getPost_reactions_love_total());
-		postNew.setPost_reactions_wow_total(post.getPost_reactions_wow_total());
+		postNew.setLikes(post.getLikes());
+		postNew.setLove(post.getLove());
+		postNew.setWow(post.getWow());
+		postNew.setHaha(post.getHaha());
+		postNew.setSorry(post.getSorry());
+		postNew.setAnger(post.getAnger());
+		postNew.setWow(post.getWow());
 		postNew.setPost_negative_feedback(post.getPost_negative_feedback());
 		postNew.setPost_engaged_users(post.getPost_engaged_users());
 		postNew.setPost_engaged_fan(post.getPost_engaged_fan());
@@ -62,6 +71,18 @@ public class PostRestController {
 		return iPostService.save(postNew);
 		
 
+	}
+	
+	@PutMapping("/updatePicture")
+	public Post updatePicture(@RequestBody Post post) {
+		
+		Post postNew= iPostService.findById(post.getIdPost());
+		postNew.setIdPost(post.getIdPost());
+		postNew.setFull_picture(post.getFull_picture());
+		
+		postNew.setPage(post.getPage());
+		
+		return iPostService.save(postNew);
 	}
 	
 }

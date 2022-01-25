@@ -109,29 +109,6 @@ public class Post implements Serializable {
 	
 	
 	
-	public Integer getPost_reactions_like_total() {
-		return post_reactions_like_total;
-	}
-
-	public void setPost_reactions_like_total(Integer post_reactions_like_total) {
-		this.post_reactions_like_total = post_reactions_like_total;
-	}
-
-	public Integer getPost_reactions_love_total() {
-		return post_reactions_love_total;
-	}
-
-	public void setPost_reactions_love_total(Integer post_reactions_love_total) {
-		this.post_reactions_love_total = post_reactions_love_total;
-	}
-
-	public Integer getPost_reactions_wow_total() {
-		return post_reactions_wow_total;
-	}
-
-	public void setPost_reactions_wow_total(Integer post_reactions_wow_total) {
-		this.post_reactions_wow_total = post_reactions_wow_total;
-	}
 
 	public Integer getPost_engaged_fan() {
 		return post_engaged_fan;
@@ -173,12 +150,68 @@ public class Post implements Serializable {
 		this.post_clicks_unique = post_clicks_unique;
 	}
 	
-private Integer post_reactions_like_total;
+	private Integer likes;
 	
-	private Integer post_reactions_love_total;
+	private Integer love;
 	
-	private Integer post_reactions_wow_total;
+	private Integer wow;
 	
+	private Integer haha;
+	
+	private Integer sorry;
+	
+	private Integer anger;
+	
+	
+
+	public Integer getLikes() {
+		return likes;
+	}
+
+	public void setLikes(Integer likes) {
+		this.likes = likes;
+	}
+
+	public Integer getLove() {
+		return love;
+	}
+
+	public void setLove(Integer love) {
+		this.love = love;
+	}
+
+	public Integer getWow() {
+		return wow;
+	}
+
+	public void setWow(Integer wow) {
+		this.wow = wow;
+	}
+
+	public Integer getHaha() {
+		return haha;
+	}
+
+	public void setHaha(Integer haha) {
+		this.haha = haha;
+	}
+
+	public Integer getSorry() {
+		return sorry;
+	}
+
+	public void setSorry(Integer sorry) {
+		this.sorry = sorry;
+	}
+
+	public Integer getAnger() {
+		return anger;
+	}
+
+	public void setAnger(Integer anger) {
+		this.anger = anger;
+	}
+
 	private Integer post_engaged_fan;
 	
 	private Integer post_engaged_users;
