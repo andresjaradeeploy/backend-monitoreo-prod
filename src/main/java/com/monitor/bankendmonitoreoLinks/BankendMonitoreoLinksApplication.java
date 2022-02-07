@@ -12,9 +12,9 @@ public class BankendMonitoreoLinksApplication {
 		SpringApplication.run(BankendMonitoreoLinksApplication.class, args);
 
 		MonitorComponent monitorComponent = new MonitorComponent();
-	//	monitorComponent.mainLinks();
-	//	monitorComponent.mainPage();
-	//	monitorComponent.mainPost();
+		monitorComponent.mainLinks();
+		monitorComponent.mainPage();
+		monitorComponent.mainPost();
 
 	}
 
