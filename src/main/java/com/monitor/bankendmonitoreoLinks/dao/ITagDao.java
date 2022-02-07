@@ -12,5 +12,5 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 public interface ITagDao {
 	public int guardar(Tags tag);
 	public boolean verificarSiExisteTag(String tag,String idTag);
-	public List<Label> obtenerLabels();
+	public List<Label> obtenerLabels(String page);
 }

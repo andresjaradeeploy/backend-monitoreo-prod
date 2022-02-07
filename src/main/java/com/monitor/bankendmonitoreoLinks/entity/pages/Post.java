@@ -21,6 +21,57 @@ public class Post implements Serializable {
 	
 	@Column(columnDefinition = "TEXT")
 	private String message;
+	
+	private Integer likes;
+	
+	private Integer love;
+	
+	private Integer wow;
+	
+	private Integer haha;
+	
+	private Integer sorry;
+	
+	private Integer anger;
+	
+	private Integer shares;
+	
+	private Integer post_impressions_unique;
+	
+	
+	
+	public Integer getPost_impressions_unique() {
+		return post_impressions_unique;
+	}
+
+	public void setPost_impressions_unique(Integer post_impressions_unique) {
+		this.post_impressions_unique = post_impressions_unique;
+	}
+
+
+
+
+
+
+
+
+
+	@Column(columnDefinition = "TEXT")
+	private String full_picture;
+	
+	
+
+	@Column(columnDefinition = "TEXT")
+	private String nameImage;
+	
+	
+	@Column(columnDefinition = "TEXT")
+	private String picture;
+	
+	@Column(columnDefinition = "TEXT")
+	private String permalink_url;
+	
+	
 	public String getIdPost() {
 		return idPost;
 	}
@@ -77,13 +128,7 @@ public class Post implements Serializable {
 		this.shares = shares;
 	}
 
-	@Column(columnDefinition = "TEXT")
-	private String full_picture;
 	
-	
-
-	@Column(columnDefinition = "TEXT")
-	private String nameImage;
 	
 	
 	public String getNameImage() {
@@ -102,66 +147,12 @@ public class Post implements Serializable {
 		this.page = page;
 	}
 
-	@Column(columnDefinition = "TEXT")
-	private String picture;
-	@Column(columnDefinition = "TEXT")
-	private String permalink_url;
+
+	
 	
 	
 	
 
-	public Integer getPost_engaged_fan() {
-		return post_engaged_fan;
-	}
-
-	public void setPost_engaged_fan(Integer post_engaged_fan) {
-		this.post_engaged_fan = post_engaged_fan;
-	}
-
-	public Integer getPost_engaged_users() {
-		return post_engaged_users;
-	}
-
-	public void setPost_engaged_users(Integer post_engaged_users) {
-		this.post_engaged_users = post_engaged_users;
-	}
-
-	public Integer getPost_negative_feedback() {
-		return post_negative_feedback;
-	}
-
-	public void setPost_negative_feedback(Integer post_negative_feedback) {
-		this.post_negative_feedback = post_negative_feedback;
-	}
-
-	public Integer getPost_clicks() {
-		return post_clicks;
-	}
-
-	public void setPost_clicks(Integer post_clicks) {
-		this.post_clicks = post_clicks;
-	}
-
-	public Integer getPost_clicks_unique() {
-		return post_clicks_unique;
-	}
-
-	public void setPost_clicks_unique(Integer post_clicks_unique) {
-		this.post_clicks_unique = post_clicks_unique;
-	}
-	
-	private Integer likes;
-	
-	private Integer love;
-	
-	private Integer wow;
-	
-	private Integer haha;
-	
-	private Integer sorry;
-	
-	private Integer anger;
-	
 	
 
 	public Integer getLikes() {
@@ -212,21 +203,13 @@ public class Post implements Serializable {
 		this.anger = anger;
 	}
 
-	private Integer post_engaged_fan;
-	
-	private Integer post_engaged_users;
-	
-	private Integer post_negative_feedback;
 
-	private Integer post_clicks;
-	
-	private Integer post_clicks_unique;
 	
 	
 	
 	
 	
-	private Integer shares;
+	
 	
 	 @ManyToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	    private Page page;

@@ -44,6 +44,9 @@ public class GoogleVision {
 	public  List<String> detectLabels(String filePath) throws IOException {
 		List<AnnotateImageRequest> requests = new ArrayList<>();
 		List<String> tags= new ArrayList<>();
+		
+		tags.clear();
+		
 		ByteString imgBytes = ByteString.readFrom(new FileInputStream(filePath));
 
 		Image img = Image.newBuilder().setContent(imgBytes).build();

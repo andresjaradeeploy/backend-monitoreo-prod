@@ -33,6 +33,24 @@ public interface ITagsRepository extends JpaRepository<Tags,Long> {
 	List<Tags> labelsGroupByName();
 	
 	
+	@Query(nativeQuery = true, value = "SELECT * "
+			+ "FROM tags as ta inner join post as po on "
+			+ "ta.post_id_post =po.id_post "
+			+ "inner join page pa on "
+			+ "po.page_id_page = pa.id_page "
+			+ "where name_tag LIKE:tag  and "
+			+ "pa.id_page like:page ")
+
+	List<Tags> findTagsbyPage(@Param("page") String page,@Param("tag") String tag);
 	
 
+	@Query(nativeQuery = true, value = "SELECT * "
+			+ "FROM tags as ta inner join post as po on "
+			+ "ta.post_id_post =po.id_post "
+			+ "inner join page pa on "
+			+ "po.page_id_page = pa.id_page "
+			+ "where pa.id_page like:page ")
+
+	List<Tags> findTags(@Param("page") String page);
+	
 }

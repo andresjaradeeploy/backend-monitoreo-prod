@@ -16,9 +16,19 @@ import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 public class TagsImp  implements ITagDao{
 	
 	
-	private static final String SQL_SELECT ="SELECT distinct name_tag, count(name_tag) as cantidad "
+	/*private static final String SQL_SELECT ="SELECT distinct name_tag, count(name_tag) as cantidad "
 			+ "FROM tags "
-			+ "group by name_tag ";
+			+ "group by name_tag ";*/
+	
+	private static final String SQL_SELECT ="SELECT distinct name_tag, count(name_tag) as cantidad "
+			+ "	FROM tags as ta inner join post as po on "
+			+ "	ta.post_id_post =po.id_post "
+			+ "	inner join page pa on "
+			+ "	po.page_id_page = pa.id_page "
+			+ "	where pa.id_page  LIKE ? "
+			+ "	group by name_tag ";
+	
+	
 			
 	private static final String SQL_SELECT_BY_NAME = "SELECT name_tag " + " FROM tags WHERE name_tag = ? and post_id_post = ?";
 
@@ -83,7 +93,7 @@ public class TagsImp  implements ITagDao{
 	}
 
 	@Override
-	public List<Label> obtenerLabels() {
+	public List<Label> obtenerLabels(String page) {
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
@@ -94,6 +104,7 @@ public class TagsImp  implements ITagDao{
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(SQL_SELECT);
+			stmt.setString(1, page);
 			rs = stmt.executeQuery();
 			while (rs.next()) {
 					Label label= new Label();

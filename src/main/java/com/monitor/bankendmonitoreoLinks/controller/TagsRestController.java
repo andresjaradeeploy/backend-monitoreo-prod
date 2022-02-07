@@ -46,6 +46,17 @@ public class TagsRestController {
 		return iTagsRepository.findTagsbyPost(idPost);
 	}
 	
+	@GetMapping("/obtener/{idPage}/{tag}")
+	public List<Tags> listarTagsByPage(@PathVariable String idPage,@PathVariable String tag) {
+		return iTagsRepository.findTagsbyPage(idPage,tag);
+	}
+	
+	@GetMapping("/listar/{idPage}")
+	public List<Tags> listarTags(@PathVariable String idPage) {
+		return iTagsRepository.findTags(idPage);
+	}
+	
+	
 	@GetMapping("/insight/{tag}")
 	public List<Tags> agrupacionTags(@PathVariable String tag)
 	{
@@ -53,11 +64,11 @@ public class TagsRestController {
 	}
 	
 	
-	@GetMapping("/labels")
-	public List<Label> labelsGroupByName()
+	@GetMapping("/labels/{page}")
+	public List<Label> labelsGroupByName(@PathVariable String page)
 	{
 		TagsImp tagsImp= new TagsImp();
-		return  tagsImp.obtenerLabels();
+		return  tagsImp.obtenerLabels(page);
 	}
 	
 	@PostMapping("/guardarTag")

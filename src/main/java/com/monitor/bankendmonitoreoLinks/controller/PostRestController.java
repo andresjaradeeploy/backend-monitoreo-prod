@@ -62,11 +62,7 @@ public class PostRestController {
 		postNew.setSorry(post.getSorry());
 		postNew.setAnger(post.getAnger());
 		postNew.setWow(post.getWow());
-		postNew.setPost_negative_feedback(post.getPost_negative_feedback());
-		postNew.setPost_engaged_users(post.getPost_engaged_users());
-		postNew.setPost_engaged_fan(post.getPost_engaged_fan());
-		postNew.setPost_clicks_unique(post.getPost_clicks_unique());
-		postNew.setPost_clicks(post.getPost_clicks());
+		postNew.setPost_impressions_unique(post.getPost_impressions_unique());
 		postNew.setPage(post.getPage());
 		return iPostService.save(postNew);
 		
