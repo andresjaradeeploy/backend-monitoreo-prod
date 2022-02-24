@@ -9,7 +9,7 @@ import com.monitor.bankendmonitoreoLinks.entity.monitor.Anuncio;
 
 public interface AnuncioRepository extends JpaRepository<Anuncio, String> {
 
-	@Query(nativeQuery = true, value = "SELECT * FROM anuncio " + "where cuenta_fb = :idCuenta and status = 'ACTIVE'")
+	@Query(nativeQuery = true, value = "SELECT * FROM anuncio " + "where cuenta_fb = :idCuenta and status = 'ACTIVE' and impresiones > 0")
 
 	List<Anuncio> findAnunciobycuentaFB(@Param("idCuenta") String idCuenta);
 
