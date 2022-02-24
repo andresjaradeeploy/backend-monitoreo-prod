@@ -1,0 +1,12 @@
+ERROR:15:39:29->Error al obtener cuentas fb com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ERROR:15:39:29->error al revisar linkjava.lang.NullPointerException: Cannot invoke "java.sql.PreparedStatement.close()" because "stmt" is null
+ERROR:16:02:43->Error al obtener cuentas fb com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ERROR:16:02:43->error al revisar linkjava.lang.NullPointerException: Cannot invoke "java.sql.PreparedStatement.close()" because "stmt" is null
+ERROR:16:08:04->Error al obtener cuentas fb com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+ERROR:16:08:04->error al revisar linkjava.lang.NullPointerException: Cannot invoke "java.sql.PreparedStatement.close()" because "stmt" is null

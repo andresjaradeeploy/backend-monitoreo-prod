@@ -1,0 +1,1263 @@
+WARN:10:14:26->Ad creatriv eno tiene link no se guardara23844247311590343
+WARN:10:14:26->Ad creatriv eno tiene link no se guardara23844312966200343
+WARN:10:14:26->Ad creatriv eno tiene link no se guardara23844340305160343
+WARN:10:14:27->Ad creatriv eno tiene link no se guardara23844345380200343
+WARN:10:14:27->Ad creatriv eno tiene link no se guardara23844356584340343
+WARN:10:14:27->Ad creatriv eno tiene link no se guardara23844367225980343
+WARN:10:14:28->Ad creatriv eno tiene link no se guardara23844367476900343
+WARN:10:14:28->Ad creatriv eno tiene link no se guardara23845106929120343
+WARN:10:14:29->Ad creatriv eno tiene link no se guardara23845113254980343
+WARN:10:14:29->Ad creatriv eno tiene link no se guardara23845153986790343
+WARN:10:14:29->Ad creatriv eno tiene link no se guardara23845153986920343
+WARN:10:14:30->Ad creatriv eno tiene link no se guardara23845153987070343
+WARN:10:14:30->Ad creatriv eno tiene link no se guardara23845153987090343
+WARN:10:14:30->Ad creatriv eno tiene link no se guardara23845153999650343
+WARN:10:14:31->Ad creatriv eno tiene link no se guardara23846213601150343
+WARN:10:14:31->Ad creatriv eno tiene link no se guardara23846213601180343
+WARN:10:14:32->Ad creatriv eno tiene link no se guardara23846213602050343
+WARN:10:14:32->Ad creatriv eno tiene link no se guardara23846213602240343
+WARN:10:14:32->Ad creatriv eno tiene link no se guardara23846213602410343
+WARN:10:14:33->Ad creatriv eno tiene link no se guardara23846226821240343
+WARN:10:14:33->Ad creatriv eno tiene link no se guardara23846226821340343
+WARN:10:14:34->Ad creatriv eno tiene link no se guardara23846258806940343
+WARN:10:14:34->Ad creatriv eno tiene link no se guardara23846274863600343
+WARN:10:14:35->Ad creatriv eno tiene link no se guardara23846302245530343
+WARN:10:14:35->Ad creatriv eno tiene link no se guardara23846309971410343
+WARN:10:14:35->Ad creatriv eno tiene link no se guardara23846325740620343
+WARN:10:14:36->Ad creatriv eno tiene link no se guardara23846325741120343
+WARN:10:14:36->Ad creatriv eno tiene link no se guardara23846378172760343
+WARN:10:14:37->Ad creatriv eno tiene link no se guardara23846385043620343
+WARN:10:14:37->Ad creatriv eno tiene link no se guardara23846385043920343
+WARN:10:14:37->Ad creatriv eno tiene link no se guardara23846385044430343
+WARN:10:14:38->Ad creatriv eno tiene link no se guardara23846385045430343
+WARN:10:14:38->Ad creatriv eno tiene link no se guardara23846385046290343
+WARN:10:14:39->Ad creatriv eno tiene link no se guardara23846387027920343
+WARN:10:14:39->Ad creatriv eno tiene link no se guardara23846387140260343
+WARN:10:14:40->Ad creatriv eno tiene link no se guardara23846839683230343
+WARN:10:14:40->Ad creatriv eno tiene link no se guardara23846839683270343
+WARN:10:14:41->Ad creatriv eno tiene link no se guardara23846839683480343
+WARN:10:14:41->Ad creatriv eno tiene link no se guardara23846839704540343
+WARN:10:14:42->Ad creatriv eno tiene link no se guardara23846839705170343
+WARN:10:14:42->Ad creatriv eno tiene link no se guardara23846839705940343
+WARN:10:14:43->Ad creatriv eno tiene link no se guardara23846839753670343
+WARN:10:14:43->Ad creatriv eno tiene link no se guardara23846839806890343
+WARN:10:14:43->Ad creatriv eno tiene link no se guardara23847229664110343
+WARN:10:14:44->Ad creatriv eno tiene link no se guardara23847229664640343
+WARN:10:14:44->Ad creatriv eno tiene link no se guardara23847229665150343
+WARN:10:14:45->Ad creatriv eno tiene link no se guardara23847229747810343
+WARN:10:14:45->Ad creatriv eno tiene link no se guardara23847229750300343
+WARN:10:14:46->Ad creatriv eno tiene link no se guardara23847229750330343
+WARN:10:14:46->Ad creatriv eno tiene link no se guardara23847255231430343
+WARN:10:14:47->Ad creatriv eno tiene link no se guardara23847255254400343
+WARN:10:14:47->Ad creatriv eno tiene link no se guardara23847434544940343
+WARN:10:14:47->Ad creatriv eno tiene link no se guardara23847460347990343
+WARN:10:14:48->Ad creatriv eno tiene link no se guardara23847632577950343
+WARN:10:14:48->Ad creatriv eno tiene link no se guardara23847639003840343
+WARN:10:14:49->Ad creatriv eno tiene link no se guardara23847640121610343
+WARN:10:14:49->Ad creatriv eno tiene link no se guardara23847663493960343
+WARN:10:14:50->Ad creatriv eno tiene link no se guardara23847663494940343
+WARN:10:14:50->Ad creatriv eno tiene link no se guardara23847663501860343
+WARN:10:14:51->Ad creatriv eno tiene link no se guardara23847769874260343
+WARN:10:14:51->Ad creatriv eno tiene link no se guardara23847769874300343
+WARN:10:14:52->Ad creatriv eno tiene link no se guardara23847769874410343
+WARN:10:14:52->Ad creatriv eno tiene link no se guardara23847769874550343
+WARN:10:14:53->Ad creatriv eno tiene link no se guardara23847769874650343
+WARN:10:14:53->Ad creatriv eno tiene link no se guardara23847769874720343
+WARN:10:14:53->Ad creatriv eno tiene link no se guardara23847769874770343
+WARN:10:14:54->Ad creatriv eno tiene link no se guardara23847769874920343
+WARN:10:14:54->Ad creatriv eno tiene link no se guardara23847769874960343
+WARN:10:14:55->Ad creatriv eno tiene link no se guardara23847769875060343
+WARN:10:14:55->Ad creatriv eno tiene link no se guardara23847769875090343
+WARN:10:14:55->Ad creatriv eno tiene link no se guardara23847769875190343
+WARN:10:14:56->Ad creatriv eno tiene link no se guardara23847769875300343
+WARN:10:14:56->Ad creatriv eno tiene link no se guardara23847769875310343
+WARN:10:14:56->Ad creatriv eno tiene link no se guardara23847769875400343
+WARN:10:14:57->Ad creatriv eno tiene link no se guardara23847769876690343
+WARN:10:14:57->Ad creatriv eno tiene link no se guardara23847769877050343
+WARN:10:14:57->Ad creatriv eno tiene link no se guardara23847769878190343
+WARN:10:14:58->Ad creatriv eno tiene link no se guardara23847769879090343
+WARN:10:14:58->Ad creatriv eno tiene link no se guardara23847769894440343
+WARN:10:14:58->Ad creatriv eno tiene link no se guardara23847769894910343
+WARN:10:14:59->Ad creatriv eno tiene link no se guardara23847769895420343
+WARN:10:14:59->Ad creatriv eno tiene link no se guardara23847985523160343
+WARN:10:14:59->Ad creatriv eno tiene link no se guardara23847985607880343
+WARN:10:15:00->Ad creatriv eno tiene link no se guardara23847985787390343
+WARN:10:15:00->Ad creatriv eno tiene link no se guardara23847985788660343
+WARN:10:15:00->Ad creatriv eno tiene link no se guardara23847985790240343
+WARN:10:15:01->Ad creatriv eno tiene link no se guardara23847985790260343
+WARN:10:15:01->Ad creatriv eno tiene link no se guardara23847985790310343
+WARN:10:15:01->Ad creatriv eno tiene link no se guardara23848039023950343
+WARN:10:15:02->Ad creatriv eno tiene link no se guardara23848054446440343
+WARN:10:15:02->Ad creatriv eno tiene link no se guardara23848150162570343
+WARN:10:15:02->Ad creatriv eno tiene link no se guardara23848150180870343
+WARN:10:15:03->Ad creatriv eno tiene link no se guardara23848182279880343
+WARN:10:15:03->Ad creatriv eno tiene link no se guardara23848304716940517
+WARN:10:15:03->Ad creatriv eno tiene link no se guardara23848304718270517
+WARN:10:15:04->Ad creatriv eno tiene link no se guardara23848304718460517
+WARN:10:15:04->Ad creatriv eno tiene link no se guardara23848345843240269
+WARN:10:15:04->Ad creatriv eno tiene link no se guardara23848369627750269
+WARN:10:15:05->Ad creatriv eno tiene link no se guardara23848392817810343
+WARN:10:15:05->Ad creatriv eno tiene link no se guardara23848393492300343
+WARN:10:15:06->Ad creatriv eno tiene link no se guardara23848393492950343
+WARN:10:15:06->Ad creatriv eno tiene link no se guardara23848402302280343
+WARN:10:15:06->Ad creatriv eno tiene link no se guardara23848412257510343
+WARN:10:15:07->Ad creatriv eno tiene link no se guardara23848444592800343
+WARN:10:15:07->Ad creatriv eno tiene link no se guardara23848486218790269
+WARN:10:15:07->Ad creatriv eno tiene link no se guardara23848494721150343
+WARN:10:15:08->Ad creatriv eno tiene link no se guardara23848494721610343
+WARN:10:15:08->Ad creatriv eno tiene link no se guardara23848571728590343
+WARN:10:15:08->Ad creatriv eno tiene link no se guardara23848622712490343
+WARN:10:15:09->Ad creatriv eno tiene link no se guardara23848702490500343
+WARN:10:15:09->Ad creatriv eno tiene link no se guardara23848727467860517
+WARN:10:15:09->Ad creatriv eno tiene link no se guardara23848727467870517
+WARN:10:15:10->Ad creatriv eno tiene link no se guardara23848727467900517
+WARN:10:15:10->Ad creatriv eno tiene link no se guardara23848839067380343
+WARN:10:15:10->Ad creatriv eno tiene link no se guardara23848868146690385
+WARN:10:15:11->Ad creatriv eno tiene link no se guardara23848868146700385
+WARN:10:15:11->Ad creatriv eno tiene link no se guardara23848913792650269
+WARN:10:15:12->Ad creatriv eno tiene link no se guardara23848914091900269
+WARN:10:15:12->Ad creatriv eno tiene link no se guardara23848997677070517
+WARN:10:15:12->Ad creatriv eno tiene link no se guardara23848997695750517
+WARN:10:15:13->Ad creatriv eno tiene link no se guardara23849006431620517
+WARN:10:15:13->Ad creatriv eno tiene link no se guardara23849006493160517
+WARN:10:15:13->Ad creatriv eno tiene link no se guardara23849006494520517
+WARN:10:15:14->Ad creatriv eno tiene link no se guardara23849006494690517
+WARN:10:15:14->Ad creatriv eno tiene link no se guardara23849007819090517
+WARN:10:15:15->Ad creatriv eno tiene link no se guardara23849007831110517
+WARN:10:15:15->Ad creatriv eno tiene link no se guardara23849007930560517
+WARN:10:15:16->Ad creatriv eno tiene link no se guardara23849007948330517
+WARN:10:15:16->Ad creatriv eno tiene link no se guardara23849007949830517
+WARN:10:15:17->Ad creatriv eno tiene link no se guardara23849007971880517
+WARN:10:15:17->Ad creatriv eno tiene link no se guardara23849007973140517
+WARN:10:15:18->Ad creatriv eno tiene link no se guardara23849007982480517
+WARN:10:15:18->Ad creatriv eno tiene link no se guardara23849007982500517
+WARN:10:15:19->Ad creatriv eno tiene link no se guardara23849007993300517
+WARN:10:15:19->Ad creatriv eno tiene link no se guardara23849028972980517
+WARN:10:15:19->Ad creatriv eno tiene link no se guardara23849028983040517
+WARN:10:15:20->Ad creatriv eno tiene link no se guardara23849028985580517
+WARN:10:15:20->Ad creatriv eno tiene link no se guardara23849028988320517
+WARN:10:15:20->Ad creatriv eno tiene link no se guardara23849051247190343
+WARN:10:15:21->Ad creatriv eno tiene link no se guardara23849051249000343
+WARN:10:15:21->Ad creatriv eno tiene link no se guardara23849080712420343
+WARN:10:15:22->Ad creatriv eno tiene link no se guardara23849080712540343
+WARN:10:15:22->Ad creatriv eno tiene link no se guardara23849089850110517
+WARN:10:15:22->Ad creatriv eno tiene link no se guardara23849089851450517
+WARN:10:15:23->Ad creatriv eno tiene link no se guardara23849089851510517
+WARN:10:15:23->Ad creatriv eno tiene link no se guardara23849089852280517
+WARN:10:15:23->Ad creatriv eno tiene link no se guardara23849089906560517
+WARN:10:15:24->Ad creatriv eno tiene link no se guardara23849090020260517
+WARN:10:15:24->Ad creatriv eno tiene link no se guardara23849090020830517
+WARN:10:15:25->Ad creatriv eno tiene link no se guardara23849090021270517
+WARN:10:15:25->Ad creatriv eno tiene link no se guardara23849090056400517
+WARN:10:15:25->Ad creatriv eno tiene link no se guardara23849090097500517
+WARN:10:15:26->Ad creatriv eno tiene link no se guardara23849090120290517
+WARN:10:15:26->Ad creatriv eno tiene link no se guardara23849090129290517
+WARN:10:15:27->Ad creatriv eno tiene link no se guardara23849091430920343
+WARN:10:15:27->Ad creatriv eno tiene link no se guardara23849091434990343
+WARN:10:15:27->Ad creatriv eno tiene link no se guardara23849092163410517
+WARN:10:15:28->Ad creatriv eno tiene link no se guardara23849092167700517
+WARN:10:15:28->Ad creatriv eno tiene link no se guardara23849092174470517
+WARN:10:15:29->Ad creatriv eno tiene link no se guardara23849092185000517
+WARN:10:15:29->Ad creatriv eno tiene link no se guardara23849092398540517
+WARN:10:15:29->Ad creatriv eno tiene link no se guardara23849092431060517
+WARN:10:15:29->Ad creatriv eno tiene link no se guardara23849092432830517
+WARN:10:15:30->Ad creatriv eno tiene link no se guardara23849092452400517
+WARN:10:15:30->Ad creatriv eno tiene link no se guardara23849092647080517
+WARN:10:15:30->Ad creatriv eno tiene link no se guardara23849092647090517
+WARN:10:15:31->Ad creatriv eno tiene link no se guardara23849098958820517
+WARN:10:15:31->Ad creatriv eno tiene link no se guardara23849098967510517
+WARN:10:15:31->Ad creatriv eno tiene link no se guardara23849098970190517
+WARN:10:15:32->Ad creatriv eno tiene link no se guardara23849098975310517
+WARN:10:15:32->Ad creatriv eno tiene link no se guardara23849098977980517
+WARN:10:15:33->Ad creatriv eno tiene link no se guardara23849142149970343
+WARN:10:15:33->Ad creatriv eno tiene link no se guardara23849142420700343
+WARN:10:15:33->Ad creatriv eno tiene link no se guardara23849142446320343
+WARN:10:15:34->Ad creatriv eno tiene link no se guardara23849145824130385
+WARN:10:15:34->Ad creatriv eno tiene link no se guardara23849145830310385
+WARN:10:15:34->Ad creatriv eno tiene link no se guardara23849171867760343
+WARN:10:15:35->Ad creatriv eno tiene link no se guardara23849186504540385
+WARN:10:15:35->Ad creatriv eno tiene link no se guardara23849186514410385
+WARN:10:15:35->Ad creatriv eno tiene link no se guardara23849231098010269
+WARN:10:15:36->Ad creatriv eno tiene link no se guardara23849248973070279
+WARN:10:15:36->Ad creatriv eno tiene link no se guardara23849248992670279
+WARN:10:15:37->Ad creatriv eno tiene link no se guardara23849249063490279
+WARN:10:15:37->Ad creatriv eno tiene link no se guardara23849249063500279
+WARN:10:15:38->Ad creatriv eno tiene link no se guardara23849249158100279
+WARN:10:15:38->Ad creatriv eno tiene link no se guardara23849259349600343
+WARN:10:15:38->Ad creatriv eno tiene link no se guardara23849259768730343
+WARN:10:15:39->Ad creatriv eno tiene link no se guardara23849260039760343
+WARN:10:15:39->Ad creatriv eno tiene link no se guardara23849260952500343
+WARN:10:15:39->Ad creatriv eno tiene link no se guardara23849261060310343
+WARN:10:15:40->Ad creatriv eno tiene link no se guardara23849277157100343
+WARN:10:15:40->Ad creatriv eno tiene link no se guardara23849303673800343
+WARN:10:15:40->Ad creatriv eno tiene link no se guardara23849303689630343
+WARN:10:15:41->Ad creatriv eno tiene link no se guardara23849303728150343
+WARN:10:15:41->Ad creatriv eno tiene link no se guardara23849303733650343
+WARN:10:15:41->Ad creatriv eno tiene link no se guardara23849313043610343
+WARN:10:15:42->Ad creatriv eno tiene link no se guardara23849313043640343
+WARN:10:15:42->Ad creatriv eno tiene link no se guardara23849386048960343
+WARN:10:15:43->Ad creatriv eno tiene link no se guardara23849386742580343
+WARN:10:15:43->Ad creatriv eno tiene link no se guardara23849408147880343
+WARN:10:15:43->Ad creatriv eno tiene link no se guardara23849422418360343
+WARN:10:15:44->Ad creatriv eno tiene link no se guardara23849422441780343
+WARN:10:15:44->Ad creatriv eno tiene link no se guardara23849422556590343
+WARN:10:15:45->Ad creatriv eno tiene link no se guardara23849425362690343
+WARN:10:15:45->Ad creatriv eno tiene link no se guardara23849425363880343
+WARN:10:15:46->Ad creatriv eno tiene link no se guardara23849439372350279
+WARN:10:15:46->Ad creatriv eno tiene link no se guardara23849439379490279
+WARN:10:15:46->Ad creatriv eno tiene link no se guardara23849450432560343
+WARN:10:15:47->Ad creatriv eno tiene link no se guardara23849450598100343
+WARN:10:15:47->Ad creatriv eno tiene link no se guardara23849459405740343
+WARN:10:15:48->Ad creatriv eno tiene link no se guardara23849459413730343
+WARN:10:15:48->Ad creatriv eno tiene link no se guardara23849459470280343
+WARN:10:15:48->Ad creatriv eno tiene link no se guardara23849459481120343
+WARN:10:15:49->Ad creatriv eno tiene link no se guardara23849460777410343
+WARN:10:15:49->Ad creatriv eno tiene link no se guardara23849470361180343
+WARN:10:15:50->Ad creatriv eno tiene link no se guardara23849470473490343
+WARN:10:15:50->Ad creatriv eno tiene link no se guardara23849470489520343
+WARN:10:15:51->Ad creatriv eno tiene link no se guardara23849470538170343
+WARN:10:15:51->Ad creatriv eno tiene link no se guardara23849471082660343
+WARN:10:15:51->Ad creatriv eno tiene link no se guardara23849471157720343
+WARN:10:15:52->Ad creatriv eno tiene link no se guardara23849491959010385
+WARN:10:15:52->Ad creatriv eno tiene link no se guardara23849492019660385
+WARN:10:15:52->Ad creatriv eno tiene link no se guardara23849500417700343
+WARN:10:15:53->Ad creatriv eno tiene link no se guardara23849500419960343
+WARN:10:15:53->Ad creatriv eno tiene link no se guardara23849500421170343
+WARN:10:15:54->Ad creatriv eno tiene link no se guardara23849500422200343
+WARN:10:15:54->Ad creatriv eno tiene link no se guardara23849500423410343
+WARN:10:15:55->Ad creatriv eno tiene link no se guardara23849503141260385
+WARN:10:15:55->Ad creatriv eno tiene link no se guardara23849503161720385
+WARN:10:15:56->Ad creatriv eno tiene link no se guardara23849512536610385
+WARN:10:15:56->Ad creatriv eno tiene link no se guardara23849512537150385
+WARN:10:15:57->Ad creatriv eno tiene link no se guardara23849512554210385
+WARN:10:15:57->Ad creatriv eno tiene link no se guardara23849516795150343
+WARN:10:15:57->Ad creatriv eno tiene link no se guardara23849528746200343
+WARN:10:15:58->Ad creatriv eno tiene link no se guardara23849528746250343
+WARN:10:15:58->Ad creatriv eno tiene link no se guardara23849528746670343
+WARN:10:15:58->Ad creatriv eno tiene link no se guardara23849535560780343
+WARN:10:15:59->Ad creatriv eno tiene link no se guardara23849535973290343
+WARN:10:15:59->Ad creatriv eno tiene link no se guardara23849535975070343
+WARN:10:16:00->Ad creatriv eno tiene link no se guardara23849535981740343
+WARN:10:16:00->Ad creatriv eno tiene link no se guardara23849535984950343
+WARN:10:16:00->Ad creatriv eno tiene link no se guardara23849535988120343
+WARN:10:16:01->Ad creatriv eno tiene link no se guardara23849535990020343
+WARN:10:16:02->Ad creatriv eno tiene link no se guardara23849540056040385
+WARN:10:16:02->Ad creatriv eno tiene link no se guardara23849540125820385
+WARN:10:16:03->Ad creatriv eno tiene link no se guardara23849552042840385
+WARN:10:16:03->Ad creatriv eno tiene link no se guardara23849552450840385
+WARN:10:16:03->Ad creatriv eno tiene link no se guardara23849553164240343
+WARN:10:16:04->Ad creatriv eno tiene link no se guardara23849553192530343
+WARN:10:16:04->Ad creatriv eno tiene link no se guardara23849555706750517
+WARN:10:16:04->Ad creatriv eno tiene link no se guardara23849555713690517
+WARN:10:16:05->Ad creatriv eno tiene link no se guardara23849555713880517
+WARN:10:16:05->Ad creatriv eno tiene link no se guardara23849555719310517
+WARN:10:16:05->Ad creatriv eno tiene link no se guardara23849555720430517
+WARN:10:16:06->Ad creatriv eno tiene link no se guardara23849555729590517
+WARN:10:16:06->Ad creatriv eno tiene link no se guardara23849555733890517
+WARN:10:16:06->Ad creatriv eno tiene link no se guardara23849555733920517
+WARN:10:16:07->Ad creatriv eno tiene link no se guardara23849555917060517
+WARN:10:16:07->Ad creatriv eno tiene link no se guardara23849558982090343
+WARN:10:16:07->Ad creatriv eno tiene link no se guardara23849575631990343
+WARN:10:16:08->Ad creatriv eno tiene link no se guardara23849575633420343
+WARN:10:16:08->Ad creatriv eno tiene link no se guardara23849581270600385
+WARN:10:16:09->Ad creatriv eno tiene link no se guardara23849602524730343
+WARN:10:16:09->Ad creatriv eno tiene link no se guardara23849602594280343
+WARN:10:16:10->Ad creatriv eno tiene link no se guardara23849604529320343
+WARN:10:16:10->Ad creatriv eno tiene link no se guardara23849604529450343
+WARN:10:16:10->Ad creatriv eno tiene link no se guardara23849604672780343
+WARN:10:16:11->Ad creatriv eno tiene link no se guardara23849604718870343
+WARN:10:16:11->Ad creatriv eno tiene link no se guardara23849604719190343
+WARN:10:16:12->Ad creatriv eno tiene link no se guardara23849604976630343
+WARN:10:16:12->Ad creatriv eno tiene link no se guardara23849604978100343
+WARN:10:16:12->Ad creatriv eno tiene link no se guardara23849611098670343
+WARN:10:16:13->Ad creatriv eno tiene link no se guardara23849611156690343
+WARN:10:16:13->Ad creatriv eno tiene link no se guardara23849611159350343
+WARN:10:16:13->Ad creatriv eno tiene link no se guardara23849611227380343
+WARN:10:16:14->Ad creatriv eno tiene link no se guardara23849611433550343
+WARN:10:16:14->Ad creatriv eno tiene link no se guardara23849611897760343
+WARN:10:16:15->Ad creatriv eno tiene link no se guardara23849611897920343
+WARN:10:16:15->Ad creatriv eno tiene link no se guardara23849611932620343
+WARN:10:16:16->Ad creatriv eno tiene link no se guardara23849612092260343
+WARN:10:16:16->Ad creatriv eno tiene link no se guardara23849612092350343
+WARN:10:16:16->Ad creatriv eno tiene link no se guardara23849612532440343
+WARN:10:16:17->Ad creatriv eno tiene link no se guardara23849612550260343
+WARN:10:16:17->Ad creatriv eno tiene link no se guardara23849630960940343
+WARN:10:16:17->Ad creatriv eno tiene link no se guardara23849631278910343
+WARN:10:16:18->Ad creatriv eno tiene link no se guardara23849631965510343
+WARN:10:16:18->Ad creatriv eno tiene link no se guardara23849631965730343
+WARN:10:16:18->Ad creatriv eno tiene link no se guardara23849632324000343
+WARN:10:16:19->Ad creatriv eno tiene link no se guardara23849632394790343
+WARN:10:16:19->Ad creatriv eno tiene link no se guardara23849632683990343
+WARN:10:16:20->Ad creatriv eno tiene link no se guardara23849633007540343
+WARN:10:16:20->Ad creatriv eno tiene link no se guardara23849633007620343
+WARN:10:16:20->Ad creatriv eno tiene link no se guardara23849639420670343
+WARN:10:16:21->Ad creatriv eno tiene link no se guardara23849640142520343
+WARN:10:16:21->Ad creatriv eno tiene link no se guardara23849640142620343
+WARN:10:16:21->Ad creatriv eno tiene link no se guardara23849640143270343
+WARN:10:16:22->Ad creatriv eno tiene link no se guardara23849641379100343
+WARN:10:16:22->Ad creatriv eno tiene link no se guardara23849641379130343
+WARN:10:16:23->Ad creatriv eno tiene link no se guardara23849641379280343
+WARN:10:16:23->Ad creatriv eno tiene link no se guardara23849641379490343
+WARN:10:16:23->Ad creatriv eno tiene link no se guardara23849641381390343
+WARN:10:16:24->Ad creatriv eno tiene link no se guardara23849641388950343
+WARN:10:16:24->Ad creatriv eno tiene link no se guardara23849641512450343
+WARN:10:16:24->Ad creatriv eno tiene link no se guardara23849641512590343
+WARN:10:16:25->Ad creatriv eno tiene link no se guardara23849641513130343
+WARN:10:16:25->Ad creatriv eno tiene link no se guardara23849659573680343
+WARN:10:16:26->Ad creatriv eno tiene link no se guardara23849659573810343
+WARN:10:16:26->Ad creatriv eno tiene link no se guardara23849659574040343
+WARN:10:16:27->Ad creatriv eno tiene link no se guardara23849660339560343
+WARN:10:16:27->Ad creatriv eno tiene link no se guardara23849660339690343
+WARN:10:16:28->Ad creatriv eno tiene link no se guardara23849661304880343
+WARN:10:16:28->Ad creatriv eno tiene link no se guardara23849661394000343
+WARN:10:16:28->Ad creatriv eno tiene link no se guardara23849661408170343
+WARN:10:16:29->Ad creatriv eno tiene link no se guardara23849661504310343
+WARN:10:16:29->Ad creatriv eno tiene link no se guardara23849661504340343
+WARN:10:16:30->Ad creatriv eno tiene link no se guardara23849661511990343
+WARN:10:16:30->Ad creatriv eno tiene link no se guardara23849666449310343
+WARN:10:16:31->Ad creatriv eno tiene link no se guardara23849666449450343
+WARN:10:16:31->Ad creatriv eno tiene link no se guardara23849666717490343
+WARN:10:16:31->Ad creatriv eno tiene link no se guardara23849666752900343
+WARN:10:16:32->Ad creatriv eno tiene link no se guardara23849667250520343
+WARN:10:16:32->Ad creatriv eno tiene link no se guardara23849667418200343
+WARN:10:16:32->Ad creatriv eno tiene link no se guardara23849667458410343
+WARN:10:16:33->Ad creatriv eno tiene link no se guardara23849667458660343
+WARN:10:16:33->Ad creatriv eno tiene link no se guardara23849667458740343
+WARN:10:16:34->Ad creatriv eno tiene link no se guardara23849667458900343
+WARN:10:16:34->Ad creatriv eno tiene link no se guardara23849667883350343
+WARN:10:16:34->Ad creatriv eno tiene link no se guardara23849667883390343
+WARN:10:16:35->Ad creatriv eno tiene link no se guardara23849667883510343
+WARN:10:16:35->Ad creatriv eno tiene link no se guardara23849667883870343
+WARN:10:16:36->Ad creatriv eno tiene link no se guardara23849668104740343
+WARN:10:16:36->Ad creatriv eno tiene link no se guardara23849668446080343
+WARN:10:16:36->Ad creatriv eno tiene link no se guardara23849668446340343
+WARN:10:16:37->Ad creatriv eno tiene link no se guardara23849668446530343
+WARN:10:16:37->Ad creatriv eno tiene link no se guardara23849668446590343
+WARN:10:16:38->Ad creatriv eno tiene link no se guardara23849668535870343
+WARN:10:16:38->Ad creatriv eno tiene link no se guardara23849668536030343
+WARN:10:16:39->Ad creatriv eno tiene link no se guardara23849668536100343
+WARN:10:16:39->Ad creatriv eno tiene link no se guardara23849668536750343
+WARN:10:16:39->Ad creatriv eno tiene link no se guardara23849675102360343
+WARN:10:16:40->Ad creatriv eno tiene link no se guardara23849675161010343
+WARN:10:16:40->Ad creatriv eno tiene link no se guardara23849675164320343
+WARN:10:16:41->Ad creatriv eno tiene link no se guardara23849675167620343
+WARN:10:16:41->Ad creatriv eno tiene link no se guardara23849675168390343
+WARN:10:16:41->Ad creatriv eno tiene link no se guardara23849675173710343
+WARN:10:16:42->Ad creatriv eno tiene link no se guardara23849675176670343
+WARN:10:16:42->Ad creatriv eno tiene link no se guardara23849675187630343
+WARN:10:16:42->Ad creatriv eno tiene link no se guardara23849675189370343
+WARN:10:16:43->Ad creatriv eno tiene link no se guardara23849675199290343
+WARN:10:16:43->Ad creatriv eno tiene link no se guardara23849675200560343
+WARN:10:16:44->Ad creatriv eno tiene link no se guardara23849675209970343
+WARN:10:16:44->Ad creatriv eno tiene link no se guardara23849675213500343
+WARN:10:16:45->Ad creatriv eno tiene link no se guardara23849678353000343
+WARN:10:16:45->Ad creatriv eno tiene link no se guardara23849678353030343
+WARN:10:16:45->Ad creatriv eno tiene link no se guardara23849684166910343
+WARN:10:16:46->Ad creatriv eno tiene link no se guardara23849684184430343
+WARN:10:16:46->Ad creatriv eno tiene link no se guardara23849686565220343
+WARN:10:16:47->Ad creatriv eno tiene link no se guardara23849686630730343
+WARN:10:16:47->Ad creatriv eno tiene link no se guardara23849686641680343
+WARN:10:16:47->Ad creatriv eno tiene link no se guardara23849692737130343
+WARN:10:16:48->Ad creatriv eno tiene link no se guardara23849692775790343
+WARN:10:16:48->Ad creatriv eno tiene link no se guardara23849692925290343
+WARN:10:16:48->Ad creatriv eno tiene link no se guardara23849712834020343
+WARN:10:16:49->Ad creatriv eno tiene link no se guardara23849712879100343
+WARN:10:16:50->Ad creatriv eno tiene link no se guardara23849712891490343
+WARN:10:16:50->Ad creatriv eno tiene link no se guardara23849712910330343
+WARN:10:16:51->Ad creatriv eno tiene link no se guardara23849712911260343
+WARN:10:16:51->Ad creatriv eno tiene link no se guardara23849721243540343
+WARN:10:16:51->Ad creatriv eno tiene link no se guardara23849721286690343
+WARN:10:16:52->Ad creatriv eno tiene link no se guardara23849739230360343
+WARN:10:16:52->Ad creatriv eno tiene link no se guardara23849739247760343
+WARN:10:16:53->Ad creatriv eno tiene link no se guardara23849740022260343
+WARN:10:16:53->Ad creatriv eno tiene link no se guardara23849740022270343
+WARN:10:16:54->Ad creatriv eno tiene link no se guardara23849740563160343
+WARN:10:16:54->Ad creatriv eno tiene link no se guardara23849740696200343
+WARN:10:16:55->Ad creatriv eno tiene link no se guardara23849774535890343
+WARN:10:16:55->Ad creatriv eno tiene link no se guardara23849774539300343
+WARN:10:16:56->Ad creatriv eno tiene link no se guardara23849775558970343
+WARN:10:16:56->Ad creatriv eno tiene link no se guardara23849775562510343
+WARN:10:16:57->Ad creatriv eno tiene link no se guardara23849775577210343
+WARN:10:16:57->Ad creatriv eno tiene link no se guardara23849775594290343
+WARN:10:16:57->Ad creatriv eno tiene link no se guardara23849783082450343
+WARN:10:16:58->Ad creatriv eno tiene link no se guardara23849783123020343
+WARN:10:16:58->Ad creatriv eno tiene link no se guardara23849783377140343
+WARN:10:16:59->Ad creatriv eno tiene link no se guardara23849783402800343
+WARN:10:16:59->Ad creatriv eno tiene link no se guardara23849783406020343
+WARN:10:16:59->Ad creatriv eno tiene link no se guardara23849783410950343
+WARN:10:17:00->Ad creatriv eno tiene link no se guardara23850059650520385
+WARN:10:17:00->Ad creatriv eno tiene link no se guardara23850059650610385
+WARN:10:17:00->Ad creatriv eno tiene link no se guardara23850112030510343
+WARN:10:17:01->Ad creatriv eno tiene link no se guardara23850112224350343
+WARN:10:17:01->Ad creatriv eno tiene link no se guardara23850112232280343
+WARN:10:17:01->Ad creatriv eno tiene link no se guardara23850112243230343
+WARN:10:17:02->Ad creatriv eno tiene link no se guardara23850112359480343
+WARN:10:17:02->Ad creatriv eno tiene link no se guardara23850112373650343
+WARN:10:17:02->Ad creatriv eno tiene link no se guardara23850131848570343
+WARN:10:17:03->Ad creatriv eno tiene link no se guardara23850141152790343
+WARN:10:17:03->Ad creatriv eno tiene link no se guardara23850141152800343
+WARN:10:17:04->Ad creatriv eno tiene link no se guardara23850141153100343
+WARN:10:17:04->Ad creatriv eno tiene link no se guardara23850141153140343
+WARN:10:17:04->Ad creatriv eno tiene link no se guardara23850141213070343
+WARN:10:17:05->Ad creatriv eno tiene link no se guardara23850141213080343
+WARN:10:17:05->Ad creatriv eno tiene link no se guardara23850141213260343
+WARN:10:17:06->Ad creatriv eno tiene link no se guardara23850141213290343
+WARN:10:17:06->Ad creatriv eno tiene link no se guardara23850142434720343
+WARN:10:17:06->Ad creatriv eno tiene link no se guardara23850142816520343
+WARN:10:17:07->Ad creatriv eno tiene link no se guardara23850143927420343
+WARN:10:17:07->Ad creatriv eno tiene link no se guardara23850143930960343
+WARN:10:17:08->Ad creatriv eno tiene link no se guardara23850143931660343
+WARN:10:17:08->Ad creatriv eno tiene link no se guardara23850143933650343
+WARN:10:17:08->Ad creatriv eno tiene link no se guardara23850154526280343
+WARN:10:17:09->Ad creatriv eno tiene link no se guardara23850154526810343
+WARN:10:17:09->Ad creatriv eno tiene link no se guardara23850154529380343
+WARN:10:17:09->Ad creatriv eno tiene link no se guardara23850154534090343
+WARN:10:17:10->Ad creatriv eno tiene link no se guardara23850160864990343
+WARN:11:19:25->Ad 23844247290060343 sin estadisticas
+WARN:11:19:26->Ya existe Ad 23844247290060343 en BD
+WARN:11:19:26->Ad 23844312943950343 sin estadisticas
+WARN:11:19:26->Ya existe Ad 23844312943950343 en BD
+WARN:11:19:26->Ad 23844314340030343 sin estadisticas
+WARN:11:19:27->Ya existe Ad 23844314340030343 en BD
+WARN:11:19:27->Ad 23844314342220343 sin estadisticas
+WARN:11:19:27->Ya existe Ad 23844314342220343 en BD
+WARN:11:19:27->Ad 23844340255650343 sin estadisticas
+WARN:11:19:28->Ya existe Ad 23844340255650343 en BD
+WARN:11:19:28->Ad 23844345357400343 sin estadisticas
+WARN:11:19:28->Ya existe Ad 23844345357400343 en BD
+WARN:11:19:28->Ad 23844356552180343 sin estadisticas
+WARN:11:19:29->Ya existe Ad 23844356552180343 en BD
+WARN:11:19:29->Ad 23844367466370343 sin estadisticas
+WARN:11:19:29->Ya existe Ad 23844367466370343 en BD
+WARN:11:19:29->Ad 23844510819420343 sin estadisticas
+WARN:11:19:30->Ya existe Ad 23844510819420343 en BD
+WARN:11:19:30->Ad 23845059111270343 sin estadisticas
+WARN:11:19:30->Ya existe Ad 23845059111270343 en BD
+WARN:11:19:30->Ad 23845105920500343 sin estadisticas
+WARN:11:19:31->Ya existe Ad 23845105920500343 en BD
+WARN:11:19:31->Ad 23845113255140343 sin estadisticas
+WARN:11:19:31->Ya existe Ad 23845113255140343 en BD
+WARN:11:19:31->Ad 23845113255210343 sin estadisticas
+WARN:11:19:32->Ya existe Ad 23845113255210343 en BD
+WARN:11:19:32->Ad 23845113255410343 sin estadisticas
+WARN:11:19:32->Ya existe Ad 23845113255410343 en BD
+WARN:11:19:32->Ad 23845113255540343 sin estadisticas
+WARN:11:19:33->Ya existe Ad 23845113255540343 en BD
+WARN:11:19:33->Ad 23845113255690343 sin estadisticas
+WARN:11:19:33->Ya existe Ad 23845113255690343 en BD
+WARN:11:19:33->Ad 23845113255870343 sin estadisticas
+WARN:11:19:34->Ya existe Ad 23845113255870343 en BD
+WARN:11:19:34->Ad 23845113256250343 sin estadisticas
+WARN:11:19:34->Ya existe Ad 23845113256250343 en BD
+WARN:11:19:34->Ad 23845113256530343 sin estadisticas
+WARN:11:19:35->Ya existe Ad 23845113256530343 en BD
+WARN:11:19:35->Ad 23845113256820343 sin estadisticas
+WARN:11:19:35->Ya existe Ad 23845113256820343 en BD
+WARN:11:19:35->Ad 23845113257360343 sin estadisticas
+WARN:11:19:36->Ya existe Ad 23845113257360343 en BD
+WARN:11:19:36->Ad 23845113257680343 sin estadisticas
+WARN:11:19:36->Ya existe Ad 23845113257680343 en BD
+WARN:11:19:36->Ad 23845113257970343 sin estadisticas
+WARN:11:19:37->Ya existe Ad 23845113257970343 en BD
+WARN:11:19:37->Ad 23845124877200343 sin estadisticas
+WARN:11:19:37->Ya existe Ad 23845124877200343 en BD
+WARN:11:19:37->Ad 23845124877580343 sin estadisticas
+WARN:11:19:38->Ya existe Ad 23845124877580343 en BD
+WARN:11:19:38->Ad 23845124877590343 sin estadisticas
+WARN:11:19:38->Ya existe Ad 23845124877590343 en BD
+WARN:11:19:38->Ad 23845124877700343 sin estadisticas
+WARN:11:19:39->Ya existe Ad 23845124877700343 en BD
+WARN:11:19:39->Ad 23846122461290343 sin estadisticas
+WARN:11:19:39->Ya existe Ad 23846122461290343 en BD
+WARN:11:19:39->Ad 23846122480210343 sin estadisticas
+WARN:11:19:40->Ya existe Ad 23846122480210343 en BD
+WARN:11:19:40->Ad 23846182596650343 sin estadisticas
+WARN:11:19:40->Ya existe Ad 23846182596650343 en BD
+WARN:11:19:40->Ad 23846213476850343 sin estadisticas
+WARN:11:19:41->Ya existe Ad 23846213476850343 en BD
+WARN:11:19:41->Ad 23846213495990343 sin estadisticas
+WARN:11:19:41->Ya existe Ad 23846213495990343 en BD
+WARN:11:19:41->Ad 23846213496000343 sin estadisticas
+WARN:11:19:42->Ya existe Ad 23846213496000343 en BD
+WARN:11:19:42->Ad 23846213529920343 sin estadisticas
+WARN:11:19:42->Ya existe Ad 23846213529920343 en BD
+WARN:11:19:42->Ad 23846213536980343 sin estadisticas
+WARN:11:19:43->Ya existe Ad 23846213536980343 en BD
+WARN:11:19:43->Ad 23846235059930343 sin estadisticas
+WARN:11:19:43->Ya existe Ad 23846235059930343 en BD
+WARN:11:19:43->Ad 23846235059950343 sin estadisticas
+WARN:11:19:44->Ya existe Ad 23846235059950343 en BD
+WARN:11:19:44->Ad 23846258779130343 sin estadisticas
+WARN:11:19:44->Ya existe Ad 23846258779130343 en BD
+WARN:11:19:44->Ad 23846302198770343 sin estadisticas
+WARN:11:19:45->Ya existe Ad 23846302198770343 en BD
+WARN:11:19:45->Ad 23846302252200343 sin estadisticas
+WARN:11:19:46->Ya existe Ad 23846302252200343 en BD
+WARN:11:19:46->Ad 23846309957560343 sin estadisticas
+WARN:11:19:46->Ya existe Ad 23846309957560343 en BD
+WARN:11:19:46->Ad 23846378169750343 sin estadisticas
+WARN:11:19:47->Ya existe Ad 23846378169750343 en BD
+WARN:11:19:47->Ad 23846378177090343 sin estadisticas
+WARN:11:19:47->Ya existe Ad 23846378177090343 en BD
+WARN:11:19:47->Ad 23846384668180343 sin estadisticas
+WARN:11:19:48->Ya existe Ad 23846384668180343 en BD
+WARN:11:19:48->Ad 23846384668190343 sin estadisticas
+WARN:11:19:48->Ya existe Ad 23846384668190343 en BD
+WARN:11:19:48->Ad 23846384668200343 sin estadisticas
+WARN:11:19:49->Ya existe Ad 23846384668200343 en BD
+WARN:11:19:49->Ad 23846384668210343 sin estadisticas
+WARN:11:19:49->Ya existe Ad 23846384668210343 en BD
+WARN:11:19:49->Ad 23846384668220343 sin estadisticas
+WARN:11:19:49->Ya existe Ad 23846384668220343 en BD
+WARN:11:19:49->Ad 23846387003930343 sin estadisticas
+WARN:11:19:50->Ya existe Ad 23846387003930343 en BD
+WARN:11:19:50->Ad 23846387029450343 sin estadisticas
+WARN:11:19:50->Ya existe Ad 23846387029450343 en BD
+WARN:11:19:50->Ad 23846838117360343 sin estadisticas
+WARN:11:19:51->Ya existe Ad 23846838117360343 en BD
+WARN:11:19:51->Ad 23846838117370343 sin estadisticas
+WARN:11:19:51->Ya existe Ad 23846838117370343 en BD
+WARN:11:19:51->Ad 23846838117380343 sin estadisticas
+WARN:11:19:52->Ya existe Ad 23846838117380343 en BD
+WARN:11:19:52->Ad 23846839684370343 sin estadisticas
+WARN:11:19:53->Ya existe Ad 23846839684370343 en BD
+WARN:11:19:53->Ad 23846839684380343 sin estadisticas
+WARN:11:19:53->Ya existe Ad 23846839684380343 en BD
+WARN:11:19:53->Ad 23846839684390343 sin estadisticas
+WARN:11:19:54->Ya existe Ad 23846839684390343 en BD
+WARN:11:19:54->Ad 23846839712190343 sin estadisticas
+WARN:11:19:54->Ya existe Ad 23846839712190343 en BD
+WARN:11:19:54->Ad 23846839756960343 sin estadisticas
+WARN:11:19:55->Ya existe Ad 23846839756960343 en BD
+WARN:11:19:55->Ad 23847229486120343 sin estadisticas
+WARN:11:19:55->Ya existe Ad 23847229486120343 en BD
+WARN:11:19:55->Ad 23847229486130343 sin estadisticas
+WARN:11:19:56->Ya existe Ad 23847229486130343 en BD
+WARN:11:19:56->Ad 23847229486140343 sin estadisticas
+WARN:11:19:56->Ya existe Ad 23847229486140343 en BD
+WARN:11:19:56->Ad 23847229486150343 sin estadisticas
+WARN:11:19:57->Ya existe Ad 23847229486150343 en BD
+WARN:11:19:57->Ad 23847229486170343 sin estadisticas
+WARN:11:19:57->Ya existe Ad 23847229486170343 en BD
+WARN:11:19:57->Ad 23847229486180343 sin estadisticas
+WARN:11:19:58->Ya existe Ad 23847229486180343 en BD
+WARN:11:19:58->Ad 23847229486200343 sin estadisticas
+WARN:11:19:58->Ya existe Ad 23847229486200343 en BD
+WARN:11:19:58->Ad 23847229486210343 sin estadisticas
+WARN:11:19:59->Ya existe Ad 23847229486210343 en BD
+WARN:11:19:59->Ad 23847377574320343 sin estadisticas
+WARN:11:19:59->Ya existe Ad 23847377574320343 en BD
+WARN:11:19:59->Ad 23847378530220343 sin estadisticas
+WARN:11:20:00->Ya existe Ad 23847378530220343 en BD
+WARN:11:20:00->Ad 23847378581910343 sin estadisticas
+WARN:11:20:00->Ya existe Ad 23847378581910343 en BD
+WARN:11:20:00->Ad 23847378725190343 sin estadisticas
+WARN:11:20:01->Ya existe Ad 23847378725190343 en BD
+WARN:11:20:01->Ad 23847433901130343 sin estadisticas
+WARN:11:20:01->Ya existe Ad 23847433901130343 en BD
+WARN:11:20:01->Ad 23847567971040385 sin estadisticas
+WARN:11:20:02->Ya existe Ad 23847567971040385 en BD
+WARN:11:20:02->Ad 23847632007340385 sin estadisticas
+WARN:11:20:03->Ya existe Ad 23847632007340385 en BD
+WARN:11:20:03->Ad 23847632394440343 sin estadisticas
+WARN:11:20:03->Ya existe Ad 23847632394440343 en BD
+WARN:11:20:03->Ad 23847632586650343 sin estadisticas
+WARN:11:20:03->Ya existe Ad 23847632586650343 en BD
+WARN:11:20:03->Ad 23847632605600343 sin estadisticas
+WARN:11:20:04->Ya existe Ad 23847632605600343 en BD
+WARN:11:20:04->Ad 23847632636140343 sin estadisticas
+WARN:11:20:04->Ya existe Ad 23847632636140343 en BD
+WARN:11:20:04->Ad 23847632659350343 sin estadisticas
+WARN:11:20:05->Ya existe Ad 23847632659350343 en BD
+WARN:11:20:05->Ad 23847632979440343 sin estadisticas
+WARN:11:20:05->Ya existe Ad 23847632979440343 en BD
+WARN:11:20:05->Ad 23847737348680343 sin estadisticas
+WARN:11:20:06->Ya existe Ad 23847737348680343 en BD
+WARN:11:20:06->Ad 23847737348700343 sin estadisticas
+WARN:11:20:06->Ya existe Ad 23847737348700343 en BD
+WARN:11:20:06->Ad 23847737348720343 sin estadisticas
+WARN:11:20:07->Ya existe Ad 23847737348720343 en BD
+WARN:11:20:07->Ad 23847737391110343 sin estadisticas
+WARN:11:20:07->Ya existe Ad 23847737391110343 en BD
+WARN:11:20:07->Ad 23847737391140343 sin estadisticas
+WARN:11:20:08->Ya existe Ad 23847737391140343 en BD
+WARN:11:20:08->Ad 23847737391150343 sin estadisticas
+WARN:11:20:08->Ya existe Ad 23847737391150343 en BD
+WARN:11:20:08->Ad 23847737391160343 sin estadisticas
+WARN:11:20:09->Ya existe Ad 23847737391160343 en BD
+WARN:11:20:09->Ad 23847737391170343 sin estadisticas
+WARN:11:20:09->Ya existe Ad 23847737391170343 en BD
+WARN:11:20:09->Ad 23847737391190343 sin estadisticas
+WARN:11:20:10->Ya existe Ad 23847737391190343 en BD
+WARN:11:20:10->Ad 23847737391210343 sin estadisticas
+WARN:11:20:11->Ya existe Ad 23847737391210343 en BD
+WARN:11:20:11->Ad 23847737391220343 sin estadisticas
+WARN:11:20:11->Ya existe Ad 23847737391220343 en BD
+WARN:11:20:11->Ad 23847737391230343 sin estadisticas
+WARN:11:20:12->Ya existe Ad 23847737391230343 en BD
+WARN:11:20:12->Ad 23847737391240343 sin estadisticas
+WARN:11:20:12->Ya existe Ad 23847737391240343 en BD
+WARN:11:20:12->Ad 23847737391250343 sin estadisticas
+WARN:11:20:13->Ya existe Ad 23847737391250343 en BD
+WARN:11:20:13->Ad 23847737391260343 sin estadisticas
+WARN:11:20:13->Ya existe Ad 23847737391260343 en BD
+WARN:11:20:13->Ad 23847737391270343 sin estadisticas
+WARN:11:20:14->Ya existe Ad 23847737391270343 en BD
+WARN:11:20:14->Ad 23847737391280343 sin estadisticas
+WARN:11:20:14->Ya existe Ad 23847737391280343 en BD
+WARN:11:20:14->Ad 23847737391290343 sin estadisticas
+WARN:11:20:15->Ya existe Ad 23847737391290343 en BD
+WARN:11:20:15->Ad 23847737391300343 sin estadisticas
+WARN:11:20:15->Ya existe Ad 23847737391300343 en BD
+WARN:11:20:15->Ad 23847759436330343 sin estadisticas
+WARN:11:20:16->Ya existe Ad 23847759436330343 en BD
+WARN:11:20:16->Ad 23847759499090343 sin estadisticas
+WARN:11:20:16->Ya existe Ad 23847759499090343 en BD
+WARN:11:20:16->Ad 23847830543390385 sin estadisticas
+WARN:11:20:17->Ya existe Ad 23847830543390385 en BD
+WARN:11:20:17->Ad 23847830543400385 sin estadisticas
+WARN:11:20:18->Ya existe Ad 23847830543400385 en BD
+WARN:11:20:18->Ad 23847831162060343 sin estadisticas
+WARN:11:20:18->Ya existe Ad 23847831162060343 en BD
+WARN:11:20:18->Ad 23847920056920343 sin estadisticas
+WARN:11:20:19->Ya existe Ad 23847920056920343 en BD
+WARN:11:20:19->Ad 23847931399300343 sin estadisticas
+WARN:11:20:19->Ya existe Ad 23847931399300343 en BD
+WARN:11:20:19->Ad 23847931520470343 sin estadisticas
+WARN:11:20:20->Ya existe Ad 23847931520470343 en BD
+WARN:11:20:20->Ad 23847954157860343 sin estadisticas
+WARN:11:20:20->Ya existe Ad 23847954157860343 en BD
+WARN:11:20:20->Ad 23847985536560343 sin estadisticas
+WARN:11:20:21->Ya existe Ad 23847985536560343 en BD
+WARN:11:20:21->Ad 23847985623190343 sin estadisticas
+WARN:11:20:21->Ya existe Ad 23847985623190343 en BD
+WARN:11:20:21->Ad 23847985623210343 sin estadisticas
+WARN:11:20:22->Ya existe Ad 23847985623210343 en BD
+WARN:11:20:22->Ad 23847985623220343 sin estadisticas
+WARN:11:20:22->Ya existe Ad 23847985623220343 en BD
+WARN:11:20:22->Ad 23847985623240343 sin estadisticas
+WARN:11:20:23->Ya existe Ad 23847985623240343 en BD
+WARN:11:20:23->Ad 23847985781150343 sin estadisticas
+WARN:11:20:23->Ya existe Ad 23847985781150343 en BD
+WARN:11:20:23->Ad 23847985781160343 sin estadisticas
+WARN:11:20:24->Ya existe Ad 23847985781160343 en BD
+WARN:11:20:24->Ad 23847985781170343 sin estadisticas
+WARN:11:20:24->Ya existe Ad 23847985781170343 en BD
+WARN:11:20:24->Ad 23847985781200343 sin estadisticas
+WARN:11:20:25->Ya existe Ad 23847985781200343 en BD
+WARN:11:20:25->Ad 23847985781230343 sin estadisticas
+WARN:11:20:25->Ya existe Ad 23847985781230343 en BD
+WARN:11:20:25->Ad 23847985818080343 sin estadisticas
+WARN:11:20:26->Ya existe Ad 23847985818080343 en BD
+WARN:11:20:26->Ad 23847985818100343 sin estadisticas
+WARN:11:20:27->Ya existe Ad 23847985818100343 en BD
+WARN:11:20:27->Ad 23847985818200343 sin estadisticas
+WARN:11:20:27->Ya existe Ad 23847985818200343 en BD
+WARN:11:20:27->Ad 23847985818230343 sin estadisticas
+WARN:11:20:28->Ya existe Ad 23847985818230343 en BD
+WARN:11:20:28->Ad 23847985839820343 sin estadisticas
+WARN:11:20:28->Ya existe Ad 23847985839820343 en BD
+WARN:11:20:28->Ad 23847985839840343 sin estadisticas
+WARN:11:20:29->Ya existe Ad 23847985839840343 en BD
+WARN:11:20:29->Ad 23847985839850343 sin estadisticas
+WARN:11:20:29->Ya existe Ad 23847985839850343 en BD
+WARN:11:20:29->Ad 23847985839870343 sin estadisticas
+WARN:11:20:30->Ya existe Ad 23847985839870343 en BD
+WARN:11:20:30->Ad 23847985839990343 sin estadisticas
+WARN:11:20:31->Ya existe Ad 23847985839990343 en BD
+WARN:11:20:31->Ad 23847985840000343 sin estadisticas
+WARN:11:20:31->Ya existe Ad 23847985840000343 en BD
+WARN:11:20:31->Ad 23848037053070343 sin estadisticas
+WARN:11:20:32->Ya existe Ad 23848037053070343 en BD
+WARN:11:20:32->Ad 23848054402520343 sin estadisticas
+WARN:11:20:32->Ya existe Ad 23848054402520343 en BD
+WARN:11:20:32->Ad 23848054455310343 sin estadisticas
+WARN:11:20:33->Ya existe Ad 23848054455310343 en BD
+WARN:11:20:33->Ad 23848304588500517 sin estadisticas
+WARN:11:20:33->Ya existe Ad 23848304588500517 en BD
+WARN:11:20:33->Ad 23848304588560517 sin estadisticas
+WARN:11:20:34->Ya existe Ad 23848304588560517 en BD
+WARN:11:20:34->Ad 23848304588580517 sin estadisticas
+WARN:11:20:34->Ya existe Ad 23848304588580517 en BD
+WARN:11:20:34->Ad 23848345737380269 sin estadisticas
+WARN:11:20:35->Ya existe Ad 23848345737380269 en BD
+WARN:11:20:35->Ad 23848369619660269 sin estadisticas
+WARN:11:20:35->Ya existe Ad 23848369619660269 en BD
+WARN:11:20:35->Ad 23848381085150517 sin estadisticas
+WARN:11:20:36->Ya existe Ad 23848381085150517 en BD
+WARN:11:20:36->Ad 23848391378250343 sin estadisticas
+WARN:11:20:36->Ya existe Ad 23848391378250343 en BD
+WARN:11:20:36->Ad 23848391384000343 sin estadisticas
+WARN:11:20:37->Ya existe Ad 23848391384000343 en BD
+WARN:11:20:37->Ad 23848391476940343 sin estadisticas
+WARN:11:20:37->Ya existe Ad 23848391476940343 en BD
+WARN:11:20:37->Ad 23848392753850343 sin estadisticas
+WARN:11:20:38->Ya existe Ad 23848392753850343 en BD
+WARN:11:20:38->Ad 23848393346330343 sin estadisticas
+WARN:11:20:39->Ya existe Ad 23848393346330343 en BD
+WARN:11:20:39->Ad 23848402240300343 sin estadisticas
+WARN:11:20:39->Ya existe Ad 23848402240300343 en BD
+WARN:11:20:39->Ad 23848443844090343 sin estadisticas
+WARN:11:20:40->Ya existe Ad 23848443844090343 en BD
+WARN:11:20:40->Ad 23848446712880343 sin estadisticas
+WARN:11:20:40->Ya existe Ad 23848446712880343 en BD
+WARN:11:20:40->Ad 23848446712920343 sin estadisticas
+WARN:11:20:41->Ya existe Ad 23848446712920343 en BD
+WARN:11:20:41->Ad 23848446712940343 sin estadisticas
+WARN:11:20:41->Ya existe Ad 23848446712940343 en BD
+WARN:11:20:41->Ad 23848486152610269 sin estadisticas
+WARN:11:20:42->Ya existe Ad 23848486152610269 en BD
+WARN:11:20:42->Ad 23848571687900343 sin estadisticas
+WARN:11:20:42->Ya existe Ad 23848571687900343 en BD
+WARN:11:20:42->Ad 23848702467390343 sin estadisticas
+WARN:11:20:43->Ya existe Ad 23848702467390343 en BD
+WARN:11:20:43->Ad 23848727452720517 sin estadisticas
+WARN:11:20:43->Ya existe Ad 23848727452720517 en BD
+WARN:11:20:43->Ad 23848727452730517 sin estadisticas
+WARN:11:20:44->Ya existe Ad 23848727452730517 en BD
+WARN:11:20:44->Ad 23848727452740517 sin estadisticas
+WARN:11:20:45->Ya existe Ad 23848727452740517 en BD
+WARN:11:20:45->Ad 23848891518400343 sin estadisticas
+WARN:11:20:45->Ya existe Ad 23848891518400343 en BD
+WARN:11:20:45->Ad 23848891518410343 sin estadisticas
+WARN:11:20:46->Ya existe Ad 23848891518410343 en BD
+WARN:11:20:46->Ad 23848913784180269 sin estadisticas
+WARN:11:20:46->Ya existe Ad 23848913784180269 en BD
+WARN:11:20:46->Ad 23848996953260517 sin estadisticas
+WARN:11:20:47->Ya existe Ad 23848996953260517 en BD
+WARN:11:20:47->Ad 23848997673860517 sin estadisticas
+WARN:11:20:47->Ya existe Ad 23848997673860517 en BD
+WARN:11:20:47->Ad 23848997673890517 sin estadisticas
+WARN:11:20:48->Ya existe Ad 23848997673890517 en BD
+WARN:11:20:48->Ad 23848997692260517 sin estadisticas
+WARN:11:20:49->Ya existe Ad 23848997692260517 en BD
+WARN:11:20:49->Ad 23848997692290517 sin estadisticas
+WARN:11:20:49->Ya existe Ad 23848997692290517 en BD
+WARN:11:20:49->Ad 23848997727880517 sin estadisticas
+WARN:11:20:50->Ya existe Ad 23848997727880517 en BD
+WARN:11:20:50->Ad 23849006392810517 sin estadisticas
+WARN:11:20:51->Ya existe Ad 23849006392810517 en BD
+WARN:11:20:51->Ad 23849006488180517 sin estadisticas
+WARN:11:20:51->Ya existe Ad 23849006488180517 en BD
+WARN:11:20:51->Ad 23849006488200517 sin estadisticas
+WARN:11:20:52->Ya existe Ad 23849006488200517 en BD
+WARN:11:20:52->Ad 23849006488210517 sin estadisticas
+WARN:11:20:52->Ya existe Ad 23849006488210517 en BD
+WARN:11:20:52->Ad 23849007751420517 sin estadisticas
+WARN:11:20:53->Ya existe Ad 23849007751420517 en BD
+WARN:11:20:53->Ad 23849007830380517 sin estadisticas
+WARN:11:20:53->Ya existe Ad 23849007830380517 en BD
+WARN:11:20:53->Ad 23849007893380517 sin estadisticas
+WARN:11:20:54->Ya existe Ad 23849007893380517 en BD
+WARN:11:20:54->Ad 23849007938570517 sin estadisticas
+WARN:11:20:54->Ya existe Ad 23849007938570517 en BD
+WARN:11:20:54->Ad 23849007938590517 sin estadisticas
+WARN:11:20:55->Ya existe Ad 23849007938590517 en BD
+WARN:11:20:55->Ad 23849007967910517 sin estadisticas
+WARN:11:20:55->Ya existe Ad 23849007967910517 en BD
+WARN:11:20:55->Ad 23849007967920517 sin estadisticas
+WARN:11:20:56->Ya existe Ad 23849007967920517 en BD
+WARN:11:20:56->Ad 23849007979400517 sin estadisticas
+WARN:11:20:56->Ya existe Ad 23849007979400517 en BD
+WARN:11:20:56->Ad 23849007979410517 sin estadisticas
+WARN:11:20:57->Ya existe Ad 23849007979410517 en BD
+WARN:11:20:57->Ad 23849007993090517 sin estadisticas
+WARN:11:20:57->Ya existe Ad 23849007993090517 en BD
+WARN:11:20:57->Ad 23849050950180343 sin estadisticas
+WARN:11:20:58->Ya existe Ad 23849050950180343 en BD
+WARN:11:20:58->Ad 23849051176570343 sin estadisticas
+WARN:11:20:58->Ya existe Ad 23849051176570343 en BD
+WARN:11:20:58->Ad 23849063408650343 sin estadisticas
+WARN:11:20:59->Ya existe Ad 23849063408650343 en BD
+WARN:11:20:59->Ad 23849080172040343 sin estadisticas
+WARN:11:20:59->Ya existe Ad 23849080172040343 en BD
+WARN:11:20:59->Ad 23849080172050343 sin estadisticas
+WARN:11:21:00->Ya existe Ad 23849080172050343 en BD
+WARN:11:21:00->Ad 23849080172080343 sin estadisticas
+WARN:11:21:00->Ya existe Ad 23849080172080343 en BD
+WARN:11:21:00->Ad 23849080710530343 sin estadisticas
+WARN:11:21:01->Ya existe Ad 23849080710530343 en BD
+WARN:11:21:01->Ad 23849080710550343 sin estadisticas
+WARN:11:21:01->Ya existe Ad 23849080710550343 en BD
+WARN:11:21:01->Ad 23849089840740517 sin estadisticas
+WARN:11:21:02->Ya existe Ad 23849089840740517 en BD
+WARN:11:21:02->Ad 23849089840820517 sin estadisticas
+WARN:11:21:02->Ya existe Ad 23849089840820517 en BD
+WARN:11:21:02->Ad 23849089840880517 sin estadisticas
+WARN:11:21:03->Ya existe Ad 23849089840880517 en BD
+WARN:11:21:03->Ad 23849089840940517 sin estadisticas
+WARN:11:21:03->Ya existe Ad 23849089840940517 en BD
+WARN:11:21:03->Ad 23849089888710517 sin estadisticas
+WARN:11:21:04->Ya existe Ad 23849089888710517 en BD
+WARN:11:21:04->Ad 23849089999740517 sin estadisticas
+WARN:11:21:05->Ya existe Ad 23849089999740517 en BD
+WARN:11:21:05->Ad 23849089999760517 sin estadisticas
+WARN:11:21:05->Ya existe Ad 23849089999760517 en BD
+WARN:11:21:05->Ad 23849089999800517 sin estadisticas
+WARN:11:21:06->Ya existe Ad 23849089999800517 en BD
+WARN:11:21:06->Ad 23849092032360517 sin estadisticas
+WARN:11:21:06->Ya existe Ad 23849092032360517 en BD
+WARN:11:21:06->Ad 23849092166820517 sin estadisticas
+WARN:11:21:07->Ya existe Ad 23849092166820517 en BD
+WARN:11:21:07->Ad 23849092173990517 sin estadisticas
+WARN:11:21:07->Ya existe Ad 23849092173990517 en BD
+WARN:11:21:07->Ad 23849092184390517 sin estadisticas
+WARN:11:21:08->Ya existe Ad 23849092184390517 en BD
+WARN:11:21:08->Ad 23849092222340517 sin estadisticas
+WARN:11:21:08->Ya existe Ad 23849092222340517 en BD
+WARN:11:21:08->Ad 23849092275650517 sin estadisticas
+WARN:11:21:09->Ya existe Ad 23849092275650517 en BD
+WARN:11:21:09->Ad 23849092428580517 sin estadisticas
+WARN:11:21:09->Ya existe Ad 23849092428580517 en BD
+WARN:11:21:09->Ad 23849092431990517 sin estadisticas
+WARN:11:21:10->Ya existe Ad 23849092431990517 en BD
+WARN:11:21:10->Ad 23849092450670517 sin estadisticas
+WARN:11:21:10->Ya existe Ad 23849092450670517 en BD
+WARN:11:21:10->Ad 23849092646150517 sin estadisticas
+WARN:11:21:11->Ya existe Ad 23849092646150517 en BD
+WARN:11:21:11->Ad 23849092646160517 sin estadisticas
+WARN:11:21:11->Ya existe Ad 23849092646160517 en BD
+WARN:11:21:11->Ad 23849098966450517 sin estadisticas
+WARN:11:21:12->Ya existe Ad 23849098966450517 en BD
+WARN:11:21:12->Ad 23849098968920517 sin estadisticas
+WARN:11:21:12->Ya existe Ad 23849098968920517 en BD
+WARN:11:21:12->Ad 23849098973170517 sin estadisticas
+WARN:11:21:13->Ya existe Ad 23849098973170517 en BD
+WARN:11:21:13->Ad 23849098977050517 sin estadisticas
+WARN:11:21:13->Ya existe Ad 23849098977050517 en BD
+WARN:11:21:13->Ad 23849133748910343 sin estadisticas
+WARN:11:21:14->Ya existe Ad 23849133748910343 en BD
+WARN:11:21:14->Ad 23849142436470343 sin estadisticas
+WARN:11:21:14->Ya existe Ad 23849142436470343 en BD
+WARN:11:21:14->Ad 23849171868460343 sin estadisticas
+WARN:11:21:15->Ya existe Ad 23849171868460343 en BD
+WARN:11:21:15->Ad 23849186254810385 sin estadisticas
+WARN:11:21:15->Ya existe Ad 23849186254810385 en BD
+WARN:11:21:15->Ad 23849186275150385 sin estadisticas
+WARN:11:21:16->Ya existe Ad 23849186275150385 en BD
+WARN:11:21:16->Ad 23849186403590385 sin estadisticas
+WARN:11:21:16->Ya existe Ad 23849186403590385 en BD
+WARN:11:21:16->Ad 23849231079580269 sin estadisticas
+WARN:11:21:17->Ya existe Ad 23849231079580269 en BD
+WARN:11:21:17->Ad 23849248925310279 sin estadisticas
+WARN:11:21:18->Ya existe Ad 23849248925310279 en BD
+WARN:11:21:18->Ad 23849248977910279 sin estadisticas
+WARN:11:21:18->Ya existe Ad 23849248977910279 en BD
+WARN:11:21:18->Ad 23849249031080279 sin estadisticas
+WARN:11:21:19->Ya existe Ad 23849249031080279 en BD
+WARN:11:21:19->Ad 23849249031090279 sin estadisticas
+WARN:11:21:19->Ya existe Ad 23849249031090279 en BD
+WARN:11:21:19->Ad 23849259197740343 sin estadisticas
+WARN:11:21:20->Ya existe Ad 23849259197740343 en BD
+WARN:11:21:20->Ad 23849259728350343 sin estadisticas
+WARN:11:21:20->Ya existe Ad 23849259728350343 en BD
+WARN:11:21:20->Ad 23849259748020343 sin estadisticas
+WARN:11:21:21->Ya existe Ad 23849259748020343 en BD
+WARN:11:21:21->Ad 23849260008260343 sin estadisticas
+WARN:11:21:21->Ya existe Ad 23849260008260343 en BD
+WARN:11:21:21->Ad 23849260632430343 sin estadisticas
+WARN:11:21:22->Ya existe Ad 23849260632430343 en BD
+WARN:11:21:22->Ad 23849260976200343 sin estadisticas
+WARN:11:21:22->Ya existe Ad 23849260976200343 en BD
+WARN:11:21:22->Ad 23849261099380343 sin estadisticas
+WARN:11:21:23->Ya existe Ad 23849261099380343 en BD
+WARN:11:21:23->Ad 23849261192200343 sin estadisticas
+WARN:11:21:23->Ya existe Ad 23849261192200343 en BD
+WARN:11:21:23->Ad 23849261258770343 sin estadisticas
+WARN:11:21:24->Ya existe Ad 23849261258770343 en BD
+WARN:11:21:24->Ad 23849261319060343 sin estadisticas
+WARN:11:21:24->Ya existe Ad 23849261319060343 en BD
+WARN:11:21:24->Ad 23849312909240343 sin estadisticas
+WARN:11:21:25->Ya existe Ad 23849312909240343 en BD
+WARN:11:21:25->Ad 23849312931720343 sin estadisticas
+WARN:11:21:25->Ya existe Ad 23849312931720343 en BD
+WARN:11:21:25->Ad 23849312931740343 sin estadisticas
+WARN:11:21:26->Ya existe Ad 23849312931740343 en BD
+WARN:11:21:26->Ad 23849386018510343 sin estadisticas
+WARN:11:21:26->Ya existe Ad 23849386018510343 en BD
+WARN:11:21:26->Ad 23849386722780343 sin estadisticas
+WARN:11:21:27->Ya existe Ad 23849386722780343 en BD
+WARN:11:21:27->Ad 23849422334000343 sin estadisticas
+WARN:11:21:27->Ya existe Ad 23849422334000343 en BD
+WARN:11:21:27->Ad 23849422430000343 sin estadisticas
+WARN:11:21:28->Ya existe Ad 23849422430000343 en BD
+WARN:11:21:28->Ad 23849422535910343 sin estadisticas
+WARN:11:21:28->Ya existe Ad 23849422535910343 en BD
+WARN:11:21:28->Ad 23849425350840343 sin estadisticas
+WARN:11:21:29->Ya existe Ad 23849425350840343 en BD
+WARN:11:21:29->Ad 23849425360050343 sin estadisticas
+WARN:11:21:29->Ya existe Ad 23849425360050343 en BD
+WARN:11:21:29->Ad 23849439368490279 sin estadisticas
+WARN:11:21:30->Ya existe Ad 23849439368490279 en BD
+WARN:11:21:30->Ad 23849439378780279 sin estadisticas
+WARN:11:21:30->Ya existe Ad 23849439378780279 en BD
+WARN:11:21:30->Ad 23849450252500343 sin estadisticas
+WARN:11:21:31->Ya existe Ad 23849450252500343 en BD
+WARN:11:21:31->Ad 23849470280040343 sin estadisticas
+WARN:11:21:31->Ya existe Ad 23849470280040343 en BD
+WARN:11:21:31->Ad 23849470574940343 sin estadisticas
+WARN:11:21:32->Ya existe Ad 23849470574940343 en BD
+WARN:11:21:32->Ad 23849471089930343 sin estadisticas
+WARN:11:21:33->Ya existe Ad 23849471089930343 en BD
+WARN:11:21:33->Ad 23849502336420385 sin estadisticas
+WARN:11:21:33->Ya existe Ad 23849502336420385 en BD
+WARN:11:21:33->Ad 23849503153130385 sin estadisticas
+WARN:11:21:34->Ya existe Ad 23849503153130385 en BD
+WARN:11:21:34->Ad 23849503166500385 sin estadisticas
+WARN:11:21:34->Ya existe Ad 23849503166500385 en BD
+WARN:11:21:34->Ad 23849506376250343 sin estadisticas
+WARN:11:21:35->Ya existe Ad 23849506376250343 en BD
+WARN:11:21:35->Ad 23849506515260343 sin estadisticas
+WARN:11:21:35->Ya existe Ad 23849506515260343 en BD
+WARN:11:21:35->Ad 23849506529600343 sin estadisticas
+WARN:11:21:36->Ya existe Ad 23849506529600343 en BD
+WARN:11:21:36->Ad 23849506529620343 sin estadisticas
+WARN:11:21:36->Ya existe Ad 23849506529620343 en BD
+WARN:11:21:36->Ad 23849506563420343 sin estadisticas
+WARN:11:21:37->Ya existe Ad 23849506563420343 en BD
+WARN:11:21:37->Ad 23849506581100343 sin estadisticas
+WARN:11:21:37->Ya existe Ad 23849506581100343 en BD
+WARN:11:21:37->Ad 23849528685080343 sin estadisticas
+WARN:11:21:38->Ya existe Ad 23849528685080343 en BD
+WARN:11:21:38->Ad 23849528714510343 sin estadisticas
+WARN:11:21:38->Ya existe Ad 23849528714510343 en BD
+WARN:11:21:38->Ad 23849528739390343 sin estadisticas
+WARN:11:21:39->Ya existe Ad 23849528739390343 en BD
+WARN:11:21:39->Ad 23849535510920343 sin estadisticas
+WARN:11:21:39->Ya existe Ad 23849535510920343 en BD
+WARN:11:21:39->Ad 23849552036830385 sin estadisticas
+WARN:11:21:40->Ya existe Ad 23849552036830385 en BD
+WARN:11:21:40->Ad 23849552264450385 sin estadisticas
+WARN:11:21:40->Ya existe Ad 23849552264450385 en BD
+WARN:11:21:40->Ad 23849553087050343 sin estadisticas
+WARN:11:21:41->Ya existe Ad 23849553087050343 en BD
+WARN:11:21:41->Ad 23849553550390517 sin estadisticas
+WARN:11:21:41->Ya existe Ad 23849553550390517 en BD
+WARN:11:21:41->Ad 23849554849640517 sin estadisticas
+WARN:11:21:42->Ya existe Ad 23849554849640517 en BD
+WARN:11:21:42->Ad 23849554854020517 sin estadisticas
+WARN:11:21:42->Ya existe Ad 23849554854020517 en BD
+WARN:11:21:42->Ad 23849554860190517 sin estadisticas
+WARN:11:21:43->Ya existe Ad 23849554860190517 en BD
+WARN:11:21:43->Ad 23849554860220517 sin estadisticas
+WARN:11:21:43->Ya existe Ad 23849554860220517 en BD
+WARN:11:21:43->Ad 23849554878700517 sin estadisticas
+WARN:11:21:44->Ya existe Ad 23849554878700517 en BD
+WARN:11:21:44->Ad 23849554878710517 sin estadisticas
+WARN:11:21:44->Ya existe Ad 23849554878710517 en BD
+WARN:11:21:44->Ad 23849554888700517 sin estadisticas
+WARN:11:21:45->Ya existe Ad 23849554888700517 en BD
+WARN:11:21:45->Ad 23849554888730517 sin estadisticas
+WARN:11:21:46->Ya existe Ad 23849554888730517 en BD
+WARN:11:21:46->Ad 23849558886860343 sin estadisticas
+WARN:11:21:46->Ya existe Ad 23849558886860343 en BD
+WARN:11:21:46->Ad 23849559167870343 sin estadisticas
+WARN:11:21:47->Ya existe Ad 23849559167870343 en BD
+WARN:11:21:47->Ad 23849559282620343 sin estadisticas
+WARN:11:21:47->Ya existe Ad 23849559282620343 en BD
+WARN:11:21:47->Ad 23849559282640343 sin estadisticas
+WARN:11:21:48->Ya existe Ad 23849559282640343 en BD
+WARN:11:21:48->Ad 23849559838530343 sin estadisticas
+WARN:11:21:48->Ya existe Ad 23849559838530343 en BD
+WARN:11:21:48->Ad 23849559875050343 sin estadisticas
+WARN:11:21:49->Ya existe Ad 23849559875050343 en BD
+WARN:11:21:49->Ad 23849560210900343 sin estadisticas
+WARN:11:21:49->Ya existe Ad 23849560210900343 en BD
+WARN:11:21:49->Ad 23849560210920343 sin estadisticas
+WARN:11:21:50->Ya existe Ad 23849560210920343 en BD
+WARN:11:21:50->Ad 23849560236190343 sin estadisticas
+WARN:11:21:50->Ya existe Ad 23849560236190343 en BD
+WARN:11:21:50->Ad 23849560236210343 sin estadisticas
+WARN:11:21:51->Ya existe Ad 23849560236210343 en BD
+WARN:11:21:51->Ad 23849560236220343 sin estadisticas
+WARN:11:21:51->Ya existe Ad 23849560236220343 en BD
+WARN:11:21:51->Ad 23849560236230343 sin estadisticas
+WARN:11:21:52->Ya existe Ad 23849560236230343 en BD
+WARN:11:21:52->Ad 23849560236240343 sin estadisticas
+WARN:11:21:52->Ya existe Ad 23849560236240343 en BD
+WARN:11:21:52->Ad 23849560272380343 sin estadisticas
+WARN:11:21:53->Ya existe Ad 23849560272380343 en BD
+WARN:11:21:53->Ad 23849560272400343 sin estadisticas
+WARN:11:21:53->Ya existe Ad 23849560272400343 en BD
+WARN:11:21:53->Ad 23849574985060343 sin estadisticas
+WARN:11:21:54->Ya existe Ad 23849574985060343 en BD
+WARN:11:21:54->Ad 23849575036030343 sin estadisticas
+WARN:11:21:54->Ya existe Ad 23849575036030343 en BD
+WARN:11:21:54->Ad 23849581259720385 sin estadisticas
+WARN:11:21:55->Ya existe Ad 23849581259720385 en BD
+WARN:11:21:55->Ad 23849588255360343 sin estadisticas
+WARN:11:21:55->Ya existe Ad 23849588255360343 en BD
+WARN:11:21:55->Ad 23849588255370343 sin estadisticas
+WARN:11:21:56->Ya existe Ad 23849588255370343 en BD
+WARN:11:21:56->Ad 23849602370670343 sin estadisticas
+WARN:11:21:56->Ya existe Ad 23849602370670343 en BD
+WARN:11:21:56->Ad 23849604359000343 sin estadisticas
+WARN:11:21:57->Ya existe Ad 23849604359000343 en BD
+WARN:11:21:57->Ad 23849604512520343 sin estadisticas
+WARN:11:21:57->Ya existe Ad 23849604512520343 en BD
+WARN:11:21:57->Ad 23849604573570343 sin estadisticas
+WARN:11:21:58->Ya existe Ad 23849604573570343 en BD
+WARN:11:21:58->Ad 23849604694210343 sin estadisticas
+WARN:11:21:58->Ya existe Ad 23849604694210343 en BD
+WARN:11:21:58->Ad 23849604694230343 sin estadisticas
+WARN:11:21:59->Ya existe Ad 23849604694230343 en BD
+WARN:11:21:59->Ad 23849610969280343 sin estadisticas
+WARN:11:21:59->Ya existe Ad 23849610969280343 en BD
+WARN:11:21:59->Ad 23849611892870343 sin estadisticas
+WARN:11:22:00->Ya existe Ad 23849611892870343 en BD
+WARN:11:22:00->Ad 23849611892890343 sin estadisticas
+WARN:11:22:00->Ya existe Ad 23849611892890343 en BD
+WARN:11:22:00->Ad 23849611930100343 sin estadisticas
+WARN:11:22:01->Ya existe Ad 23849611930100343 en BD
+WARN:11:22:01->Ad 23849612080520343 sin estadisticas
+WARN:11:22:01->Ya existe Ad 23849612080520343 en BD
+WARN:11:22:01->Ad 23849612080540343 sin estadisticas
+WARN:11:22:02->Ya existe Ad 23849612080540343 en BD
+WARN:11:22:02->Ad 23849612523810343 sin estadisticas
+WARN:11:22:02->Ya existe Ad 23849612523810343 en BD
+WARN:11:22:02->Ad 23849612546360343 sin estadisticas
+WARN:11:22:03->Ya existe Ad 23849612546360343 en BD
+WARN:11:22:03->Ad 23849630809220343 sin estadisticas
+WARN:11:22:03->Ya existe Ad 23849630809220343 en BD
+WARN:11:22:03->Ad 23849630991170343 sin estadisticas
+WARN:11:22:04->Ya existe Ad 23849630991170343 en BD
+WARN:11:22:04->Ad 23849631249000343 sin estadisticas
+WARN:11:22:04->Ya existe Ad 23849631249000343 en BD
+WARN:11:22:04->Ad 23849631937860343 sin estadisticas
+WARN:11:22:05->Ya existe Ad 23849631937860343 en BD
+WARN:11:22:05->Ad 23849632240180343 sin estadisticas
+WARN:11:22:05->Ya existe Ad 23849632240180343 en BD
+WARN:11:22:05->Ad 23849632352240343 sin estadisticas
+WARN:11:22:06->Ya existe Ad 23849632352240343 en BD
+WARN:11:22:06->Ad 23849639399360343 sin estadisticas
+WARN:11:22:06->Ya existe Ad 23849639399360343 en BD
+WARN:11:22:06->Ad 23849640053510343 sin estadisticas
+WARN:11:22:07->Ya existe Ad 23849640053510343 en BD
+WARN:11:22:07->Ad 23849640053530343 sin estadisticas
+WARN:11:22:07->Ya existe Ad 23849640053530343 en BD
+WARN:11:22:07->Ad 23849640053550343 sin estadisticas
+WARN:11:22:08->Ya existe Ad 23849640053550343 en BD
+WARN:11:22:08->Ad 23849641043970343 sin estadisticas
+WARN:11:22:08->Ya existe Ad 23849641043970343 en BD
+WARN:11:22:08->Ad 23849641043980343 sin estadisticas
+WARN:11:22:09->Ya existe Ad 23849641043980343 en BD
+WARN:11:22:09->Ad 23849641044010343 sin estadisticas
+WARN:11:22:09->Ya existe Ad 23849641044010343 en BD
+WARN:11:22:09->Ad 23849641044030343 sin estadisticas
+WARN:11:22:10->Ya existe Ad 23849641044030343 en BD
+WARN:11:22:10->Ad 23849641044040343 sin estadisticas
+WARN:11:22:11->Ya existe Ad 23849641044040343 en BD
+WARN:11:22:11->Ad 23849641044050343 sin estadisticas
+WARN:11:22:11->Ya existe Ad 23849641044050343 en BD
+WARN:11:22:11->Ad 23849641408000343 sin estadisticas
+WARN:11:22:12->Ya existe Ad 23849641408000343 en BD
+WARN:11:22:12->Ad 23849641408010343 sin estadisticas
+WARN:11:22:12->Ya existe Ad 23849641408010343 en BD
+WARN:11:22:12->Ad 23849641433760343 sin estadisticas
+WARN:11:22:12->Ya existe Ad 23849641433760343 en BD
+WARN:11:22:12->Ad 23849641433780343 sin estadisticas
+WARN:11:22:13->Ya existe Ad 23849641433780343 en BD
+WARN:11:22:13->Ad 23849641433810343 sin estadisticas
+WARN:11:22:14->Ya existe Ad 23849641433810343 en BD
+WARN:11:22:14->Ad 23849641515170343 sin estadisticas
+WARN:11:22:14->Ya existe Ad 23849641515170343 en BD
+WARN:11:22:14->Ad 23849659275220343 sin estadisticas
+WARN:11:22:15->Ya existe Ad 23849659275220343 en BD
+WARN:11:22:15->Ad 23849659325000343 sin estadisticas
+WARN:11:22:15->Ya existe Ad 23849659325000343 en BD
+WARN:11:22:15->Ad 23849659419990343 sin estadisticas
+WARN:11:22:16->Ya existe Ad 23849659419990343 en BD
+WARN:11:22:16->Ad 23849659420010343 sin estadisticas
+WARN:11:22:16->Ya existe Ad 23849659420010343 en BD
+WARN:11:22:16->Ad 23849659420040343 sin estadisticas
+WARN:11:22:17->Ya existe Ad 23849659420040343 en BD
+WARN:11:22:17->Ad 23849660401360343 sin estadisticas
+WARN:11:22:17->Ya existe Ad 23849660401360343 en BD
+WARN:11:22:17->Ad 23849660401380343 sin estadisticas
+WARN:11:22:18->Ya existe Ad 23849660401380343 en BD
+WARN:11:22:18->Ad 23849661153520343 sin estadisticas
+WARN:11:22:18->Ya existe Ad 23849661153520343 en BD
+WARN:11:22:18->Ad 23849661389870343 sin estadisticas
+WARN:11:22:19->Ya existe Ad 23849661389870343 en BD
+WARN:11:22:19->Ad 23849661395090343 sin estadisticas
+WARN:11:22:19->Ya existe Ad 23849661395090343 en BD
+WARN:11:22:19->Ad 23849661486420343 sin estadisticas
+WARN:11:22:20->Ya existe Ad 23849661486420343 en BD
+WARN:11:22:20->Ad 23849661486430343 sin estadisticas
+WARN:11:22:20->Ya existe Ad 23849661486430343 en BD
+WARN:11:22:20->Ad 23849661506840343 sin estadisticas
+WARN:11:22:21->Ya existe Ad 23849661506840343 en BD
+WARN:11:22:21->Ad 23849666443810343 sin estadisticas
+WARN:11:22:21->Ya existe Ad 23849666443810343 en BD
+WARN:11:22:21->Ad 23849666443820343 sin estadisticas
+WARN:11:22:22->Ya existe Ad 23849666443820343 en BD
+WARN:11:22:22->Ad 23849666610030343 sin estadisticas
+WARN:11:22:22->Ya existe Ad 23849666610030343 en BD
+WARN:11:22:22->Ad 23849667186140343 sin estadisticas
+WARN:11:22:23->Ya existe Ad 23849667186140343 en BD
+WARN:11:22:23->Ad 23849667299320343 sin estadisticas
+WARN:11:22:23->Ya existe Ad 23849667299320343 en BD
+WARN:11:22:23->Ad 23849667416930343 sin estadisticas
+WARN:11:22:24->Ya existe Ad 23849667416930343 en BD
+WARN:11:22:24->Ad 23849667444870343 sin estadisticas
+WARN:11:22:24->Ya existe Ad 23849667444870343 en BD
+WARN:11:22:24->Ad 23849667444890343 sin estadisticas
+WARN:11:22:25->Ya existe Ad 23849667444890343 en BD
+WARN:11:22:25->Ad 23849667762570343 sin estadisticas
+WARN:11:22:25->Ya existe Ad 23849667762570343 en BD
+WARN:11:22:25->Ad 23849667858530343 sin estadisticas
+WARN:11:22:26->Ya existe Ad 23849667858530343 en BD
+WARN:11:22:26->Ad 23849667879850343 sin estadisticas
+WARN:11:22:26->Ya existe Ad 23849667879850343 en BD
+WARN:11:22:26->Ad 23849667879870343 sin estadisticas
+WARN:11:22:27->Ya existe Ad 23849667879870343 en BD
+WARN:11:22:27->Ad 23849668043340343 sin estadisticas
+WARN:11:22:27->Ya existe Ad 23849668043340343 en BD
+WARN:11:22:27->Ad 23849668304730343 sin estadisticas
+WARN:11:22:28->Ya existe Ad 23849668304730343 en BD
+WARN:11:22:28->Ad 23849668356080343 sin estadisticas
+WARN:11:22:28->Ya existe Ad 23849668356080343 en BD
+WARN:11:22:28->Ad 23849668362860343 sin estadisticas
+WARN:11:22:29->Ya existe Ad 23849668362860343 en BD
+WARN:11:22:29->Ad 23849668396040343 sin estadisticas
+WARN:11:22:29->Ya existe Ad 23849668396040343 en BD
+WARN:11:22:29->Ad 23849668520820343 sin estadisticas
+WARN:11:22:30->Ya existe Ad 23849668520820343 en BD
+WARN:11:22:30->Ad 23849668520840343 sin estadisticas
+WARN:11:22:30->Ya existe Ad 23849668520840343 en BD
+WARN:11:22:30->Ad 23849668520860343 sin estadisticas
+WARN:11:22:31->Ya existe Ad 23849668520860343 en BD
+WARN:11:22:31->Ad 23849668520870343 sin estadisticas
+WARN:11:22:31->Ya existe Ad 23849668520870343 en BD
+WARN:11:22:31->Ad 23849677436560343 sin estadisticas
+WARN:11:22:32->Ya existe Ad 23849677436560343 en BD
+WARN:11:22:32->Ad 23849677436590343 sin estadisticas
+WARN:11:22:32->Ya existe Ad 23849677436590343 en BD
+WARN:11:22:32->Ad 23849677436610343 sin estadisticas
+WARN:11:22:33->Ya existe Ad 23849677436610343 en BD
+WARN:11:22:33->Ad 23849678178480343 sin estadisticas
+WARN:11:22:33->Ya existe Ad 23849678178480343 en BD
+WARN:11:22:33->Ad 23849678196380343 sin estadisticas
+WARN:11:22:34->Ya existe Ad 23849678196380343 en BD
+WARN:11:22:34->Ad 23849683645990343 sin estadisticas
+WARN:11:22:34->Ya existe Ad 23849683645990343 en BD
+WARN:11:22:34->Ad 23849684094480343 sin estadisticas
+WARN:11:22:35->Ya existe Ad 23849684094480343 en BD
+WARN:11:22:35->Ad 23849686582930343 sin estadisticas
+WARN:11:22:35->Ya existe Ad 23849686582930343 en BD
+WARN:11:22:35->Ad 23849686634640343 sin estadisticas
+WARN:11:22:36->Ya existe Ad 23849686634640343 en BD
+WARN:11:22:36->Ad 23849692693870343 sin estadisticas
+WARN:11:22:37->Ya existe Ad 23849692693870343 en BD
+WARN:11:22:37->Ad 23849692908990343 sin estadisticas
+WARN:11:22:37->Ya existe Ad 23849692908990343 en BD
+WARN:11:22:37->Ad 23849694830070343 sin estadisticas
+WARN:11:22:38->Ya existe Ad 23849694830070343 en BD
+WARN:11:22:38->Ad 23849694830080343 sin estadisticas
+WARN:11:22:38->Ya existe Ad 23849694830080343 en BD
+WARN:11:22:38->Ad 23849694840860343 sin estadisticas
+WARN:11:22:39->Ya existe Ad 23849694840860343 en BD
+WARN:11:22:39->Ad 23849694853030343 sin estadisticas
+WARN:11:22:39->Ya existe Ad 23849694853030343 en BD
+WARN:11:22:39->Ad 23849694853050343 sin estadisticas
+WARN:11:22:40->Ya existe Ad 23849694853050343 en BD
+WARN:11:22:40->Ad 23849694853060343 sin estadisticas
+WARN:11:22:40->Ya existe Ad 23849694853060343 en BD
+WARN:11:22:40->Ad 23849694905230343 sin estadisticas
+WARN:11:22:41->Ya existe Ad 23849694905230343 en BD
+WARN:11:22:41->Ad 23849694905260343 sin estadisticas
+WARN:11:22:41->Ya existe Ad 23849694905260343 en BD
+WARN:11:22:41->Ad 23849694905270343 sin estadisticas
+WARN:11:22:42->Ya existe Ad 23849694905270343 en BD
+WARN:11:22:42->Ad 23849712728240343 sin estadisticas
+WARN:11:22:42->Ya existe Ad 23849712728240343 en BD
+WARN:11:22:42->Ad 23849712845810343 sin estadisticas
+WARN:11:22:43->Ya existe Ad 23849712845810343 en BD
+WARN:11:22:43->Ad 23849712884920343 sin estadisticas
+WARN:11:22:43->Ya existe Ad 23849712884920343 en BD
+WARN:11:22:43->Ad 23849712898790343 sin estadisticas
+WARN:11:22:44->Ya existe Ad 23849712898790343 en BD
+WARN:11:22:44->Ad 23849712898800343 sin estadisticas
+WARN:11:22:44->Ya existe Ad 23849712898800343 en BD
+WARN:11:22:44->Ad 23849721132220343 sin estadisticas
+WARN:11:22:45->Ya existe Ad 23849721132220343 en BD
+WARN:11:22:45->Ad 23849721267930343 sin estadisticas
+WARN:11:22:45->Ya existe Ad 23849721267930343 en BD
+WARN:11:22:45->Ad 23849739176760343 sin estadisticas
+WARN:11:22:46->Ya existe Ad 23849739176760343 en BD
+WARN:11:22:46->Ad 23849739236610343 sin estadisticas
+WARN:11:22:46->Ya existe Ad 23849739236610343 en BD
+WARN:11:22:46->Ad 23849740013420343 sin estadisticas
+WARN:11:22:47->Ya existe Ad 23849740013420343 en BD
+WARN:11:22:47->Ad 23849740013440343 sin estadisticas
+WARN:11:22:47->Ya existe Ad 23849740013440343 en BD
+WARN:11:22:47->Ad 23849775565500343 sin estadisticas
+WARN:11:22:48->Ya existe Ad 23849775565500343 en BD
+WARN:11:22:48->Ad 23849775578950343 sin estadisticas
+WARN:11:22:48->Ya existe Ad 23849775578950343 en BD
+WARN:11:22:48->Ad 23850032401680343 sin estadisticas
+WARN:11:22:49->Ya existe Ad 23850032401680343 en BD
+WARN:11:22:49->Ad 23850032401690343 sin estadisticas
+WARN:11:22:49->Ya existe Ad 23850032401690343 en BD
+WARN:11:22:49->Ad 23850032401700343 sin estadisticas
+WARN:11:22:50->Ya existe Ad 23850032401700343 en BD
+WARN:11:22:50->Ad 23850032459240343 sin estadisticas
+WARN:11:22:50->Ya existe Ad 23850032459240343 en BD
+WARN:11:22:50->Ad 23850032459250343 sin estadisticas
+WARN:11:22:51->Ya existe Ad 23850032459250343 en BD
+WARN:11:22:51->Ad 23850032459310343 sin estadisticas
+WARN:11:22:51->Ya existe Ad 23850032459310343 en BD
+WARN:11:22:51->Ad 23850048347590343 sin estadisticas
+WARN:11:22:52->Ya existe Ad 23850048347590343 en BD
+WARN:11:22:52->Ad 23850048347630343 sin estadisticas
+WARN:11:22:52->Ya existe Ad 23850048347630343 en BD
+WARN:11:22:52->Ad 23850048347640343 sin estadisticas
+WARN:11:22:53->Ya existe Ad 23850048347640343 en BD
+WARN:11:22:53->Ad 23850048347650343 sin estadisticas
+WARN:11:22:53->Ya existe Ad 23850048347650343 en BD
+WARN:11:22:53->Ad 23850086015880343 sin estadisticas
+WARN:11:22:54->Ya existe Ad 23850086015880343 en BD
+WARN:11:22:54->Ad 23850086085740343 sin estadisticas
+WARN:11:22:54->Ya existe Ad 23850086085740343 en BD
+WARN:11:22:54->Ad 23850086334330343 sin estadisticas
+WARN:11:22:55->Ya existe Ad 23850086334330343 en BD
+WARN:11:22:55->Ad 23850086334350343 sin estadisticas
+WARN:11:22:55->Ya existe Ad 23850086334350343 en BD
+WARN:11:22:55->Ad 23850086403930343 sin estadisticas
+WARN:11:22:56->Ya existe Ad 23850086403930343 en BD
+WARN:11:22:56->Ad 23850086403950343 sin estadisticas
+WARN:11:22:56->Ya existe Ad 23850086403950343 en BD
+WARN:11:22:56->Ad 23850111277650343 sin estadisticas
+WARN:11:22:57->Ya existe Ad 23850111277650343 en BD
+WARN:11:22:57->Ad 23850112106920343 sin estadisticas
+WARN:11:22:57->Ya existe Ad 23850112106920343 en BD
+WARN:11:22:57->Ad 23850112214830343 sin estadisticas
+WARN:11:22:58->Ya existe Ad 23850112214830343 en BD
+WARN:11:22:58->Ad 23850112225030343 sin estadisticas
+WARN:11:22:58->Ya existe Ad 23850112225030343 en BD
+WARN:11:22:58->Ad 23850112233460343 sin estadisticas
+WARN:11:22:59->Ya existe Ad 23850112233460343 en BD
+WARN:11:22:59->Ad 23850112246840343 sin estadisticas
+WARN:11:22:59->Ya existe Ad 23850112246840343 en BD
+WARN:11:22:59->Ad 23850112246880343 sin estadisticas
+WARN:11:23:00->Ya existe Ad 23850112246880343 en BD
+WARN:11:23:00->Ad 23850140985360343 sin estadisticas
+WARN:11:23:00->Ya existe Ad 23850140985360343 en BD
+WARN:11:23:00->Ad 23850140985400343 sin estadisticas
+WARN:11:23:01->Ya existe Ad 23850140985400343 en BD
+WARN:11:23:01->Ad 23850141137180343 sin estadisticas
+WARN:11:23:01->Ya existe Ad 23850141137180343 en BD
+WARN:11:23:01->Ad 23850141140920343 sin estadisticas
+WARN:11:23:02->Ya existe Ad 23850141140920343 en BD
+WARN:11:23:02->Ad 23850141184760343 sin estadisticas
+WARN:11:23:02->Ya existe Ad 23850141184760343 en BD
+WARN:11:23:02->Ad 23850141184780343 sin estadisticas
+WARN:11:23:03->Ya existe Ad 23850141184780343 en BD
+WARN:11:23:03->Ad 23850141184800343 sin estadisticas
+WARN:11:23:03->Ya existe Ad 23850141184800343 en BD
+WARN:11:23:03->Ad 23850141184810343 sin estadisticas
+WARN:11:23:04->Ya existe Ad 23850141184810343 en BD
+WARN:11:23:04->Ad 23850141936100343 sin estadisticas
+WARN:11:23:04->Ya existe Ad 23850141936100343 en BD
+WARN:11:23:04->Ad 23850142366190343 sin estadisticas
+WARN:11:23:05->Ya existe Ad 23850142366190343 en BD

@@ -28,7 +28,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 	private static final String SQL_SELECT_BY_ID = "SELECT anuncio " + " FROM estado_anuncio WHERE anuncio = ?";
 
 	private static final String SQL_UPDATE = "UPDATE estado_anuncio"
-			+ " SET meta_description=?, title=?, estado=? , code_status=?, mensaje=?  WHERE id_estado_anuncio=?";
+			+ " SET meta_description=?, title=?, estado=? , code_status=?, mensaje=?, resultado_busqueda=?  WHERE id_estado_anuncio=?";
 
 	@Override
 	public int guardar(EstadoAnuncio estadoAnuncio, Anuncio anuncio) {
@@ -150,7 +150,9 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 			stmt.setInt(3, estado.getIdEstado());
 			stmt.setInt(4, estadoAnuncio.getCode());
 			stmt.setString(5, estadoAnuncio.getMensaje());
-			stmt.setLong(6, estadoAnuncio.getIdEstadoAnuncio());
+			stmt.setString(6,estadoAnuncio.getResultadoBusquedaPalabras());
+			stmt.setLong(7, estadoAnuncio.getIdEstadoAnuncio());
+			
 
 			rows = rows + stmt.executeUpdate();
 
@@ -187,7 +189,7 @@ public class EstadoAnuncioImp implements IEstadoAnuncio {
 
 			conn = Conector.getConnection();
 			stmt = conn.prepareStatement(
-					"select es.id_estado_anuncio,es.meta_description,es.title,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.preview_shareable_link,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
+					"select es.id_estado_anuncio,es.meta_description,es.title,es.resultado_busqueda,es.code_status,es.mensaje,adc.link,es.estado,ad.id_anuncio,ad.preview_shareable_link,ad.ad_creative,cu.id_cuentafb,cu.nombre_cuenta "
 							+ "from estado_anuncio es " + "inner join anuncio as ad on " + "ad.id_anuncio = es.anuncio "
 							+ "inner join ad_creative as adc on " + "ad.ad_creative=adc.id_creative "
 							+ "inner join cuentafb as cu on " + "cu.id_cuentafb= ad.cuenta_fb "

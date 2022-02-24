@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.AlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CorreoAlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
+import com.monitor.bankendmonitoreoLinks.components.implement.PalabraImp;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
@@ -25,6 +26,8 @@ public class LinkComponent {
 
 	Log logObject = new Log("logs");
 	Logger log = logObject.getLogger();
+	private PalabraImp palabraImp = new PalabraImp();
+	private Utilidades utilidades = new Utilidades();
 
 	public static String obtenerContenido(String sURL) throws IOException {
 
@@ -57,12 +60,13 @@ public class LinkComponent {
 		Utilidades utilidades = new Utilidades();
 		HttpURLConnection connection = null;
 		try {
-			/*URL u = new URL(estadoAnuncio.getAnuncio().getAdCreative().getLink());
-			connection = (HttpURLConnection) u.openConnection();
-			connection.setRequestMethod("HEAD");
-			int code = connection.getResponseCode();*/
-			Jsonp revisarUrl= new Jsonp();
-			int code =revisarUrl.codeStatus(estadoAnuncio.getAnuncio().getAdCreative().getLink());
+			/*
+			 * URL u = new URL(estadoAnuncio.getAnuncio().getAdCreative().getLink());
+			 * connection = (HttpURLConnection) u.openConnection();
+			 * connection.setRequestMethod("HEAD"); int code = connection.getResponseCode();
+			 */
+			Jsonp revisarUrl = new Jsonp();
+			int code = revisarUrl.codeStatus(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 			if (code == 200) {
 
 				if (estadoAnuncio.getCode() != 200 && code == 200) {
@@ -79,20 +83,42 @@ public class LinkComponent {
 					}
 					alertaComponent.enviarAlertaUp(correos,
 							"Link de Anuncio caido" + estadoAnuncio.getAnuncio().getIdAnuncio(),
-							"Se envía correo para reportar subida de link", fechaSubida, code,estadoAnuncio);
+							"Se envía correo para reportar subida de link", fechaSubida, code, estadoAnuncio);
+				}
+				Jsonp jsonp = new Jsonp();
+				List<String> palabrasBusqueda = new ArrayList<String>();
+				palabrasBusqueda = palabraImp.correosByAnuncio(estadoAnuncio.getAnuncio().getIdAnuncio());
+
+				if (palabrasBusqueda!=null) {
+					
+				
+				for (String palabra : palabrasBusqueda) {
+					String resultadoBusqueda = null;
+					resultadoBusqueda = jsonp.search(estadoAnuncio.getAnuncio().getAdCreative().getLink(), palabra);
+
+					
+					if (estadoAnuncio.getResultadoBusquedaPalabras() == null) {
+						estadoAnuncio.setResultadoBusquedaPalabras(resultadoBusqueda);
+
+					} else {
+						estadoAnuncio.setResultadoBusquedaPalabras(
+								estadoAnuncio.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+					}
+
+				}
 				}
 
-				Jsonp jsonp = new Jsonp();
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
 				estadoAnuncio.setMetaDescription(jsonp.getMetaDescription());
 				estadoAnuncio.setTitle(jsonp.getTitle());
 				estadoAnuncio.setCode(code);
+
 				estadoAnuncio.setMensaje("OK");
 
 				estado.setIdEstado(1);
-
+				// actualizar imagen pendiente
 				estadosAnuncioImp.actualizar(estadoAnuncio, estado);
-				
+
 			} else if (code == 429) {
 
 				Jsonp jsonp = new Jsonp();
@@ -176,11 +202,12 @@ public class LinkComponent {
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				if(estadoAnuncio.getAnuncio().getAdCreative().getLink() !="http://fb.me/" && estadoAnuncio.getAnuncio().getAdCreative().getLink()!="https://api.whatsapp.com/send")
-				alertaComponent.enviarAlertaDown(correos,
-						"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
-								+ estadoAnuncio.getAnuncio().getIdAnuncio(),
-						"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
+				if (estadoAnuncio.getAnuncio().getAdCreative().getLink() != "http://fb.me/"
+						&& estadoAnuncio.getAnuncio().getAdCreative().getLink() != "https://api.whatsapp.com/send")
+					alertaComponent.enviarAlertaDown(correos,
+							"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
+									+ estadoAnuncio.getAnuncio().getIdAnuncio(),
+							"Se envia correo para reportar caida de link", fechaCaida, estadoAnuncio);
 			} else {
 				Jsonp jsonp = new Jsonp();
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
@@ -224,7 +251,7 @@ public class LinkComponent {
 
 	}
 
-	public static String peticionHttpGet(String urlParaVisitar)  {
+	public static String peticionHttpGet(String urlParaVisitar) {
 
 		StringBuilder resultado = new StringBuilder();
 
@@ -245,17 +272,17 @@ public class LinkComponent {
 
 			}
 			rd.close();
-			
+
 		} catch (MalformedURLException e) {
-			
+
 			e.printStackTrace();
 		} catch (IOException e) {
-		
+
 			e.printStackTrace();
 		}
-		
+
 		return resultado.toString();
-		
+
 	}
 
 }

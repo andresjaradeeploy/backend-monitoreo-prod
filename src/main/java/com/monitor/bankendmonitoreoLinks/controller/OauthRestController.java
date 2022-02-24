@@ -37,8 +37,7 @@ import com.monitor.bankendmonitoreoLinks.service.imp.UsuarioServiceImp;
 
 @RestController
 @RequestMapping("/oauth")
-@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app","https://enki.com.co","http://localhost:4200" })
-//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
+@CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app","https://enki.com.co","http://localhost:4200","https://localhost:4200"})//@CrossOrigin(origins = { "http://localhost:4200", "https://monitoreo-ads-fb.web.app","*" })
 public class OauthRestController {
 
 	@Value("${google.clientId}")

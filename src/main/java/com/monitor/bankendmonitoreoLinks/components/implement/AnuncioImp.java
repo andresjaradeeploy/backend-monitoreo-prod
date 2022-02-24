@@ -70,6 +70,29 @@ public class AnuncioImp implements IAnuncioDao {
 		return anuncios;
 
 	}
+	
+	public String obtenerInfoAdsBD(List<String> anuncios) {
+
+		String adcreative = "[";
+
+		for (String anuncio : anuncios) {
+			if (adcreative == "[") {
+
+				adcreative = adcreative
+						+ FACEBOOK_IMP.apiGraph(anuncio + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time,status");
+
+			} else {
+
+				adcreative = adcreative + ","
+						+ FACEBOOK_IMP.apiGraph(anuncio + "?fields=name,id,preview_shareable_link,adcreatives,insights,created_time,status");
+			}
+
+		}
+		adcreative = adcreative + "]";
+
+		return adcreative;
+
+	}
 
 	public List<Anuncio> obtenerAnunciosInf() {
 		String res = obtenerAnunciosAllCuentasFB();
@@ -159,6 +182,101 @@ public class AnuncioImp implements IAnuncioDao {
 				anuncios.add(anuncio);
 
 			}
+
+		}
+
+		return anuncios;
+	}
+	
+	public List<Anuncio> obtenerAnunciosInfViejos() {
+		List<Anuncio> resAnunciosBD = new ArrayList<>();
+		resAnunciosBD=listarAnuncios();
+		List<String> idAnunciosBD = new ArrayList<>();
+		for (Anuncio anuncio : resAnunciosBD) {
+			idAnunciosBD.add(anuncio.getIdAnuncio());
+		}
+		
+		String res = obtenerInfoAdsBD(idAnunciosBD);
+		JSONArray respuesta = new JSONArray(res);
+		String impresiones = null;
+		Integer numeroImpresiones = 0;
+
+		JSONObject resut;
+		ArrayList<String> cuentas = new ArrayList<String>();
+		List<Anuncio> anuncios = new ArrayList<>();
+
+		ArrayList<String> idCuentas = new ArrayList<String>();
+		CuentaFBImp cuentaFBImp = new CuentaFBImp();
+		idCuentas = cuentaFBImp.obtenerCuentasBD();
+
+	
+			for (int j = 0; j < respuesta.length(); j++) {
+
+				JSONObject objeto = respuesta.getJSONObject(j);
+
+				String nombre = objeto.getString("name");
+				String id = objeto.getString("id");
+				String preview_shareable_link = objeto.getString("preview_shareable_link");
+				String status = objeto.getString("status");
+				String createDate = objeto.getString("created_time");
+				SimpleDateFormat formato = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss");
+				// 2021-08-09T17:51-250500
+				try {
+					Date fechaCreacion;
+					fechaCreacion = formato.parse(createDate);
+
+				} catch (ParseException e1) {
+
+					e1.printStackTrace();
+				}
+
+				JSONObject objectAdcreatives = objeto.getJSONObject("adcreatives");
+				JSONArray dataAdCreatives = objectAdcreatives.getJSONArray("data");
+				JSONObject dataIdAdCreative = dataAdCreatives.getJSONObject(0);
+				String idAdCreative = dataIdAdCreative.getString("id");
+
+				try {
+					JSONObject objectInsights = objeto.getJSONObject("insights");
+					JSONArray dataInsights = objectInsights.getJSONArray("data");
+					JSONObject dataImpresionInsights = dataInsights.getJSONObject(j);
+					impresiones = dataImpresionInsights.getString("impressions");
+					numeroImpresiones = Integer.parseInt(impresiones);
+
+				} catch (Exception e) {
+					System.out.println("err" + e);
+					impresiones = "Ad sin estadisticas";
+					log.warn("Ad " + id + " sin estadisticas");
+				}
+
+				Anuncio anuncio = new Anuncio();
+				CuentaFB cuentaFB = new CuentaFB();
+				AdCreative adCreative = new AdCreative();
+
+				Long idAdcreative = Long.parseLong(idAdCreative);
+
+				anuncio.setIdAnuncio(id);
+				anuncio.setNombre(nombre);
+				anuncio.setStatus(status);
+				anuncio.setPreview_shareable_link(preview_shareable_link);
+				anuncio.setImpresiones(numeroImpresiones);
+						
+				adCreative.setIdCreative(idAdcreative);
+
+				boolean ifExists = verificarSiExisteAnuncio(anuncio.getIdAnuncio());
+				if (ifExists == false)
+
+					
+						guardar(anuncio, cuentaFB, adCreative);
+					
+				else
+					System.out.println("Ya existe el anuncio en BD");
+				actualizar(anuncio);
+				log.warn("Ya existe Ad " + id + " en BD");
+				cuentas.add(id);
+				cuentas.add(nombre);
+				anuncios.add(anuncio);
+
+			
 
 		}
 
@@ -267,10 +385,11 @@ public class AnuncioImp implements IAnuncioDao {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * AnuncioImp anuncioImp= new AnuncioImp(); anuncioImp.obtenerAnunciosInf();
-		 */
-		Date prueba = new Date();
+		
+		  AnuncioImp anuncioImp= new AnuncioImp();
+		
+		 anuncioImp.obtenerAnunciosInfViejos();
+	/*	Date prueba = new Date();
 		LocalDate localDate = prueba.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
 		int year = localDate.getYear();
 		int mes = localDate.getMonthValue();
@@ -278,7 +397,7 @@ public class AnuncioImp implements IAnuncioDao {
 		System.out.println(prueba);
 		System.out.println(year);
 		System.out.println(mes);
-	}
+	*/}
 
 	@Override
 	public int actualizar(Anuncio anuncio) {
@@ -309,5 +428,7 @@ public class AnuncioImp implements IAnuncioDao {
 		}
 		return rows;
 	}
+	
+	
 
 }

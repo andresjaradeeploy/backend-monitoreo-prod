@@ -16,11 +16,18 @@ public class EstadoAnuncio implements Serializable {
 
 	@Column(name = "meta_description",columnDefinition = "TEXT")
 	private String metaDescription;
+	
+	@Column(name = "resultado_busqueda",columnDefinition = "TEXT")
+	private String resultadoBusquedaPalabras;
 
 	private String mensaje;
 
 	@Column(name = "code_status")
 	private Integer code = 0;
+	
+
+
+
 
 	@PrePersist
 	public void prePersist() {
@@ -98,6 +105,16 @@ public class EstadoAnuncio implements Serializable {
 
 	public void setEstado(Estado estado) {
 		this.estado = estado;
+	}
+	
+	
+
+	public String getResultadoBusquedaPalabras() {
+		return resultadoBusquedaPalabras;
+	}
+
+	public void setResultadoBusquedaPalabras(String resultadoBusquedaPalabras) {
+		this.resultadoBusquedaPalabras = resultadoBusquedaPalabras;
 	}
 
 	private static final long serialVersionUID = 1L;

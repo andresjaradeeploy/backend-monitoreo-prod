@@ -116,5 +116,14 @@ public class Utilidades {
 		}
 		return true;
 	}
+	
+	public boolean ifExist(String cadena,String subCadena) {
+		boolean ifExist=false;
+		 
+		 ifExist = cadena.toLowerCase().contains(subCadena.toLowerCase());
+
+		return ifExist;
+	}
+
 
 }

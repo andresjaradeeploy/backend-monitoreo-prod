@@ -30,6 +30,9 @@ public class AdCreativeImp implements IAdCreative {
 
 	private static final String SQL_UPDATE = "UPDATE ad_creative" + " SET link=?, url_img=?  WHERE id_creative=?";
 
+	private static final String SQL_SELECT="SELECT id_creative  FROM ad_creative";
+	
+	
 	public String obtenerAdCreativesAllCuentasFB(List<String> creatives) {
 
 		String adcreative = "[";
@@ -207,6 +210,147 @@ public class AdCreativeImp implements IAdCreative {
 		return anuncios;
 
 	}
+	
+	//sdasdasd
+	public List<AdCreative> actualizarImgAdcreatives(List<String> creatives) {
+		
+		String res = obtenerAdCreativesAllCuentasFB(creatives);
+
+		JSONArray respuesta = new JSONArray(res);
+
+		JSONObject resut;
+		boolean ifExists = false;
+
+		List<AdCreative> anuncios = new ArrayList<>();
+
+		for (int i = 0; i < respuesta.length(); i++) {
+
+			try {
+				resut = respuesta.getJSONObject(i);
+
+				String nombre = resut.getString("name");
+
+				String id = resut.getString("id");
+
+				Long id_creative = Long.parseLong(id);
+				String link = null;
+
+				String img_url = null;
+				String imgUrl_videoData = null;
+				JSONObject link_data = null;
+				JSONObject videoData = null;
+				JSONArray dataChild = null;
+				JSONObject linkChild = null;
+				JSONObject object_story_spec = null;
+				String data = resut.toString();
+				String ifspec = null;
+				String linkchild = null;
+				String iflink = null;
+
+				if (data.contains("object_story_spec") == true) {
+					object_story_spec = resut.getJSONObject("object_story_spec");
+
+					ifspec = object_story_spec.toString();
+
+					if (ifspec.contains("link_data") == true) {
+						link_data = object_story_spec.getJSONObject("link_data");
+						iflink = link_data.toString();
+
+						if (iflink.contains("link") == true)
+							try {
+								link = link_data.getString("link");
+							} catch (Exception e) {
+								System.err.println("err" + e);
+								dataChild = link_data.getJSONArray("child_attachments");
+								linkChild = dataChild.getJSONObject(0);
+								linkchild = linkChild.getString("link");
+								link = linkchild;
+
+							}
+
+						else
+							link = null;
+					} else
+						link_data = null;
+
+				} else
+					object_story_spec = null;
+
+				if (data.contains("image_url") == true) {
+					try {
+						img_url = resut.getString("image_url");
+					} catch (Exception e) {
+						log.warn("objeto image_url se encuentra en otro array"+e);
+						videoData = object_story_spec.getJSONObject("video_data");
+						imgUrl_videoData = videoData.getString("image_url");
+						img_url = imgUrl_videoData;
+					}
+				}
+
+				else
+
+					img_url = null;
+
+				AdCreative adCreative = new AdCreative();
+
+				adCreative.setIdCreative(id_creative);
+				adCreative.setLink(link);
+				adCreative.setUrlImg(img_url);
+				adCreative.setNombre(nombre);
+
+				if (link != null &&  link !="http://fb.me/" && link!="https://api.whatsapp.com/send") {
+
+					ifExists = verificarSiExisteAdCreative(adCreative.getIdCreative());
+					if (ifExists == false)
+						guardar(adCreative);
+					else
+						System.out.println("Ya existe el Ad Creative en BD");
+					actualizar(adCreative);
+					System.out.println("Se actualizó Ad Creative");
+				} else
+					System.out.println("Ad creatriv eno tiene link no se guardara");
+					log.warn("Ad creatriv eno tiene link no se guardara"+adCreative.getIdCreative());
+
+			} catch (Exception e) {
+				System.err.println("error Object" + e);
+				log.error("Error object"+e);
+			}
+		}
+
+		return anuncios;
+
+	}
+	////sdasd
+	
+	
+	
+	public List<String> adCreativesBD() {
+		List<String> res = new ArrayList<>();
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+
+		try {
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT);
+		
+			rs = stmt.executeQuery();
+
+			while (rs.next())
+			{}
+			
+
+		} catch (Exception e) {
+			System.err.print("Ha ocurrido un error: " + e.getMessage());
+			log.error("No se pudo verificar si existe AdCreative"+e);
+		} finally {
+			Conector.close(conn);
+			Conector.close(stmt);
+			Conector.close(rs);
+		}
+		return res;
+	}
+	
 
 	@Override
 	public int guardar(AdCreative adCreative) {
@@ -332,5 +476,26 @@ public class AdCreativeImp implements IAdCreative {
 			Conector.close(conn);
 		}
 		return rows;
+	}
+	
+	public void actualizarAdCreativesViejos() {
+		List<AdCreative> adCreatives = listarAdCreatives();
+		
+		List<String> creatives = new ArrayList<>();
+		
+			for (AdCreative adCreative : adCreatives) {
+			creatives.add(adCreative.getIdCreative().toString());
+		}
+		
+		actualizarImgAdcreatives(creatives);
+		for (AdCreative adCreative : adCreatives) {
+			System.out.println("idAdCreative"+adCreative.getIdCreative());
+		}
+	}
+	
+	public static void main(String[] args) {
+		AdCreativeImp imp = new AdCreativeImp();
+		
+		imp.actualizarAdCreativesViejos();
 	}
 }

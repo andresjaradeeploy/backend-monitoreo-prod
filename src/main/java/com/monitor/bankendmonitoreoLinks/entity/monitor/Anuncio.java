@@ -7,7 +7,6 @@ import javax.persistence.*;
 public class Anuncio implements Serializable {
 
 	@Id
-	@Column(name = "id_anuncio")
 	private String idAnuncio;
 
 	private String nombre;
@@ -17,6 +16,10 @@ public class Anuncio implements Serializable {
 	private String preview_shareable_link;
 	
 	private String status;
+
+	
+	
+
 
 	public Integer getImpresiones() {
 		return impresiones;
