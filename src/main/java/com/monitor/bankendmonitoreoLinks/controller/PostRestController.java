@@ -54,16 +54,15 @@ public class PostRestController {
 	public Post update(@RequestBody Post post) {
 		
 		Post postNew= iPostService.findById(post.getIdPost());
-		postNew.setIdPost(post.getIdPost());
+		
 		postNew.setLikes(post.getLikes());
 		postNew.setLove(post.getLove());
 		postNew.setWow(post.getWow());
 		postNew.setHaha(post.getHaha());
 		postNew.setSorry(post.getSorry());
 		postNew.setAnger(post.getAnger());
-		postNew.setWow(post.getWow());
 		postNew.setPost_impressions_unique(post.getPost_impressions_unique());
-		postNew.setPage(post.getPage());
+		
 		return iPostService.save(postNew);
 		
 

@@ -29,6 +29,9 @@ public class Palabras implements Serializable {
 	 @ManyToOne(optional = true, cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
 	    private Anuncio anuncio;
 	 
+	 
+	 @ManyToOne(optional = true, cascade = CascadeType.REFRESH, fetch = FetchType.EAGER)
+	    private LinkExterno linkExterno;
 	
 	
 	public Long getIdPalabra() {

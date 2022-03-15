@@ -62,7 +62,7 @@ public class Jsonp {
 		Jsonp jsonp = new Jsonp();
 		// System.out.println(("https://www.revistacompensar.com/facebook-live/automasaje-relajante/"));
 		//jsonp.getInfHtml("https://cava.carulla.com/whisky-old-parr-12-anos-1000-ml-331443/p");
-		jsonp.search("https://sena.territorio.la/index.php%3Flogin%3Dtrue+&cd=1&hl=es-419&ct=clnk&gl=co", "400");
+		jsonp.search("https://www.ciencuadras.com/arriendo?medium=display&campaign=arriendo&content=general&term=cpc", "error");
 	//System.out.println("");
 	
 	}
