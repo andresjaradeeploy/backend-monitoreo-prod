@@ -253,7 +253,7 @@ public class LinkComponent {
 	}
 	
 	//externo
-	public int revisarLinkExterno(EstadoLinkExterno estadoLinkExterno) throws Exception {
+	/*public int revisarLinkExterno(EstadoLinkExterno estadoLinkExterno) throws Exception {
 		EstadoAnuncioImp estadosAnuncioImp = new EstadoAnuncioImp();
 		AlertaImp alertaImp = new AlertaImp();
 		Estado estado = new Estado();
@@ -261,11 +261,7 @@ public class LinkComponent {
 		Utilidades utilidades = new Utilidades();
 		HttpURLConnection connection = null;
 		try {
-			/*
-			 * URL u = new URL(estadoAnuncio.getAnuncio().getAdCreative().getLink());
-			 * connection = (HttpURLConnection) u.openConnection();
-			 * connection.setRequestMethod("HEAD"); int code = connection.getResponseCode();
-			 */
+			
 			Jsonp revisarUrl = new Jsonp();
 			int code = revisarUrl.codeStatus(estadoLinkExterno.getLink_externo().getUrl());
 			if (code == 200) {
@@ -450,7 +446,7 @@ public class LinkComponent {
 		}
 		return 0;
 
-	}
+	}*/
 
 	public static String peticionHttpGet(String urlParaVisitar) {
 
