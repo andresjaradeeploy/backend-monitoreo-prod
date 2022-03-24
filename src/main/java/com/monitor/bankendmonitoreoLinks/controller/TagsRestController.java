@@ -19,6 +19,7 @@ import com.monitor.bankendmonitoreoLinks.components.implement.OcrImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.PostImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.TagsImp;
 import com.monitor.bankendmonitoreoLinks.dao.Label;
+import com.monitor.bankendmonitoreoLinks.dao.ReportLabels;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Post;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 import com.monitor.bankendmonitoreoLinks.repository.ITagsRepository;
@@ -69,6 +70,13 @@ public class TagsRestController {
 	{
 		TagsImp tagsImp= new TagsImp();
 		return  tagsImp.obtenerLabels(page);
+	}
+	
+	@GetMapping("/labelsReporte/{page}")
+	public List<ReportLabels> labelsReportbyPage(@PathVariable String page)
+	{
+		TagsImp tagsImp= new TagsImp();
+		return  tagsImp.obtenerReportByPage(page);
 	}
 	
 	@PostMapping("/guardarTag")

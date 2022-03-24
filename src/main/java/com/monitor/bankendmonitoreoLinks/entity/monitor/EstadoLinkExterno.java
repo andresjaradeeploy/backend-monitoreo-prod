@@ -1,11 +1,27 @@
 package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
+import java.io.Serializable;
+
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
-public class EstadoLinkExterno {
+@Entity
+public class EstadoLinkExterno implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long idEstadoLinkExterno;
+	
+	
 	@OneToOne
 	@JoinColumn(name = "link_externo", updatable = false, nullable = false)
 	private LinkExterno link_externo;
@@ -92,6 +108,14 @@ public class EstadoLinkExterno {
 
 	public void setCorreoAlerta(String correoAlerta) {
 		this.correoAlerta = correoAlerta;
+	}
+
+	public long getIdEstadoLinkExterno() {
+		return idEstadoLinkExterno;
+	}
+
+	public void setIdEstadoLinkExterno(long idEstadoLinkExterno) {
+		this.idEstadoLinkExterno = idEstadoLinkExterno;
 	}
 	
 	

@@ -10,6 +10,7 @@ import java.util.List;
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.ITagDao;
 import com.monitor.bankendmonitoreoLinks.dao.Label;
+import com.monitor.bankendmonitoreoLinks.dao.ReportLabels;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CuentaFB;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Tags;
 
@@ -27,6 +28,24 @@ public class TagsImp  implements ITagDao{
 			+ "	po.page_id_page = pa.id_page "
 			+ "	where pa.id_page  LIKE ? "
 			+ "	group by name_tag ";
+	
+	
+	private static final String SQL_SELECT_REPORT ="select "
+			+ "distinct name_tag, "
+			+ "count(name_tag) as cantidad, "
+			+ "sum(p.love + p.likes + p.wow + p.sorry + p.wow + p.haha + p.anger) as reactions "
+			+ ", "
+			+ "sum(p.post_impressions_unique) as impresiones "
+			+ "from "
+			+ "tags as ta "
+			+ "inner join post as p on "
+			+ "ta.post_id_post = p.id_post "
+			+ "where "
+			+ "p.page_id_page = ? "
+			+ "group by "
+			+ "name_tag "
+			+ "order by "
+			+ "cantidad desc ";
 	
 	
 			
@@ -132,5 +151,50 @@ public class TagsImp  implements ITagDao{
 
 		}
 		return labels;
+	}
+	
+	@Override
+	public List<ReportLabels> obtenerReportByPage(String page) {
+		Connection conn = null;
+		PreparedStatement stmt = null;
+		ResultSet rs = null;
+		List<ReportLabels> reportLabels = new ArrayList<>();
+		
+		try {
+
+			conn = Conector.getConnection();
+			stmt = conn.prepareStatement(SQL_SELECT_REPORT);
+			stmt.setString(1, page);
+			rs = stmt.executeQuery();
+			while (rs.next()) {
+				ReportLabels report = new ReportLabels();
+
+				String nameTag = rs.getString("name_tag");
+				Integer cantidadTags=rs.getInt("cantidad");
+				Integer reacciones=rs.getInt("reactions");
+				Long impresiones= rs.getLong("impresiones");
+				
+			
+			report.setNameTag(nameTag);
+			report.setCantidadTags(cantidadTags);
+			report.setReactions(reacciones);
+			report.setImpressions(impresiones);
+					
+					reportLabels.add(report);
+
+			}
+			return reportLabels;
+
+		} catch (SQLException ex) {
+			
+			
+		} finally {
+
+			Conector.close(stmt);
+			Conector.close(conn);
+			Conector.close(rs);
+
+		}
+		return reportLabels;
 	}
 }
