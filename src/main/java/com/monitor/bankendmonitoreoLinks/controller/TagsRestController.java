@@ -90,7 +90,12 @@ public class TagsRestController {
 		System.out.println("picture"+post.getFull_picture()+"idpost"+post.getIdPost());
 		
 		try {
-			utilidades.guardarImageneUrl(post.getFull_picture(),post.getIdPost());
+			
+			if (post.getFull_picture()!=null) {
+				
+				utilidades.guardarImageneUrl(post.getFull_picture(),post.getIdPost());
+			}
+			
 		} catch (Exception e) {
 			System.out.println("Ya existe imagen ");
 		}
@@ -101,6 +106,9 @@ public class TagsRestController {
 		//tags=obtenerTags(post.getFull_picture(), post.getIdPost());
 		String nameImage=postImp.obtenerNameImageById(post.getIdPost());
 		String filePath = "C:/home/images/"+nameImage;
+		if (nameImage!=null) {
+			
+		
 		try {
 			tags=googleVision.detectLabels(filePath);
 			for (String tag : tags) {
@@ -130,6 +138,10 @@ public class TagsRestController {
 		} catch (IOException e) {
 			
 			e.printStackTrace();
+		}
+		}
+		else {
+			System.out.println("no tiene imagen");
 		}
 		
 		return tags;

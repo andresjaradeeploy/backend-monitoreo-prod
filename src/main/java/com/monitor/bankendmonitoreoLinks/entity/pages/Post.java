@@ -211,7 +211,7 @@ public class Post implements Serializable {
 	
 	
 	
-	 @ManyToOne(optional = true, cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	 @ManyToOne(optional = true, fetch = FetchType.EAGER)
 	    private Page page;
 
 }
