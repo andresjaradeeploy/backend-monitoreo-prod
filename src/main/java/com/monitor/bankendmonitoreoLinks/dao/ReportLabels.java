@@ -5,7 +5,8 @@ public class ReportLabels {
 	private String nameTag;;
 	private Integer cantidadTags;
 	private Integer reactions;
-	private Long impressions;
+	private String impressions;
+	private double tasaInteracciones;
 	public String getNameTag() {
 		return nameTag;
 	}
@@ -24,12 +25,21 @@ public class ReportLabels {
 	public void setReactions(Integer reactions) {
 		this.reactions = reactions;
 	}
-	public Long getImpressions() {
+	
+	public double getTasaInteracciones() {
+		return tasaInteracciones;
+	}
+	public void setTasaInteracciones(double tasaInteracciones) {
+		this.tasaInteracciones = tasaInteracciones;
+	}
+	public String getImpressions() {
 		return impressions;
 	}
-	public void setImpressions(Long impressions) {
+	public void setImpressions(String impressions) {
 		this.impressions = impressions;
 	}
+
+	
 	
 	
 }

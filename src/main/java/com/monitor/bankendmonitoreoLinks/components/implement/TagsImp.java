@@ -4,8 +4,11 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 import com.monitor.bankendmonitoreoLinks.components.conector.Conector;
 import com.monitor.bankendmonitoreoLinks.dao.ITagDao;
@@ -35,7 +38,8 @@ public class TagsImp  implements ITagDao{
 			+ "count(name_tag) as cantidad, "
 			+ "sum(p.love + p.likes + p.wow + p.sorry + p.wow + p.haha + p.anger) as reactions "
 			+ ", "
-			+ "sum(p.post_impressions_unique) as impresiones "
+			+ "sum(p.post_impressions_unique) as impresiones, "
+			+ "TRUNCATE(((sum(p.love+p.likes+p.wow+p.sorry+p.wow+p.haha+p.anger))/(sum(p.post_impressions_unique))*100),2) as tasa "
 			+ "from "
 			+ "tags as ta "
 			+ "inner join post as p on "
@@ -155,6 +159,7 @@ public class TagsImp  implements ITagDao{
 	
 	@Override
 	public List<ReportLabels> obtenerReportByPage(String page) {
+		NumberFormat formatter = NumberFormat.getInstance(new Locale("en_US"));
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		ResultSet rs = null;
@@ -172,13 +177,22 @@ public class TagsImp  implements ITagDao{
 				String nameTag = rs.getString("name_tag");
 				Integer cantidadTags=rs.getInt("cantidad");
 				Integer reacciones=rs.getInt("reactions");
-				Long impresiones= rs.getLong("impresiones");
+				Double impresiones= rs.getDouble("impresiones");
+				Double tasa=rs.getDouble("tasa");
 				
+				
+				String impresionesFormateados=formatter.format(impresiones);
+System.out.println("impresiones"+impresionesFormateados);
+
+//String str = String.format("%,d", impresiones);
+
+
 			
 			report.setNameTag(nameTag);
 			report.setCantidadTags(cantidadTags);
 			report.setReactions(reacciones);
-			report.setImpressions(impresiones);
+			report.setImpressions(impresionesFormateados);
+			report.setTasaInteracciones(tasa);
 					
 					reportLabels.add(report);
 
