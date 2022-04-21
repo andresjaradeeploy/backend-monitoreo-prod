@@ -28,7 +28,7 @@ public class GoogleVision {
 			List<String> tags= new ArrayList<>();
 			//tags=detectLabels("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
 			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/images/19436445998_10159371539115999.jpg");
-			System.out.println("ocr"+ocr);
+			//System.out.println("ocr"+ocr);
 			
 			/*for (String string : tags) {
 				System.out.println("tag"+string);
@@ -73,7 +73,7 @@ public class GoogleVision {
 				// For full list of available annotations, see http://g.co/cloud/vision/docs
 				for (EntityAnnotation annotation : res.getLabelAnnotationsList()) {
 					annotation.getAllFields().forEach((k, v) -> {
-						System.out.println("v" + v.toString());
+						//System.out.println("v" + v.toString());
 						tags.add(v.toString());
 						
 					});
@@ -108,7 +108,7 @@ public class GoogleVision {
 
 			for (AnnotateImageResponse res : responses) {
 				if (res.hasError()) {
-					System.out.format("Error: %s%n", res.getError().getMessage());
+					//System.out.format("Error: %s%n", res.getError().getMessage());
 					
 				}
 				

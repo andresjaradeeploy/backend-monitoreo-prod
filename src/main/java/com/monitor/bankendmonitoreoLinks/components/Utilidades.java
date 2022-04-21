@@ -99,10 +99,10 @@ public class Utilidades {
 			Files.copy(in, Paths.get("C:/home/images/" + nameImage + ".jpg"));
 
 		} catch (MalformedURLException e) {
-			e.printStackTrace();
+			System.err.println("url erroneo");;
 		} catch (IOException e) {
 
-			e.printStackTrace();
+			System.err.println("imagen ya existe");;
 		}
 	}
 

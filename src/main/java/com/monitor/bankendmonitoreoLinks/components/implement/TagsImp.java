@@ -191,7 +191,7 @@ System.out.println("impresiones"+impresionesFormateados);
 			report.setNameTag(nameTag);
 			report.setCantidadTags(cantidadTags);
 			report.setReactions(reacciones);
-			report.setImpressions(impresionesFormateados);
+			report.setImpressions(impresiones);
 			report.setTasaInteracciones(tasa);
 					
 					reportLabels.add(report);

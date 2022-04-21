@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.monitor.bankendmonitoreoLinks.components.Cronometro;
 import com.monitor.bankendmonitoreoLinks.components.GoogleVision;
 import com.monitor.bankendmonitoreoLinks.components.Utilidades;
 import com.monitor.bankendmonitoreoLinks.components.implement.OcrImp;
@@ -26,19 +27,17 @@ import com.monitor.bankendmonitoreoLinks.repository.ITagsRepository;
 import com.monitor.bankendmonitoreoLinks.service.ITagsService;
 import com.monitor.bankendmonitoreoLinks.service.imp.TagServiceImp;
 
-
-
 @RestController
 @RequestMapping("/tags")
-@CrossOrigin(origins = {"https://monitoreo-ads-fb.web.app","https://enki.com.co","http://localhost:4200","https://localhost:4200"})
+@CrossOrigin(origins = { "https://monitoreo-ads-fb.web.app", "https://enki.com.co", "http://localhost:4200",
+		"https://localhost:4200" })
 public class TagsRestController {
 
-	
-	private GoogleVision googleVision = new GoogleVision() ;
-	
+	private GoogleVision googleVision = new GoogleVision();
+
 	@Autowired
 	private ITagsService ITagsService;
-	
+
 	@Autowired
 	private ITagsRepository iTagsRepository;
 
@@ -46,148 +45,147 @@ public class TagsRestController {
 	public List<Tags> listarTagsByPost(@PathVariable String idPost) {
 		return iTagsRepository.findTagsbyPost(idPost);
 	}
-	
+
 	@GetMapping("/obtener/{idPage}/{tag}")
-	public List<Tags> listarTagsByPage(@PathVariable String idPage,@PathVariable String tag) {
-		return iTagsRepository.findTagsbyPage(idPage,tag);
+	public List<Tags> listarTagsByPage(@PathVariable String idPage, @PathVariable String tag) {
+		return iTagsRepository.findTagsbyPage(idPage, tag);
 	}
-	
+
 	@GetMapping("/listar/{idPage}")
 	public List<Tags> listarTags(@PathVariable String idPage) {
 		return iTagsRepository.findTags(idPage);
 	}
-	
-	
+
 	@GetMapping("/insight/{tag}")
-	public List<Tags> agrupacionTags(@PathVariable String tag)
-	{
+	public List<Tags> agrupacionTags(@PathVariable String tag) {
 		return iTagsRepository.findPostWithTags(tag);
 	}
-	
-	
+
 	@GetMapping("/labels/{page}")
-	public List<Label> labelsGroupByName(@PathVariable String page)
-	{
-		TagsImp tagsImp= new TagsImp();
-		return  tagsImp.obtenerLabels(page);
-	}
-	
-	@GetMapping("/labelsReporte/{page}")
-	public List<ReportLabels> labelsReportbyPage(@PathVariable String page)
-	{
-		TagsImp tagsImp= new TagsImp();
-		return  tagsImp.obtenerReportByPage(page);
-	}
-	
-	@PostMapping("/guardarTag")
-	public List <String> guardar(@RequestBody Post post){
-		
-		Utilidades utilidades = new Utilidades();
-		
+	public List<Label> labelsGroupByName(@PathVariable String page) {
 		TagsImp tagsImp = new TagsImp();
-		PostImp postImp= new PostImp();
-		
-		System.out.println("picture"+post.getFull_picture()+"idpost"+post.getIdPost());
-		
+		return tagsImp.obtenerLabels(page);
+	}
+
+	@GetMapping("/labelsReporte/{page}")
+	public List<ReportLabels> labelsReportbyPage(@PathVariable String page) {
+		TagsImp tagsImp = new TagsImp();
+		return tagsImp.obtenerReportByPage(page);
+	}
+
+	@PostMapping("/guardarTag")
+	public List<String> guardar(@RequestBody Post post) {
+		  Cronometro cronometro = new Cronometro();
+	        cronometro.start();
+		Utilidades utilidades = new Utilidades();
+
+		TagsImp tagsImp = new TagsImp();
+		PostImp postImp = new PostImp();
+
+		System.out.println("picture" + post.getFull_picture() + "idpost" + post.getIdPost());
+
 		try {
-			
-			if (post.getFull_picture()!=null) {
-				
-				utilidades.guardarImageneUrl(post.getFull_picture(),post.getIdPost());
+
+			if (post.getFull_picture() != null) {
+
+				utilidades.guardarImageneUrl(post.getFull_picture(), post.getIdPost());
 			}
-			
+
 		} catch (Exception e) {
 			System.out.println("Ya existe imagen ");
 		}
-		
-		
-		
-		List<String> tags= new ArrayList();
-		//tags=obtenerTags(post.getFull_picture(), post.getIdPost());
-		String nameImage=postImp.obtenerNameImageById(post.getIdPost());
-		String filePath = "C:/home/images/"+nameImage;
-		if (nameImage!=null) {
-			
-		
-		try {
-			tags=googleVision.detectLabels(filePath);
-			for (String tag : tags) {
-				boolean ifOnlyString=utilidades.verificarSiSoloLetras(tag);
-				if (ifOnlyString==true) {
-					System.out.println("tag"+tag);
-					boolean ifExistTag=tagsImp.verificarSiExisteTag(tag,post.getIdPost());
-					if (ifExistTag==false) {
-						Tags tagNew= new Tags();
-						Post postNew= new Post();
-						postNew.setIdPost(post.getIdPost());
-						tagNew.setNameTag(tag);
-						tagNew.setPost(postNew);
-						//tagsImp.guardar(tagNew);
-						ITagsService.save(tagNew);
-						
-						System.out.println("tamano"+tags.size());
-						
+
+		List<String> tags = new ArrayList();
+		// tags=obtenerTags(post.getFull_picture(), post.getIdPost());
+		String nameImage = postImp.obtenerNameImageById(post.getIdPost());
+		String filePath = "C:/home/images/" + nameImage;
+		if (nameImage != null) {
+
+			try {
+				tags = googleVision.detectLabels(filePath);
+				for (String tag : tags) {
+					boolean ifOnlyString = utilidades.verificarSiSoloLetras(tag);
+					if (ifOnlyString == true) {
+						// System.out.println("tag"+tag);
+						boolean ifExistTag = tagsImp.verificarSiExisteTag(tag, post.getIdPost());
+						if (ifExistTag == false) {
+							Tags tagNew = new Tags();
+							Post postNew = new Post();
+							postNew.setIdPost(post.getIdPost());
+							tagNew.setNameTag(tag);
+							tagNew.setPost(postNew);
+							// tagsImp.guardar(tagNew);
+							ITagsService.save(tagNew);
+
+							System.out.println("tamano" + tags.size());
+
+						} else {
+						}
+						// System.out.println("El tag ya existe");
+					} else {
 					}
-					else
-						System.out.println("El tag ya existe");
+					// System.err.println("tag no es label");
+
 				}
-				else
-					System.err.println("tag no es label");
-				
+			} catch (IOException e) {
+
+				e.printStackTrace();
 			}
-		} catch (IOException e) {
-			
-			e.printStackTrace();
-		}
-		}
-		else {
+		} else {
 			System.out.println("no tiene imagen");
 		}
-		
+		 cronometro.stop();
+		 System.err.println("post"+post.getIdPost());
+
+	        System.out.println("Elapsed time in milliseconds: "
+	                + cronometro.getElapsedMilliseconds());
+
+	        System.out.println("Elapsed time in seconds: "
+	                + cronometro.getElapsedSeconds());
+
+	        System.out.println("Elapsed time in minutes: "
+	                + cronometro.getElapsedMinutes());
+
+	        System.out.println("Elapsed time in hours: "
+	                + cronometro.getElapsedHours());
+
 		return tags;
-		
+
 	}
-	
-	
-	
-	
-	
-public List<String>  obtenerTags(String full_picture,String idPost) {
-	Utilidades utilidades= new Utilidades();
-	TagsImp tagsImp = new TagsImp();
-	PostImp postImp= new PostImp();
-	List<String> tags= new ArrayList();
-	String nameImage=postImp.obtenerNameImageById(idPost);
-	String filePath = "C:/home/images/"+nameImage;
-	try {
-		tags=googleVision.detectLabels(filePath);
-		for (String tag : tags) {
-			boolean ifOnlyString=utilidades.verificarSiSoloLetras(tag);
-			if (ifOnlyString==true) {
-				boolean ifExistTag=tagsImp.verificarSiExisteTag(tag,idPost);
-				if (ifExistTag==false) {
-					Tags tagNew= new Tags();
-					Post post= new Post();
-					post.setIdPost(idPost);
-					tagNew.setNameTag(tag);
-					tagNew.setPost(post);
-					tagsImp.guardar(tagNew);
-					tags.add(tag);
-					
-				}
-				else
-					System.out.println("El tag ya existe");
+
+	public List<String> obtenerTags(String full_picture, String idPost) {
+		Utilidades utilidades = new Utilidades();
+		TagsImp tagsImp = new TagsImp();
+		PostImp postImp = new PostImp();
+		List<String> tags = new ArrayList();
+		String nameImage = postImp.obtenerNameImageById(idPost);
+		String filePath = "C:/home/images/" + nameImage;
+		try {
+			tags = googleVision.detectLabels(filePath);
+			for (String tag : tags) {
+				boolean ifOnlyString = utilidades.verificarSiSoloLetras(tag);
+				if (ifOnlyString == true) {
+					boolean ifExistTag = tagsImp.verificarSiExisteTag(tag, idPost);
+					if (ifExistTag == false) {
+						Tags tagNew = new Tags();
+						Post post = new Post();
+						post.setIdPost(idPost);
+						tagNew.setNameTag(tag);
+						tagNew.setPost(post);
+						tagsImp.guardar(tagNew);
+						tags.add(tag);
+
+					} else {}
+					//	System.out.println("El tag ya existe");
+				} else {}
+					//System.err.println("tag no es label");
+
 			}
-			else
-				System.err.println("tag no es label");
-			
+		} catch (IOException e) {
+
+			e.printStackTrace();
 		}
-	} catch (IOException e) {
-		
-		e.printStackTrace();
+
+		return tags;
 	}
-	
-	
-	return tags;
-}
 }
