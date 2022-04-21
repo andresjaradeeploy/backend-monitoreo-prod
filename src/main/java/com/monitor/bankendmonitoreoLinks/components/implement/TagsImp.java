@@ -194,7 +194,14 @@ System.out.println("impresiones"+impresionesFormateados);
 			report.setImpressions(impresiones);
 			report.setTasaInteracciones(tasa);
 					
-					reportLabels.add(report);
+			if (report.getTasaInteracciones()<100) {
+				reportLabels.add(report);	
+			}
+			else
+			{
+				System.err.println("tasa incorrecta");
+			}
+					
 
 			}
 			return reportLabels;
