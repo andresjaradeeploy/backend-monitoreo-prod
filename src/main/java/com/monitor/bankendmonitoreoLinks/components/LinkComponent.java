@@ -16,7 +16,9 @@ import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.AlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.CorreoAlertaImp;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
+import com.monitor.bankendmonitoreoLinks.components.implement.EstadoLinkExternoimp;
 import com.monitor.bankendmonitoreoLinks.components.implement.PalabraImp;
+import com.monitor.bankendmonitoreoLinks.dao.EstadoLinkFile;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.CorreoAlerta;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.Estado;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
@@ -90,23 +92,21 @@ public class LinkComponent {
 				List<String> palabrasBusqueda = new ArrayList<String>();
 				palabrasBusqueda = palabraImp.correosByAnuncio(estadoAnuncio.getAnuncio().getIdAnuncio());
 
-				if (palabrasBusqueda!=null) {
-					
-				
-				for (String palabra : palabrasBusqueda) {
-					String resultadoBusqueda = null;
-					resultadoBusqueda = jsonp.search(estadoAnuncio.getAnuncio().getAdCreative().getLink(), palabra);
+				if (palabrasBusqueda != null) {
 
-					
-					if (estadoAnuncio.getResultadoBusquedaPalabras() == null) {
-						estadoAnuncio.setResultadoBusquedaPalabras(resultadoBusqueda);
+					for (String palabra : palabrasBusqueda) {
+						String resultadoBusqueda = null;
+						resultadoBusqueda = jsonp.search(estadoAnuncio.getAnuncio().getAdCreative().getLink(), palabra);
 
-					} else {
-						estadoAnuncio.setResultadoBusquedaPalabras(
-								estadoAnuncio.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+						if (estadoAnuncio.getResultadoBusquedaPalabras() == null) {
+							estadoAnuncio.setResultadoBusquedaPalabras(resultadoBusqueda);
+
+						} else {
+							estadoAnuncio.setResultadoBusquedaPalabras(
+									estadoAnuncio.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+						}
+
 					}
-
-				}
 				}
 
 				jsonp.getInfHtml(estadoAnuncio.getAnuncio().getAdCreative().getLink());
@@ -251,19 +251,156 @@ public class LinkComponent {
 		return 0;
 
 	}
-	
-	//externo
-	/*public int revisarLinkExterno(EstadoLinkExterno estadoLinkExterno) throws Exception {
-		EstadoAnuncioImp estadosAnuncioImp = new EstadoAnuncioImp();
+
+	// externo
+
+	public EstadoLinkFile obtenerEstadoLinkFile(String link, String palabra1, String palabra2) {
+
+		EstadoLinkFile estadoLinkFile = new EstadoLinkFile();
+
+		Estado estado = new Estado();
+		HttpURLConnection connection = null;
+		
+		if (link!=null) {
+			
+		
+		try {
+
+			Jsonp revisarUrl = new Jsonp();
+			int code = revisarUrl.codeStatus(link);
+			System.out.println("code" + code);
+			if (code == 200) {
+
+				Jsonp jsonp = new Jsonp();
+
+				List<String> palabrasBusqueda = new ArrayList<String>();
+
+				palabrasBusqueda.add(palabra1);
+				palabrasBusqueda.add(palabra2);
+
+				if (palabrasBusqueda != null) {
+
+					for (String palabra : palabrasBusqueda) {
+						String resultadoBusqueda = null;
+						resultadoBusqueda = jsonp.search(link, palabra);
+
+						if (estadoLinkFile.getResultadoBusquedaPalabras() == null) {
+							estadoLinkFile.setResultadoBusquedaPalabras(resultadoBusqueda);
+
+						} else {
+							estadoLinkFile.setResultadoBusquedaPalabras(
+									estadoLinkFile.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+						}
+
+					}
+				}
+
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setMensaje("OK");
+				estadoLinkFile.setEstado("Arriba");
+				estado.setIdEstado(1);
+				// actualizar imagen pendiente
+
+			} else if (code == 429) {
+
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setMensaje("Muchas Peticiones al servidor");
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setEstado("Arriba");
+
+				// colocar si existe alerta
+			} else if (code == 400) {
+
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setMensaje("Bad Request");
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setEstado("Caido");
+
+				estado.setIdEstado(2);
+
+			} else if (code == 404) {
+
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setMensaje("Not Found");
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setEstado("Caido");
+
+				estado.setIdEstado(2);
+
+			} else if (code == 301) {
+
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setMensaje("Moved Permanently - Se redireccionó");
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setEstado("Caido");
+
+				estado.setIdEstado(2);
+
+			} else {
+				Jsonp jsonp = new Jsonp();
+				jsonp.getInfHtml(link);
+				estadoLinkFile.setMetaDescription(jsonp.getMetaDescription());
+				estadoLinkFile.setTitle(jsonp.getTitle());
+				estadoLinkFile.setCode(code);
+				estadoLinkFile.setMensaje("Url no funciona");
+				estadoLinkFile.setLink(link);
+				estadoLinkFile.setEstado("Caido");
+
+				estado.setIdEstado(2);
+
+			}
+
+		} catch (MalformedURLException e) {
+
+			System.err.println("url dañado" + e);
+			log.error("Error al leer url" + e);
+		} catch (IOException e) {
+			log.error("Error" + e);
+		} finally {
+			if (connection != null) {
+				connection.disconnect();
+			}
+		}
+		}else {
+			System.err.println("link invalido");
+		}
+		return estadoLinkFile;
+	}
+
+	public int revisarLinkExterno(EstadoLinkExterno estadoLinkExterno) throws Exception {
+		System.out.println("sss");
+
+		EstadoLinkExternoimp estadosAnuncioImp = new EstadoLinkExternoimp();
 		AlertaImp alertaImp = new AlertaImp();
 		Estado estado = new Estado();
 		AlertaComponent alertaComponent = new AlertaComponent();
 		Utilidades utilidades = new Utilidades();
 		HttpURLConnection connection = null;
 		try {
-			
+
 			Jsonp revisarUrl = new Jsonp();
 			int code = revisarUrl.codeStatus(estadoLinkExterno.getLink_externo().getUrl());
+			System.out.println("code" + code);
 			if (code == 200) {
 
 				if (estadoLinkExterno.getCode() != 200 && code == 200) {
@@ -273,39 +410,36 @@ public class LinkComponent {
 					ArrayList<String> correos = new ArrayList<String>();
 					CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
 					List<CorreoAlerta> dirCorreos = new ArrayList<>();
-					dirCorreos = correoAlertaImp
-							.correosByCuenta(estadoLinkExterno.getAnuncio().getCuentaFB().getIdCuenta());
+					dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getLink_externo().getDescripcion());
 					for (CorreoAlerta correoAlerta : dirCorreos) {
 						correos.add(correoAlerta.getCuentaCorreo());
 					}
-					alertaComponent.enviarAlertaUp(correos,
-							"Link de Anuncio nuevamente arriba" + estadoLinkExterno.getAnuncio().getIdAnuncio(),
-							"Se envía correo para reportar subida de link", fechaSubida, code, estadoAnuncio);
+					alertaComponent.enviarAlertaUpExterno(correos,
+							"Link de Anuncio nuevamente arriba" + estadoLinkExterno.getLink_externo().getDescripcion(),
+							"Se envía correo para reportar subida de link", fechaSubida, code, estadoLinkExterno);
 				}
 				Jsonp jsonp = new Jsonp();
 				List<String> palabrasBusqueda = new ArrayList<String>();
-				palabrasBusqueda = palabraImp.correosByAnuncio(estadoLinkExterno.getAnuncio().getIdAnuncio());
+				palabrasBusqueda = palabraImp.correosByLinkExterno(estadoLinkExterno.getLink_externo().getIdLink());
 
-				if (palabrasBusqueda!=null) {
-					
-				
-				for (String palabra : palabrasBusqueda) {
-					String resultadoBusqueda = null;
-					resultadoBusqueda = jsonp.search(estadoLinkExterno.getAnuncio().getAdCreative().getLink(), palabra);
+				if (palabrasBusqueda != null) {
 
-					
-					if (estadoLinkExterno.getResultadoBusquedaPalabras() == null) {
-						estadoLinkExterno.setResultadoBusquedaPalabras(resultadoBusqueda);
+					for (String palabra : palabrasBusqueda) {
+						String resultadoBusqueda = null;
+						resultadoBusqueda = jsonp.search(estadoLinkExterno.getLink_externo().getUrl(), palabra);
 
-					} else {
-						estadoLinkExterno.setResultadoBusquedaPalabras(
-								estadoLinkExterno.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+						if (estadoLinkExterno.getResultadoBusquedaPalabras() == null) {
+							estadoLinkExterno.setResultadoBusquedaPalabras(resultadoBusqueda);
+
+						} else {
+							estadoLinkExterno.setResultadoBusquedaPalabras(
+									estadoLinkExterno.getResultadoBusquedaPalabras() + " - " + resultadoBusqueda);
+						}
+
 					}
-
-				}
 				}
 
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -319,7 +453,7 @@ public class LinkComponent {
 			} else if (code == 429) {
 
 				Jsonp jsonp = new Jsonp();
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -331,7 +465,7 @@ public class LinkComponent {
 			} else if (code == 400) {
 
 				Jsonp jsonp = new Jsonp();
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -341,23 +475,23 @@ public class LinkComponent {
 				estadosAnuncioImp.actualizar(estadoLinkExterno, estado);
 				String fechaCaida = utilidades.generarHoraActual();
 
-				alertaImp.generarAlerta(estadoLinkExterno, fechaCaida);
+				alertaImp.generarAlertaExterno(estadoLinkExterno, fechaCaida);
 
 				ArrayList<String> correos = new ArrayList<String>();
 				CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
 				List<CorreoAlerta> dirCorreos = new ArrayList<>();
-				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getAnuncio().getCuentaFB().getIdCuenta());
+				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getLink_externo().getDescripcion());
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlertaDown(correos,
-						"Link de Anuncio caido" + estadoLinkExterno.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlertaDownExterno(correos,
+						"Link de Anuncio caido" + estadoLinkExterno.getLink_externo().getDescripcion(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoLinkExterno);
 
 			} else if (code == 404) {
 
 				Jsonp jsonp = new Jsonp();
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -366,22 +500,22 @@ public class LinkComponent {
 				estado.setIdEstado(2);
 				estadosAnuncioImp.actualizar(estadoLinkExterno, estado);
 				String fechaCaida = utilidades.generarHoraActual();
-				alertaImp.generarAlerta(estadoLinkExterno, fechaCaida);
+				alertaImp.generarAlertaExterno(estadoLinkExterno, fechaCaida);
 
 				ArrayList<String> correos = new ArrayList<String>();
 				CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
 				List<CorreoAlerta> dirCorreos = new ArrayList<>();
-				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getAnuncio().getCuentaFB().getIdCuenta());
+				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getLink_externo().getDescripcion());
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlertaDown(correos,
-						"Link de Anuncio caido" + estadoLinkExterno.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlertaDownExterno(correos,
+						"Link de Anuncio caido" + estadoLinkExterno.getLink_externo().getDescripcion(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoLinkExterno);
 			} else if (code == 301) {
 
 				Jsonp jsonp = new Jsonp();
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -390,24 +524,24 @@ public class LinkComponent {
 				estado.setIdEstado(2);
 				estadosAnuncioImp.actualizar(estadoLinkExterno, estado);
 				String fechaCaida = utilidades.generarHoraActual();
-				alertaImp.generarAlerta(estadoLinkExterno, fechaCaida);
+				alertaImp.generarAlertaExterno(estadoLinkExterno, fechaCaida);
 
 				ArrayList<String> correos = new ArrayList<String>();
 				CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
 				List<CorreoAlerta> dirCorreos = new ArrayList<>();
-				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getAnuncio().getCuentaFB().getIdCuenta());
+				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getLink_externo().getDescripcion());
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				if (estadoLinkExterno.getAnuncio().getAdCreative().getLink() != "http://fb.me/"
-						&& estadoLinkExterno.getAnuncio().getAdCreative().getLink() != "https://api.whatsapp.com/send")
-					alertaComponent.enviarAlertaDown(correos,
+				if (estadoLinkExterno.getLink_externo().getUrl() != "http://fb.me/"
+						&& estadoLinkExterno.getLink_externo().getUrl() != "https://api.whatsapp.com/send")
+					alertaComponent.enviarAlertaDownExterno(correos,
 							"Moved Permanently - Se redireccionó a su nueva url (https u otra)"
-									+ estadoLinkExterno.getAnuncio().getIdAnuncio(),
+									+ estadoLinkExterno.getLink_externo().getIdLink(),
 							"Se envia correo para reportar caida de link", fechaCaida, estadoLinkExterno);
 			} else {
 				Jsonp jsonp = new Jsonp();
-				jsonp.getInfHtml(estadoLinkExterno.getAnuncio().getAdCreative().getLink());
+				jsonp.getInfHtml(estadoLinkExterno.getLink_externo().getUrl());
 				estadoLinkExterno.setMetaDescription(jsonp.getMetaDescription());
 				estadoLinkExterno.setTitle(jsonp.getTitle());
 				estadoLinkExterno.setCode(code);
@@ -417,17 +551,17 @@ public class LinkComponent {
 				estadosAnuncioImp.actualizar(estadoLinkExterno, estado);
 				String fechaCaida = utilidades.generarHoraActual();
 
-				alertaImp.generarAlerta(estadoLinkExterno, fechaCaida);
+				alertaImp.generarAlertaExterno(estadoLinkExterno, fechaCaida);
 
 				ArrayList<String> correos = new ArrayList<String>();
 				CorreoAlertaImp correoAlertaImp = new CorreoAlertaImp();
 				List<CorreoAlerta> dirCorreos = new ArrayList<>();
-				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getAnuncio().getCuentaFB().getIdCuenta());
+				dirCorreos = correoAlertaImp.correosByCuenta(estadoLinkExterno.getLink_externo().getDescripcion());
 				for (CorreoAlerta correoAlerta : dirCorreos) {
 					correos.add(correoAlerta.getCuentaCorreo());
 				}
-				alertaComponent.enviarAlertaDown(correos,
-						"Link de Anuncio caido" + estadoLinkExterno.getAnuncio().getIdAnuncio(),
+				alertaComponent.enviarAlertaDownExterno(correos,
+						"Link de Anuncio caido" + estadoLinkExterno.getLink_externo().getDescripcion(),
 						"Se envia correo para reportar caida de link", fechaCaida, estadoLinkExterno);
 
 			}
@@ -446,7 +580,7 @@ public class LinkComponent {
 		}
 		return 0;
 
-	}*/
+	}
 
 	public static String peticionHttpGet(String urlParaVisitar) {
 

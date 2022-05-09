@@ -18,8 +18,12 @@ public class Alerta implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@OneToOne
-	@JoinColumn(name = "estado_anuncio", updatable = false, nullable = false)
+	@JoinColumn(name = "estado_anuncio_fk", updatable = false, nullable = true)
 	private EstadoAnuncio estadoAnuncio;
+	
+	@OneToOne
+	@JoinColumn(name = "estado_link_Externo", updatable = false, nullable = true)
+	private EstadoLinkExterno estadoLinkExterno;
 
 	@OneToMany(mappedBy = "alerta", cascade = CascadeType.ALL, orphanRemoval = true)
 	private List<CorreoAlerta> correosDeAlerta;
@@ -69,6 +73,14 @@ public class Alerta implements Serializable {
 
 	public static long getSerialversionuid() {
 		return serialVersionUID;
+	}
+
+	public EstadoLinkExterno getEstadoLinkExterno() {
+		return estadoLinkExterno;
+	}
+
+	public void setEstadoLinkExterno(EstadoLinkExterno estadoLinkExterno) {
+		this.estadoLinkExterno = estadoLinkExterno;
 	}
 
 }

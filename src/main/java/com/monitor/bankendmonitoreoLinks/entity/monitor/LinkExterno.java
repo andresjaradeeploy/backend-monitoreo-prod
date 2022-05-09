@@ -2,10 +2,14 @@ package com.monitor.bankendmonitoreoLinks.entity.monitor;
 
 import java.io.Serializable;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 
 @Entity
 public class LinkExterno implements Serializable {
@@ -21,9 +25,15 @@ public class LinkExterno implements Serializable {
 	
 	private String plataforma;
 	
+	@Column(columnDefinition = "TEXT")
 	private String descripcion;
 	
+	@Column(columnDefinition = "TEXT")
 	private String url;
+	
+	@OneToOne(cascade = CascadeType.MERGE)
+	private Cuenta cuenta;
+
 
 	public Long getIdLink() {
 		return idLink;
@@ -55,6 +65,14 @@ public class LinkExterno implements Serializable {
 
 	public void setUrl(String url) {
 		this.url = url;
+	}
+
+	public Cuenta getCuenta() {
+		return cuenta;
+	}
+
+	public void setCuenta(Cuenta cuenta) {
+		this.cuenta = cuenta;
 	}
 	
 	

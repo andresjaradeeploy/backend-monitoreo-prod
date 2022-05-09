@@ -11,7 +11,8 @@ public class BankendMonitoreoLinksApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BankendMonitoreoLinksApplication.class, args);
 		MonitorComponent monitorComponent = new MonitorComponent();
-	  // monitorComponent.mainLinks();
+		monitorComponent.mainLinks();
+	   monitorComponent.mainLinksExternos();
 	
 
 

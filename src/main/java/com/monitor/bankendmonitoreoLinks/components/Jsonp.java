@@ -62,7 +62,7 @@ public class Jsonp {
 		Jsonp jsonp = new Jsonp();
 		// System.out.println(("https://www.revistacompensar.com/facebook-live/automasaje-relajante/"));
 		//jsonp.getInfHtml("https://cava.carulla.com/whisky-old-parr-12-anos-1000-ml-331443/p");
-		jsonp.search("https://www.ciencuadras.com/arriendo?medium=display&campaign=arriendo&content=general&term=cpc", "error");
+		jsonp.search("https://www.ciencuadras.com/arriendo?medium=display&campaign=arriendo&content=general&term=cpc", "Arrendar");
 	//System.out.println("");
 	
 	}
@@ -112,6 +112,7 @@ public class Jsonp {
 		try {
 			document = Jsoup.connect(page).get();
 			Elements elements = document.select(":containsOwn("+palabra+")");
+			System.out.println("element"+document.text());
 			if (elements.size() > 0) {
 				System.out.println("pagina si tiene palabra"+palabra);
 				respuestaBusqueda="pagina si tiene palabra '"+palabra+"' ("+utilidades.generarHoraActual()+") ";

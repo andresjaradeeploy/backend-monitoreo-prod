@@ -5,7 +5,9 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Component;
 import com.monitor.bankendmonitoreoLinks.components.implement.EstadoAnuncioImp;
+import com.monitor.bankendmonitoreoLinks.components.implement.EstadoLinkExternoimp;
 import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoAnuncio;
+import com.monitor.bankendmonitoreoLinks.entity.monitor.EstadoLinkExterno;
 
 @Component
 public class MonitorComponent {
@@ -52,38 +54,7 @@ public class MonitorComponent {
 
 	}
 	
-public void mainPage() {
-		
-		Runnable runnable = new Runnable() {
-
-			@Override
-			public void run() {
-
-				while (true) {
-					try {
-
-						//2 horas
-						Thread.sleep(7200000);
-						ApiPages apiPages = new ApiPages();
-						apiPages.mainPage();
-
-						
-					} catch (Exception e) {
-						System.err.println("error al ejecutar apiPages" + e);
-						
-					}
-
-				}
-			}
-		};
-
-		Thread hilo = new Thread(runnable);
-		hilo.start();
-		System.out.println("Obteniendo Pages ");
-
-	}
-public void mainPost() {
-	
+public void mainLinksExternos() {
 	Runnable runnable = new Runnable() {
 
 		@Override
@@ -91,15 +62,27 @@ public void mainPost() {
 
 			while (true) {
 				try {
-					//2 horas y 29minutos
-					Thread.sleep(8940000);
-					ApiPages apiPages = new ApiPages();
-					apiPages.mainPost();
 
+					Thread.sleep(300000);
+				
+					EstadoLinkExternoimp estadoLinkExternoimp = new EstadoLinkExternoimp();
+					LinkComponent linkComponent = new LinkComponent();
 					
+					ApiMarketing apiMarketing = new ApiMarketing();
+					apiMarketing.mainExternos();
+
+
+					List<EstadoLinkExterno> urls = estadoLinkExternoimp.obtenerEstadosExternos();
+					System.out.println("tamaño "+urls.size());
+					for (EstadoLinkExterno estadoLinkExterno : urls) {
+						linkComponent.revisarLinkExterno(estadoLinkExterno);
+						System.out.println("url"+estadoLinkExterno.getLink_externo().getUrl());
+
+					}
+
 				} catch (Exception e) {
-					System.err.println("error al ejecutar apiPages" + e);
-					
+					System.err.println("error al revisar link" + e);
+					log.error("error al revisar link"+e);
 				}
 
 			}
@@ -108,9 +91,8 @@ public void mainPost() {
 
 	Thread hilo = new Thread(runnable);
 	hilo.start();
-	System.out.println("Obteniendo Pages ");
-
+	System.out.println("Monitoreo ");
 }
-	
+
 
 }
