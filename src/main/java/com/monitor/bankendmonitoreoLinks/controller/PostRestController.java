@@ -1,5 +1,6 @@
 package com.monitor.bankendmonitoreoLinks.controller;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,6 +63,7 @@ public class PostRestController {
 		postNew.setSorry(post.getSorry());
 		postNew.setAnger(post.getAnger());
 		postNew.setPost_impressions_unique(post.getPost_impressions_unique());
+		postNew.setFechayHora(LocalDateTime.now());
 		
 		return iPostService.save(postNew);
 		

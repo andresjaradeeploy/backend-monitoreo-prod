@@ -1,6 +1,7 @@
 package com.monitor.bankendmonitoreoLinks.entity.pages;
 
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 import javax.persistence.*;
 
@@ -50,9 +51,24 @@ public class Post implements Serializable {
 
 
 
+	@Column(name = "fecha_hora", nullable = true)
+	private LocalDateTime fechayHora;
+	
+
+	
+	
 
 
 
+
+
+	public LocalDateTime getFechayHora() {
+		return fechayHora;
+	}
+
+	public void setFechayHora(LocalDateTime fechayHora) {
+		this.fechayHora = fechayHora;
+	}
 
 
 
