@@ -10,7 +10,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
@@ -57,6 +59,31 @@ public class Utilidades {
 
 		return hora;
 
+	}
+	
+	public LocalDateTime obtenerFechaColombia() {
+		String place = "America/Bogota";
+		String hora = null;
+		// String place = "GMT-8";
+		java.util.TimeZone zone = java.util.TimeZone.getTimeZone(place);
+		if (zone.getID() == "GMT") {
+			for (String st : TimeZone.getAvailableIDs()) {
+				System.out.println(st);
+			}
+
+		} else {
+			java.util.Calendar calendar = java.util.Calendar.getInstance(zone);
+			java.text.DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+			format.setCalendar(calendar);
+			hora = format.format(new java.util.Date());
+		}
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+		LocalDateTime localDateTime = LocalDateTime.parse(hora, formatter);
+		
+	
+
+		return localDateTime;
+	
 	}
 
 	public int extraerMesFecha(Date fecha) {

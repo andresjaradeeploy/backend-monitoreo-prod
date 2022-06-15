@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.monitor.bankendmonitoreoLinks.components.Utilidades;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Page;
 import com.monitor.bankendmonitoreoLinks.entity.pages.Post;
 import com.monitor.bankendmonitoreoLinks.service.IPostService;
@@ -53,7 +54,7 @@ public class PostRestController {
 	
 	@PutMapping("/update")
 	public Post update(@RequestBody Post post) {
-		
+		Utilidades utilidades = new Utilidades();
 		Post postNew= iPostService.findById(post.getIdPost());
 		
 		postNew.setLikes(post.getLikes());
@@ -63,7 +64,7 @@ public class PostRestController {
 		postNew.setSorry(post.getSorry());
 		postNew.setAnger(post.getAnger());
 		postNew.setPost_impressions_unique(post.getPost_impressions_unique());
-		postNew.setFechayHora(LocalDateTime.now());
+		postNew.setFechayHora(utilidades.obtenerFechaColombia());
 		
 		return iPostService.save(postNew);
 		
