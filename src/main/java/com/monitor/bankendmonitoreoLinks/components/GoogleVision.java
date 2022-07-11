@@ -17,7 +17,7 @@ import java.util.List;
 public class GoogleVision {
 	public static void detectLabels() throws IOException {
 		// TODO(developer): Replace these variables before running the sample.
-		String filePath = "C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg";
+		String filePath = "C:/Users/1012421355/Desktop/images/logoDeeploy.png";
 		//detectLabels("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
 		
 	}
@@ -27,8 +27,8 @@ public class GoogleVision {
 			GoogleVision googleVision= new GoogleVision();
 			List<String> tags= new ArrayList<>();
 			//tags=detectLabels("C:/Users/1012421355/Desktop/images/213779898696022_6447924768614806.jpg");
-			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/images/19436445998_10159371539115999.jpg");
-			//System.out.println("ocr"+ocr);
+			String ocr=googleVision.detectText("C:/Users/1012421355/Desktop/descarga.png");
+			System.out.println("ocr"+ocr);
 			
 			/*for (String string : tags) {
 				System.out.println("tag"+string);
@@ -115,7 +115,7 @@ public class GoogleVision {
 				EntityAnnotation annotation=res.getTextAnnotations(0);
 				ocr=annotation.getDescription().replaceAll("\\s"," ");
 				
-				//System.out.println("Text: "+ annotation.getDescription().replaceAll("\\s"," "));
+				System.out.println("Text: "+ annotation.getDescription().replaceAll("\\s"," "));
 				
 			}
 		}

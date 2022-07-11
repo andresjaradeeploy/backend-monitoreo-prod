@@ -67,6 +67,8 @@ public class MyWebSecurity extends WebSecurityConfigurerAdapter {
 				.antMatchers("/estadolinkExterno/**").permitAll()	
 				.antMatchers("/cuentaExterna/**").permitAll()	
 				.antMatchers("/revisarLinks/**").permitAll()	
+				.antMatchers("/usuarioEnki/**").permitAll()
+				
 				.antMatchers("/cuentaFB/**").permitAll().antMatchers("/users/**").permitAll().antMatchers("/post/**").permitAll()
 				.antMatchers("/alerta/**").permitAll().anyRequest().authenticated().and().exceptionHandling()
 				.authenticationEntryPoint(jwtEntryPoint).and().sessionManagement()
